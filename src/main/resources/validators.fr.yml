@@ -1,0 +1,4 @@
+itspire.common:
+  enumeration:
+    invalid.value: "la valeur fournie pour le champ Enumeration {{ field }} n'est pas valide."
+    null.value: "Une valeur pour le champ Enumeration {{ field }} doit être renseignée."
