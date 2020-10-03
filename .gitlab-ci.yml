@@ -40,7 +40,7 @@ analyse:
     - rm -rf $build_dir/logs/*
     - $bin_dir/phpcs --report=full --report-checkstyle=$build_dir/logs/checkstyle.xml --standard=PSR12 --extensions=php --ignore=bootstrap.php $source_dir $test_dir
     - $bin_dir/phpcpd --log-pmd $build_dir/logs/pmd-cpd.xml $source_dir
-    - $bin_dir/phploc --count-tests --log-xml=$build_dir/logs/phploc.xml --names-exclude=bootstrap.php $source_dir $test_dir
+    - $bin_dir/phploc --count-tests --log-xml=$build_dir/logs/phploc.xml --exclude=bootstrap.php $source_dir $test_dir
 
 test:
   stage: test
