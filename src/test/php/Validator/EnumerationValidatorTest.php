@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright (c) 2016 - 2019 Itspire.
+ * Copyright (c) 2016 - 2020 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  */
@@ -11,6 +11,7 @@ declare(strict_types=1);
 namespace Itspire\Common\Tests\Validator;
 
 use Itspire\Common\Tests\Fixtures\TestEnumeration;
+use Itspire\Common\Tests\Fixtures\TestEnumeration2;
 use Itspire\Common\Validator\Constraints\Enumeration;
 use Itspire\Common\Validator\EnumerationValidator;
 use PHPUnit\Framework\TestCase;
@@ -60,6 +61,17 @@ class EnumerationValidatorTest extends TestCase
     }
 
     /** @test */
+    public function validateInvalidValueTest(): void
+    {
+        $this->expectException(UnexpectedTypeException::class);
+
+        $this->enumerationValidator->validate(
+            'test',
+            new Enumeration(['enumerationClass' => TestEnumeration::class])
+        );
+    }
+
+    /** @test */
     public function validateNullValueTest(): void
     {
         $this->enumerationValidator->validate(
@@ -74,10 +86,10 @@ class EnumerationValidatorTest extends TestCase
     }
 
     /** @test */
-    public function validateInvalidValueTest(): void
+    public function validateInvalidEnumerationValueTest(): void
     {
         $this->enumerationValidator->validate(
-            'test',
+            new TestEnumeration2(TestEnumeration2::TEST_VALUE_D),
             new Enumeration(['enumerationClass' => TestEnumeration::class])
         );
 

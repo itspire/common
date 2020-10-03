@@ -4,8 +4,5 @@
 # PHPUnit
 /phpunit.xml
 
-# PHPDocumentor
-/phpdoc.xml
-
 # Build data
 /build/
