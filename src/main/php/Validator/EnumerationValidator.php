@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright (c) 2016 - 2019 Itspire.
+ * Copyright (c) 2016 - 2020 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  */
@@ -18,11 +18,14 @@ use Symfony\Component\Validator\Exception\UnexpectedTypeException;
 
 class EnumerationValidator extends ConstraintValidator
 {
-    /** @param AbstractEnumeration|null $value */
     public function validate($value, Constraint $constraint): void
     {
         if (!$constraint instanceof Enumeration) {
             throw new UnexpectedTypeException($constraint, Enumeration::class);
+        }
+
+        if (null !== $value && !$value instanceof AbstractEnumeration) {
+            throw new UnexpectedTypeException($value, AbstractEnumeration::class);
         }
 
         if (null === $value || !in_array($value, ($constraint->enumerationClass)::getValues(), false)) {

@@ -12,7 +12,7 @@ namespace Itspire\Common\Tests\Fixtures;
 
 use Itspire\Common\Enumeration\AbstractEnumeration;
 
-class TestEnumeration extends AbstractEnumeration
+class TestEnumeration2 extends AbstractEnumeration
 {
     /** @var bool TEST_VALUE_A */
     public const TEST_VALUE_A = true;
