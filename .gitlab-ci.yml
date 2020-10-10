@@ -22,10 +22,9 @@ default:
 
 stages:
   - prepare
-  - deps
+  - dependencies
   - analyse
   - test
-  - triggers
   - artifacts
 
 prepare:
@@ -36,8 +35,8 @@ prepare:
     - rm -rf $build_dir/coverage/*
     - cp phpunit.xml.dist phpunit.xml
 
-deps:
-  stage: deps
+dependencies:
+  stage: dependencies
   script:
     - docker run --rm -v $(pwd):/project -w /project -e DEV_UID=$(id -u) -e DEV_GID=$(id -g) $COMPOSER_IMAGE install --prefer-dist
     - docker run --rm -v $(pwd):/project -w /project -e DEV_UID=$(id -u) -e DEV_GID=$(id -g) $COMPOSER_IMAGE exec -vv -- simple-phpunit install
@@ -54,15 +53,6 @@ test:
   stage: test
   script:
     - docker run --rm -v $(pwd):/project -w /project -e DEV_UID=$(id -u) -e DEV_GID=$(id -g) $PHP_IMAGE $bin_dir/simple-phpunit --configuration /project/phpunit.xml
-
-itspire/serializer-common:
-  stage: triggers
-  trigger:
-    project: itspire/serializer-common
-    branch: development
-    strategy: depend
-  rules:
-    - if: $CI_COMMIT_REF_SLUG == "development"
 
 artifacts:
   stage: artifacts
