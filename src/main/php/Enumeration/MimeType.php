@@ -12,4371 +12,2778 @@ namespace Itspire\Common\Enumeration;
 
 class MimeType extends AbstractEnumeration
 {
-    /** @var string APPLICATION_ACROBAT */
+    public const APPLICATION_1D_INTERLEAVED_PARITYFEC = 'application/1d-interleaved-parityfec';
+    public const APPLICATION_3GPDASH_QOE_REPORT_XML = 'application/3gpdash-qoe-report+xml';
+    public const APPLICATION_3GPP_IMS_XML = 'application/3gpp-ims+xml';
+    public const APPLICATION_A2L = 'application/a2l';
     public const APPLICATION_ACROBAT = 'application/acrobat';
-
-    /** @var string APPLICATION_ANDREW_INSET */
+    public const APPLICATION_ACTIVEMESSAGE = 'application/activemessage';
+    public const APPLICATION_ACTIVITY_JSON = 'application/activity+json';
+    public const APPLICATION_ALTO_COSTMAPFILTER_JSON = 'application/alto-costmapfilter+json';
+    public const APPLICATION_ALTO_COSTMAP_JSON = 'application/alto-costmap+json';
+    public const APPLICATION_ALTO_DIRECTORY_JSON = 'application/alto-directory+json';
+    public const APPLICATION_ALTO_ENDPOINTCOSTPARAMS_JSON = 'application/alto-endpointcostparams+json';
+    public const APPLICATION_ALTO_ENDPOINTCOST_JSON = 'application/alto-endpointcost+json';
+    public const APPLICATION_ALTO_ENDPOINTPROPPARAMS_JSON = 'application/alto-endpointpropparams+json';
+    public const APPLICATION_ALTO_ENDPOINTPROP_JSON = 'application/alto-endpointprop+json';
+    public const APPLICATION_ALTO_ERROR_JSON = 'application/alto-error+json';
+    public const APPLICATION_ALTO_NETWORKMAPFILTER_JSON = 'application/alto-networkmapfilter+json';
+    public const APPLICATION_ALTO_NETWORKMAP_JSON = 'application/alto-networkmap+json';
+    public const APPLICATION_ALTO_UPDATESTREAMCONTROL_JSON = 'application/alto-updatestreamcontrol+json';
+    public const APPLICATION_ALTO_UPDATESTREAMPARAMS_JSON = 'application/alto-updatestreamparams+json';
+    public const APPLICATION_AML = 'application/aml';
     public const APPLICATION_ANDREW_INSET = 'application/andrew-inset';
-
-    /** @var string APPLICATION_ANNODEX */
     public const APPLICATION_ANNODEX = 'application/annodex';
-
-    /** @var string APPLICATION_APPLIXWARE */
+    public const APPLICATION_APPLEFILE = 'application/applefile';
     public const APPLICATION_APPLIXWARE = 'application/applixware';
-
-    /** @var string APPLICATION_ATOM_XML */
-    public const APPLICATION_ATOM_XML = 'application/atom+xml';
-
-    /** @var string APPLICATION_ATOMCAT_XML */
+    public const APPLICATION_ATF = 'application/atf';
+    public const APPLICATION_ATFX = 'application/atfx';
     public const APPLICATION_ATOMCAT_XML = 'application/atomcat+xml';
-
-    /** @var string APPLICATION_ATOMSVC_XML */
+    public const APPLICATION_ATOMDELETED_XML = 'application/atomdeleted+xml';
+    public const APPLICATION_ATOMICMAIL = 'application/atomicmail';
     public const APPLICATION_ATOMSVC_XML = 'application/atomsvc+xml';
-
-    /** @var string APPLICATION_CCXML_XML */
+    public const APPLICATION_ATOM_XML = 'application/atom+xml';
+    public const APPLICATION_ATSC_DWD_XML = 'application/atsc-dwd+xml';
+    public const APPLICATION_ATSC_DYNAMIC_EVENT_MESSAGE = 'application/atsc-dynamic-event-message';
+    public const APPLICATION_ATSC_HELD_XML = 'application/atsc-held+xml';
+    public const APPLICATION_ATSC_RDT_JSON = 'application/atsc-rdt+json';
+    public const APPLICATION_ATSC_RSAT_XML = 'application/atsc-rsat+xml';
+    public const APPLICATION_ATXML = 'application/atxml';
+    public const APPLICATION_AUTH_POLICY_XML = 'application/auth-policy+xml';
+    public const APPLICATION_BACNET_XDD_ZIP = 'application/bacnet-xdd+zip';
+    public const APPLICATION_BATCH_SMTP = 'application/batch-smtp';
+    public const APPLICATION_BDOC = 'application/bdoc';
+    public const APPLICATION_BEEP_XML = 'application/beep+xml';
+    public const APPLICATION_CALENDAR_JSON = 'application/calendar+json';
+    public const APPLICATION_CALENDAR_XML = 'application/calendar+xml';
+    public const APPLICATION_CALL_COMPLETION = 'application/call-completion';
+    public const APPLICATION_CALS_1840 = 'application/cals-1840';
+    public const APPLICATION_CAP_XML = 'application/cap+xml';
+    public const APPLICATION_CBOR = 'application/cbor';
+    public const APPLICATION_CBOR_SEQ = 'application/cbor-seq';
+    public const APPLICATION_CCCEX = 'application/cccex';
+    public const APPLICATION_CCMP_XML = 'application/ccmp+xml';
     public const APPLICATION_CCXML_XML = 'application/ccxml+xml';
-
-    /** @var string APPLICATION_CDMI_CAPABILITY */
+    public const APPLICATION_CDFX_XML = 'application/cdfx+xml';
     public const APPLICATION_CDMI_CAPABILITY = 'application/cdmi-capability';
-
-    /** @var string APPLICATION_CDMI_CONTAINER */
     public const APPLICATION_CDMI_CONTAINER = 'application/cdmi-container';
-
-    /** @var string APPLICATION_CDMI_DOMAIN */
     public const APPLICATION_CDMI_DOMAIN = 'application/cdmi-domain';
-
-    /** @var string APPLICATION_CDMI_OBJECT */
     public const APPLICATION_CDMI_OBJECT = 'application/cdmi-object';
-
-    /** @var string APPLICATION_CDMI_QUEUE */
     public const APPLICATION_CDMI_QUEUE = 'application/cdmi-queue';
-
-    /** @var string APPLICATION_CDR */
+    public const APPLICATION_CDNI = 'application/cdni';
     public const APPLICATION_CDR = 'application/cdr';
-
-    /** @var string APPLICATION_CORELDRAW */
+    public const APPLICATION_CEA = 'application/cea';
+    public const APPLICATION_CEA_2018_XML = 'application/cea-2018+xml';
+    public const APPLICATION_CELLML_XML = 'application/cellml+xml';
+    public const APPLICATION_CFW = 'application/cfw';
+    public const APPLICATION_CLUE_INFO_XML = 'application/clue_info+xml';
+    public const APPLICATION_CLUE_XML = 'application/clue+xml';
+    public const APPLICATION_CMS = 'application/cms';
+    public const APPLICATION_CNRP_XML = 'application/cnrp+xml';
+    public const APPLICATION_COAP_GROUP_JSON = 'application/coap-group+json';
+    public const APPLICATION_COAP_PAYLOAD = 'application/coap-payload';
+    public const APPLICATION_COMMONGROUND = 'application/commonground';
+    public const APPLICATION_CONFERENCE_INFO_XML = 'application/conference-info+xml';
     public const APPLICATION_CORELDRAW = 'application/coreldraw';
-
-    /** @var string APPLICATION_CU_SEEME */
+    public const APPLICATION_COSE = 'application/cose';
+    public const APPLICATION_COSE_KEY = 'application/cose-key';
+    public const APPLICATION_COSE_KEY_SET = 'application/cose-key-set';
+    public const APPLICATION_CPL_XML = 'application/cpl+xml';
+    public const APPLICATION_CSRATTRS = 'application/csrattrs';
+    public const APPLICATION_CSTADATA_XML = 'application/cstadata+xml';
+    public const APPLICATION_CSTA_XML = 'application/csta+xml';
+    public const APPLICATION_CSVM_JSON = 'application/csvm+json';
     public const APPLICATION_CU_SEEME = 'application/cu-seeme';
-
-    /** @var string APPLICATION_DAVMOUNT_XML */
+    public const APPLICATION_CWT = 'application/cwt';
+    public const APPLICATION_CYBERCASH = 'application/cybercash';
+    public const APPLICATION_DART = 'application/dart';
+    public const APPLICATION_DASHDELTA = 'application/dashdelta';
+    public const APPLICATION_DASH_XML = 'application/dash+xml';
     public const APPLICATION_DAVMOUNT_XML = 'application/davmount+xml';
-
-    /** @var string APPLICATION_DBASE */
     public const APPLICATION_DBASE = 'application/dbase';
-
-    /** @var string APPLICATION_DBF */
     public const APPLICATION_DBF = 'application/dbf';
-
-    /** @var string APPLICATION_DICOM */
+    public const APPLICATION_DCA_RFT = 'application/dca-rft';
+    public const APPLICATION_DCD = 'application/dcd';
+    public const APPLICATION_DEC_DX = 'application/dec-dx';
+    public const APPLICATION_DIALOG_INFO_XML = 'application/dialog-info+xml';
     public const APPLICATION_DICOM = 'application/dicom';
-
-    /** @var string APPLICATION_DOCBOOK_XML */
+    public const APPLICATION_DICOM_JSON = 'application/dicom+json';
+    public const APPLICATION_DICOM_XML = 'application/dicom+xml';
+    public const APPLICATION_DII = 'application/dii';
+    public const APPLICATION_DIT = 'application/dit';
+    public const APPLICATION_DNS = 'application/dns';
+    public const APPLICATION_DNS_JSON = 'application/dns+json';
+    public const APPLICATION_DNS_MESSAGE = 'application/dns-message';
     public const APPLICATION_DOCBOOK_XML = 'application/docbook+xml';
-
-    /** @var string APPLICATION_DSSC_DER */
+    public const APPLICATION_DOTS_CBOR = 'application/dots+cbor';
+    public const APPLICATION_DSKPP_XML = 'application/dskpp+xml';
     public const APPLICATION_DSSC_DER = 'application/dssc+der';
-
-    /** @var string APPLICATION_DSSC_XML */
     public const APPLICATION_DSSC_XML = 'application/dssc+xml';
-
-    /** @var string APPLICATION_ECMASCRIPT */
+    public const APPLICATION_DVCS = 'application/dvcs';
     public const APPLICATION_ECMASCRIPT = 'application/ecmascript';
-
-    /** @var string APPLICATION_EMF*/
+    public const APPLICATION_EDIFACT = 'application/edifact';
+    public const APPLICATION_EDI_CONSENT = 'application/edi-consent';
+    public const APPLICATION_EDI_X12 = 'application/edi-x12';
+    public const APPLICATION_EFI = 'application/efi';
+    public const APPLICATION_EMERGENCYCALLDATA_COMMENT_XML = 'application/emergencycalldata.comment+xml';
+    public const APPLICATION_EMERGENCYCALLDATA_CONTROL_XML = 'application/emergencycalldata.control+xml';
+    public const APPLICATION_EMERGENCYCALLDATA_DEVICEINFO_XML = 'application/emergencycalldata.deviceinfo+xml';
+    public const APPLICATION_EMERGENCYCALLDATA_ECALL_MSD = 'application/emergencycalldata.ecall.msd';
+    public const APPLICATION_EMERGENCYCALLDATA_PROVIDERINFO_XML = 'application/emergencycalldata.providerinfo+xml';
+    public const APPLICATION_EMERGENCYCALLDATA_SERVICEINFO_XML = 'application/emergencycalldata.serviceinfo+xml';
+    public const APPLICATION_EMERGENCYCALLDATA_SUBSCRIBERINFO_XML = 'application/emergencycalldata.subscriberinfo+xml';
+    public const APPLICATION_EMERGENCYCALLDATA_VEDS_XML = 'application/emergencycalldata.veds+xml';
     public const APPLICATION_EMF = 'application/emf';
-
-    /** @var string APPLICATION_EMMA_XML */
     public const APPLICATION_EMMA_XML = 'application/emma+xml';
-
-    /** @var string APPLICATION_EPUB_ZIP */
+    public const APPLICATION_EMOTIONML_XML = 'application/emotionml+xml';
+    public const APPLICATION_ENCAPRTP = 'application/encaprtp';
+    public const APPLICATION_EPP_XML = 'application/epp+xml';
     public const APPLICATION_EPUB_ZIP = 'application/epub+zip';
-
-    /** @var string APPLICATION_EXI */
+    public const APPLICATION_ESHOP = 'application/eshop';
     public const APPLICATION_EXI = 'application/exi';
-
-    /** @var string APPLICATION_FONT_TDPFR */
+    public const APPLICATION_EXPECT_CT_REPORT_JSON = 'application/expect-ct-report+json';
+    public const APPLICATION_FASTINFOSET = 'application/fastinfoset';
+    public const APPLICATION_FASTSOAP = 'application/fastsoap';
+    public const APPLICATION_FDT_XML = 'application/fdt+xml';
+    public const APPLICATION_FHIR_JSON = 'application/fhir+json';
+    public const APPLICATION_FHIR_XML = 'application/fhir+xml';
+    public const APPLICATION_FIDO_TRUSTED_APPS_JSON = 'application/fido.trusted-apps+json';
+    public const APPLICATION_FITS = 'application/fits';
+    public const APPLICATION_FLEXFEC = 'application/flexfec';
+    public const APPLICATION_FONT_SFNT = 'application/font-sfnt';
     public const APPLICATION_FONT_TDPFR = 'application/font-tdpfr';
-
-    /** @var string APPLICATION_FONT_WOFF */
     public const APPLICATION_FONT_WOFF = 'application/font-woff';
-
-    /** @var string APPLICATION_FUTURESPLASH */
+    public const APPLICATION_FRAMEWORK_ATTRIBUTES_XML = 'application/framework-attributes+xml';
     public const APPLICATION_FUTURESPLASH = 'application/futuresplash';
-
-    /** @var string APPLICATION_GEO_JSON */
+    public const APPLICATION_GEOPACKAGE_SQLITE3 = 'application/geopackage+sqlite3';
+    public const APPLICATION_GEOXACML_XML = 'application/geoxacml+xml';
     public const APPLICATION_GEO_JSON = 'application/geo+json';
-
-    /** @var string APPLICATION_GML_XML */
+    public const APPLICATION_GEO_JSON_SEQ = 'application/geo+json-seq';
+    public const APPLICATION_GLTF_BUFFER = 'application/gltf-buffer';
     public const APPLICATION_GML_XML = 'application/gml+xml';
-
-    /** @var string APPLICATION_GPX_XML */
     public const APPLICATION_GPX_XML = 'application/gpx+xml';
-
-    /** @var string APPLICATION_GXF */
     public const APPLICATION_GXF = 'application/gxf';
-
-    /** @var string APPLICATION_HYPERSTUDIO */
+    public const APPLICATION_GZIP = 'application/gzip';
+    public const APPLICATION_H224 = 'application/h224';
+    public const APPLICATION_HELD_XML = 'application/held+xml';
+    public const APPLICATION_HJSON = 'application/hjson';
+    public const APPLICATION_HTTP = 'application/http';
     public const APPLICATION_HYPERSTUDIO = 'application/hyperstudio';
-
-    /** @var string APPLICATION_ICO */
+    public const APPLICATION_IBE_KEY_REQUEST_XML = 'application/ibe-key-request+xml';
+    public const APPLICATION_IBE_PKG_REPLY_XML = 'application/ibe-pkg-reply+xml';
+    public const APPLICATION_IBE_PP_DATA = 'application/ibe-pp-data';
     public const APPLICATION_ICO = 'application/ico';
-
-    /** @var string APPLICATION_ICS */
     public const APPLICATION_ICS = 'application/ics';
-
-    /** @var string APPLICATION_ILLUSTRATOR */
+    public const APPLICATION_IGES = 'application/iges';
     public const APPLICATION_ILLUSTRATOR = 'application/illustrator';
-
-    /** @var string APPLICATION_INKML_XML */
+    public const APPLICATION_IM_ISCOMPOSING_XML = 'application/im-iscomposing+xml';
+    public const APPLICATION_INDEX = 'application/index';
+    public const APPLICATION_INDEX_CMD = 'application/index.cmd';
+    public const APPLICATION_INDEX_OBJ = 'application/index.obj';
+    public const APPLICATION_INDEX_RESPONSE = 'application/index.response';
+    public const APPLICATION_INDEX_VND = 'application/index.vnd';
     public const APPLICATION_INKML_XML = 'application/inkml+xml';
-
-    /** @var string APPLICATION_IPFIX */
+    public const APPLICATION_IOTP = 'application/iotp';
     public const APPLICATION_IPFIX = 'application/ipfix';
-
-    /** @var string APPLICATION_JAVA */
+    public const APPLICATION_IPP = 'application/ipp';
+    public const APPLICATION_ISUP = 'application/isup';
+    public const APPLICATION_ITS_XML = 'application/its+xml';
     public const APPLICATION_JAVA = 'application/java';
-
-    /** @var string APPLICATION_JAVA_ARCHIVE */
-    public const APPLICATION_JAVA_ARCHIVE = 'application/java-archive';
-
-    /** @var string APPLICATION_JAVA_BYTE_CODE */
-    public const APPLICATION_JAVA_BYTE_CODE = 'application/java-byte-code';
-
-    /** @var string APPLICATION_JAVA_SERIALIZED_OBJECT */
-    public const APPLICATION_JAVA_SERIALIZED_OBJECT = 'application/java-serialized-object';
-
-    /** @var string APPLICATION_JAVA_VM */
-    public const APPLICATION_JAVA_VM = 'application/java-vm';
-
-    /** @var string APPLICATION_JAVASCRIPT */
     public const APPLICATION_JAVASCRIPT = 'application/javascript';
-
-    /** @var string APPLICATION_JRD_JSON */
+    public const APPLICATION_JAVA_ARCHIVE = 'application/java-archive';
+    public const APPLICATION_JAVA_BYTE_CODE = 'application/java-byte-code';
+    public const APPLICATION_JAVA_SERIALIZED_OBJECT = 'application/java-serialized-object';
+    public const APPLICATION_JAVA_VM = 'application/java-vm';
+    public const APPLICATION_JF2FEED_JSON = 'application/jf2feed+json';
+    public const APPLICATION_JOSE = 'application/jose';
+    public const APPLICATION_JOSE_JSON = 'application/jose+json';
     public const APPLICATION_JRD_JSON = 'application/jrd+json';
-
-    /** @var string APPLICATION_JSON */
     public const APPLICATION_JSON = 'application/json';
-
-    /** @var string APPLICATION_JSON_PATCH_JSON */
-    public const APPLICATION_JSON_PATCH_JSON = 'application/json-patch+json';
-
-    /** @var string APPLICATION_JSONML_JSON */
+    public const APPLICATION_JSON5 = 'application/json5';
     public const APPLICATION_JSONML_JSON = 'application/jsonml+json';
-
-    /** @var string APPLICATION_LD_JSON */
+    public const APPLICATION_JSON_PATCH_JSON = 'application/json-patch+json';
+    public const APPLICATION_JSON_SEQ = 'application/json-seq';
+    public const APPLICATION_JWK_JSON = 'application/jwk+json';
+    public const APPLICATION_JWK_SET_JSON = 'application/jwk-set+json';
+    public const APPLICATION_JWT = 'application/jwt';
+    public const APPLICATION_KPML_REQUEST_XML = 'application/kpml-request+xml';
+    public const APPLICATION_KPML_RESPONSE_XML = 'application/kpml-response+xml';
     public const APPLICATION_LD_JSON = 'application/ld+json';
-
-    /** @var string APPLICATION_LOST_XML */
+    public const APPLICATION_LGR_XML = 'application/lgr+xml';
+    public const APPLICATION_LINK_FORMAT = 'application/link-format';
+    public const APPLICATION_LOAD_CONTROL_XML = 'application/load-control+xml';
+    public const APPLICATION_LOSTSYNC_XML = 'application/lostsync+xml';
     public const APPLICATION_LOST_XML = 'application/lost+xml';
-
-    /** @var string APPLICATION_LOTUS123 */
     public const APPLICATION_LOTUS123 = 'application/lotus123';
-
-    /** @var string APPLICATION_M3U */
+    public const APPLICATION_LPF_ZIP = 'application/lpf+zip';
+    public const APPLICATION_LXF = 'application/lxf';
     public const APPLICATION_M3U = 'application/m3u';
-
-    /** @var string APPLICATION_MAC_BINHEX40 */
+    public const APPLICATION_MACWRITEII = 'application/macwriteii';
     public const APPLICATION_MAC_BINHEX40 = 'application/mac-binhex40';
-
-    /** @var string APPLICATION_MAC_COMPACTPRO */
     public const APPLICATION_MAC_COMPACTPRO = 'application/mac-compactpro';
-
-    /** @var string APPLICATION_MADS_XML */
     public const APPLICATION_MADS_XML = 'application/mads+xml';
-
-    /** @var string APPLICATION_MARC */
+    public const APPLICATION_MANIFEST_JSON = 'application/manifest+json';
     public const APPLICATION_MARC = 'application/marc';
-
-    /** @var string APPLICATION_MARCXML_XML */
     public const APPLICATION_MARCXML_XML = 'application/marcxml+xml';
-
-    /** @var string APPLICATION_MATHEMATICA */
     public const APPLICATION_MATHEMATICA = 'application/mathematica';
-
-    /** @var string APPLICATION_MATHML_XML */
+    public const APPLICATION_MATHML_CONTENT_XML = 'application/mathml-content+xml';
+    public const APPLICATION_MATHML_PRESENTATION_XML = 'application/mathml-presentation+xml';
     public const APPLICATION_MATHML_XML = 'application/mathml+xml';
-
-    /** @var string APPLICATION_MBOX */
+    public const APPLICATION_MBMS_ASSOCIATED_PROCEDURE_DESCRIPTION_XML = 'application/mbms-associated-procedure-description+xml';
+    public const APPLICATION_MBMS_DEREGISTER_XML = 'application/mbms-deregister+xml';
+    public const APPLICATION_MBMS_ENVELOPE_XML = 'application/mbms-envelope+xml';
+    public const APPLICATION_MBMS_MSK_RESPONSE_XML = 'application/mbms-msk-response+xml';
+    public const APPLICATION_MBMS_MSK_XML = 'application/mbms-msk+xml';
+    public const APPLICATION_MBMS_PROTECTION_DESCRIPTION_XML = 'application/mbms-protection-description+xml';
+    public const APPLICATION_MBMS_RECEPTION_REPORT_XML = 'application/mbms-reception-report+xml';
+    public const APPLICATION_MBMS_REGISTER_RESPONSE_XML = 'application/mbms-register-response+xml';
+    public const APPLICATION_MBMS_REGISTER_XML = 'application/mbms-register+xml';
+    public const APPLICATION_MBMS_SCHEDULE_XML = 'application/mbms-schedule+xml';
+    public const APPLICATION_MBMS_USER_SERVICE_DESCRIPTION_XML = 'application/mbms-user-service-description+xml';
     public const APPLICATION_MBOX = 'application/mbox';
-
-    /** @var string APPLICATION_MDB */
     public const APPLICATION_MDB = 'application/mdb';
-
-    /** @var string APPLICATION_MEDIASERVERCONTROL_XML */
     public const APPLICATION_MEDIASERVERCONTROL_XML = 'application/mediaservercontrol+xml';
-
-    /** @var string APPLICATION_METALINK_XML */
-    public const APPLICATION_METALINK_XML = 'application/metalink+xml';
-
-    /** @var string APPLICATION_METALINK4_XML */
+    public const APPLICATION_MEDIA_CONTROL_XML = 'application/media_control+xml';
+    public const APPLICATION_MEDIA_POLICY_DATASET_XML = 'application/media-policy-dataset+xml';
+    public const APPLICATION_MERGE_PATCH_JSON = 'application/merge-patch+json';
     public const APPLICATION_METALINK4_XML = 'application/metalink4+xml';
-
-    /** @var string APPLICATION_METS_XML */
+    public const APPLICATION_METALINK_XML = 'application/metalink+xml';
     public const APPLICATION_METS_XML = 'application/mets+xml';
-
-    /** @var string APPLICATION_MODS_XML */
+    public const APPLICATION_MF4 = 'application/mf4';
+    public const APPLICATION_MIKEY = 'application/mikey';
+    public const APPLICATION_MIPC = 'application/mipc';
+    public const APPLICATION_MMT_AEI_XML = 'application/mmt-aei+xml';
+    public const APPLICATION_MMT_USD_XML = 'application/mmt-usd+xml';
     public const APPLICATION_MODS_XML = 'application/mods+xml';
-
-    /** @var string APPLICATION_MP21 */
+    public const APPLICATION_MOSSKEY_DATA = 'application/mosskey-data';
+    public const APPLICATION_MOSSKEY_REQUEST = 'application/mosskey-request';
+    public const APPLICATION_MOSS_KEYS = 'application/moss-keys';
+    public const APPLICATION_MOSS_SIGNATURE = 'application/moss-signature';
     public const APPLICATION_MP21 = 'application/mp21';
-
-    /** @var string APPLICATION_MP4 */
     public const APPLICATION_MP4 = 'application/mp4';
-
-    /** @var string APPLICATION_MS_TNEF */
-    public const APPLICATION_MS_TNEF = 'application/ms-tnef';
-
-    /** @var string APPLICATION_MSACCESS */
+    public const APPLICATION_MPEG4_GENERIC = 'application/mpeg4-generic';
+    public const APPLICATION_MPEG4_IOD = 'application/mpeg4-iod';
+    public const APPLICATION_MPEG4_IOD_XMT = 'application/mpeg4-iod-xmt';
+    public const APPLICATION_MRB_CONSUMER_XML = 'application/mrb-consumer+xml';
+    public const APPLICATION_MRB_PUBLISH_XML = 'application/mrb-publish+xml';
     public const APPLICATION_MSACCESS = 'application/msaccess';
-
-    /** @var string APPLICATION_MSEXCEL */
+    public const APPLICATION_MSC_IVR_XML = 'application/msc-ivr+xml';
+    public const APPLICATION_MSC_MIXER_XML = 'application/msc-mixer+xml';
     public const APPLICATION_MSEXCEL = 'application/msexcel';
-
-    /** @var string APPLICATION_MSPOWERPOINT */
     public const APPLICATION_MSPOWERPOINT = 'application/mspowerpoint';
-
-    /** @var string APPLICATION_MSWORD */
     public const APPLICATION_MSWORD = 'application/msword';
-
-    /** @var string APPLICATION_MSWORD_TEMPLATE */
     public const APPLICATION_MSWORD_TEMPLATE = 'application/msword-template';
-
-    /** @var string APPLICATION_MXF */
+    public const APPLICATION_MS_TNEF = 'application/ms-tnef';
+    public const APPLICATION_MUD_JSON = 'application/mud+json';
+    public const APPLICATION_MULTIPART_CORE = 'application/multipart-core';
     public const APPLICATION_MXF = 'application/mxf';
-
-    /** @var string APPLICATION_NAPPDF */
     public const APPLICATION_NAPPDF = 'application/nappdf';
-
-    /** @var string APPLICATION_OCTET_STREAM */
+    public const APPLICATION_NASDATA = 'application/nasdata';
+    public const APPLICATION_NEWS_CHECKGROUPS = 'application/news-checkgroups';
+    public const APPLICATION_NEWS_GROUPINFO = 'application/news-groupinfo';
+    public const APPLICATION_NEWS_TRANSMISSION = 'application/news-transmission';
+    public const APPLICATION_NLSML_XML = 'application/nlsml+xml';
+    public const APPLICATION_NODE = 'application/node';
+    public const APPLICATION_NSS = 'application/nss';
+    public const APPLICATION_N_QUADS = 'application/n-quads';
+    public const APPLICATION_N_TRIPLES = 'application/n-triples';
+    public const APPLICATION_OCSP_REQUEST = 'application/ocsp-request';
+    public const APPLICATION_OCSP_RESPONSE = 'application/ocsp-response';
     public const APPLICATION_OCTET_STREAM = 'application/octet-stream';
-
-    /** @var string APPLICATION_ODA */
     public const APPLICATION_ODA = 'application/oda';
-
-    /** @var string APPLICATION_OEBPS_PACKAGE_XML */
+    public const APPLICATION_ODM_XML = 'application/odm+xml';
+    public const APPLICATION_ODX = 'application/odx';
     public const APPLICATION_OEBPS_PACKAGE_XML = 'application/oebps-package+xml';
-
-    /** @var string APPLICATION_OGG */
     public const APPLICATION_OGG = 'application/ogg';
-
-    /** @var string APPLICATION_OMDOC_XML */
     public const APPLICATION_OMDOC_XML = 'application/omdoc+xml';
-
-    /** @var string APPLICATION_ONENOTE */
     public const APPLICATION_ONENOTE = 'application/onenote';
-
-    /** @var string APPLICATION_OWL_XML */
+    public const APPLICATION_OSCORE = 'application/oscore';
     public const APPLICATION_OWL_XML = 'application/owl+xml';
-
-    /** @var string APPLICATION_OXPS */
     public const APPLICATION_OXPS = 'application/oxps';
-
-    /** @var string APPLICATION_PATCH_OPS_ERROR_XML */
+    public const APPLICATION_P2P_OVERLAY_XML = 'application/p2p-overlay+xml';
+    public const APPLICATION_PARITYFEC = 'application/parityfec';
+    public const APPLICATION_PASSPORT = 'application/passport';
     public const APPLICATION_PATCH_OPS_ERROR_XML = 'application/patch-ops-error+xml';
-
-    /** @var string APPLICATION_PDF */
     public const APPLICATION_PDF = 'application/pdf';
-
-    /** @var string APPLICATION_PGP */
+    public const APPLICATION_PDX = 'application/pdx';
+    public const APPLICATION_PEM_CERTIFICATE_CHAIN = 'application/pem-certificate-chain';
     public const APPLICATION_PGP = 'application/pgp';
-
-    /** @var string APPLICATION_PGP_ENCRYPTED */
     public const APPLICATION_PGP_ENCRYPTED = 'application/pgp-encrypted';
-
-    /** @var string APPLICATION_PGP_KEYS */
     public const APPLICATION_PGP_KEYS = 'application/pgp-keys';
-
-    /** @var string APPLICATION_PGP_SIGNATURE */
     public const APPLICATION_PGP_SIGNATURE = 'application/pgp-signature';
-
-    /** @var string APPLICATION_PHOTOSHOP */
     public const APPLICATION_PHOTOSHOP = 'application/photoshop';
-
-    /** @var string APPLICATION_PICS_RULES */
     public const APPLICATION_PICS_RULES = 'application/pics-rules';
-
-    /** @var string APPLICATION_PKCS10 */
+    public const APPLICATION_PIDF_DIFF_XML = 'application/pidf-diff+xml';
+    public const APPLICATION_PIDF_XML = 'application/pidf+xml';
     public const APPLICATION_PKCS10 = 'application/pkcs10';
-
-    /** @var string APPLICATION_PKCS12 */
     public const APPLICATION_PKCS12 = 'application/pkcs12';
-
-    /** @var string APPLICATION_PKCS7_MIME */
     public const APPLICATION_PKCS7_MIME = 'application/pkcs7-mime';
-
-    /** @var string APPLICATION_PKCS7_SIGNATURE */
     public const APPLICATION_PKCS7_SIGNATURE = 'application/pkcs7-signature';
-
-    /** @var string APPLICATION_PKCS8 */
     public const APPLICATION_PKCS8 = 'application/pkcs8';
-
-    /** @var string APPLICATION_PKCS8_ENCRYPTED */
     public const APPLICATION_PKCS8_ENCRYPTED = 'application/pkcs8-encrypted';
-
-    /** @var string APPLICATION_PKIX_ATTR_CERT */
-    public const APPLICATION_PKIX_ATTR_CERT = 'application/pkix-attr-cert';
-
-    /** @var string APPLICATION_PKIX_CERT */
-    public const APPLICATION_PKIX_CERT = 'application/pkix-cert';
-
-    /** @var string APPLICATION_PKIX_CRL */
-    public const APPLICATION_PKIX_CRL = 'application/pkix-crl';
-
-    /** @var string APPLICATION_PKIX_PKIPATH */
-    public const APPLICATION_PKIX_PKIPATH = 'application/pkix-pkipath';
-
-    /** @var string APPLICATION_PKIXCMP */
     public const APPLICATION_PKIXCMP = 'application/pkixcmp';
-
-    /** @var string APPLICATION_PLS */
+    public const APPLICATION_PKIX_ATTR_CERT = 'application/pkix-attr-cert';
+    public const APPLICATION_PKIX_CERT = 'application/pkix-cert';
+    public const APPLICATION_PKIX_CRL = 'application/pkix-crl';
+    public const APPLICATION_PKIX_PKIPATH = 'application/pkix-pkipath';
     public const APPLICATION_PLS = 'application/pls';
-
-    /** @var string APPLICATION_PLS_XML */
     public const APPLICATION_PLS_XML = 'application/pls+xml';
-
-    /** @var string APPLICATION_POSTSCRIPT */
+    public const APPLICATION_POC_SETTINGS_XML = 'application/poc-settings+xml';
     public const APPLICATION_POSTSCRIPT = 'application/postscript';
-
-    /** @var string APPLICATION_POWERPOINT */
     public const APPLICATION_POWERPOINT = 'application/powerpoint';
-
-    /** @var string APPLICATION_PRS_CWW */
+    public const APPLICATION_PPSP_TRACKER_JSON = 'application/ppsp-tracker+json';
+    public const APPLICATION_PROBLEM_JSON = 'application/problem+json';
+    public const APPLICATION_PROBLEM_XML = 'application/problem+xml';
+    public const APPLICATION_PROVENANCE_XML = 'application/provenance+xml';
+    public const APPLICATION_PRS_ALVESTRAND_TITRAX_SHEET = 'application/prs.alvestrand.titrax-sheet';
     public const APPLICATION_PRS_CWW = 'application/prs.cww';
-
-    /** @var string APPLICATION_PSKC_XML */
+    public const APPLICATION_PRS_HPUB_ZIP = 'application/prs.hpub+zip';
+    public const APPLICATION_PRS_NPREND = 'application/prs.nprend';
+    public const APPLICATION_PRS_PLUCKER = 'application/prs.plucker';
+    public const APPLICATION_PRS_RDF_XML_CRYPT = 'application/prs.rdf-xml-crypt';
+    public const APPLICATION_PRS_XSF_XML = 'application/prs.xsf+xml';
     public const APPLICATION_PSKC_XML = 'application/pskc+xml';
-
-    /** @var string APPLICATION_RAM */
+    public const APPLICATION_PVD_JSON = 'application/pvd+json';
+    public const APPLICATION_QSIG = 'application/qsig';
     public const APPLICATION_RAM = 'application/ram';
-
-    /** @var string APPLICATION_RAML_YAML */
     public const APPLICATION_RAML_YAML = 'application/raml+yaml';
-
-    /** @var string APPLICATION_RDF_XML */
+    public const APPLICATION_RAPTORFEC = 'application/raptorfec';
+    public const APPLICATION_RDAP_JSON = 'application/rdap+json';
     public const APPLICATION_RDF_XML = 'application/rdf+xml';
-
-    /** @var string APPLICATION_REGINFO_XML */
     public const APPLICATION_REGINFO_XML = 'application/reginfo+xml';
-
-    /** @var string APPLICATION_RELAX_NG_COMPACT_SYNTAX */
     public const APPLICATION_RELAX_NG_COMPACT_SYNTAX = 'application/relax-ng-compact-syntax';
-
-    /** @var string APPLICATION_RESOURCE_LISTS_XML */
-    public const APPLICATION_RESOURCE_LISTS_XML = 'application/resource-lists+xml';
-
-    /** @var string APPLICATION_RESOURCE_LISTS_DIFF_XML */
+    public const APPLICATION_REMOTE_PRINTING = 'application/remote-printing';
+    public const APPLICATION_REPUTON_JSON = 'application/reputon+json';
     public const APPLICATION_RESOURCE_LISTS_DIFF_XML = 'application/resource-lists-diff+xml';
-
-    /** @var string APPLICATION_RLS_SERVICES_XML */
+    public const APPLICATION_RESOURCE_LISTS_XML = 'application/resource-lists+xml';
+    public const APPLICATION_RFC_XML = 'application/rfc+xml';
+    public const APPLICATION_RISCOS = 'application/riscos';
+    public const APPLICATION_RLMI_XML = 'application/rlmi+xml';
     public const APPLICATION_RLS_SERVICES_XML = 'application/rls-services+xml';
-
-    /** @var string APPLICATION_RPKI_GHOSTBUSTERS */
+    public const APPLICATION_ROUTE_APD_XML = 'application/route-apd+xml';
+    public const APPLICATION_ROUTE_S_TSID_XML = 'application/route-s-tsid+xml';
+    public const APPLICATION_ROUTE_USD_XML = 'application/route-usd+xml';
     public const APPLICATION_RPKI_GHOSTBUSTERS = 'application/rpki-ghostbusters';
-
-    /** @var string APPLICATION_RPKI_MANIFEST */
     public const APPLICATION_RPKI_MANIFEST = 'application/rpki-manifest';
-
-    /** @var string APPLICATION_RPKI_ROA */
+    public const APPLICATION_RPKI_PUBLICATION = 'application/rpki-publication';
     public const APPLICATION_RPKI_ROA = 'application/rpki-roa';
-
-    /** @var string APPLICATION_RSD_XML */
+    public const APPLICATION_RPKI_UPDOWN = 'application/rpki-updown';
     public const APPLICATION_RSD_XML = 'application/rsd+xml';
-
-    /** @var string APPLICATION_RSS_XML */
     public const APPLICATION_RSS_XML = 'application/rss+xml';
-
-    /** @var string APPLICATION_RTF */
     public const APPLICATION_RTF = 'application/rtf';
-
-    /** @var string APPLICATION_SBML_XML */
+    public const APPLICATION_RTPLOOPBACK = 'application/rtploopback';
+    public const APPLICATION_RTX = 'application/rtx';
+    public const APPLICATION_SAMLASSERTION_XML = 'application/samlassertion+xml';
+    public const APPLICATION_SAMLMETADATA_XML = 'application/samlmetadata+xml';
+    public const APPLICATION_SBE = 'application/sbe';
     public const APPLICATION_SBML_XML = 'application/sbml+xml';
-
-    /** @var string APPLICATION_SCVP_CV_REQUEST */
+    public const APPLICATION_SCAIP_XML = 'application/scaip+xml';
+    public const APPLICATION_SCIM_JSON = 'application/scim+json';
     public const APPLICATION_SCVP_CV_REQUEST = 'application/scvp-cv-request';
-
-    /** @var string APPLICATION_SCVP_CV_RESPONSE */
     public const APPLICATION_SCVP_CV_RESPONSE = 'application/scvp-cv-response';
-
-    /** @var string APPLICATION_SCVP_VP_REQUEST */
     public const APPLICATION_SCVP_VP_REQUEST = 'application/scvp-vp-request';
-
-    /** @var string APPLICATION_SCVP_VP_RESPONSE */
     public const APPLICATION_SCVP_VP_RESPONSE = 'application/scvp-vp-response';
-
-    /** @var string APPLICATION_SDP */
     public const APPLICATION_SDP = 'application/sdp';
-
-    /** @var string APPLICATION_SET_PAYMENT_INITIATION */
+    public const APPLICATION_SECEVENT_JWT = 'application/secevent+jwt';
+    public const APPLICATION_SENML_CBOR = 'application/senml+cbor';
+    public const APPLICATION_SENML_ETCH_CBOR = 'application/senml-etch+cbor';
+    public const APPLICATION_SENML_ETCH_JSON = 'application/senml-etch+json';
+    public const APPLICATION_SENML_EXI = 'application/senml-exi';
+    public const APPLICATION_SENML_JSON = 'application/senml+json';
+    public const APPLICATION_SENML_XML = 'application/senml+xml';
+    public const APPLICATION_SENSML_CBOR = 'application/sensml+cbor';
+    public const APPLICATION_SENSML_EXI = 'application/sensml-exi';
+    public const APPLICATION_SENSML_JSON = 'application/sensml+json';
+    public const APPLICATION_SENSML_XML = 'application/sensml+xml';
+    public const APPLICATION_SEP_EXI = 'application/sep-exi';
+    public const APPLICATION_SEP_XML = 'application/sep+xml';
+    public const APPLICATION_SESSION_INFO = 'application/session-info';
+    public const APPLICATION_SET_PAYMENT = 'application/set-payment';
     public const APPLICATION_SET_PAYMENT_INITIATION = 'application/set-payment-initiation';
-
-    /** @var string APPLICATION_SET_REGISTRATION_INITIATION */
+    public const APPLICATION_SET_REGISTRATION = 'application/set-registration';
     public const APPLICATION_SET_REGISTRATION_INITIATION = 'application/set-registration-initiation';
-
-    /** @var string APPLICATION_SHF_XML */
+    public const APPLICATION_SGML = 'application/sgml';
+    public const APPLICATION_SGML_OPEN_CATALOG = 'application/sgml-open-catalog';
     public const APPLICATION_SHF_XML = 'application/shf+xml';
-
-    /** @var string APPLICATION_SIEVE */
     public const APPLICATION_SIEVE = 'application/sieve';
-
-    /** @var string APPLICATION_SMIL */
+    public const APPLICATION_SIMPLESYMBOLCONTAINER = 'application/simplesymbolcontainer';
+    public const APPLICATION_SIMPLE_FILTER_XML = 'application/simple-filter+xml';
+    public const APPLICATION_SIMPLE_MESSAGE_SUMMARY = 'application/simple-message-summary';
+    public const APPLICATION_SIPC = 'application/sipc';
+    public const APPLICATION_SLATE = 'application/slate';
     public const APPLICATION_SMIL = 'application/smil';
-
-    /** @var string APPLICATION_SMIL_XML */
     public const APPLICATION_SMIL_XML = 'application/smil+xml';
-
-    /** @var string APPLICATION_SPARQL_QUERY */
+    public const APPLICATION_SMPTE336M = 'application/smpte336m';
+    public const APPLICATION_SOAP_FASTINFOSET = 'application/soap+fastinfoset';
+    public const APPLICATION_SOAP_XML = 'application/soap+xml';
     public const APPLICATION_SPARQL_QUERY = 'application/sparql-query';
-
-    /** @var string APPLICATION_SPARQL_RESULTS_XML */
     public const APPLICATION_SPARQL_RESULTS_XML = 'application/sparql-results+xml';
-
-    /** @var string APPLICATION_SQL */
+    public const APPLICATION_SPIRITS_EVENT_XML = 'application/spirits-event+xml';
     public const APPLICATION_SQL = 'application/sql';
-
-    /** @var string APPLICATION_SRGS */
     public const APPLICATION_SRGS = 'application/srgs';
-
-    /** @var string APPLICATION_SRGS_XML */
     public const APPLICATION_SRGS_XML = 'application/srgs+xml';
-
-    /** @var string APPLICATION_SRU_XML */
     public const APPLICATION_SRU_XML = 'application/sru+xml';
-
-    /** @var string APPLICATION_SSDL_XML */
     public const APPLICATION_SSDL_XML = 'application/ssdl+xml';
-
-    /** @var string APPLICATION_SSML_XML */
     public const APPLICATION_SSML_XML = 'application/ssml+xml';
-
-    /** @var string APPLICATION_STUFFIT */
+    public const APPLICATION_STIX_JSON = 'application/stix+json';
     public const APPLICATION_STUFFIT = 'application/stuffit';
-
-    /** @var string APPLICATION_TEI_XML */
+    public const APPLICATION_SWID_XML = 'application/swid+xml';
+    public const APPLICATION_TAMP_APEX_UPDATE = 'application/tamp-apex-update';
+    public const APPLICATION_TAMP_APEX_UPDATE_CONFIRM = 'application/tamp-apex-update-confirm';
+    public const APPLICATION_TAMP_COMMUNITY_UPDATE = 'application/tamp-community-update';
+    public const APPLICATION_TAMP_COMMUNITY_UPDATE_CONFIRM = 'application/tamp-community-update-confirm';
+    public const APPLICATION_TAMP_ERROR = 'application/tamp-error';
+    public const APPLICATION_TAMP_SEQUENCE_ADJUST = 'application/tamp-sequence-adjust';
+    public const APPLICATION_TAMP_SEQUENCE_ADJUST_CONFIRM = 'application/tamp-sequence-adjust-confirm';
+    public const APPLICATION_TAMP_STATUS_QUERY = 'application/tamp-status-query';
+    public const APPLICATION_TAMP_STATUS_RESPONSE = 'application/tamp-status-response';
+    public const APPLICATION_TAMP_UPDATE = 'application/tamp-update';
+    public const APPLICATION_TAMP_UPDATE_CONFIRM = 'application/tamp-update-confirm';
+    public const APPLICATION_TAR = 'application/tar';
+    public const APPLICATION_TAXII_JSON = 'application/taxii+json';
+    public const APPLICATION_TD_JSON = 'application/td+json';
     public const APPLICATION_TEI_XML = 'application/tei+xml';
-
-    /** @var string APPLICATION_THRAUDIO_XML */
-    public const APPLICATION_THRAUDIO_XML = 'application/thraud+xml';
-
-    /** @var string APPLICATION_TIMESTAMPED_DATA */
+    public const APPLICATION_TETRA_ISI = 'application/tetra_isi';
+    public const APPLICATION_THRAUD_XML = 'application/thraud+xml';
     public const APPLICATION_TIMESTAMPED_DATA = 'application/timestamped-data';
-
-    /** @var string APPLICATION_TRIG */
+    public const APPLICATION_TIMESTAMP_QUERY = 'application/timestamp-query';
+    public const APPLICATION_TIMESTAMP_REPLY = 'application/timestamp-reply';
+    public const APPLICATION_TLSRPT_GZIP = 'application/tlsrpt+gzip';
+    public const APPLICATION_TLSRPT_JSON = 'application/tlsrpt+json';
+    public const APPLICATION_TNAUTHLIST = 'application/tnauthlist';
+    public const APPLICATION_TOML = 'application/toml';
+    public const APPLICATION_TRICKLE_ICE_SDPFRAG = 'application/trickle-ice-sdpfrag';
     public const APPLICATION_TRIG = 'application/trig';
-
-    /** @var string APPLICATION_VND_3GPP_PIC_BW_LARGE */
-    public const APPLICATION_VND_3GPP_PIC_BW_LARGE = 'application/vnd.3gpp.pic-bw-large';
-
-    /** @var string APPLICATION_VND_3GPP_PIC_BW_SMALL */
-    public const APPLICATION_VND_3GPP_PIC_BW_SMALL = 'application/vnd.3gpp.pic-bw-small';
-
-    /** @var string APPLICATION_VND_3GPP_PIC_BW_VAR */
-    public const APPLICATION_VND_3GPP_PIC_BW_VAR = 'application/vnd.3gpp.pic-bw-var';
-
-    /** @var string APPLICATION_VND_3GPP2_TCAP */
+    public const APPLICATION_TTML_XML = 'application/ttml+xml';
+    public const APPLICATION_TVE_TRIGGER = 'application/tve-trigger';
+    public const APPLICATION_TZIF = 'application/tzif';
+    public const APPLICATION_TZIF_LEAP = 'application/tzif-leap';
+    public const APPLICATION_ULPFEC = 'application/ulpfec';
+    public const APPLICATION_URC_GRPSHEET_XML = 'application/urc-grpsheet+xml';
+    public const APPLICATION_URC_RESSHEET_XML = 'application/urc-ressheet+xml';
+    public const APPLICATION_URC_TARGETDESC_XML = 'application/urc-targetdesc+xml';
+    public const APPLICATION_URC_UISOCKETDESC_XML = 'application/urc-uisocketdesc+xml';
+    public const APPLICATION_VCARD_JSON = 'application/vcard+json';
+    public const APPLICATION_VCARD_XML = 'application/vcard+xml';
+    public const APPLICATION_VEMMI = 'application/vemmi';
+    public const APPLICATION_VIVIDENCE_SCRIPTFILE = 'application/vividence.scriptfile';
+    public const APPLICATION_VND_1000MINDS_DECISION_MODEL_XML = 'application/vnd.1000minds.decision-model+xml';
+    public const APPLICATION_VND_3GPP2_BCMCSINFO_XML = 'application/vnd.3gpp2.bcmcsinfo+xml';
+    public const APPLICATION_VND_3GPP2_SMS = 'application/vnd.3gpp2.sms';
     public const APPLICATION_VND_3GPP2_TCAP = 'application/vnd.3gpp2.tcap';
-
-    /** @var string APPLICATION_VND_3M_POST_IT_NOTES */
+    public const APPLICATION_VND_3GPP_ACCESS_TRANSFER_EVENTS_XML = 'application/vnd.3gpp.access-transfer-events+xml';
+    public const APPLICATION_VND_3GPP_BSF_XML = 'application/vnd.3gpp.bsf+xml';
+    public const APPLICATION_VND_3GPP_GMOP_XML = 'application/vnd.3gpp.gmop+xml';
+    public const APPLICATION_VND_3GPP_MCDATA_AFFILIATION_COMMAND_XML = 'application/vnd.3gpp.mcdata-affiliation-command+xml';
+    public const APPLICATION_VND_3GPP_MCDATA_INFO_XML = 'application/vnd.3gpp.mcdata-info+xml';
+    public const APPLICATION_VND_3GPP_MCDATA_PAYLOAD = 'application/vnd.3gpp.mcdata-payload';
+    public const APPLICATION_VND_3GPP_MCDATA_SERVICE_CONFIG_XML = 'application/vnd.3gpp.mcdata-service-config+xml';
+    public const APPLICATION_VND_3GPP_MCDATA_SIGNALLING = 'application/vnd.3gpp.mcdata-signalling';
+    public const APPLICATION_VND_3GPP_MCDATA_UE_CONFIG_XML = 'application/vnd.3gpp.mcdata-ue-config+xml';
+    public const APPLICATION_VND_3GPP_MCDATA_USER_PROFILE_XML = 'application/vnd.3gpp.mcdata-user-profile+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_AFFILIATION_COMMAND_XML = 'application/vnd.3gpp.mcptt-affiliation-command+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_FLOOR_REQUEST_XML = 'application/vnd.3gpp.mcptt-floor-request+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_INFO_XML = 'application/vnd.3gpp.mcptt-info+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_LOCATION_INFO_XML = 'application/vnd.3gpp.mcptt-location-info+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_MBMS_USAGE_INFO_XML = 'application/vnd.3gpp.mcptt-mbms-usage-info+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_SERVICE_CONFIG_XML = 'application/vnd.3gpp.mcptt-service-config+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_SIGNED_XML = 'application/vnd.3gpp.mcptt-signed+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_UE_CONFIG_XML = 'application/vnd.3gpp.mcptt-ue-config+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_UE_INIT_CONFIG_XML = 'application/vnd.3gpp.mcptt-ue-init-config+xml';
+    public const APPLICATION_VND_3GPP_MCPTT_USER_PROFILE_XML = 'application/vnd.3gpp.mcptt-user-profile+xml';
+    public const APPLICATION_VND_3GPP_MCVIDEO_AFFILIATION_COMMAND_XML = 'application/vnd.3gpp.mcvideo-affiliation-command+xml';
+    public const APPLICATION_VND_3GPP_MCVIDEO_AFFILIATION_INFO_XML = 'application/vnd.3gpp.mcvideo-affiliation-info+xml';
+    public const APPLICATION_VND_3GPP_MCVIDEO_INFO_XML = 'application/vnd.3gpp.mcvideo-info+xml';
+    public const APPLICATION_VND_3GPP_MCVIDEO_LOCATION_INFO_XML = 'application/vnd.3gpp.mcvideo-location-info+xml';
+    public const APPLICATION_VND_3GPP_MCVIDEO_MBMS_USAGE_INFO_XML = 'application/vnd.3gpp.mcvideo-mbms-usage-info+xml';
+    public const APPLICATION_VND_3GPP_MCVIDEO_SERVICE_CONFIG_XML = 'application/vnd.3gpp.mcvideo-service-config+xml';
+    public const APPLICATION_VND_3GPP_MCVIDEO_TRANSMISSION_REQUEST_XML = 'application/vnd.3gpp.mcvideo-transmission-request+xml';
+    public const APPLICATION_VND_3GPP_MCVIDEO_UE_CONFIG_XML = 'application/vnd.3gpp.mcvideo-ue-config+xml';
+    public const APPLICATION_VND_3GPP_MCVIDEO_USER_PROFILE_XML = 'application/vnd.3gpp.mcvideo-user-profile+xml';
+    public const APPLICATION_VND_3GPP_MC_SIGNALLING_EAR = 'application/vnd.3gpp.mc-signalling-ear';
+    public const APPLICATION_VND_3GPP_MID_CALL_XML = 'application/vnd.3gpp.mid-call+xml';
+    public const APPLICATION_VND_3GPP_PIC_BW_LARGE = 'application/vnd.3gpp.pic-bw-large';
+    public const APPLICATION_VND_3GPP_PIC_BW_SMALL = 'application/vnd.3gpp.pic-bw-small';
+    public const APPLICATION_VND_3GPP_PIC_BW_VAR = 'application/vnd.3gpp.pic-bw-var';
+    public const APPLICATION_VND_3GPP_PROSE_PC3CH_XML = 'application/vnd.3gpp-prose-pc3ch+xml';
+    public const APPLICATION_VND_3GPP_PROSE_XML = 'application/vnd.3gpp-prose+xml';
+    public const APPLICATION_VND_3GPP_SMS = 'application/vnd.3gpp.sms';
+    public const APPLICATION_VND_3GPP_SMS_XML = 'application/vnd.3gpp.sms+xml';
+    public const APPLICATION_VND_3GPP_SRVCC_EXT_XML = 'application/vnd.3gpp.srvcc-ext+xml';
+    public const APPLICATION_VND_3GPP_SRVCC_INFO_XML = 'application/vnd.3gpp.srvcc-info+xml';
+    public const APPLICATION_VND_3GPP_STATE_AND_EVENT_INFO_XML = 'application/vnd.3gpp.state-and-event-info+xml';
+    public const APPLICATION_VND_3GPP_USSD_XML = 'application/vnd.3gpp.ussd+xml';
+    public const APPLICATION_VND_3GPP_V2X_LOCAL_SERVICE_INFORMATION = 'application/vnd.3gpp-v2x-local-service-information';
+    public const APPLICATION_VND_3LIGHTSSOFTWARE_IMAGESCAL = 'application/vnd.3lightssoftware.imagescal';
     public const APPLICATION_VND_3M_POST_IT_NOTES = 'application/vnd.3m.post-it-notes';
-
-    /** @var string APPLICATION_VND_ACCPAC_SIMPLY_ASO */
     public const APPLICATION_VND_ACCPAC_SIMPLY_ASO = 'application/vnd.accpac.simply.aso';
-
-    /** @var string APPLICATION_VND_ACCPAC_SIMPLY_IMP */
     public const APPLICATION_VND_ACCPAC_SIMPLY_IMP = 'application/vnd.accpac.simply.imp';
-
-    /** @var string APPLICATION_VND_ACUCOBOL */
     public const APPLICATION_VND_ACUCOBOL = 'application/vnd.acucobol';
-
-    /** @var string APPLICATION_VND_ACUCORP */
     public const APPLICATION_VND_ACUCORP = 'application/vnd.acucorp';
-
-    /** @var string APPLICATION_VND_ADOBE_AIR_APPLICATION_INSTALLER_PACKAGE_ZIP */
-    public const APPLICATION_VND_ADOBE_AIR_APPLICATION_INSTALLER_PACKAGE_ZIP =
-        'application/vnd.adobe.air-application-installer-package+zip';
-
-    /** @var string APPLICATION_VND_ADOBE_FLASH_MOVIE */
+    public const APPLICATION_VND_ADOBE_AIR_APPLICATION_INSTALLER_PACKAGE_ZIP = 'application/vnd.adobe.air-application-installer-package+zip';
     public const APPLICATION_VND_ADOBE_FLASH_MOVIE = 'application/vnd.adobe.flash.movie';
-
-    /** @var string APPLICATION_VND_ADOBE_FORMSCENTRAL_FCDT */
     public const APPLICATION_VND_ADOBE_FORMSCENTRAL_FCDT = 'application/vnd.adobe.formscentral.fcdt';
-
-    /** @var string APPLICATION_VND_ADOBE_FXP */
     public const APPLICATION_VND_ADOBE_FXP = 'application/vnd.adobe.fxp';
-
-    /** @var string APPLICATION_VND_ADOBE_ILLUSTRATOR */
     public const APPLICATION_VND_ADOBE_ILLUSTRATOR = 'application/vnd.adobe.illustrator';
-
-    /** @var string APPLICATION_VND_ADOBE_XDP_XML */
+    public const APPLICATION_VND_ADOBE_PARTIAL_UPLOAD = 'application/vnd.adobe.partial-upload';
     public const APPLICATION_VND_ADOBE_XDP_XML = 'application/vnd.adobe.xdp+xml';
-
-    /** @var string APPLICATION_VND_ADOBE_XFDF */
     public const APPLICATION_VND_ADOBE_XFDF = 'application/vnd.adobe.xfdf';
-
-    /** @var string APPLICATION_VND_AHEAD_SPACE */
+    public const APPLICATION_VND_AETHER_IMP = 'application/vnd.aether.imp';
+    public const APPLICATION_VND_AFPC_AFPLINEDATA = 'application/vnd.afpc.afplinedata';
+    public const APPLICATION_VND_AFPC_AFPLINEDATA_PAGEDEF = 'application/vnd.afpc.afplinedata-pagedef';
+    public const APPLICATION_VND_AFPC_FOCA_CHARSET = 'application/vnd.afpc.foca-charset';
+    public const APPLICATION_VND_AFPC_FOCA_CODEDFONT = 'application/vnd.afpc.foca-codedfont';
+    public const APPLICATION_VND_AFPC_FOCA_CODEPAGE = 'application/vnd.afpc.foca-codepage';
+    public const APPLICATION_VND_AFPC_MODCA = 'application/vnd.afpc.modca';
+    public const APPLICATION_VND_AFPC_MODCA_FORMDEF = 'application/vnd.afpc.modca-formdef';
+    public const APPLICATION_VND_AFPC_MODCA_MEDIUMMAP = 'application/vnd.afpc.modca-mediummap';
+    public const APPLICATION_VND_AFPC_MODCA_OBJECTCONTAINER = 'application/vnd.afpc.modca-objectcontainer';
+    public const APPLICATION_VND_AFPC_MODCA_OVERLAY = 'application/vnd.afpc.modca-overlay';
+    public const APPLICATION_VND_AFPC_MODCA_PAGESEGMENT = 'application/vnd.afpc.modca-pagesegment';
     public const APPLICATION_VND_AHEAD_SPACE = 'application/vnd.ahead.space';
-
-    /** @var string APPLICATION_VND_AIRZIP_FILESECURE_AZF */
+    public const APPLICATION_VND_AH_BARCODE = 'application/vnd.ah-barcode';
     public const APPLICATION_VND_AIRZIP_FILESECURE_AZF = 'application/vnd.airzip.filesecure.azf';
-
-    /** @var string APPLICATION_VND_AIRZIP_FILESECURE_AZS */
     public const APPLICATION_VND_AIRZIP_FILESECURE_AZS = 'application/vnd.airzip.filesecure.azs';
-
-    /** @var string APPLICATION_VND_AMAZON_EBOOK */
+    public const APPLICATION_VND_AMADEUS_JSON = 'application/vnd.amadeus+json';
     public const APPLICATION_VND_AMAZON_EBOOK = 'application/vnd.amazon.ebook';
-
-    /** @var string APPLICATION_VND_AMERICANDYNAMICS_ACC */
+    public const APPLICATION_VND_AMAZON_MOBI8_EBOOK = 'application/vnd.amazon.mobi8-ebook';
     public const APPLICATION_VND_AMERICANDYNAMICS_ACC = 'application/vnd.americandynamics.acc';
-
-    /** @var string APPLICATION_VND_AMIGA_AMI */
     public const APPLICATION_VND_AMIGA_AMI = 'application/vnd.amiga.ami';
-
-    /** @var string APPLICATION_VND_ANDROID_PACKAGE_ARCHIVE */
+    public const APPLICATION_VND_AMUNDSEN_MAZE_XML = 'application/vnd.amundsen.maze+xml';
+    public const APPLICATION_VND_ANDROID_OTA = 'application/vnd.android.ota';
     public const APPLICATION_VND_ANDROID_PACKAGE_ARCHIVE = 'application/vnd.android.package-archive';
-
-    /** @var string APPLICATION_VND_ANSER_WEB_CERTIFICATE_ISSUE_INITIATION */
-    public const APPLICATION_VND_ANSER_WEB_CERTIFICATE_ISSUE_INITIATION =
-        'application/vnd.anser-web-certificate-issue-initiation';
-
-    /** @var string APPLICATION_VND_ANSER_WEB_FUNDS_TRANSFER_INITIATION */
-    public const APPLICATION_VND_ANSER_WEB_FUNDS_TRANSFER_INITIATION =
-        'application/vnd.anser-web-funds-transfer-initiation';
-
-    /** @var string APPLICATION_VND_ANTIX_GAME_COMPONENT */
+    public const APPLICATION_VND_ANKI = 'application/vnd.anki';
+    public const APPLICATION_VND_ANSER_WEB_CERTIFICATE_ISSUE_INITIATION = 'application/vnd.anser-web-certificate-issue-initiation';
+    public const APPLICATION_VND_ANSER_WEB_FUNDS_TRANSFER_INITIATION = 'application/vnd.anser-web-funds-transfer-initiation';
     public const APPLICATION_VND_ANTIX_GAME_COMPONENT = 'application/vnd.antix.game-component';
-
-    /** @var string APPLICATION_VND_APPIMAGE */
+    public const APPLICATION_VND_APACHE_THRIFT_BINARY = 'application/vnd.apache.thrift.binary';
+    public const APPLICATION_VND_APACHE_THRIFT_COMPACT = 'application/vnd.apache.thrift.compact';
+    public const APPLICATION_VND_APACHE_THRIFT_JSON = 'application/vnd.apache.thrift.json';
+    public const APPLICATION_VND_API_JSON = 'application/vnd.api+json';
+    public const APPLICATION_VND_APLEXTOR_WARRP_JSON = 'application/vnd.aplextor.warrp+json';
+    public const APPLICATION_VND_APOTHEKENDE_RESERVATION_JSON = 'application/vnd.apothekende.reservation+json';
     public const APPLICATION_VND_APPIMAGE = 'application/vnd.appimage';
-
-    /** @var string APPLICATION_VND_APPLE_INSTALLER_XML */
     public const APPLICATION_VND_APPLE_INSTALLER_XML = 'application/vnd.apple.installer+xml';
-
-    /** @var string APPLICATION_VND_APPLE_KEYNOTE */
     public const APPLICATION_VND_APPLE_KEYNOTE = 'application/vnd.apple.keynote';
-
-    /** @var string APPLICATION_VND_APPLE_MPEGURL */
     public const APPLICATION_VND_APPLE_MPEGURL = 'application/vnd.apple.mpegurl';
-
-    /** @var string APPLICATION_VND_ARISTANETWORKS_SWI */
+    public const APPLICATION_VND_APPLE_NUMBERS = 'application/vnd.apple.numbers';
+    public const APPLICATION_VND_APPLE_PAGES = 'application/vnd.apple.pages';
+    public const APPLICATION_VND_APPLE_PKPASS = 'application/vnd.apple.pkpass';
+    public const APPLICATION_VND_ARASTRA_SWI = 'application/vnd.arastra.swi';
     public const APPLICATION_VND_ARISTANETWORKS_SWI = 'application/vnd.aristanetworks.swi';
-
-    /** @var string APPLICATION_VND_ASTRAEA_SOFTWARE_IOTA */
+    public const APPLICATION_VND_ARTISAN_JSON = 'application/vnd.artisan+json';
+    public const APPLICATION_VND_ARTSQUARE = 'application/vnd.artsquare';
     public const APPLICATION_VND_ASTRAEA_SOFTWARE_IOTA = 'application/vnd.astraea-software.iota';
-
-    /** @var string APPLICATION_VND_AUDIOGRAPH */
     public const APPLICATION_VND_AUDIOGRAPH = 'application/vnd.audiograph';
-
-    /** @var string APPLICATION_VND_BLUEICE_MULTIPASS */
+    public const APPLICATION_VND_AUTOPACKAGE = 'application/vnd.autopackage';
+    public const APPLICATION_VND_AVALON_JSON = 'application/vnd.avalon+json';
+    public const APPLICATION_VND_AVISTAR_XML = 'application/vnd.avistar+xml';
+    public const APPLICATION_VND_BALSAMIQ_BMML_XML = 'application/vnd.balsamiq.bmml+xml';
+    public const APPLICATION_VND_BALSAMIQ_BMPR = 'application/vnd.balsamiq.bmpr';
+    public const APPLICATION_VND_BANANA_ACCOUNTING = 'application/vnd.banana-accounting';
+    public const APPLICATION_VND_BBF_USP_ERROR = 'application/vnd.bbf.usp.error';
+    public const APPLICATION_VND_BBF_USP_MSG = 'application/vnd.bbf.usp.msg';
+    public const APPLICATION_VND_BBF_USP_MSG_JSON = 'application/vnd.bbf.usp.msg+json';
+    public const APPLICATION_VND_BEKITZUR_STECH_JSON = 'application/vnd.bekitzur-stech+json';
+    public const APPLICATION_VND_BINT_MED_CONTENT = 'application/vnd.bint.med-content';
+    public const APPLICATION_VND_BIOPAX_RDF_XML = 'application/vnd.biopax.rdf+xml';
+    public const APPLICATION_VND_BLINK_IDB_VALUE_WRAPPER = 'application/vnd.blink-idb-value-wrapper';
     public const APPLICATION_VND_BLUEICE_MULTIPASS = 'application/vnd.blueice.multipass';
-
-    /** @var string APPLICATION_VND_BMI */
+    public const APPLICATION_VND_BLUETOOTH_EP_OOB = 'application/vnd.bluetooth.ep.oob';
+    public const APPLICATION_VND_BLUETOOTH_LE_OOB = 'application/vnd.bluetooth.le.oob';
     public const APPLICATION_VND_BMI = 'application/vnd.bmi';
-
-    /** @var string APPLICATION_VND_BUSINESSOBJECTS */
+    public const APPLICATION_VND_BPF = 'application/vnd.bpf';
+    public const APPLICATION_VND_BPF3 = 'application/vnd.bpf3';
     public const APPLICATION_VND_BUSINESSOBJECTS = 'application/vnd.businessobjects';
-
-    /** @var string APPLICATION_VND_CHEMDRAW_XML */
+    public const APPLICATION_VND_BYU_UAPI_JSON = 'application/vnd.byu.uapi+json';
+    public const APPLICATION_VND_CAB_JSCRIPT = 'application/vnd.cab-jscript';
+    public const APPLICATION_VND_CANON_CPDL = 'application/vnd.canon-cpdl';
+    public const APPLICATION_VND_CANON_LIPS = 'application/vnd.canon-lips';
+    public const APPLICATION_VND_CAPASYSTEMS_PG_JSON = 'application/vnd.capasystems-pg+json';
+    public const APPLICATION_VND_CENDIO_THINLINC_CLIENTCONF = 'application/vnd.cendio.thinlinc.clientconf';
+    public const APPLICATION_VND_CENTURY_SYSTEMS_TCP_STREAM = 'application/vnd.century-systems.tcp_stream';
     public const APPLICATION_VND_CHEMDRAW_XML = 'application/vnd.chemdraw+xml';
-
-    /** @var string APPLICATION_VND_CHESS_PGN */
     public const APPLICATION_VND_CHESS_PGN = 'application/vnd.chess-pgn';
-
-    /** @var string APPLICATION_VND_CHIPNUTS_KARAOKE_MMD */
     public const APPLICATION_VND_CHIPNUTS_KARAOKE_MMD = 'application/vnd.chipnuts.karaoke-mmd';
-
-    /** @var string APPLICATION_VND_CINDERELLA */
+    public const APPLICATION_VND_CIEDI = 'application/vnd.ciedi';
     public const APPLICATION_VND_CINDERELLA = 'application/vnd.cinderella';
-
-    /** @var string APPLICATION_VND_CLAYMORE */
+    public const APPLICATION_VND_CIRPACK_ISDN_EXT = 'application/vnd.cirpack.isdn-ext';
+    public const APPLICATION_VND_CITATIONSTYLES_STYLE_XML = 'application/vnd.citationstyles.style+xml';
     public const APPLICATION_VND_CLAYMORE = 'application/vnd.claymore';
-
-    /** @var string APPLICATION_VND_CLOANTO_RP9 */
     public const APPLICATION_VND_CLOANTO_RP9 = 'application/vnd.cloanto.rp9';
-
-    /** @var string APPLICATION_VND_CLONK_C4GROUP */
     public const APPLICATION_VND_CLONK_C4GROUP = 'application/vnd.clonk.c4group';
-
-    /** @var string APPLICATION_VND_CLUETRUST_CARTOMOBILE_CONFIG */
     public const APPLICATION_VND_CLUETRUST_CARTOMOBILE_CONFIG = 'application/vnd.cluetrust.cartomobile-config';
-
-    /** @var string APPLICATION_VND_CLUETRUST_CARTOMOBILE_CONFIG_PKG */
     public const APPLICATION_VND_CLUETRUST_CARTOMOBILE_CONFIG_PKG = 'application/vnd.cluetrust.cartomobile-config-pkg';
-
-    /** @var string APPLICATION_VND_COFFEESCRIPT */
     public const APPLICATION_VND_COFFEESCRIPT = 'application/vnd.coffeescript';
-
-    /** @var string APPLICATION_VND_COMICBOOK_ZIP */
-    public const APPLICATION_VND_COMICBOOK_ZIP = 'application/vnd.comicbook+zip';
-
-    /** @var string APPLICATION_VND_COMICBOOK_RAR */
+    public const APPLICATION_VND_COLLABIO_XODOCUMENTS_DOCUMENT = 'application/vnd.collabio.xodocuments.document';
+    public const APPLICATION_VND_COLLABIO_XODOCUMENTS_DOCUMENT_TEMPLATE = 'application/vnd.collabio.xodocuments.document-template';
+    public const APPLICATION_VND_COLLABIO_XODOCUMENTS_PRESENTATION = 'application/vnd.collabio.xodocuments.presentation';
+    public const APPLICATION_VND_COLLABIO_XODOCUMENTS_PRESENTATION_TEMPLATE = 'application/vnd.collabio.xodocuments.presentation-template';
+    public const APPLICATION_VND_COLLABIO_XODOCUMENTS_SPREADSHEET = 'application/vnd.collabio.xodocuments.spreadsheet';
+    public const APPLICATION_VND_COLLABIO_XODOCUMENTS_SPREADSHEET_TEMPLATE = 'application/vnd.collabio.xodocuments.spreadsheet-template';
+    public const APPLICATION_VND_COLLECTION_DOC_JSON = 'application/vnd.collection.doc+json';
+    public const APPLICATION_VND_COLLECTION_JSON = 'application/vnd.collection+json';
+    public const APPLICATION_VND_COLLECTION_NEXT_JSON = 'application/vnd.collection.next+json';
     public const APPLICATION_VND_COMICBOOK_RAR = 'application/vnd.comicbook-rar';
-
-    /** @var string APPLICATION_VND_COMMONSPACE */
+    public const APPLICATION_VND_COMICBOOK_ZIP = 'application/vnd.comicbook+zip';
+    public const APPLICATION_VND_COMMERCE_BATTELLE = 'application/vnd.commerce-battelle';
     public const APPLICATION_VND_COMMONSPACE = 'application/vnd.commonspace';
-
-    /** @var string APPLICATION_VND_CONTACT_CMSG */
     public const APPLICATION_VND_CONTACT_CMSG = 'application/vnd.contact.cmsg';
-
-    /** @var string APPLICATION_VND_COREL_DRAW */
     public const APPLICATION_VND_COREL_DRAW = 'application/vnd.corel-draw';
-
-    /** @var string APPLICATION_VND_COSMOCALLER */
+    public const APPLICATION_VND_COREOS_IGNITION_JSON = 'application/vnd.coreos.ignition+json';
     public const APPLICATION_VND_COSMOCALLER = 'application/vnd.cosmocaller';
-
-    /** @var string APPLICATION_VND_CRICK_CLICKER */
     public const APPLICATION_VND_CRICK_CLICKER = 'application/vnd.crick.clicker';
-
-    /** @var string APPLICATION_VND_CRICK_CLICKER_KEYBOARD */
     public const APPLICATION_VND_CRICK_CLICKER_KEYBOARD = 'application/vnd.crick.clicker.keyboard';
-
-    /** @var string APPLICATION_VND_CRICK_CLICKER_PALETTE */
     public const APPLICATION_VND_CRICK_CLICKER_PALETTE = 'application/vnd.crick.clicker.palette';
-
-    /** @var string APPLICATION_VND_CRICK_CLICKER_TEMPLATE */
     public const APPLICATION_VND_CRICK_CLICKER_TEMPLATE = 'application/vnd.crick.clicker.template';
-
-    /** @var string APPLICATION_VND_CRICK_CLICKER_WORDBANK */
     public const APPLICATION_VND_CRICK_CLICKER_WORDBANK = 'application/vnd.crick.clicker.wordbank';
-
-    /** @var string APPLICATION_VND_CRITICALTOOLS_WBS_XML */
     public const APPLICATION_VND_CRITICALTOOLS_WBS_XML = 'application/vnd.criticaltools.wbs+xml';
-
-    /** @var string APPLICATION_VND_CTC_POSML */
+    public const APPLICATION_VND_CRYPTII_PIPE_JSON = 'application/vnd.cryptii.pipe+json';
+    public const APPLICATION_VND_CRYPTO_SHADE_FILE = 'application/vnd.crypto-shade-file';
+    public const APPLICATION_VND_CTCT_WS_XML = 'application/vnd.ctct.ws+xml';
     public const APPLICATION_VND_CTC_POSML = 'application/vnd.ctc-posml';
-
-    /** @var string APPLICATION_VND_CUPS_PPD */
+    public const APPLICATION_VND_CUPS_PDF = 'application/vnd.cups-pdf';
+    public const APPLICATION_VND_CUPS_POSTSCRIPT = 'application/vnd.cups-postscript';
     public const APPLICATION_VND_CUPS_PPD = 'application/vnd.cups-ppd';
-
-    /** @var string APPLICATION_VND_CURL_CAR */
+    public const APPLICATION_VND_CUPS_RASTER = 'application/vnd.cups-raster';
+    public const APPLICATION_VND_CUPS_RAW = 'application/vnd.cups-raw';
+    public const APPLICATION_VND_CURL = 'application/vnd.curl';
     public const APPLICATION_VND_CURL_CAR = 'application/vnd.curl.car';
-
-    /** @var string APPLICATION_VND_CURL_PCURL */
     public const APPLICATION_VND_CURL_PCURL = 'application/vnd.curl.pcurl';
-
-    /** @var string APPLICATION_VND_DART */
+    public const APPLICATION_VND_CYAN_DEAN_ROOT_XML = 'application/vnd.cyan.dean.root+xml';
+    public const APPLICATION_VND_CYBANK = 'application/vnd.cybank';
+    public const APPLICATION_VND_D2L_COURSEPACKAGE1P0_ZIP = 'application/vnd.d2l.coursepackage1p0+zip';
     public const APPLICATION_VND_DART = 'application/vnd.dart';
-
-    /** @var string APPLICATION_VND_DATA_VISION_RDZ */
+    public const APPLICATION_VND_DATAPACKAGE_JSON = 'application/vnd.datapackage+json';
+    public const APPLICATION_VND_DATARESOURCE_JSON = 'application/vnd.dataresource+json';
     public const APPLICATION_VND_DATA_VISION_RDZ = 'application/vnd.data-vision.rdz';
-
-    /** @var string APPLICATION_VND_DEBIAN_BINARY_PACKAGE */
+    public const APPLICATION_VND_DBF = 'application/vnd.dbf';
     public const APPLICATION_VND_DEBIAN_BINARY_PACKAGE = 'application/vnd.debian.binary-package';
-
-    /** @var string APPLICATION_VND_DECE_DATA */
     public const APPLICATION_VND_DECE_DATA = 'application/vnd.dece.data';
-
-    /** @var string APPLICATION_VND_DECE_TTML_XML */
     public const APPLICATION_VND_DECE_TTML_XML = 'application/vnd.dece.ttml+xml';
-
-    /** @var string APPLICATION_VND_DECE_UNSPECIFIED */
     public const APPLICATION_VND_DECE_UNSPECIFIED = 'application/vnd.dece.unspecified';
-
-    /** @var string APPLICATION_VND_DECE_ZIP */
     public const APPLICATION_VND_DECE_ZIP = 'application/vnd.dece.zip';
-
-    /** @var string APPLICATION_VND_DENOVO_FCSELAYOUT_LINK */
     public const APPLICATION_VND_DENOVO_FCSELAYOUT_LINK = 'application/vnd.denovo.fcselayout-link';
-
-    /** @var string APPLICATION_VND_DNA */
+    public const APPLICATION_VND_DESMUME_MOVIE = 'application/vnd.desmume.movie';
+    public const APPLICATION_VND_DIR_BI_PLATE_DL_NOSUFFIX = 'application/vnd.dir-bi.plate-dl-nosuffix';
+    public const APPLICATION_VND_DM_DELEGATION_XML = 'application/vnd.dm.delegation+xml';
     public const APPLICATION_VND_DNA = 'application/vnd.dna';
-
-    /** @var string APPLICATION_VND_DOLBY_MLP */
+    public const APPLICATION_VND_DOCUMENT_JSON = 'application/vnd.document+json';
     public const APPLICATION_VND_DOLBY_MLP = 'application/vnd.dolby.mlp';
-
-    /** @var string APPLICATION_VND_DPGRAPH */
+    public const APPLICATION_VND_DOLBY_MOBILE_1 = 'application/vnd.dolby.mobile.1';
+    public const APPLICATION_VND_DOLBY_MOBILE_2 = 'application/vnd.dolby.mobile.2';
+    public const APPLICATION_VND_DOREMIR_SCORECLOUD_BINARY_DOCUMENT = 'application/vnd.doremir.scorecloud-binary-document';
     public const APPLICATION_VND_DPGRAPH = 'application/vnd.dpgraph';
-
-    /** @var string APPLICATION_VND_DREAMFACTORY */
     public const APPLICATION_VND_DREAMFACTORY = 'application/vnd.dreamfactory';
-
-    /** @var string APPLICATION_VND_DS_KEYPOINT */
+    public const APPLICATION_VND_DRIVE_JSON = 'application/vnd.drive+json';
     public const APPLICATION_VND_DS_KEYPOINT = 'application/vnd.ds-keypoint';
-
-    /** @var string APPLICATION_VND_DVB_AIT */
+    public const APPLICATION_VND_DTG_LOCAL = 'application/vnd.dtg.local';
+    public const APPLICATION_VND_DTG_LOCAL_FLASH = 'application/vnd.dtg.local.flash';
+    public const APPLICATION_VND_DTG_LOCAL_HTML = 'application/vnd.dtg.local.html';
     public const APPLICATION_VND_DVB_AIT = 'application/vnd.dvb.ait';
-
-    /** @var string APPLICATION_VND_DVB_SERVICE */
+    public const APPLICATION_VND_DVB_DVBISL_XML = 'application/vnd.dvb.dvbisl+xml';
+    public const APPLICATION_VND_DVB_DVBJ = 'application/vnd.dvb.dvbj';
+    public const APPLICATION_VND_DVB_ESGCONTAINER = 'application/vnd.dvb.esgcontainer';
+    public const APPLICATION_VND_DVB_IPDCDFTNOTIFACCESS = 'application/vnd.dvb.ipdcdftnotifaccess';
+    public const APPLICATION_VND_DVB_IPDCESGACCESS = 'application/vnd.dvb.ipdcesgaccess';
+    public const APPLICATION_VND_DVB_IPDCESGACCESS2 = 'application/vnd.dvb.ipdcesgaccess2';
+    public const APPLICATION_VND_DVB_IPDCESGPDD = 'application/vnd.dvb.ipdcesgpdd';
+    public const APPLICATION_VND_DVB_IPDCROAMING = 'application/vnd.dvb.ipdcroaming';
+    public const APPLICATION_VND_DVB_IPTV_ALFEC_BASE = 'application/vnd.dvb.iptv.alfec-base';
+    public const APPLICATION_VND_DVB_IPTV_ALFEC_ENHANCEMENT = 'application/vnd.dvb.iptv.alfec-enhancement';
+    public const APPLICATION_VND_DVB_NOTIF_AGGREGATE_ROOT_XML = 'application/vnd.dvb.notif-aggregate-root+xml';
+    public const APPLICATION_VND_DVB_NOTIF_CONTAINER_XML = 'application/vnd.dvb.notif-container+xml';
+    public const APPLICATION_VND_DVB_NOTIF_GENERIC_XML = 'application/vnd.dvb.notif-generic+xml';
+    public const APPLICATION_VND_DVB_NOTIF_IA_MSGLIST_XML = 'application/vnd.dvb.notif-ia-msglist+xml';
+    public const APPLICATION_VND_DVB_NOTIF_IA_REGISTRATION_REQUEST_XML = 'application/vnd.dvb.notif-ia-registration-request+xml';
+    public const APPLICATION_VND_DVB_NOTIF_IA_REGISTRATION_RESPONSE_XML = 'application/vnd.dvb.notif-ia-registration-response+xml';
+    public const APPLICATION_VND_DVB_NOTIF_INIT_XML = 'application/vnd.dvb.notif-init+xml';
+    public const APPLICATION_VND_DVB_PFR = 'application/vnd.dvb.pfr';
     public const APPLICATION_VND_DVB_SERVICE = 'application/vnd.dvb.service';
-
-    /** @var string APPLICATION_VND_DYNAGEO */
+    public const APPLICATION_VND_DXR = 'application/vnd.dxr';
     public const APPLICATION_VND_DYNAGEO = 'application/vnd.dynageo';
-
-    /** @var string APPLICATION_VND_ECOWIN_CHART */
+    public const APPLICATION_VND_DZR = 'application/vnd.dzr';
+    public const APPLICATION_VND_EASYKARAOKE_CDGDOWNLOAD = 'application/vnd.easykaraoke.cdgdownload';
+    public const APPLICATION_VND_ECDIS_UPDATE = 'application/vnd.ecdis-update';
+    public const APPLICATION_VND_ECIP_RLP = 'application/vnd.ecip.rlp';
     public const APPLICATION_VND_ECOWIN_CHART = 'application/vnd.ecowin.chart';
-
-    /** @var string APPLICATION_VND_ENLIVEN */
+    public const APPLICATION_VND_ECOWIN_FILEREQUEST = 'application/vnd.ecowin.filerequest';
+    public const APPLICATION_VND_ECOWIN_FILEUPDATE = 'application/vnd.ecowin.fileupdate';
+    public const APPLICATION_VND_ECOWIN_SERIES = 'application/vnd.ecowin.series';
+    public const APPLICATION_VND_ECOWIN_SERIESREQUEST = 'application/vnd.ecowin.seriesrequest';
+    public const APPLICATION_VND_ECOWIN_SERIESUPDATE = 'application/vnd.ecowin.seriesupdate';
+    public const APPLICATION_VND_EFI_IMG = 'application/vnd.efi.img';
+    public const APPLICATION_VND_EFI_ISO = 'application/vnd.efi.iso';
+    public const APPLICATION_VND_EMCLIENT_ACCESSREQUEST_XML = 'application/vnd.emclient.accessrequest+xml';
     public const APPLICATION_VND_ENLIVEN = 'application/vnd.enliven';
-
-    /** @var string APPLICATION_VND_EPSON_ESF */
+    public const APPLICATION_VND_ENPHASE_ENVOY = 'application/vnd.enphase.envoy';
+    public const APPLICATION_VND_EPRINTS_DATA_XML = 'application/vnd.eprints.data+xml';
     public const APPLICATION_VND_EPSON_ESF = 'application/vnd.epson.esf';
-
-    /** @var string APPLICATION_VND_EPSON_MSF */
     public const APPLICATION_VND_EPSON_MSF = 'application/vnd.epson.msf';
-
-    /** @var string APPLICATION_VND_EPSON_QUICKANIME */
     public const APPLICATION_VND_EPSON_QUICKANIME = 'application/vnd.epson.quickanime';
-
-    /** @var string APPLICATION_VND_EPSON_SALT */
     public const APPLICATION_VND_EPSON_SALT = 'application/vnd.epson.salt';
-
-    /** @var string APPLICATION_VND_EPSON_SSF */
     public const APPLICATION_VND_EPSON_SSF = 'application/vnd.epson.ssf';
-
-    /** @var string APPLICATION_VND_ESZIGNO3_XML */
+    public const APPLICATION_VND_ERICSSON_QUICKCALL = 'application/vnd.ericsson.quickcall';
+    public const APPLICATION_VND_ESPASS_ESPASS_ZIP = 'application/vnd.espass-espass+zip';
     public const APPLICATION_VND_ESZIGNO3_XML = 'application/vnd.eszigno3+xml';
-
-    /** @var string APPLICATION_VND_EZPIX_ALBUM */
+    public const APPLICATION_VND_ETSI_AOC_XML = 'application/vnd.etsi.aoc+xml';
+    public const APPLICATION_VND_ETSI_ASIC_E_ZIP = 'application/vnd.etsi.asic-e+zip';
+    public const APPLICATION_VND_ETSI_ASIC_S_ZIP = 'application/vnd.etsi.asic-s+zip';
+    public const APPLICATION_VND_ETSI_CUG_XML = 'application/vnd.etsi.cug+xml';
+    public const APPLICATION_VND_ETSI_IPTVCOMMAND_XML = 'application/vnd.etsi.iptvcommand+xml';
+    public const APPLICATION_VND_ETSI_IPTVDISCOVERY_XML = 'application/vnd.etsi.iptvdiscovery+xml';
+    public const APPLICATION_VND_ETSI_IPTVPROFILE_XML = 'application/vnd.etsi.iptvprofile+xml';
+    public const APPLICATION_VND_ETSI_IPTVSAD_BC_XML = 'application/vnd.etsi.iptvsad-bc+xml';
+    public const APPLICATION_VND_ETSI_IPTVSAD_COD_XML = 'application/vnd.etsi.iptvsad-cod+xml';
+    public const APPLICATION_VND_ETSI_IPTVSAD_NPVR_XML = 'application/vnd.etsi.iptvsad-npvr+xml';
+    public const APPLICATION_VND_ETSI_IPTVSERVICE_XML = 'application/vnd.etsi.iptvservice+xml';
+    public const APPLICATION_VND_ETSI_IPTVSYNC_XML = 'application/vnd.etsi.iptvsync+xml';
+    public const APPLICATION_VND_ETSI_IPTVUEPROFILE_XML = 'application/vnd.etsi.iptvueprofile+xml';
+    public const APPLICATION_VND_ETSI_MCID_XML = 'application/vnd.etsi.mcid+xml';
+    public const APPLICATION_VND_ETSI_MHEG5 = 'application/vnd.etsi.mheg5';
+    public const APPLICATION_VND_ETSI_OVERLOAD_CONTROL_POLICY_DATASET_XML = 'application/vnd.etsi.overload-control-policy-dataset+xml';
+    public const APPLICATION_VND_ETSI_PSTN_XML = 'application/vnd.etsi.pstn+xml';
+    public const APPLICATION_VND_ETSI_SCI_XML = 'application/vnd.etsi.sci+xml';
+    public const APPLICATION_VND_ETSI_SIMSERVS_XML = 'application/vnd.etsi.simservs+xml';
+    public const APPLICATION_VND_ETSI_TIMESTAMP_TOKEN = 'application/vnd.etsi.timestamp-token';
+    public const APPLICATION_VND_ETSI_TSL_DER = 'application/vnd.etsi.tsl.der';
+    public const APPLICATION_VND_ETSI_TSL_XML = 'application/vnd.etsi.tsl+xml';
+    public const APPLICATION_VND_EUDORA_DATA = 'application/vnd.eudora.data';
+    public const APPLICATION_VND_EVOLV_ECIG_PROFILE = 'application/vnd.evolv.ecig.profile';
+    public const APPLICATION_VND_EVOLV_ECIG_SETTINGS = 'application/vnd.evolv.ecig.settings';
+    public const APPLICATION_VND_EVOLV_ECIG_THEME = 'application/vnd.evolv.ecig.theme';
+    public const APPLICATION_VND_EXSTREAM_EMPOWER_ZIP = 'application/vnd.exstream-empower+zip';
+    public const APPLICATION_VND_EXSTREAM_PACKAGE = 'application/vnd.exstream-package';
     public const APPLICATION_VND_EZPIX_ALBUM = 'application/vnd.ezpix-album';
-
-    /** @var string APPLICATION_VND_EZPIX_PACKAGE */
     public const APPLICATION_VND_EZPIX_PACKAGE = 'application/vnd.ezpix-package';
-
-    /** @var string APPLICATION_VND_FDF */
+    public const APPLICATION_VND_FASTCOPY_DISK_IMAGE = 'application/vnd.fastcopy-disk-image';
     public const APPLICATION_VND_FDF = 'application/vnd.fdf';
-
-    /** @var string APPLICATION_VND_FDSN_MSEED */
     public const APPLICATION_VND_FDSN_MSEED = 'application/vnd.fdsn.mseed';
-
-    /** @var string APPLICATION_VND_FDSN_SEED */
     public const APPLICATION_VND_FDSN_SEED = 'application/vnd.fdsn.seed';
-
-    /** @var string APPLICATION_VND_FLATPAK */
+    public const APPLICATION_VND_FFSNS = 'application/vnd.ffsns';
+    public const APPLICATION_VND_FICLAB_FLB_ZIP = 'application/vnd.ficlab.flb+zip';
+    public const APPLICATION_VND_FILMIT_ZFC = 'application/vnd.filmit.zfc';
+    public const APPLICATION_VND_FINTS = 'application/vnd.fints';
+    public const APPLICATION_VND_FIREMONKEYS_CLOUDCELL = 'application/vnd.firemonkeys.cloudcell';
     public const APPLICATION_VND_FLATPAK = 'application/vnd.flatpak';
-
-    /** @var string APPLICATION_VND_FLATPAK_REF */
     public const APPLICATION_VND_FLATPAK_REF = 'application/vnd.flatpak.ref';
-
-    /** @var string APPLICATION_VND_FLATPAK_REPO */
     public const APPLICATION_VND_FLATPAK_REPO = 'application/vnd.flatpak.repo';
-
-    /** @var string APPLICATION_VND_FLOGRAPHIT */
     public const APPLICATION_VND_FLOGRAPHIT = 'application/vnd.flographit';
-
-    /** @var string APPLICATION_VND_FLUXTIME_CLIP */
     public const APPLICATION_VND_FLUXTIME_CLIP = 'application/vnd.fluxtime.clip';
-
-    /** @var string APPLICATION_VND_FRAMEMAKER */
+    public const APPLICATION_VND_FONT_FONTFORGE_SFD = 'application/vnd.font-fontforge-sfd';
     public const APPLICATION_VND_FRAMEMAKER = 'application/vnd.framemaker';
-
-    /** @var string APPLICATION_VND_FROGANS_FNC */
     public const APPLICATION_VND_FROGANS_FNC = 'application/vnd.frogans.fnc';
-
-    /** @var string APPLICATION_VND_FROGANS_LTF */
     public const APPLICATION_VND_FROGANS_LTF = 'application/vnd.frogans.ltf';
-
-    /** @var string APPLICATION_VND_FSC_WEBLAUNCH */
     public const APPLICATION_VND_FSC_WEBLAUNCH = 'application/vnd.fsc.weblaunch';
-
-    /** @var string APPLICATION_VND_FUJITSU_OASYS */
     public const APPLICATION_VND_FUJITSU_OASYS = 'application/vnd.fujitsu.oasys';
-
-    /** @var string APPLICATION_VND_FUJITSU_OASYS2 */
     public const APPLICATION_VND_FUJITSU_OASYS2 = 'application/vnd.fujitsu.oasys2';
-
-    /** @var string APPLICATION_VND_FUJITSU_OASYS3 */
     public const APPLICATION_VND_FUJITSU_OASYS3 = 'application/vnd.fujitsu.oasys3';
-
-    /** @var string APPLICATION_VND_FUJITSU_OASYSGP */
     public const APPLICATION_VND_FUJITSU_OASYSGP = 'application/vnd.fujitsu.oasysgp';
-
-    /** @var string APPLICATION_VND_FUJITSU_OASYSPRS */
     public const APPLICATION_VND_FUJITSU_OASYSPRS = 'application/vnd.fujitsu.oasysprs';
-
-    /** @var string APPLICATION_VND_FUJIXEROX_DDD */
+    public const APPLICATION_VND_FUJIXEROX_ART4 = 'application/vnd.fujixerox.art4';
+    public const APPLICATION_VND_FUJIXEROX_ART_EX = 'application/vnd.fujixerox.art-ex';
     public const APPLICATION_VND_FUJIXEROX_DDD = 'application/vnd.fujixerox.ddd';
-
-    /** @var string APPLICATION_VND_FUJIXEROX_DOCUWORKS */
     public const APPLICATION_VND_FUJIXEROX_DOCUWORKS = 'application/vnd.fujixerox.docuworks';
-
-    /** @var string APPLICATION_VND_FUJIXEROX_DOCUWORKS_BINDER */
     public const APPLICATION_VND_FUJIXEROX_DOCUWORKS_BINDER = 'application/vnd.fujixerox.docuworks.binder';
-
-    /** @var string APPLICATION_VND_FUZZYSHEET */
+    public const APPLICATION_VND_FUJIXEROX_DOCUWORKS_CONTAINER = 'application/vnd.fujixerox.docuworks.container';
+    public const APPLICATION_VND_FUJIXEROX_HBPL = 'application/vnd.fujixerox.hbpl';
+    public const APPLICATION_VND_FUTOIN_CBOR = 'application/vnd.futoin+cbor';
+    public const APPLICATION_VND_FUTOIN_JSON = 'application/vnd.futoin+json';
+    public const APPLICATION_VND_FUT_MISNET = 'application/vnd.fut-misnet';
     public const APPLICATION_VND_FUZZYSHEET = 'application/vnd.fuzzysheet';
-
-    /** @var string APPLICATION_VND_GENOMATIX_TUXEDO */
+    public const APPLICATION_VND_F_SECURE_MOBILE = 'application/vnd.f-secure.mobile';
     public const APPLICATION_VND_GENOMATIX_TUXEDO = 'application/vnd.genomatix.tuxedo';
-
-    /** @var string APPLICATION_VND_GEO_JSON */
-    public const APPLICATION_VND_GEO_JSON = 'application/vnd.geo+json';
-
-    /** @var string APPLICATION_VND_GEOGEBRA_FILE */
+    public const APPLICATION_VND_GENTICS_GRD_JSON = 'application/vnd.gentics.grd+json';
+    public const APPLICATION_VND_GEOCUBE_XML = 'application/vnd.geocube+xml';
     public const APPLICATION_VND_GEOGEBRA_FILE = 'application/vnd.geogebra.file';
-
-    /** @var string APPLICATION_VND_GEOGEBRA_TOOL */
     public const APPLICATION_VND_GEOGEBRA_TOOL = 'application/vnd.geogebra.tool';
-
-    /** @var string APPLICATION_VND_GEOMETRY_EXPLORER */
     public const APPLICATION_VND_GEOMETRY_EXPLORER = 'application/vnd.geometry-explorer';
-
-    /** @var string APPLICATION_VND_GEONEXT */
     public const APPLICATION_VND_GEONEXT = 'application/vnd.geonext';
-
-    /** @var string APPLICATION_VND_GEOPLAN */
     public const APPLICATION_VND_GEOPLAN = 'application/vnd.geoplan';
-
-    /** @var string APPLICATION_VND_GEOSPACE */
     public const APPLICATION_VND_GEOSPACE = 'application/vnd.geospace';
-
-    /** @var string APPLICATION_VND_GMX */
+    public const APPLICATION_VND_GEO_JSON = 'application/vnd.geo+json';
+    public const APPLICATION_VND_GERBER = 'application/vnd.gerber';
+    public const APPLICATION_VND_GLOBALPLATFORM_CARD_CONTENT_MGT = 'application/vnd.globalplatform.card-content-mgt';
+    public const APPLICATION_VND_GLOBALPLATFORM_CARD_CONTENT_MGT_RESPONSE = 'application/vnd.globalplatform.card-content-mgt-response';
     public const APPLICATION_VND_GMX = 'application/vnd.gmx';
-
-    /** @var string APPLICATION_VND_GOOGLE_EARTH_KML_XML */
+    public const APPLICATION_VND_GOOGLE_APPS_DOCUMENT = 'application/vnd.google-apps.document';
+    public const APPLICATION_VND_GOOGLE_APPS_PRESENTATION = 'application/vnd.google-apps.presentation';
+    public const APPLICATION_VND_GOOGLE_APPS_SPREADSHEET = 'application/vnd.google-apps.spreadsheet';
     public const APPLICATION_VND_GOOGLE_EARTH_KML_XML = 'application/vnd.google-earth.kml+xml';
-
-    /** @var string APPLICATION_VND_GOOGLE_EARTH_KMZ */
     public const APPLICATION_VND_GOOGLE_EARTH_KMZ = 'application/vnd.google-earth.kmz';
-
-    /** @var string APPLICATION_VND_GRAFEQ */
+    public const APPLICATION_VND_GOV_SK_E_FORM_XML = 'application/vnd.gov.sk.e-form+xml';
+    public const APPLICATION_VND_GOV_SK_E_FORM_ZIP = 'application/vnd.gov.sk.e-form+zip';
+    public const APPLICATION_VND_GOV_SK_XMLDATACONTAINER_XML = 'application/vnd.gov.sk.xmldatacontainer+xml';
     public const APPLICATION_VND_GRAFEQ = 'application/vnd.grafeq';
-
-    /** @var string APPLICATION_VND_GROOVE_ACCOUNT */
+    public const APPLICATION_VND_GRIDMP = 'application/vnd.gridmp';
     public const APPLICATION_VND_GROOVE_ACCOUNT = 'application/vnd.groove-account';
-
-    /** @var string APPLICATION_VND_GROOVE_HELP */
     public const APPLICATION_VND_GROOVE_HELP = 'application/vnd.groove-help';
-
-    /** @var string APPLICATION_VND_GROOVE_IDENTITY_MESSAGE */
     public const APPLICATION_VND_GROOVE_IDENTITY_MESSAGE = 'application/vnd.groove-identity-message';
-
-    /** @var string APPLICATION_VND_GROOVE_INJECTOR */
     public const APPLICATION_VND_GROOVE_INJECTOR = 'application/vnd.groove-injector';
-
-    /** @var string APPLICATION_VND_GROOVE_TOOL_MESSAGE */
     public const APPLICATION_VND_GROOVE_TOOL_MESSAGE = 'application/vnd.groove-tool-message';
-
-    /** @var string APPLICATION_VND_GROOVE_TOOL_TEMPLATE */
     public const APPLICATION_VND_GROOVE_TOOL_TEMPLATE = 'application/vnd.groove-tool-template';
-
-    /** @var string APPLICATION_VND_GROOVE_VCARD */
     public const APPLICATION_VND_GROOVE_VCARD = 'application/vnd.groove-vcard';
-
-    /** @var string APPLICATION_VND_HAANSOFT_HWP */
     public const APPLICATION_VND_HAANSOFT_HWP = 'application/vnd.haansoft-hwp';
-
-    /** @var string APPLICATION_VND_HAANSOFT_HWT */
     public const APPLICATION_VND_HAANSOFT_HWT = 'application/vnd.haansoft-hwt';
-
-    /** @var string APPLICATION_VND_HAL_XML */
+    public const APPLICATION_VND_HAL_JSON = 'application/vnd.hal+json';
     public const APPLICATION_VND_HAL_XML = 'application/vnd.hal+xml';
-
-    /** @var string APPLICATION_VND_HANDHELD_ENTERTAINMENT_XML */
     public const APPLICATION_VND_HANDHELD_ENTERTAINMENT_XML = 'application/vnd.handheld-entertainment+xml';
-
-    /** @var string APPLICATION_VND_HBCI */
     public const APPLICATION_VND_HBCI = 'application/vnd.hbci';
-
-    /** @var string APPLICATION_VND_HHE_LESSON_PLAYER */
+    public const APPLICATION_VND_HCL_BIREPORTS = 'application/vnd.hcl-bireports';
+    public const APPLICATION_VND_HC_JSON = 'application/vnd.hc+json';
+    public const APPLICATION_VND_HDT = 'application/vnd.hdt';
+    public const APPLICATION_VND_HEROKU_JSON = 'application/vnd.heroku+json';
     public const APPLICATION_VND_HHE_LESSON_PLAYER = 'application/vnd.hhe.lesson-player';
-
-    /** @var string APPLICATION_VND_HP_HPGL */
     public const APPLICATION_VND_HP_HPGL = 'application/vnd.hp-hpgl';
-
-    /** @var string APPLICATION_VND_HP_HPID */
     public const APPLICATION_VND_HP_HPID = 'application/vnd.hp-hpid';
-
-    /** @var string APPLICATION_VND_HP_HPS */
     public const APPLICATION_VND_HP_HPS = 'application/vnd.hp-hps';
-
-    /** @var string APPLICATION_VND_HP_JLYT */
     public const APPLICATION_VND_HP_JLYT = 'application/vnd.hp-jlyt';
-
-    /** @var string APPLICATION_VND_HP_PCL */
     public const APPLICATION_VND_HP_PCL = 'application/vnd.hp-pcl';
-
-    /** @var string APPLICATION_VND_HP_PCLXL */
     public const APPLICATION_VND_HP_PCLXL = 'application/vnd.hp-pclxl';
-
-    /** @var string APPLICATION_VND_HYDROSTATIX_SOF_DATA */
+    public const APPLICATION_VND_HTTPHONE = 'application/vnd.httphone';
     public const APPLICATION_VND_HYDROSTATIX_SOF_DATA = 'application/vnd.hydrostatix.sof-data';
-
-    /** @var string APPLICATION_VND_IBM_MINIPAY */
+    public const APPLICATION_VND_HYPERDRIVE_JSON = 'application/vnd.hyperdrive+json';
+    public const APPLICATION_VND_HYPER_ITEM_JSON = 'application/vnd.hyper-item+json';
+    public const APPLICATION_VND_HYPER_JSON = 'application/vnd.hyper+json';
+    public const APPLICATION_VND_HZN_3D_CROSSWORD = 'application/vnd.hzn-3d-crossword';
+    public const APPLICATION_VND_IBM_AFPLINEDATA = 'application/vnd.ibm.afplinedata';
+    public const APPLICATION_VND_IBM_ELECTRONIC_MEDIA = 'application/vnd.ibm.electronic-media';
     public const APPLICATION_VND_IBM_MINIPAY = 'application/vnd.ibm.minipay';
-
-    /** @var string APPLICATION_VND_IBM_MODCAP */
     public const APPLICATION_VND_IBM_MODCAP = 'application/vnd.ibm.modcap';
-
-    /** @var string APPLICATION_VND_IBM_RIGHTS_MANAGEMENT */
     public const APPLICATION_VND_IBM_RIGHTS_MANAGEMENT = 'application/vnd.ibm.rights-management';
-
-    /** @var string APPLICATION_VND_IBM_SECURE_CONTAINER */
     public const APPLICATION_VND_IBM_SECURE_CONTAINER = 'application/vnd.ibm.secure-container';
-
-    /** @var string APPLICATION_VND_ICCPROFILE */
     public const APPLICATION_VND_ICCPROFILE = 'application/vnd.iccprofile';
-
-    /** @var string APPLICATION_VND_IGLOADER */
+    public const APPLICATION_VND_IEEE_1905 = 'application/vnd.ieee.1905';
     public const APPLICATION_VND_IGLOADER = 'application/vnd.igloader';
-
-    /** @var string APPLICATION_VND_IMMERVISION_IVP */
+    public const APPLICATION_VND_IMAGEMETER_FOLDER_ZIP = 'application/vnd.imagemeter.folder+zip';
+    public const APPLICATION_VND_IMAGEMETER_IMAGE_ZIP = 'application/vnd.imagemeter.image+zip';
     public const APPLICATION_VND_IMMERVISION_IVP = 'application/vnd.immervision-ivp';
-
-    /** @var string APPLICATION_VND_IMMERVISION_IVU */
     public const APPLICATION_VND_IMMERVISION_IVU = 'application/vnd.immervision-ivu';
-
-    /** @var string APPLICATION_VND_INSORS_IGM */
+    public const APPLICATION_VND_IMS_IMSCCV1P1 = 'application/vnd.ims.imsccv1p1';
+    public const APPLICATION_VND_IMS_IMSCCV1P2 = 'application/vnd.ims.imsccv1p2';
+    public const APPLICATION_VND_IMS_IMSCCV1P3 = 'application/vnd.ims.imsccv1p3';
+    public const APPLICATION_VND_IMS_LIS_V2_RESULT_JSON = 'application/vnd.ims.lis.v2.result+json';
+    public const APPLICATION_VND_IMS_LTI_V2_TOOLCONSUMERPROFILE_JSON = 'application/vnd.ims.lti.v2.toolconsumerprofile+json';
+    public const APPLICATION_VND_IMS_LTI_V2_TOOLPROXY_ID_JSON = 'application/vnd.ims.lti.v2.toolproxy.id+json';
+    public const APPLICATION_VND_IMS_LTI_V2_TOOLPROXY_JSON = 'application/vnd.ims.lti.v2.toolproxy+json';
+    public const APPLICATION_VND_IMS_LTI_V2_TOOLSETTINGS_JSON = 'application/vnd.ims.lti.v2.toolsettings+json';
+    public const APPLICATION_VND_IMS_LTI_V2_TOOLSETTINGS_SIMPLE_JSON = 'application/vnd.ims.lti.v2.toolsettings.simple+json';
+    public const APPLICATION_VND_INFORMEDCONTROL_RMS_XML = 'application/vnd.informedcontrol.rms+xml';
+    public const APPLICATION_VND_INFORMIX_VISIONARY = 'application/vnd.informix-visionary';
+    public const APPLICATION_VND_INFOTECH_PROJECT = 'application/vnd.infotech.project';
+    public const APPLICATION_VND_INFOTECH_PROJECT_XML = 'application/vnd.infotech.project+xml';
+    public const APPLICATION_VND_INNOPATH_WAMP_NOTIFICATION = 'application/vnd.innopath.wamp.notification';
     public const APPLICATION_VND_INSORS_IGM = 'application/vnd.insors.igm';
-
-    /** @var string APPLICATION_VND_INTERCON_FORMNET */
     public const APPLICATION_VND_INTERCON_FORMNET = 'application/vnd.intercon.formnet';
-
-    /** @var string APPLICATION_VND_INTERGEO */
     public const APPLICATION_VND_INTERGEO = 'application/vnd.intergeo';
-
-    /** @var string APPLICATION_VND_INTU_QBO */
+    public const APPLICATION_VND_INTERTRUST_DIGIBOX = 'application/vnd.intertrust.digibox';
+    public const APPLICATION_VND_INTERTRUST_NNCP = 'application/vnd.intertrust.nncp';
     public const APPLICATION_VND_INTU_QBO = 'application/vnd.intu.qbo';
-
-    /** @var string APPLICATION_VND_INTU_QFX */
     public const APPLICATION_VND_INTU_QFX = 'application/vnd.intu.qfx';
-
-    /** @var string APPLICATION_VND_IPUNPLUGGED_RCPROFILE */
+    public const APPLICATION_VND_IPTC_G2_CATALOGITEM_XML = 'application/vnd.iptc.g2.catalogitem+xml';
+    public const APPLICATION_VND_IPTC_G2_CONCEPTITEM_XML = 'application/vnd.iptc.g2.conceptitem+xml';
+    public const APPLICATION_VND_IPTC_G2_KNOWLEDGEITEM_XML = 'application/vnd.iptc.g2.knowledgeitem+xml';
+    public const APPLICATION_VND_IPTC_G2_NEWSITEM_XML = 'application/vnd.iptc.g2.newsitem+xml';
+    public const APPLICATION_VND_IPTC_G2_NEWSMESSAGE_XML = 'application/vnd.iptc.g2.newsmessage+xml';
+    public const APPLICATION_VND_IPTC_G2_PACKAGEITEM_XML = 'application/vnd.iptc.g2.packageitem+xml';
+    public const APPLICATION_VND_IPTC_G2_PLANNINGITEM_XML = 'application/vnd.iptc.g2.planningitem+xml';
     public const APPLICATION_VND_IPUNPLUGGED_RCPROFILE = 'application/vnd.ipunplugged.rcprofile';
-
-    /** @var string APPLICATION_VND_IREPOSITORY_PACKAGE_XML */
     public const APPLICATION_VND_IREPOSITORY_PACKAGE_XML = 'application/vnd.irepository.package+xml';
-
-    /** @var string APPLICATION_VND_IS_XPR */
-    public const APPLICATION_VND_IS_XPR = 'application/vnd.is-xpr';
-
-    /** @var string APPLICATION_VND_ISAC_FCS */
     public const APPLICATION_VND_ISAC_FCS = 'application/vnd.isac.fcs';
-
-    /** @var string APPLICATION_VND_JAM */
+    public const APPLICATION_VND_ISO11783_10_ZIP = 'application/vnd.iso11783-10+zip';
+    public const APPLICATION_VND_IS_XPR = 'application/vnd.is-xpr';
     public const APPLICATION_VND_JAM = 'application/vnd.jam';
-
-    /** @var string APPLICATION_VND_JCP_JAVAME_MIDLET_RMS */
+    public const APPLICATION_VND_JAPANNET_DIRECTORY_SERVICE = 'application/vnd.japannet-directory-service';
+    public const APPLICATION_VND_JAPANNET_JPNSTORE_WAKEUP = 'application/vnd.japannet-jpnstore-wakeup';
+    public const APPLICATION_VND_JAPANNET_PAYMENT_WAKEUP = 'application/vnd.japannet-payment-wakeup';
+    public const APPLICATION_VND_JAPANNET_REGISTRATION = 'application/vnd.japannet-registration';
+    public const APPLICATION_VND_JAPANNET_REGISTRATION_WAKEUP = 'application/vnd.japannet-registration-wakeup';
+    public const APPLICATION_VND_JAPANNET_SETSTORE_WAKEUP = 'application/vnd.japannet-setstore-wakeup';
+    public const APPLICATION_VND_JAPANNET_VERIFICATION = 'application/vnd.japannet-verification';
+    public const APPLICATION_VND_JAPANNET_VERIFICATION_WAKEUP = 'application/vnd.japannet-verification-wakeup';
     public const APPLICATION_VND_JCP_JAVAME_MIDLET_RMS = 'application/vnd.jcp.javame.midlet-rms';
-
-    /** @var string APPLICATION_VND_JISP */
     public const APPLICATION_VND_JISP = 'application/vnd.jisp';
-
-    /** @var string APPLICATION_VND_JOOST_JODA_ARCHIVE */
     public const APPLICATION_VND_JOOST_JODA_ARCHIVE = 'application/vnd.joost.joda-archive';
-
-    /** @var string APPLICATION_VND_KAHOOTZ */
+    public const APPLICATION_VND_JSK_ISDN_NGN = 'application/vnd.jsk.isdn-ngn';
     public const APPLICATION_VND_KAHOOTZ = 'application/vnd.kahootz';
-
-    /** @var string APPLICATION_VND_KDE_KARBON */
     public const APPLICATION_VND_KDE_KARBON = 'application/vnd.kde.karbon';
-
-    /** @var string APPLICATION_VND_KDE_KCHART */
     public const APPLICATION_VND_KDE_KCHART = 'application/vnd.kde.kchart';
-
-    /** @var string APPLICATION_VND_KDE_KFORMULA */
     public const APPLICATION_VND_KDE_KFORMULA = 'application/vnd.kde.kformula';
-
-    /** @var string APPLICATION_VND_KDE_KIVIO */
     public const APPLICATION_VND_KDE_KIVIO = 'application/vnd.kde.kivio';
-
-    /** @var string APPLICATION_VND_KDE_KONTOUR */
     public const APPLICATION_VND_KDE_KONTOUR = 'application/vnd.kde.kontour';
-
-    /** @var string APPLICATION_VND_KDE_KPRESENTER */
     public const APPLICATION_VND_KDE_KPRESENTER = 'application/vnd.kde.kpresenter';
-
-    /** @var string APPLICATION_VND_KDE_KSPREAD */
     public const APPLICATION_VND_KDE_KSPREAD = 'application/vnd.kde.kspread';
-
-    /** @var string APPLICATION_VND_KDE_KWORD */
     public const APPLICATION_VND_KDE_KWORD = 'application/vnd.kde.kword';
-
-    /** @var string APPLICATION_VND_KENAMEAAPP */
     public const APPLICATION_VND_KENAMEAAPP = 'application/vnd.kenameaapp';
-
-    /** @var string APPLICATION_VND_KIDSPIRATION */
     public const APPLICATION_VND_KIDSPIRATION = 'application/vnd.kidspiration';
-
-    /** @var string APPLICATION_VND_KINAR */
     public const APPLICATION_VND_KINAR = 'application/vnd.kinar';
-
-    /** @var string APPLICATION_VND_KOAN */
     public const APPLICATION_VND_KOAN = 'application/vnd.koan';
-
-    /** @var string APPLICATION_VND_KODAK_DESCRIPTOR */
     public const APPLICATION_VND_KODAK_DESCRIPTOR = 'application/vnd.kodak-descriptor';
-
-    /** @var string APPLICATION_VND_LAS_LAS_XML */
+    public const APPLICATION_VND_LAS = 'application/vnd.las';
+    public const APPLICATION_VND_LASZIP = 'application/vnd.laszip';
+    public const APPLICATION_VND_LAS_LAS_JSON = 'application/vnd.las.las+json';
     public const APPLICATION_VND_LAS_LAS_XML = 'application/vnd.las.las+xml';
-
-    /** @var string APPLICATION_VND_LLAMAGRAPHICS_LIFE_BALANCE_DESKTOP */
-    public const APPLICATION_VND_LLAMAGRAPHICS_LIFE_BALANCE_DESKTOP =
-        'application/vnd.llamagraphics.life-balance.desktop';
-
-    /** @var string APPLICATION_VND_LLAMAGRAPHICS_LIFE_BALANCE_EXCHANGE_XML */
-    public const APPLICATION_VND_LLAMAGRAPHICS_LIFE_BALANCE_EXCHANGE_XML =
-        'application/vnd.llamagraphics.life-balance.exchange+xml';
-
-    /** @var string APPLICATION_VND_LOTUS_1_2_3 */
+    public const APPLICATION_VND_LEAP_JSON = 'application/vnd.leap+json';
+    public const APPLICATION_VND_LIBERTY_REQUEST_XML = 'application/vnd.liberty-request+xml';
+    public const APPLICATION_VND_LLAMAGRAPHICS_LIFE_BALANCE_DESKTOP = 'application/vnd.llamagraphics.life-balance.desktop';
+    public const APPLICATION_VND_LLAMAGRAPHICS_LIFE_BALANCE_EXCHANGE_XML = 'application/vnd.llamagraphics.life-balance.exchange+xml';
+    public const APPLICATION_VND_LOGIPIPE_CIRCUIT_ZIP = 'application/vnd.logipipe.circuit+zip';
+    public const APPLICATION_VND_LOOM = 'application/vnd.loom';
     public const APPLICATION_VND_LOTUS_1_2_3 = 'application/vnd.lotus-1-2-3';
-
-    /** @var string APPLICATION_VND_LOTUS_APPROACH */
     public const APPLICATION_VND_LOTUS_APPROACH = 'application/vnd.lotus-approach';
-
-    /** @var string APPLICATION_VND_LOTUS_FREELANCE */
     public const APPLICATION_VND_LOTUS_FREELANCE = 'application/vnd.lotus-freelance';
-
-    /** @var string APPLICATION_VND_LOTUS_NOTES */
     public const APPLICATION_VND_LOTUS_NOTES = 'application/vnd.lotus-notes';
-
-    /** @var string APPLICATION_VND_LOTUS_ORGANIZER */
     public const APPLICATION_VND_LOTUS_ORGANIZER = 'application/vnd.lotus-organizer';
-
-    /** @var string APPLICATION_VND_LOTUS_SCREENCAM */
     public const APPLICATION_VND_LOTUS_SCREENCAM = 'application/vnd.lotus-screencam';
-
-    /** @var string APPLICATION_VND_LOTUS_WORDPRO */
     public const APPLICATION_VND_LOTUS_WORDPRO = 'application/vnd.lotus-wordpro';
-
-    /** @var string APPLICATION_VND_MACPORTS_PORTPKG */
     public const APPLICATION_VND_MACPORTS_PORTPKG = 'application/vnd.macports.portpkg';
-
-    /** @var string APPLICATION_VND_MCD */
+    public const APPLICATION_VND_MAPBOX_VECTOR_TILE = 'application/vnd.mapbox-vector-tile';
+    public const APPLICATION_VND_MARLIN_DRM_ACTIONTOKEN_XML = 'application/vnd.marlin.drm.actiontoken+xml';
+    public const APPLICATION_VND_MARLIN_DRM_CONFTOKEN_XML = 'application/vnd.marlin.drm.conftoken+xml';
+    public const APPLICATION_VND_MARLIN_DRM_LICENSE_XML = 'application/vnd.marlin.drm.license+xml';
+    public const APPLICATION_VND_MARLIN_DRM_MDCF = 'application/vnd.marlin.drm.mdcf';
+    public const APPLICATION_VND_MASON_JSON = 'application/vnd.mason+json';
+    public const APPLICATION_VND_MAXMIND_MAXMIND_DB = 'application/vnd.maxmind.maxmind-db';
     public const APPLICATION_VND_MCD = 'application/vnd.mcd';
-
-    /** @var string APPLICATION_VND_MEDCALCDATA */
     public const APPLICATION_VND_MEDCALCDATA = 'application/vnd.medcalcdata';
-
-    /** @var string APPLICATION_VND_MEDIASTATION_CDKEY */
     public const APPLICATION_VND_MEDIASTATION_CDKEY = 'application/vnd.mediastation.cdkey';
-
-    /** @var string APPLICATION_VND_MFER */
+    public const APPLICATION_VND_MERIDIAN_SLINGSHOT = 'application/vnd.meridian-slingshot';
     public const APPLICATION_VND_MFER = 'application/vnd.mfer';
-
-    /** @var string APPLICATION_VND_MFMP */
     public const APPLICATION_VND_MFMP = 'application/vnd.mfmp';
-
-    /** @var string APPLICATION_VND_MICROGRAFX_FLO */
     public const APPLICATION_VND_MICROGRAFX_FLO = 'application/vnd.micrografx.flo';
-
-    /** @var string APPLICATION_VND_MICROGRAFX_IGX */
     public const APPLICATION_VND_MICROGRAFX_IGX = 'application/vnd.micrografx.igx';
-
-    /** @var string APPLICATION_VND_MIF */
+    public const APPLICATION_VND_MICROSOFT_PORTABLE_EXECUTABLE = 'application/vnd.microsoft.portable-executable';
+    public const APPLICATION_VND_MICROSOFT_WINDOWS_THUMBNAIL_CACHE = 'application/vnd.microsoft.windows.thumbnail-cache';
+    public const APPLICATION_VND_MICRO_JSON = 'application/vnd.micro+json';
+    public const APPLICATION_VND_MIELE_JSON = 'application/vnd.miele+json';
     public const APPLICATION_VND_MIF = 'application/vnd.mif';
-
-    /** @var string APPLICATION_VND_MOBIUS_DAF */
+    public const APPLICATION_VND_MINISOFT_HP3000_SAVE = 'application/vnd.minisoft-hp3000-save';
+    public const APPLICATION_VND_MITSUBISHI_MISTY_GUARD_TRUSTWEB = 'application/vnd.mitsubishi.misty-guard.trustweb';
     public const APPLICATION_VND_MOBIUS_DAF = 'application/vnd.mobius.daf';
-
-    /** @var string APPLICATION_VND_MOBIUS_DIS */
     public const APPLICATION_VND_MOBIUS_DIS = 'application/vnd.mobius.dis';
-
-    /** @var string APPLICATION_VND_MOBIUS_MBK */
     public const APPLICATION_VND_MOBIUS_MBK = 'application/vnd.mobius.mbk';
-
-    /** @var string APPLICATION_VND_MOBIUS_MQY */
     public const APPLICATION_VND_MOBIUS_MQY = 'application/vnd.mobius.mqy';
-
-    /** @var string APPLICATION_VND_MOBIUS_MSL */
     public const APPLICATION_VND_MOBIUS_MSL = 'application/vnd.mobius.msl';
-
-    /** @var string APPLICATION_VND_MOBIUS_PLC */
     public const APPLICATION_VND_MOBIUS_PLC = 'application/vnd.mobius.plc';
-
-    /** @var string APPLICATION_VND_MOBIUS_TXF */
     public const APPLICATION_VND_MOBIUS_TXF = 'application/vnd.mobius.txf';
-
-    /** @var string APPLICATION_VND_MOPHUN_APPLICATION */
     public const APPLICATION_VND_MOPHUN_APPLICATION = 'application/vnd.mophun.application';
-
-    /** @var string APPLICATION_VND_MOPHUN_CERTIFICATE */
     public const APPLICATION_VND_MOPHUN_CERTIFICATE = 'application/vnd.mophun.certificate';
-
-    /** @var string APPLICATION_VND_MOZILLA_XUL_XML */
+    public const APPLICATION_VND_MOTOROLA_FLEXSUITE = 'application/vnd.motorola.flexsuite';
+    public const APPLICATION_VND_MOTOROLA_FLEXSUITE_ADSI = 'application/vnd.motorola.flexsuite.adsi';
+    public const APPLICATION_VND_MOTOROLA_FLEXSUITE_FIS = 'application/vnd.motorola.flexsuite.fis';
+    public const APPLICATION_VND_MOTOROLA_FLEXSUITE_GOTAP = 'application/vnd.motorola.flexsuite.gotap';
+    public const APPLICATION_VND_MOTOROLA_FLEXSUITE_KMR = 'application/vnd.motorola.flexsuite.kmr';
+    public const APPLICATION_VND_MOTOROLA_FLEXSUITE_TTC = 'application/vnd.motorola.flexsuite.ttc';
+    public const APPLICATION_VND_MOTOROLA_FLEXSUITE_WEM = 'application/vnd.motorola.flexsuite.wem';
+    public const APPLICATION_VND_MOTOROLA_IPRM = 'application/vnd.motorola.iprm';
     public const APPLICATION_VND_MOZILLA_XUL_XML = 'application/vnd.mozilla.xul+xml';
-
-    /** @var string APPLICATION_VND_MS_ACCESS */
-    public const APPLICATION_VND_MS_ACCESS = 'application/vnd.ms-access';
-
-    /** @var string APPLICATION_VND_MS_ARTGALRY */
-    public const APPLICATION_VND_MS_ARTGALRY = 'application/vnd.ms-artgalry';
-
-    /** @var string APPLICATION_VND_MS_ASF */
-    public const APPLICATION_VND_MS_ASF = 'application/vnd.ms-asf';
-
-    /** @var string APPLICATION_VND_MS_CAB_COMPRESSED */
-    public const APPLICATION_VND_MS_CAB_COMPRESSED = 'application/vnd.ms-cab-compressed';
-
-    /** @var string APPLICATION_VND_MS_EXCEL */
-    public const APPLICATION_VND_MS_EXCEL = 'application/vnd.ms-excel';
-
-    /** @var string APPLICATION_VND_MS_EXCEL_ADDIN_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_EXCEL_ADDIN_MACROENABLED_12 = 'application/vnd.ms-excel.addin.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_EXCEL_SHEET_BINARY_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_EXCEL_SHEET_BINARY_MACROENABLED_12 =
-        'application/vnd.ms-excel.sheet.binary.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_EXCEL_SHEET_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_EXCEL_SHEET_MACROENABLED_12 = 'application/vnd.ms-excel.sheet.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_EXCEL_TEMPLATE_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_EXCEL_TEMPLATE_MACROENABLED_12 =
-        'application/vnd.ms-excel.template.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_FONTOBJECT */
-    public const APPLICATION_VND_MS_FONTOBJECT = 'application/vnd.ms-fontobject';
-
-    /** @var string APPLICATION_VND_MS_HTMLHELP */
-    public const APPLICATION_VND_MS_HTMLHELP = 'application/vnd.ms-htmlhelp';
-
-    /** @var string APPLICATION_VND_MS_IMS */
-    public const APPLICATION_VND_MS_IMS = 'application/vnd.ms-ims';
-
-    /** @var string APPLICATION_VND_MS_LRM */
-    public const APPLICATION_VND_MS_LRM = 'application/vnd.ms-lrm';
-
-    /** @var string APPLICATION_VND_MS_OFFICETHEME */
-    public const APPLICATION_VND_MS_OFFICETHEME = 'application/vnd.ms-officetheme';
-
-    /** @var string APPLICATION_VND_MS_PKI_SECCAT */
-    public const APPLICATION_VND_MS_PKI_SECCAT = 'application/vnd.ms-pki.seccat';
-
-    /** @var string APPLICATION_VND_MS_PKI_STL */
-    public const APPLICATION_VND_MS_PKI_STL = 'application/vnd.ms-pki.stl';
-
-    /** @var string APPLICATION_VND_MS_POWERPOINT */
-    public const APPLICATION_VND_MS_POWERPOINT = 'application/vnd.ms-powerpoint';
-
-    /** @var string APPLICATION_VND_MS_POWERPOINT_ADDIN_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_POWERPOINT_ADDIN_MACROENABLED_12 =
-        'application/vnd.ms-powerpoint.addin.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_POWERPOINT_PRESENTATION_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_POWERPOINT_PRESENTATION_MACROENABLED_12 =
-        'application/vnd.ms-powerpoint.presentation.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_POWERPOINT_SLIDE_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_POWERPOINT_SLIDE_MACROENABLED_12 =
-        'application/vnd.ms-powerpoint.slide.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_POWERPOINT_SLIDESHOW_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_POWERPOINT_SLIDESHOW_MACROENABLED_12 =
-        'application/vnd.ms-powerpoint.slideshow.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_POWERPOINT_TEMPLATE_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_POWERPOINT_TEMPLATE_MACROENABLED_12 =
-        'application/vnd.ms-powerpoint.template.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_PROJECT */
-    public const APPLICATION_VND_MS_PROJECT = 'application/vnd.ms-project';
-
-    /** @var string APPLICATION_VND_MS_PUBLISHER */
-    public const APPLICATION_VND_MS_PUBLISHER = 'application/vnd.ms-publisher';
-
-    /** @var string APPLICATION_VND_MS_TNEF */
-    public const APPLICATION_VND_MS_TNEF = 'application/vnd.ms-tnef';
-
-    /** @var string APPLICATION_VND_MS_VISIO_DRAWING_MACROENABLED_MAIN_XML */
-    public const APPLICATION_VND_MS_VISIO_DRAWING_MACROENABLED_MAIN_XML =
-        'application/vnd.ms-visio.drawing.macroenabled.main+xml';
-
-    /** @var string APPLICATION_VND_MS_VISIO_DRAWING_MAIN_XML */
-    public const APPLICATION_VND_MS_VISIO_DRAWING_MAIN_XML = 'application/vnd.ms-visio.drawing.main+xml';
-
-    /** @var string APPLICATION_VND_MS_VISIO_STENCIL_MACROENABLED_MAIN_XML */
-    public const APPLICATION_VND_MS_VISIO_STENCIL_MACROENABLED_MAIN_XML =
-        'application/vnd.ms-visio.stencil.macroenabled.main+xml';
-
-    /** @var string APPLICATION_VND_MS_VISIO_STENCIL_MAIN_XML */
-    public const APPLICATION_VND_MS_VISIO_STENCIL_MAIN_XML = 'application/vnd.ms-visio.stencil.main+xml';
-
-    /** @var string APPLICATION_VND_MS_VISIO_TEMPLATE_MACROENABLED_MAIN_XML */
-    public const APPLICATION_VND_MS_VISIO_TEMPLATE_MACROENABLED_MAIN_XML =
-        'application/vnd.ms-visio.template.macroenabled.main+xml';
-
-    /** @var string APPLICATION_VND_MS_VISIO_TEMPLATE_MAIN_XML */
-    public const APPLICATION_VND_MS_VISIO_TEMPLATE_MAIN_XML = 'application/vnd.ms-visio.template.main+xml';
-
-    /** @var string APPLICATION_VND_MS_WORD */
-    public const APPLICATION_VND_MS_WORD = 'application/vnd.ms-word';
-
-    /** @var string APPLICATION_VND_MS_WORD_DOCUMENT_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_WORD_DOCUMENT_MACROENABLED_12 = 'application/vnd.ms-word.document.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_WORD_TEMPLATE_MACROENABLED_12 */
-    public const APPLICATION_VND_MS_WORD_TEMPLATE_MACROENABLED_12 = 'application/vnd.ms-word.template.macroenabled.12';
-
-    /** @var string APPLICATION_VND_MS_WORKS */
-    public const APPLICATION_VND_MS_WORKS = 'application/vnd.ms-works';
-
-    /** @var string APPLICATION_VND_MS_WPL */
-    public const APPLICATION_VND_MS_WPL = 'application/vnd.ms-wpl';
-
-    /** @var string APPLICATION_VND_MS_XPSDOCUMENT */
-    public const APPLICATION_VND_MS_XPSDOCUMENT = 'application/vnd.ms-xpsdocument';
-
-    /** @var string APPLICATION_VND_MS_MSACCESS */
-    public const APPLICATION_VND_MS_MSACCESS = 'application/vnd.ms-msaccess';
-
-    /** @var string APPLICATION_VND_MSEQ */
+    public const APPLICATION_VND_MSA_DISK_IMAGE = 'application/vnd.msa-disk-image';
     public const APPLICATION_VND_MSEQ = 'application/vnd.mseq';
-
-    /** @var string APPLICATION_VND_MUSICIAN */
+    public const APPLICATION_VND_MSIGN = 'application/vnd.msign';
+    public const APPLICATION_VND_MS_3MFDOCUMENT = 'application/vnd.ms-3mfdocument';
+    public const APPLICATION_VND_MS_ACCESS = 'application/vnd.ms-access';
+    public const APPLICATION_VND_MS_ARTGALRY = 'application/vnd.ms-artgalry';
+    public const APPLICATION_VND_MS_ASF = 'application/vnd.ms-asf';
+    public const APPLICATION_VND_MS_CAB_COMPRESSED = 'application/vnd.ms-cab-compressed';
+    public const APPLICATION_VND_MS_COLOR_ICCPROFILE = 'application/vnd.ms-color.iccprofile';
+    public const APPLICATION_VND_MS_EXCEL = 'application/vnd.ms-excel';
+    public const APPLICATION_VND_MS_EXCEL_ADDIN_MACROENABLED_12 = 'application/vnd.ms-excel.addin.macroenabled.12';
+    public const APPLICATION_VND_MS_EXCEL_SHEET_BINARY_MACROENABLED_12 = 'application/vnd.ms-excel.sheet.binary.macroenabled.12';
+    public const APPLICATION_VND_MS_EXCEL_SHEET_MACROENABLED_12 = 'application/vnd.ms-excel.sheet.macroenabled.12';
+    public const APPLICATION_VND_MS_EXCEL_TEMPLATE_MACROENABLED_12 = 'application/vnd.ms-excel.template.macroenabled.12';
+    public const APPLICATION_VND_MS_FONTOBJECT = 'application/vnd.ms-fontobject';
+    public const APPLICATION_VND_MS_HTMLHELP = 'application/vnd.ms-htmlhelp';
+    public const APPLICATION_VND_MS_IMS = 'application/vnd.ms-ims';
+    public const APPLICATION_VND_MS_LRM = 'application/vnd.ms-lrm';
+    public const APPLICATION_VND_MS_MSACCESS = 'application/vnd.ms-msaccess';
+    public const APPLICATION_VND_MS_OFFICETHEME = 'application/vnd.ms-officetheme';
+    public const APPLICATION_VND_MS_OFFICE_ACTIVEX_XML = 'application/vnd.ms-office.activex+xml';
+    public const APPLICATION_VND_MS_OPENTYPE = 'application/vnd.ms-opentype';
+    public const APPLICATION_VND_MS_OUTLOOK = 'application/vnd.ms-outlook';
+    public const APPLICATION_VND_MS_PACKAGE_OBFUSCATED_OPENTYPE = 'application/vnd.ms-package.obfuscated-opentype';
+    public const APPLICATION_VND_MS_PKI_SECCAT = 'application/vnd.ms-pki.seccat';
+    public const APPLICATION_VND_MS_PKI_STL = 'application/vnd.ms-pki.stl';
+    public const APPLICATION_VND_MS_PLAYREADY_INITIATOR_XML = 'application/vnd.ms-playready.initiator+xml';
+    public const APPLICATION_VND_MS_POWERPOINT = 'application/vnd.ms-powerpoint';
+    public const APPLICATION_VND_MS_POWERPOINT_ADDIN_MACROENABLED_12 = 'application/vnd.ms-powerpoint.addin.macroenabled.12';
+    public const APPLICATION_VND_MS_POWERPOINT_PRESENTATION_MACROENABLED_12 = 'application/vnd.ms-powerpoint.presentation.macroenabled.12';
+    public const APPLICATION_VND_MS_POWERPOINT_SLIDESHOW_MACROENABLED_12 = 'application/vnd.ms-powerpoint.slideshow.macroenabled.12';
+    public const APPLICATION_VND_MS_POWERPOINT_SLIDE_MACROENABLED_12 = 'application/vnd.ms-powerpoint.slide.macroenabled.12';
+    public const APPLICATION_VND_MS_POWERPOINT_TEMPLATE_MACROENABLED_12 = 'application/vnd.ms-powerpoint.template.macroenabled.12';
+    public const APPLICATION_VND_MS_PRINTDEVICECAPABILITIES_XML = 'application/vnd.ms-printdevicecapabilities+xml';
+    public const APPLICATION_VND_MS_PRINTING_PRINTTICKET_XML = 'application/vnd.ms-printing.printticket+xml';
+    public const APPLICATION_VND_MS_PRINTSCHEMATICKET_XML = 'application/vnd.ms-printschematicket+xml';
+    public const APPLICATION_VND_MS_PROJECT = 'application/vnd.ms-project';
+    public const APPLICATION_VND_MS_PUBLISHER = 'application/vnd.ms-publisher';
+    public const APPLICATION_VND_MS_TNEF = 'application/vnd.ms-tnef';
+    public const APPLICATION_VND_MS_VISIO_DRAWING_MACROENABLED_MAIN_XML = 'application/vnd.ms-visio.drawing.macroenabled.main+xml';
+    public const APPLICATION_VND_MS_VISIO_DRAWING_MAIN_XML = 'application/vnd.ms-visio.drawing.main+xml';
+    public const APPLICATION_VND_MS_VISIO_STENCIL_MACROENABLED_MAIN_XML = 'application/vnd.ms-visio.stencil.macroenabled.main+xml';
+    public const APPLICATION_VND_MS_VISIO_STENCIL_MAIN_XML = 'application/vnd.ms-visio.stencil.main+xml';
+    public const APPLICATION_VND_MS_VISIO_TEMPLATE_MACROENABLED_MAIN_XML = 'application/vnd.ms-visio.template.macroenabled.main+xml';
+    public const APPLICATION_VND_MS_VISIO_TEMPLATE_MAIN_XML = 'application/vnd.ms-visio.template.main+xml';
+    public const APPLICATION_VND_MS_WINDOWS_DEVICEPAIRING = 'application/vnd.ms-windows.devicepairing';
+    public const APPLICATION_VND_MS_WINDOWS_NWPRINTING_OOB = 'application/vnd.ms-windows.nwprinting.oob';
+    public const APPLICATION_VND_MS_WINDOWS_PRINTERPAIRING = 'application/vnd.ms-windows.printerpairing';
+    public const APPLICATION_VND_MS_WINDOWS_WSD_OOB = 'application/vnd.ms-windows.wsd.oob';
+    public const APPLICATION_VND_MS_WMDRM_LIC_CHLG_REQ = 'application/vnd.ms-wmdrm.lic-chlg-req';
+    public const APPLICATION_VND_MS_WMDRM_LIC_RESP = 'application/vnd.ms-wmdrm.lic-resp';
+    public const APPLICATION_VND_MS_WMDRM_METER_CHLG_REQ = 'application/vnd.ms-wmdrm.meter-chlg-req';
+    public const APPLICATION_VND_MS_WMDRM_METER_RESP = 'application/vnd.ms-wmdrm.meter-resp';
+    public const APPLICATION_VND_MS_WORD = 'application/vnd.ms-word';
+    public const APPLICATION_VND_MS_WORD_DOCUMENT_MACROENABLED_12 = 'application/vnd.ms-word.document.macroenabled.12';
+    public const APPLICATION_VND_MS_WORD_TEMPLATE_MACROENABLED_12 = 'application/vnd.ms-word.template.macroenabled.12';
+    public const APPLICATION_VND_MS_WORKS = 'application/vnd.ms-works';
+    public const APPLICATION_VND_MS_WPL = 'application/vnd.ms-wpl';
+    public const APPLICATION_VND_MS_XPSDOCUMENT = 'application/vnd.ms-xpsdocument';
+    public const APPLICATION_VND_MULTIAD_CREATOR = 'application/vnd.multiad.creator';
+    public const APPLICATION_VND_MULTIAD_CREATOR_CIF = 'application/vnd.multiad.creator.cif';
     public const APPLICATION_VND_MUSICIAN = 'application/vnd.musician';
-
-    /** @var string APPLICATION_VND_MUVEE_STYLE */
+    public const APPLICATION_VND_MUSIC_NIFF = 'application/vnd.music-niff';
     public const APPLICATION_VND_MUVEE_STYLE = 'application/vnd.muvee.style';
-
-    /** @var string APPLICATION_VND_MYNFC */
     public const APPLICATION_VND_MYNFC = 'application/vnd.mynfc';
-
-    /** @var string APPLICATION_VND_NEUROLANGUAGE_NLU */
+    public const APPLICATION_VND_NCD_CONTROL = 'application/vnd.ncd.control';
+    public const APPLICATION_VND_NCD_REFERENCE = 'application/vnd.ncd.reference';
+    public const APPLICATION_VND_NEARST_INV_JSON = 'application/vnd.nearst.inv+json';
+    public const APPLICATION_VND_NERVANA = 'application/vnd.nervana';
+    public const APPLICATION_VND_NETFPX = 'application/vnd.netfpx';
     public const APPLICATION_VND_NEUROLANGUAGE_NLU = 'application/vnd.neurolanguage.nlu';
-
-    /** @var string APPLICATION_VND_NINTENDO_SNES_ROM */
+    public const APPLICATION_VND_NIMN = 'application/vnd.nimn';
+    public const APPLICATION_VND_NINTENDO_NITRO_ROM = 'application/vnd.nintendo.nitro.rom';
     public const APPLICATION_VND_NINTENDO_SNES_ROM = 'application/vnd.nintendo.snes.rom';
-
-    /** @var string APPLICATION_VND_NITF */
     public const APPLICATION_VND_NITF = 'application/vnd.nitf';
-
-    /** @var string APPLICATION_VND_NOBLENET_DIRECTORY */
     public const APPLICATION_VND_NOBLENET_DIRECTORY = 'application/vnd.noblenet-directory';
-
-    /** @var string APPLICATION_VND_NOBLENET_SEALER */
     public const APPLICATION_VND_NOBLENET_SEALER = 'application/vnd.noblenet-sealer';
-
-    /** @var string APPLICATION_VND_NOBLENET_WEB */
     public const APPLICATION_VND_NOBLENET_WEB = 'application/vnd.noblenet-web';
-
-    /** @var string APPLICATION_VND_NOKIA_N_GAGE_DATA */
+    public const APPLICATION_VND_NOKIA_CATALOGS = 'application/vnd.nokia.catalogs';
+    public const APPLICATION_VND_NOKIA_CONML_WBXML = 'application/vnd.nokia.conml+wbxml';
+    public const APPLICATION_VND_NOKIA_CONML_XML = 'application/vnd.nokia.conml+xml';
+    public const APPLICATION_VND_NOKIA_IPTV_CONFIG_XML = 'application/vnd.nokia.iptv.config+xml';
+    public const APPLICATION_VND_NOKIA_ISDS_RADIO_PRESETS = 'application/vnd.nokia.isds-radio-presets';
+    public const APPLICATION_VND_NOKIA_LANDMARKCOLLECTION_XML = 'application/vnd.nokia.landmarkcollection+xml';
+    public const APPLICATION_VND_NOKIA_LANDMARK_WBXML = 'application/vnd.nokia.landmark+wbxml';
+    public const APPLICATION_VND_NOKIA_LANDMARK_XML = 'application/vnd.nokia.landmark+xml';
+    public const APPLICATION_VND_NOKIA_NCD = 'application/vnd.nokia.ncd';
+    public const APPLICATION_VND_NOKIA_N_GAGE_AC_XML = 'application/vnd.nokia.n-gage.ac+xml';
     public const APPLICATION_VND_NOKIA_N_GAGE_DATA = 'application/vnd.nokia.n-gage.data';
-
-    /** @var string APPLICATION_VND_NOKIA_N_GAGE_SYMBIAN_INSTALL */
     public const APPLICATION_VND_NOKIA_N_GAGE_SYMBIAN_INSTALL = 'application/vnd.nokia.n-gage.symbian.install';
-
-    /** @var string APPLICATION_VND_NOKIA_RADIO_PRESET */
+    public const APPLICATION_VND_NOKIA_PCD_WBXML = 'application/vnd.nokia.pcd+wbxml';
+    public const APPLICATION_VND_NOKIA_PCD_XML = 'application/vnd.nokia.pcd+xml';
     public const APPLICATION_VND_NOKIA_RADIO_PRESET = 'application/vnd.nokia.radio-preset';
-
-    /** @var string APPLICATION_VND_NOKIA_RADIO_PRESETS */
     public const APPLICATION_VND_NOKIA_RADIO_PRESETS = 'application/vnd.nokia.radio-presets';
-
-    /** @var string APPLICATION_VND_NOVADIGM_EDM */
     public const APPLICATION_VND_NOVADIGM_EDM = 'application/vnd.novadigm.edm';
-
-    /** @var string APPLICATION_VND_NOVADIGM_EDX */
     public const APPLICATION_VND_NOVADIGM_EDX = 'application/vnd.novadigm.edx';
-
-    /** @var string APPLICATION_VND_NOVADIGM_EXT */
     public const APPLICATION_VND_NOVADIGM_EXT = 'application/vnd.novadigm.ext';
-
-    /** @var string APPLICATION_VND_OASIS_DOCBOOK_XML */
+    public const APPLICATION_VND_NTT_LOCAL_CONTENT_SHARE = 'application/vnd.ntt-local.content-share';
+    public const APPLICATION_VND_NTT_LOCAL_FILE_TRANSFER = 'application/vnd.ntt-local.file-transfer';
+    public const APPLICATION_VND_NTT_LOCAL_OGW_REMOTE_ACCESS = 'application/vnd.ntt-local.ogw_remote-access';
+    public const APPLICATION_VND_NTT_LOCAL_SIP_TA_REMOTE = 'application/vnd.ntt-local.sip-ta_remote';
+    public const APPLICATION_VND_NTT_LOCAL_SIP_TA_TCP_STREAM = 'application/vnd.ntt-local.sip-ta_tcp_stream';
     public const APPLICATION_VND_OASIS_DOCBOOK_XML = 'application/vnd.oasis.docbook+xml';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_CHART */
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_CHART = 'application/vnd.oasis.opendocument.chart';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_CHART_TEMPLATE */
-    public const APPLICATION_VND_OASIS_OPENDOCUMENT_CHART_TEMPLATE =
-        'application/vnd.oasis.opendocument.chart-template';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_DATABASE */
+    public const APPLICATION_VND_OASIS_OPENDOCUMENT_CHART_TEMPLATE = 'application/vnd.oasis.opendocument.chart-template';
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_DATABASE = 'application/vnd.oasis.opendocument.database';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_FORMULA */
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_FORMULA = 'application/vnd.oasis.opendocument.formula';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_FORMULA_TEMPLATE */
-    public const APPLICATION_VND_OASIS_OPENDOCUMENT_FORMULA_TEMPLATE =
-        'application/vnd.oasis.opendocument.formula-template';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS */
+    public const APPLICATION_VND_OASIS_OPENDOCUMENT_FORMULA_TEMPLATE = 'application/vnd.oasis.opendocument.formula-template';
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS = 'application/vnd.oasis.opendocument.graphics';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS_FLAT_XML */
-    public const APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS_FLAT_XML =
-        'application/vnd.oasis.opendocument.graphics-flat-xml';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS_TEMPLATE */
-    public const APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS_TEMPLATE =
-        'application/vnd.oasis.opendocument.graphics-template';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_IMAGE */
+    public const APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS_FLAT_XML = 'application/vnd.oasis.opendocument.graphics-flat-xml';
+    public const APPLICATION_VND_OASIS_OPENDOCUMENT_GRAPHICS_TEMPLATE = 'application/vnd.oasis.opendocument.graphics-template';
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_IMAGE = 'application/vnd.oasis.opendocument.image';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_IMAGE_TEMPLATE */
-    public const APPLICATION_VND_OASIS_OPENDOCUMENT_IMAGE_TEMPLATE =
-        'application/vnd.oasis.opendocument.image-template';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION */
+    public const APPLICATION_VND_OASIS_OPENDOCUMENT_IMAGE_TEMPLATE = 'application/vnd.oasis.opendocument.image-template';
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION = 'application/vnd.oasis.opendocument.presentation';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION_FLAT_XML */
-    public const APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION_FLAT_XML =
-        'application/vnd.oasis.opendocument.presentation-flat-xml';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION_TEMPLATE */
-    public const APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION_TEMPLATE =
-        'application/vnd.oasis.opendocument.presentation-template';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET */
+    public const APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION_FLAT_XML = 'application/vnd.oasis.opendocument.presentation-flat-xml';
+    public const APPLICATION_VND_OASIS_OPENDOCUMENT_PRESENTATION_TEMPLATE = 'application/vnd.oasis.opendocument.presentation-template';
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET = 'application/vnd.oasis.opendocument.spreadsheet';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET_FLAT_XML */
-    public const APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET_FLAT_XML =
-        'application/vnd.oasis.opendocument.spreadsheet-flat-xml';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET_TEMPLATE */
-    public const APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET_TEMPLATE =
-        'application/vnd.oasis.opendocument.spreadsheet-template';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT */
+    public const APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET_FLAT_XML = 'application/vnd.oasis.opendocument.spreadsheet-flat-xml';
+    public const APPLICATION_VND_OASIS_OPENDOCUMENT_SPREADSHEET_TEMPLATE = 'application/vnd.oasis.opendocument.spreadsheet-template';
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT = 'application/vnd.oasis.opendocument.text';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_FLAT_XML */
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_FLAT_XML = 'application/vnd.oasis.opendocument.text-flat-xml';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_MASTER */
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_MASTER = 'application/vnd.oasis.opendocument.text-master';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_TEMPLATE */
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_TEMPLATE = 'application/vnd.oasis.opendocument.text-template';
-
-    /** @var string APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_WEB */
     public const APPLICATION_VND_OASIS_OPENDOCUMENT_TEXT_WEB = 'application/vnd.oasis.opendocument.text-web';
-
-    /** @var string APPLICATION_VND_OLPC_SUGAR */
+    public const APPLICATION_VND_OBN = 'application/vnd.obn';
+    public const APPLICATION_VND_OCF_CBOR = 'application/vnd.ocf+cbor';
+    public const APPLICATION_VND_OCI_IMAGE_MANIFEST_V1_JSON = 'application/vnd.oci.image.manifest.v1+json';
+    public const APPLICATION_VND_OFTN_L10N_JSON = 'application/vnd.oftn.l10n+json';
+    public const APPLICATION_VND_OIPF_CONTENTACCESSDOWNLOAD_XML = 'application/vnd.oipf.contentaccessdownload+xml';
+    public const APPLICATION_VND_OIPF_CONTENTACCESSSTREAMING_XML = 'application/vnd.oipf.contentaccessstreaming+xml';
+    public const APPLICATION_VND_OIPF_CSPG_HEXBINARY = 'application/vnd.oipf.cspg-hexbinary';
+    public const APPLICATION_VND_OIPF_DAE_SVG_XML = 'application/vnd.oipf.dae.svg+xml';
+    public const APPLICATION_VND_OIPF_DAE_XHTML_XML = 'application/vnd.oipf.dae.xhtml+xml';
+    public const APPLICATION_VND_OIPF_MIPPVCONTROLMESSAGE_XML = 'application/vnd.oipf.mippvcontrolmessage+xml';
+    public const APPLICATION_VND_OIPF_PAE_GEM = 'application/vnd.oipf.pae.gem';
+    public const APPLICATION_VND_OIPF_SPDISCOVERY_XML = 'application/vnd.oipf.spdiscovery+xml';
+    public const APPLICATION_VND_OIPF_SPDLIST_XML = 'application/vnd.oipf.spdlist+xml';
+    public const APPLICATION_VND_OIPF_UEPROFILE_XML = 'application/vnd.oipf.ueprofile+xml';
+    public const APPLICATION_VND_OIPF_USERPROFILE_XML = 'application/vnd.oipf.userprofile+xml';
     public const APPLICATION_VND_OLPC_SUGAR = 'application/vnd.olpc-sugar';
-
-    /** @var string APPLICATION_VND_OMA_DD2_XML */
+    public const APPLICATION_VND_OMADS_EMAIL_XML = 'application/vnd.omads-email+xml';
+    public const APPLICATION_VND_OMADS_FILE_XML = 'application/vnd.omads-file+xml';
+    public const APPLICATION_VND_OMADS_FOLDER_XML = 'application/vnd.omads-folder+xml';
+    public const APPLICATION_VND_OMALOC_SUPL_INIT = 'application/vnd.omaloc-supl-init';
+    public const APPLICATION_VND_OMA_BCAST_ASSOCIATED_PROCEDURE_PARAMETER_XML = 'application/vnd.oma.bcast.associated-procedure-parameter+xml';
+    public const APPLICATION_VND_OMA_BCAST_DRM_TRIGGER_XML = 'application/vnd.oma.bcast.drm-trigger+xml';
+    public const APPLICATION_VND_OMA_BCAST_IMD_XML = 'application/vnd.oma.bcast.imd+xml';
+    public const APPLICATION_VND_OMA_BCAST_LTKM = 'application/vnd.oma.bcast.ltkm';
+    public const APPLICATION_VND_OMA_BCAST_NOTIFICATION_XML = 'application/vnd.oma.bcast.notification+xml';
+    public const APPLICATION_VND_OMA_BCAST_PROVISIONINGTRIGGER = 'application/vnd.oma.bcast.provisioningtrigger';
+    public const APPLICATION_VND_OMA_BCAST_SGBOOT = 'application/vnd.oma.bcast.sgboot';
+    public const APPLICATION_VND_OMA_BCAST_SGDD_XML = 'application/vnd.oma.bcast.sgdd+xml';
+    public const APPLICATION_VND_OMA_BCAST_SGDU = 'application/vnd.oma.bcast.sgdu';
+    public const APPLICATION_VND_OMA_BCAST_SIMPLE_SYMBOL_CONTAINER = 'application/vnd.oma.bcast.simple-symbol-container';
+    public const APPLICATION_VND_OMA_BCAST_SMARTCARD_TRIGGER_XML = 'application/vnd.oma.bcast.smartcard-trigger+xml';
+    public const APPLICATION_VND_OMA_BCAST_SPROV_XML = 'application/vnd.oma.bcast.sprov+xml';
+    public const APPLICATION_VND_OMA_BCAST_STKM = 'application/vnd.oma.bcast.stkm';
+    public const APPLICATION_VND_OMA_CAB_ADDRESS_BOOK_XML = 'application/vnd.oma.cab-address-book+xml';
+    public const APPLICATION_VND_OMA_CAB_FEATURE_HANDLER_XML = 'application/vnd.oma.cab-feature-handler+xml';
+    public const APPLICATION_VND_OMA_CAB_PCC_XML = 'application/vnd.oma.cab-pcc+xml';
+    public const APPLICATION_VND_OMA_CAB_SUBS_INVITE_XML = 'application/vnd.oma.cab-subs-invite+xml';
+    public const APPLICATION_VND_OMA_CAB_USER_PREFS_XML = 'application/vnd.oma.cab-user-prefs+xml';
+    public const APPLICATION_VND_OMA_DCD = 'application/vnd.oma.dcd';
+    public const APPLICATION_VND_OMA_DCDC = 'application/vnd.oma.dcdc';
     public const APPLICATION_VND_OMA_DD2_XML = 'application/vnd.oma.dd2+xml';
-
-    /** @var string APPLICATION_VND_OPENOFFICEORG_EXTENSION */
+    public const APPLICATION_VND_OMA_DRM_RISD_XML = 'application/vnd.oma.drm.risd+xml';
+    public const APPLICATION_VND_OMA_GROUP_USAGE_LIST_XML = 'application/vnd.oma.group-usage-list+xml';
+    public const APPLICATION_VND_OMA_LWM2M_JSON = 'application/vnd.oma.lwm2m+json';
+    public const APPLICATION_VND_OMA_LWM2M_TLV = 'application/vnd.oma.lwm2m+tlv';
+    public const APPLICATION_VND_OMA_PAL_XML = 'application/vnd.oma.pal+xml';
+    public const APPLICATION_VND_OMA_POC_DETAILED_PROGRESS_REPORT_XML = 'application/vnd.oma.poc.detailed-progress-report+xml';
+    public const APPLICATION_VND_OMA_POC_FINAL_REPORT_XML = 'application/vnd.oma.poc.final-report+xml';
+    public const APPLICATION_VND_OMA_POC_GROUPS_XML = 'application/vnd.oma.poc.groups+xml';
+    public const APPLICATION_VND_OMA_POC_INVOCATION_DESCRIPTOR_XML = 'application/vnd.oma.poc.invocation-descriptor+xml';
+    public const APPLICATION_VND_OMA_POC_OPTIMIZED_PROGRESS_REPORT_XML = 'application/vnd.oma.poc.optimized-progress-report+xml';
+    public const APPLICATION_VND_OMA_PUSH = 'application/vnd.oma.push';
+    public const APPLICATION_VND_OMA_SCIDM_MESSAGES_XML = 'application/vnd.oma.scidm.messages+xml';
+    public const APPLICATION_VND_OMA_SCWS_CONFIG = 'application/vnd.oma-scws-config';
+    public const APPLICATION_VND_OMA_SCWS_HTTP_REQUEST = 'application/vnd.oma-scws-http-request';
+    public const APPLICATION_VND_OMA_SCWS_HTTP_RESPONSE = 'application/vnd.oma-scws-http-response';
+    public const APPLICATION_VND_OMA_XCAP_DIRECTORY_XML = 'application/vnd.oma.xcap-directory+xml';
+    public const APPLICATION_VND_ONEPAGER = 'application/vnd.onepager';
+    public const APPLICATION_VND_ONEPAGERTAMP = 'application/vnd.onepagertamp';
+    public const APPLICATION_VND_ONEPAGERTAMX = 'application/vnd.onepagertamx';
+    public const APPLICATION_VND_ONEPAGERTAT = 'application/vnd.onepagertat';
+    public const APPLICATION_VND_ONEPAGERTATP = 'application/vnd.onepagertatp';
+    public const APPLICATION_VND_ONEPAGERTATX = 'application/vnd.onepagertatx';
+    public const APPLICATION_VND_OPENBLOX_GAME_BINARY = 'application/vnd.openblox.game-binary';
+    public const APPLICATION_VND_OPENBLOX_GAME_XML = 'application/vnd.openblox.game+xml';
+    public const APPLICATION_VND_OPENEYE_OEB = 'application/vnd.openeye.oeb';
     public const APPLICATION_VND_OPENOFFICEORG_EXTENSION = 'application/vnd.openofficeorg.extension';
-
-    /** @var string APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION */
-    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION =
-        'application/vnd.openxmlformats-officedocument.presentationml.presentation';
-
-    /** @var string APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDE */
-    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDE =
-        'application/vnd.openxmlformats-officedocument.presentationml.slide';
-
-    /** @var string APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDESHOW */
-    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDESHOW =
-        'application/vnd.openxmlformats-officedocument.presentationml.slideshow';
-
-    /** @var string APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TEMPLATE */
-    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TEMPLATE =
-        'application/vnd.openxmlformats-officedocument.presentationml.template';
-
-    /** @var string APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET */
-    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET =
-        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-
-    /** @var string APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TEMPLATE */
-    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TEMPLATE =
-        'application/vnd.openxmlformats-officedocument.spreadsheetml.template';
-
-    /** @var string APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT */
-    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT =
-        'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
-
-    /** @var string APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_TEMPLATE */
-    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_TEMPLATE =
-        'application/vnd.openxmlformats-officedocument.wordprocessingml.template';
-
-    /** @var string APPLICATION_VND_OSGEO_MAPGUIDE_PACKAGE */
+    public const APPLICATION_VND_OPENSTREETMAP_DATA_XML = 'application/vnd.openstreetmap.data+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_CUSTOMXMLPROPERTIES_XML = 'application/vnd.openxmlformats-officedocument.customxmlproperties+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_CUSTOM_PROPERTIES_XML = 'application/vnd.openxmlformats-officedocument.custom-properties+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_CHARTSHAPES_XML = 'application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_CHART_XML = 'application/vnd.openxmlformats-officedocument.drawingml.chart+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMCOLORS_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMDATA_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMLAYOUT_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMSTYLE_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWING_XML = 'application/vnd.openxmlformats-officedocument.drawing+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_EXTENDED_PROPERTIES_XML = 'application/vnd.openxmlformats-officedocument.extended-properties+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_COMMENTAUTHORS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_COMMENTS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.comments+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_HANDOUTMASTER_XML = 'application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_NOTESMASTER_XML = 'application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_NOTESSLIDE_XML = 'application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION = 'application/vnd.openxmlformats-officedocument.presentationml.presentation';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION_MAIN_XML = 'application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESPROPS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.presprops+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDE = 'application/vnd.openxmlformats-officedocument.presentationml.slide';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDELAYOUT_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDEMASTER_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDESHOW = 'application/vnd.openxmlformats-officedocument.presentationml.slideshow';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDESHOW_MAIN_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDEUPDATEINFO_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDE_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slide+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TABLESTYLES_XML = 'application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TAGS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.tags+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TEMPLATE = 'application/vnd.openxmlformats-officedocument.presentationml.template';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TEMPLATE_MAIN_XML = 'application/vnd.openxmlformats-officedocument.presentationml.template.main+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_VIEWPROPS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_CALCCHAIN_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_CHARTSHEET_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_COMMENTS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_CONNECTIONS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_DIALOGSHEET_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_EXTERNALLINK_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_PIVOTCACHEDEFINITION_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_PIVOTCACHERECORDS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_PIVOTTABLE_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_QUERYTABLE_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_REVISIONHEADERS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_REVISIONLOG_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHAREDSTRINGS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEETMETADATA_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET_MAIN_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_STYLES_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TABLESINGLECELLS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TABLE_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TEMPLATE = 'application/vnd.openxmlformats-officedocument.spreadsheetml.template';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TEMPLATE_MAIN_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_USERNAMES_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_VOLATILEDEPENDENCIES_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_WORKSHEET_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_THEMEOVERRIDE_XML = 'application/vnd.openxmlformats-officedocument.themeoverride+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_THEME_XML = 'application/vnd.openxmlformats-officedocument.theme+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_VMLDRAWING = 'application/vnd.openxmlformats-officedocument.vmldrawing';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_COMMENTS_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT_GLOSSARY_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT_MAIN_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_ENDNOTES_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_FONTTABLE_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_FOOTER_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_FOOTNOTES_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_NUMBERING_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_SETTINGS_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_STYLES_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_TEMPLATE = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_TEMPLATE_MAIN_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_WEBSETTINGS_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_PACKAGE_CORE_PROPERTIES_XML = 'application/vnd.openxmlformats-package.core-properties+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_PACKAGE_DIGITAL_SIGNATURE_XMLSIGNATURE_XML = 'application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml';
+    public const APPLICATION_VND_OPENXMLFORMATS_PACKAGE_RELATIONSHIPS_XML = 'application/vnd.openxmlformats-package.relationships+xml';
+    public const APPLICATION_VND_ORACLE_RESOURCE_JSON = 'application/vnd.oracle.resource+json';
+    public const APPLICATION_VND_ORANGE_INDATA = 'application/vnd.orange.indata';
+    public const APPLICATION_VND_OSA_NETDEPLOY = 'application/vnd.osa.netdeploy';
     public const APPLICATION_VND_OSGEO_MAPGUIDE_PACKAGE = 'application/vnd.osgeo.mapguide.package';
-
-    /** @var string APPLICATION_VND_OSGI_DP */
+    public const APPLICATION_VND_OSGI_BUNDLE = 'application/vnd.osgi.bundle';
     public const APPLICATION_VND_OSGI_DP = 'application/vnd.osgi.dp';
-
-    /** @var string APPLICATION_VND_OSGI_SUBSYSTEM */
     public const APPLICATION_VND_OSGI_SUBSYSTEM = 'application/vnd.osgi.subsystem';
-
-    /** @var string APPLICATION_VND_PALM */
+    public const APPLICATION_VND_OTPS_CT_KIP_XML = 'application/vnd.otps.ct-kip+xml';
+    public const APPLICATION_VND_OXLI_COUNTGRAPH = 'application/vnd.oxli.countgraph';
+    public const APPLICATION_VND_PAGERDUTY_JSON = 'application/vnd.pagerduty+json';
     public const APPLICATION_VND_PALM = 'application/vnd.palm';
-
-    /** @var string APPLICATION_VND_PAWAAFILE */
+    public const APPLICATION_VND_PANOPLY = 'application/vnd.panoply';
+    public const APPLICATION_VND_PAOS_XML = 'application/vnd.paos.xml';
+    public const APPLICATION_VND_PATENTDIVE = 'application/vnd.patentdive';
+    public const APPLICATION_VND_PATIENTECOMMSDOC = 'application/vnd.patientecommsdoc';
     public const APPLICATION_VND_PAWAAFILE = 'application/vnd.pawaafile';
-
-    /** @var string APPLICATION_VND_PG_FORMAT */
+    public const APPLICATION_VND_PCOS = 'application/vnd.pcos';
     public const APPLICATION_VND_PG_FORMAT = 'application/vnd.pg.format';
-
-    /** @var string APPLICATION_VND_PG_OSASLI */
     public const APPLICATION_VND_PG_OSASLI = 'application/vnd.pg.osasli';
-
-    /** @var string APPLICATION_VND_PICSEL */
+    public const APPLICATION_VND_PIACCESS_APPLICATION_LICENCE = 'application/vnd.piaccess.application-licence';
     public const APPLICATION_VND_PICSEL = 'application/vnd.picsel';
-
-    /** @var string APPLICATION_VND_PMI_WIDGET */
     public const APPLICATION_VND_PMI_WIDGET = 'application/vnd.pmi.widget';
-
-    /** @var string APPLICATION_VND_POCKETLEARN */
     public const APPLICATION_VND_POCKETLEARN = 'application/vnd.pocketlearn';
-
-    /** @var string APPLICATION_VND_POWERBUILDER6 */
+    public const APPLICATION_VND_POC_GROUP_ADVERTISEMENT_XML = 'application/vnd.poc.group-advertisement+xml';
     public const APPLICATION_VND_POWERBUILDER6 = 'application/vnd.powerbuilder6';
-
-    /** @var string APPLICATION_VND_PREVIEWSYSTEMS_BOX */
+    public const APPLICATION_VND_POWERBUILDER6_S = 'application/vnd.powerbuilder6-s';
+    public const APPLICATION_VND_POWERBUILDER7 = 'application/vnd.powerbuilder7';
+    public const APPLICATION_VND_POWERBUILDER75 = 'application/vnd.powerbuilder75';
+    public const APPLICATION_VND_POWERBUILDER75_S = 'application/vnd.powerbuilder75-s';
+    public const APPLICATION_VND_POWERBUILDER7_S = 'application/vnd.powerbuilder7-s';
+    public const APPLICATION_VND_PREMINET = 'application/vnd.preminet';
     public const APPLICATION_VND_PREVIEWSYSTEMS_BOX = 'application/vnd.previewsystems.box';
-
-    /** @var string APPLICATION_VND_PROTEUS_MAGAZINE */
     public const APPLICATION_VND_PROTEUS_MAGAZINE = 'application/vnd.proteus.magazine';
-
-    /** @var string APPLICATION_VND_PUBLISHARE_DELTA_TREE */
+    public const APPLICATION_VND_PSFS = 'application/vnd.psfs';
     public const APPLICATION_VND_PUBLISHARE_DELTA_TREE = 'application/vnd.publishare-delta-tree';
-
-    /** @var string APPLICATION_VND_PVI_PTID1 */
     public const APPLICATION_VND_PVI_PTID1 = 'application/vnd.pvi.ptid1';
-
-    /** @var string APPLICATION_VND_QUARK_QUARKXPRESS */
+    public const APPLICATION_VND_PWG_MULTIPLEXED = 'application/vnd.pwg-multiplexed';
+    public const APPLICATION_VND_PWG_XHTML_PRINT_XML = 'application/vnd.pwg-xhtml-print+xml';
+    public const APPLICATION_VND_QUALCOMM_BREW_APP_RES = 'application/vnd.qualcomm.brew-app-res';
+    public const APPLICATION_VND_QUARANTAINENET = 'application/vnd.quarantainenet';
     public const APPLICATION_VND_QUARK_QUARKXPRESS = 'application/vnd.quark.quarkxpress';
-
-    /** @var string APPLICATION_VND_RAR */
+    public const APPLICATION_VND_QUOBJECT_QUOXDOCUMENT = 'application/vnd.quobject-quoxdocument';
+    public const APPLICATION_VND_RADISYS_MOML_XML = 'application/vnd.radisys.moml+xml';
+    public const APPLICATION_VND_RADISYS_MSML_AUDIT_CONF_XML = 'application/vnd.radisys.msml-audit-conf+xml';
+    public const APPLICATION_VND_RADISYS_MSML_AUDIT_CONN_XML = 'application/vnd.radisys.msml-audit-conn+xml';
+    public const APPLICATION_VND_RADISYS_MSML_AUDIT_DIALOG_XML = 'application/vnd.radisys.msml-audit-dialog+xml';
+    public const APPLICATION_VND_RADISYS_MSML_AUDIT_STREAM_XML = 'application/vnd.radisys.msml-audit-stream+xml';
+    public const APPLICATION_VND_RADISYS_MSML_AUDIT_XML = 'application/vnd.radisys.msml-audit+xml';
+    public const APPLICATION_VND_RADISYS_MSML_CONF_XML = 'application/vnd.radisys.msml-conf+xml';
+    public const APPLICATION_VND_RADISYS_MSML_DIALOG_BASE_XML = 'application/vnd.radisys.msml-dialog-base+xml';
+    public const APPLICATION_VND_RADISYS_MSML_DIALOG_FAX_DETECT_XML = 'application/vnd.radisys.msml-dialog-fax-detect+xml';
+    public const APPLICATION_VND_RADISYS_MSML_DIALOG_FAX_SENDRECV_XML = 'application/vnd.radisys.msml-dialog-fax-sendrecv+xml';
+    public const APPLICATION_VND_RADISYS_MSML_DIALOG_GROUP_XML = 'application/vnd.radisys.msml-dialog-group+xml';
+    public const APPLICATION_VND_RADISYS_MSML_DIALOG_SPEECH_XML = 'application/vnd.radisys.msml-dialog-speech+xml';
+    public const APPLICATION_VND_RADISYS_MSML_DIALOG_TRANSFORM_XML = 'application/vnd.radisys.msml-dialog-transform+xml';
+    public const APPLICATION_VND_RADISYS_MSML_DIALOG_XML = 'application/vnd.radisys.msml-dialog+xml';
+    public const APPLICATION_VND_RADISYS_MSML_XML = 'application/vnd.radisys.msml+xml';
+    public const APPLICATION_VND_RAINSTOR_DATA = 'application/vnd.rainstor.data';
+    public const APPLICATION_VND_RAPID = 'application/vnd.rapid';
     public const APPLICATION_VND_RAR = 'application/vnd.rar';
-
-    /** @var string APPLICATION_VND_REALVNC_BED */
     public const APPLICATION_VND_REALVNC_BED = 'application/vnd.realvnc.bed';
-
-    /** @var string APPLICATION_VND_RECORDARE_MUSICXML */
     public const APPLICATION_VND_RECORDARE_MUSICXML = 'application/vnd.recordare.musicxml';
-
-    /** @var string APPLICATION_VND_RECORDARE_MUSICXML_XML */
     public const APPLICATION_VND_RECORDARE_MUSICXML_XML = 'application/vnd.recordare.musicxml+xml';
-
-    /** @var string APPLICATION_VND_RIG_CRYPTONOTE */
+    public const APPLICATION_VND_RENLEARN_RLPRINT = 'application/vnd.renlearn.rlprint';
+    public const APPLICATION_VND_RESTFUL_JSON = 'application/vnd.restful+json';
     public const APPLICATION_VND_RIG_CRYPTONOTE = 'application/vnd.rig.cryptonote';
-
-    /** @var string APPLICATION_VND_RIM_COD */
     public const APPLICATION_VND_RIM_COD = 'application/vnd.rim.cod';
-
-    /** @var string APPLICATION_VND_RN_REALMEDIA */
     public const APPLICATION_VND_RN_REALMEDIA = 'application/vnd.rn-realmedia';
-
-    /** @var string APPLICATION_VND_RN_REALMEDIA_VBR */
     public const APPLICATION_VND_RN_REALMEDIA_VBR = 'application/vnd.rn-realmedia-vbr';
-
-    /** @var string APPLICATION_VND_ROUTE66_LINK66_XML */
     public const APPLICATION_VND_ROUTE66_LINK66_XML = 'application/vnd.route66.link66+xml';
-
-    /** @var string APPLICATION_VND_SAILINGTRACKER_TRACK */
+    public const APPLICATION_VND_RS_274X = 'application/vnd.rs-274x';
+    public const APPLICATION_VND_RUCKUS_DOWNLOAD = 'application/vnd.ruckus.download';
+    public const APPLICATION_VND_S3SMS = 'application/vnd.s3sms';
     public const APPLICATION_VND_SAILINGTRACKER_TRACK = 'application/vnd.sailingtracker.track';
-
-    /** @var string APPLICATION_VND_SEEMAIL */
+    public const APPLICATION_VND_SAR = 'application/vnd.sar';
+    public const APPLICATION_VND_SBM_CID = 'application/vnd.sbm.cid';
+    public const APPLICATION_VND_SBM_MID2 = 'application/vnd.sbm.mid2';
+    public const APPLICATION_VND_SCRIBUS = 'application/vnd.scribus';
+    public const APPLICATION_VND_SEALEDMEDIA_SOFTSEAL_HTML = 'application/vnd.sealedmedia.softseal.html';
+    public const APPLICATION_VND_SEALEDMEDIA_SOFTSEAL_PDF = 'application/vnd.sealedmedia.softseal.pdf';
+    public const APPLICATION_VND_SEALED_3DF = 'application/vnd.sealed.3df';
+    public const APPLICATION_VND_SEALED_CSF = 'application/vnd.sealed.csf';
+    public const APPLICATION_VND_SEALED_DOC = 'application/vnd.sealed.doc';
+    public const APPLICATION_VND_SEALED_EML = 'application/vnd.sealed.eml';
+    public const APPLICATION_VND_SEALED_MHT = 'application/vnd.sealed.mht';
+    public const APPLICATION_VND_SEALED_NET = 'application/vnd.sealed.net';
+    public const APPLICATION_VND_SEALED_PPT = 'application/vnd.sealed.ppt';
+    public const APPLICATION_VND_SEALED_TIFF = 'application/vnd.sealed.tiff';
+    public const APPLICATION_VND_SEALED_XLS = 'application/vnd.sealed.xls';
     public const APPLICATION_VND_SEEMAIL = 'application/vnd.seemail';
-
-    /** @var string APPLICATION_VND_SEMA */
     public const APPLICATION_VND_SEMA = 'application/vnd.sema';
-
-    /** @var string APPLICATION_VND_SEMD */
     public const APPLICATION_VND_SEMD = 'application/vnd.semd';
-
-    /** @var string APPLICATION_VND_SEMF */
     public const APPLICATION_VND_SEMF = 'application/vnd.semf';
-
-    /** @var string APPLICATION_VND_SHANA_INFORMED_FORMDATA */
+    public const APPLICATION_VND_SHADE_SAVE_FILE = 'application/vnd.shade-save-file';
     public const APPLICATION_VND_SHANA_INFORMED_FORMDATA = 'application/vnd.shana.informed.formdata';
-
-    /** @var string APPLICATION_VND_SHANA_INFORMED_FORMTEMPLATE */
     public const APPLICATION_VND_SHANA_INFORMED_FORMTEMPLATE = 'application/vnd.shana.informed.formtemplate';
-
-    /** @var string APPLICATION_VND_SHANA_INFORMED_INTERCHANGE */
     public const APPLICATION_VND_SHANA_INFORMED_INTERCHANGE = 'application/vnd.shana.informed.interchange';
-
-    /** @var string APPLICATION_VND_SHANA_INFORMED_PACKAGE */
     public const APPLICATION_VND_SHANA_INFORMED_PACKAGE = 'application/vnd.shana.informed.package';
-
-    /** @var string APPLICATION_VND_SIMTECH_MINDMAPPER */
+    public const APPLICATION_VND_SHOOTPROOF_JSON = 'application/vnd.shootproof+json';
+    public const APPLICATION_VND_SHOPKICK_JSON = 'application/vnd.shopkick+json';
+    public const APPLICATION_VND_SHP = 'application/vnd.shp';
+    public const APPLICATION_VND_SHX = 'application/vnd.shx';
+    public const APPLICATION_VND_SIGROK_SESSION = 'application/vnd.sigrok.session';
     public const APPLICATION_VND_SIMTECH_MINDMAPPER = 'application/vnd.simtech-mindmapper';
-
-    /** @var string APPLICATION_VND_SMAF */
+    public const APPLICATION_VND_SIREN_JSON = 'application/vnd.siren+json';
     public const APPLICATION_VND_SMAF = 'application/vnd.smaf';
-
-    /** @var string APPLICATION_VND_SMART_TEACHER */
+    public const APPLICATION_VND_SMART_NOTEBOOK = 'application/vnd.smart.notebook';
     public const APPLICATION_VND_SMART_TEACHER = 'application/vnd.smart.teacher';
-
-    /** @var string APPLICATION_VND_SNAP */
     public const APPLICATION_VND_SNAP = 'application/vnd.snap';
-
-    /** @var string APPLICATION_VND_SOLENT_SDKM_XML */
+    public const APPLICATION_VND_SNESDEV_PAGE_TABLE = 'application/vnd.snesdev-page-table';
+    public const APPLICATION_VND_SOFTWARE602_FILLER_FORM_XML = 'application/vnd.software602.filler.form+xml';
+    public const APPLICATION_VND_SOFTWARE602_FILLER_FORM_XML_ZIP = 'application/vnd.software602.filler.form-xml-zip';
     public const APPLICATION_VND_SOLENT_SDKM_XML = 'application/vnd.solent.sdkm+xml';
-
-    /** @var string APPLICATION_VND_SPOTFIRE_DXP */
     public const APPLICATION_VND_SPOTFIRE_DXP = 'application/vnd.spotfire.dxp';
-
-    /** @var string APPLICATION_VND_SPOTFIRE_SFS */
     public const APPLICATION_VND_SPOTFIRE_SFS = 'application/vnd.spotfire.sfs';
-
-    /** @var string APPLICATION_VND_SQLITE3 */
     public const APPLICATION_VND_SQLITE3 = 'application/vnd.sqlite3';
-
-    /** @var string APPLICATION_VND_SQUASHFS */
     public const APPLICATION_VND_SQUASHFS = 'application/vnd.squashfs';
-
-    /** @var string APPLICATION_VND_STARDIVISION_CALC */
+    public const APPLICATION_VND_SSS_COD = 'application/vnd.sss-cod';
+    public const APPLICATION_VND_SSS_DTF = 'application/vnd.sss-dtf';
+    public const APPLICATION_VND_SSS_NTF = 'application/vnd.sss-ntf';
     public const APPLICATION_VND_STARDIVISION_CALC = 'application/vnd.stardivision.calc';
-
-    /** @var string APPLICATION_VND_STARDIVISION_CHART */
     public const APPLICATION_VND_STARDIVISION_CHART = 'application/vnd.stardivision.chart';
-
-    /** @var string APPLICATION_VND_STARDIVISION_DRAW */
     public const APPLICATION_VND_STARDIVISION_DRAW = 'application/vnd.stardivision.draw';
-
-    /** @var string APPLICATION_VND_STARDIVISION_IMPRESS */
     public const APPLICATION_VND_STARDIVISION_IMPRESS = 'application/vnd.stardivision.impress';
-
-    /** @var string APPLICATION_VND_STARDIVISION_MATH */
     public const APPLICATION_VND_STARDIVISION_MATH = 'application/vnd.stardivision.math';
-
-    /** @var string APPLICATION_VND_STARDIVISION_WRITER */
     public const APPLICATION_VND_STARDIVISION_WRITER = 'application/vnd.stardivision.writer';
-
-    /** @var string APPLICATION_VND_STARDIVISION_WRITER_GLOBAL */
     public const APPLICATION_VND_STARDIVISION_WRITER_GLOBAL = 'application/vnd.stardivision.writer-global';
-
-    /** @var string APPLICATION_VND_STEPMANIA_PACKAGE */
     public const APPLICATION_VND_STEPMANIA_PACKAGE = 'application/vnd.stepmania.package';
-
-    /** @var string APPLICATION_VND_STEPMANIA_STEPCHART */
     public const APPLICATION_VND_STEPMANIA_STEPCHART = 'application/vnd.stepmania.stepchart';
-
-    /** @var string APPLICATION_VND_SUN_XML_BASE */
+    public const APPLICATION_VND_STREET_STREAM = 'application/vnd.street-stream';
+    public const APPLICATION_VND_SUN_WADL_XML = 'application/vnd.sun.wadl+xml';
     public const APPLICATION_VND_SUN_XML_BASE = 'application/vnd.sun.xml.base';
-
-    /** @var string APPLICATION_VND_SUN_XML_CALC */
     public const APPLICATION_VND_SUN_XML_CALC = 'application/vnd.sun.xml.calc';
-
-    /** @var string APPLICATION_VND_SUN_XML_CALC_TEMPLATE */
     public const APPLICATION_VND_SUN_XML_CALC_TEMPLATE = 'application/vnd.sun.xml.calc.template';
-
-    /** @var string APPLICATION_VND_SUN_XML_DRAW */
     public const APPLICATION_VND_SUN_XML_DRAW = 'application/vnd.sun.xml.draw';
-
-    /** @var string APPLICATION_VND_SUN_XML_DRAW_TEMPLATE */
     public const APPLICATION_VND_SUN_XML_DRAW_TEMPLATE = 'application/vnd.sun.xml.draw.template';
-
-    /** @var string APPLICATION_VND_SUN_XML_IMPRESS */
     public const APPLICATION_VND_SUN_XML_IMPRESS = 'application/vnd.sun.xml.impress';
-
-    /** @var string APPLICATION_VND_SUN_XML_IMPRESS_TEMPLATE */
     public const APPLICATION_VND_SUN_XML_IMPRESS_TEMPLATE = 'application/vnd.sun.xml.impress.template';
-
-    /** @var string APPLICATION_VND_SUN_XML_MATH */
     public const APPLICATION_VND_SUN_XML_MATH = 'application/vnd.sun.xml.math';
-
-    /** @var string APPLICATION_VND_SUN_XML_WRITER */
     public const APPLICATION_VND_SUN_XML_WRITER = 'application/vnd.sun.xml.writer';
-
-    /** @var string APPLICATION_VND_SUN_XML_WRITER_GLOBAL */
     public const APPLICATION_VND_SUN_XML_WRITER_GLOBAL = 'application/vnd.sun.xml.writer.global';
-
-    /** @var string APPLICATION_VND_SUN_XML_WRITER_TEMPLATE */
     public const APPLICATION_VND_SUN_XML_WRITER_TEMPLATE = 'application/vnd.sun.xml.writer.template';
-
-    /** @var string APPLICATION_VND_SUS_CALENDAR */
     public const APPLICATION_VND_SUS_CALENDAR = 'application/vnd.sus-calendar';
-
-    /** @var string APPLICATION_VND_SVD */
     public const APPLICATION_VND_SVD = 'application/vnd.svd';
-
-    /** @var string APPLICATION_VND_SYMBIAN_INSTALL */
+    public const APPLICATION_VND_SWIFTVIEW_ICS = 'application/vnd.swiftview-ics';
     public const APPLICATION_VND_SYMBIAN_INSTALL = 'application/vnd.symbian.install';
-
-    /** @var string APPLICATION_VND_SYNCML_XML */
-    public const APPLICATION_VND_SYNCML_XML = 'application/vnd.syncml+xml';
-
-    /** @var string APPLICATION_VND_SYNCML_DM_WBXML */
+    public const APPLICATION_VND_SYNCML_DMDDF_WBXML = 'application/vnd.syncml.dmddf+wbxml';
+    public const APPLICATION_VND_SYNCML_DMDDF_XML = 'application/vnd.syncml.dmddf+xml';
+    public const APPLICATION_VND_SYNCML_DMTNDS_WBXML = 'application/vnd.syncml.dmtnds+wbxml';
+    public const APPLICATION_VND_SYNCML_DMTNDS_XML = 'application/vnd.syncml.dmtnds+xml';
+    public const APPLICATION_VND_SYNCML_DM_NOTIFICATION = 'application/vnd.syncml.dm.notification';
     public const APPLICATION_VND_SYNCML_DM_WBXML = 'application/vnd.syncml.dm+wbxml';
-
-    /** @var string APPLICATION_VND_SYNCML_DM_XML */
     public const APPLICATION_VND_SYNCML_DM_XML = 'application/vnd.syncml.dm+xml';
-
-    /** @var string APPLICATION_VND_TAO_INTENT_MODULE_ARCHIVE */
+    public const APPLICATION_VND_SYNCML_DS_NOTIFICATION = 'application/vnd.syncml.ds.notification';
+    public const APPLICATION_VND_SYNCML_XML = 'application/vnd.syncml+xml';
+    public const APPLICATION_VND_TABLESCHEMA_JSON = 'application/vnd.tableschema+json';
     public const APPLICATION_VND_TAO_INTENT_MODULE_ARCHIVE = 'application/vnd.tao.intent-module-archive';
-
-    /** @var string APPLICATION_VND_TCPDUMP_PCAP */
     public const APPLICATION_VND_TCPDUMP_PCAP = 'application/vnd.tcpdump.pcap';
-
-    /** @var string APPLICATION_VND_TMOBILE_LIVETV */
+    public const APPLICATION_VND_THINK_CELL_PPTTC_JSON = 'application/vnd.think-cell.ppttc+json';
+    public const APPLICATION_VND_TMD_MEDIAFLEX_API_XML = 'application/vnd.tmd.mediaflex.api+xml';
+    public const APPLICATION_VND_TML = 'application/vnd.tml';
     public const APPLICATION_VND_TMOBILE_LIVETV = 'application/vnd.tmobile-livetv';
-
-    /** @var string APPLICATION_VND_TRID_TPT */
     public const APPLICATION_VND_TRID_TPT = 'application/vnd.trid.tpt';
-
-    /** @var string APPLICATION_VND_TRISCAPE_MXS */
     public const APPLICATION_VND_TRISCAPE_MXS = 'application/vnd.triscape.mxs';
-
-    /** @var string APPLICATION_VND_TRUEAPP */
+    public const APPLICATION_VND_TRI_ONESOURCE = 'application/vnd.tri.onesource';
     public const APPLICATION_VND_TRUEAPP = 'application/vnd.trueapp';
-
-    /** @var string APPLICATION_VND_UFDL */
+    public const APPLICATION_VND_TRUEDOC = 'application/vnd.truedoc';
+    public const APPLICATION_VND_UBISOFT_WEBPLAYER = 'application/vnd.ubisoft.webplayer';
     public const APPLICATION_VND_UFDL = 'application/vnd.ufdl';
-
-    /** @var string APPLICATION_VND_UIQ_THEME */
     public const APPLICATION_VND_UIQ_THEME = 'application/vnd.uiq.theme';
-
-    /** @var string APPLICATION_VND_UMAJIN */
     public const APPLICATION_VND_UMAJIN = 'application/vnd.umajin';
-
-    /** @var string APPLICATION_VND_UNITY */
     public const APPLICATION_VND_UNITY = 'application/vnd.unity';
-
-    /** @var string APPLICATION_VND_UOML_XML */
     public const APPLICATION_VND_UOML_XML = 'application/vnd.uoml+xml';
-
-    /** @var string APPLICATION_VND_VCX */
+    public const APPLICATION_VND_UPLANET_ALERT = 'application/vnd.uplanet.alert';
+    public const APPLICATION_VND_UPLANET_ALERT_WBXML = 'application/vnd.uplanet.alert-wbxml';
+    public const APPLICATION_VND_UPLANET_BEARER_CHOICE = 'application/vnd.uplanet.bearer-choice';
+    public const APPLICATION_VND_UPLANET_BEARER_CHOICE_WBXML = 'application/vnd.uplanet.bearer-choice-wbxml';
+    public const APPLICATION_VND_UPLANET_CACHEOP = 'application/vnd.uplanet.cacheop';
+    public const APPLICATION_VND_UPLANET_CACHEOP_WBXML = 'application/vnd.uplanet.cacheop-wbxml';
+    public const APPLICATION_VND_UPLANET_CHANNEL = 'application/vnd.uplanet.channel';
+    public const APPLICATION_VND_UPLANET_CHANNEL_WBXML = 'application/vnd.uplanet.channel-wbxml';
+    public const APPLICATION_VND_UPLANET_LIST = 'application/vnd.uplanet.list';
+    public const APPLICATION_VND_UPLANET_LISTCMD = 'application/vnd.uplanet.listcmd';
+    public const APPLICATION_VND_UPLANET_LISTCMD_WBXML = 'application/vnd.uplanet.listcmd-wbxml';
+    public const APPLICATION_VND_UPLANET_LIST_WBXML = 'application/vnd.uplanet.list-wbxml';
+    public const APPLICATION_VND_UPLANET_SIGNAL = 'application/vnd.uplanet.signal';
+    public const APPLICATION_VND_URI_MAP = 'application/vnd.uri-map';
+    public const APPLICATION_VND_VALVE_SOURCE_MATERIAL = 'application/vnd.valve.source.material';
     public const APPLICATION_VND_VCX = 'application/vnd.vcx';
-
-    /** @var string APPLICATION_VND_VISIO */
+    public const APPLICATION_VND_VD_STUDY = 'application/vnd.vd-study';
+    public const APPLICATION_VND_VECTORWORKS = 'application/vnd.vectorworks';
+    public const APPLICATION_VND_VEL_JSON = 'application/vnd.vel+json';
+    public const APPLICATION_VND_VERIMATRIX_VCAS = 'application/vnd.verimatrix.vcas';
+    public const APPLICATION_VND_VERYANT_THIN = 'application/vnd.veryant.thin';
+    public const APPLICATION_VND_VES_ENCRYPTED = 'application/vnd.ves.encrypted';
+    public const APPLICATION_VND_VIDSOFT_VIDCONFERENCE = 'application/vnd.vidsoft.vidconference';
     public const APPLICATION_VND_VISIO = 'application/vnd.visio';
-
-    /** @var string APPLICATION_VND_VISIONARY */
     public const APPLICATION_VND_VISIONARY = 'application/vnd.visionary';
-
-    /** @var string APPLICATION_VND_VSF */
+    public const APPLICATION_VND_VIVIDENCE_SCRIPTFILE = 'application/vnd.vividence.scriptfile';
     public const APPLICATION_VND_VSF = 'application/vnd.vsf';
-
-    /** @var string APPLICATION_VND_WAP_WBXML */
+    public const APPLICATION_VND_WAP_SIC = 'application/vnd.wap.sic';
+    public const APPLICATION_VND_WAP_SLC = 'application/vnd.wap.slc';
     public const APPLICATION_VND_WAP_WBXML = 'application/vnd.wap.wbxml';
-
-    /** @var string APPLICATION_VND_WAP_WMLC */
     public const APPLICATION_VND_WAP_WMLC = 'application/vnd.wap.wmlc';
-
-    /** @var string APPLICATION_VND_WAP_WMLSCRIPTC */
     public const APPLICATION_VND_WAP_WMLSCRIPTC = 'application/vnd.wap.wmlscriptc';
-
-    /** @var string APPLICATION_VND_WEBTURBO */
     public const APPLICATION_VND_WEBTURBO = 'application/vnd.webturbo';
-
-    /** @var string APPLICATION_VND_WOLFRAM_PLAYER */
+    public const APPLICATION_VND_WFA_P2P = 'application/vnd.wfa.p2p';
+    public const APPLICATION_VND_WFA_WSC = 'application/vnd.wfa.wsc';
+    public const APPLICATION_VND_WINDOWS_DEVICEPAIRING = 'application/vnd.windows.devicepairing';
+    public const APPLICATION_VND_WMC = 'application/vnd.wmc';
+    public const APPLICATION_VND_WMF_BOOTSTRAP = 'application/vnd.wmf.bootstrap';
+    public const APPLICATION_VND_WOLFRAM_MATHEMATICA = 'application/vnd.wolfram.mathematica';
+    public const APPLICATION_VND_WOLFRAM_MATHEMATICA_PACKAGE = 'application/vnd.wolfram.mathematica.package';
     public const APPLICATION_VND_WOLFRAM_PLAYER = 'application/vnd.wolfram.player';
-
-    /** @var string APPLICATION_VND_WORDPERFECT */
     public const APPLICATION_VND_WORDPERFECT = 'application/vnd.wordperfect';
-
-    /** @var string APPLICATION_VND_WQD */
     public const APPLICATION_VND_WQD = 'application/vnd.wqd';
-
-    /** @var string APPLICATION_VND_WT_STF */
+    public const APPLICATION_VND_WRQ_HP3000_LABELLED = 'application/vnd.wrq-hp3000-labelled';
     public const APPLICATION_VND_WT_STF = 'application/vnd.wt.stf';
-
-    /** @var string APPLICATION_VND_XARA */
+    public const APPLICATION_VND_WV_CSP_WBXML = 'application/vnd.wv.csp+wbxml';
+    public const APPLICATION_VND_WV_CSP_XML = 'application/vnd.wv.csp+xml';
+    public const APPLICATION_VND_WV_SSP_XML = 'application/vnd.wv.ssp+xml';
+    public const APPLICATION_VND_XACML_JSON = 'application/vnd.xacml+json';
     public const APPLICATION_VND_XARA = 'application/vnd.xara';
-
-    /** @var string APPLICATION_VND_XDGAPP */
     public const APPLICATION_VND_XDGAPP = 'application/vnd.xdgapp';
-
-    /** @var string APPLICATION_VND_XFDL */
     public const APPLICATION_VND_XFDL = 'application/vnd.xfdl';
-
-    /** @var string APPLICATION_VND_YAMAHA_HV_DIC */
+    public const APPLICATION_VND_XFDL_WEBFORM = 'application/vnd.xfdl.webform';
+    public const APPLICATION_VND_XMI_XML = 'application/vnd.xmi+xml';
+    public const APPLICATION_VND_XMPIE_CPKG = 'application/vnd.xmpie.cpkg';
+    public const APPLICATION_VND_XMPIE_DPKG = 'application/vnd.xmpie.dpkg';
+    public const APPLICATION_VND_XMPIE_PLAN = 'application/vnd.xmpie.plan';
+    public const APPLICATION_VND_XMPIE_PPKG = 'application/vnd.xmpie.ppkg';
+    public const APPLICATION_VND_XMPIE_XLIM = 'application/vnd.xmpie.xlim';
     public const APPLICATION_VND_YAMAHA_HV_DIC = 'application/vnd.yamaha.hv-dic';
-
-    /** @var string APPLICATION_VND_YAMAHA_HV_SCRIPT */
     public const APPLICATION_VND_YAMAHA_HV_SCRIPT = 'application/vnd.yamaha.hv-script';
-
-    /** @var string APPLICATION_VND_YAMAHA_HV_VOICE */
     public const APPLICATION_VND_YAMAHA_HV_VOICE = 'application/vnd.yamaha.hv-voice';
-
-    /** @var string APPLICATION_VND_YAMAHA_OPENSCOREFORMAT */
     public const APPLICATION_VND_YAMAHA_OPENSCOREFORMAT = 'application/vnd.yamaha.openscoreformat';
-
-    /** @var string APPLICATION_VND_YAMAHA_OPENSCOREFORMAT_OSFPVG_XML */
-    public const APPLICATION_VND_YAMAHA_OPENSCOREFORMAT_OSFPVG_XML =
-        'application/vnd.yamaha.openscoreformat.osfpvg+xml';
-
-    /** @var string APPLICATION_VND_YAMAHA_SMAF_AUDIO */
+    public const APPLICATION_VND_YAMAHA_OPENSCOREFORMAT_OSFPVG_XML = 'application/vnd.yamaha.openscoreformat.osfpvg+xml';
+    public const APPLICATION_VND_YAMAHA_REMOTE_SETUP = 'application/vnd.yamaha.remote-setup';
     public const APPLICATION_VND_YAMAHA_SMAF_AUDIO = 'application/vnd.yamaha.smaf-audio';
-
-    /** @var string APPLICATION_VND_YAMAHA_SMAF_PHRASE */
     public const APPLICATION_VND_YAMAHA_SMAF_PHRASE = 'application/vnd.yamaha.smaf-phrase';
-
-    /** @var string APPLICATION_VND_YELLOWRIVER_CUSTOM_MENU */
+    public const APPLICATION_VND_YAMAHA_THROUGH_NGN = 'application/vnd.yamaha.through-ngn';
+    public const APPLICATION_VND_YAMAHA_TUNNEL_UDPENCAP = 'application/vnd.yamaha.tunnel-udpencap';
+    public const APPLICATION_VND_YAOWEME = 'application/vnd.yaoweme';
     public const APPLICATION_VND_YELLOWRIVER_CUSTOM_MENU = 'application/vnd.yellowriver-custom-menu';
-
-    /** @var string APPLICATION_VND_YOUTUBE_YT */
     public const APPLICATION_VND_YOUTUBE_YT = 'application/vnd.youtube.yt';
-
-    /** @var string APPLICATION_VND_ZUL */
     public const APPLICATION_VND_ZUL = 'application/vnd.zul';
-
-    /** @var string APPLICATION_VND_ZZAZZ_DECK_XML */
     public const APPLICATION_VND_ZZAZZ_DECK_XML = 'application/vnd.zzazz.deck+xml';
-
-    /** @var string APPLICATION_VOICEXML_XML */
     public const APPLICATION_VOICEXML_XML = 'application/voicexml+xml';
-
-    /** @var string APPLICATION_WIDGET */
+    public const APPLICATION_VOUCHER_CMS_JSON = 'application/voucher-cms+json';
+    public const APPLICATION_VQ_RTCPXR = 'application/vq-rtcpxr';
+    public const APPLICATION_WASM = 'application/wasm';
+    public const APPLICATION_WATCHERINFO_XML = 'application/watcherinfo+xml';
+    public const APPLICATION_WEBPUSH_OPTIONS_JSON = 'application/webpush-options+json';
+    public const APPLICATION_WHOISPP_QUERY = 'application/whoispp-query';
+    public const APPLICATION_WHOISPP_RESPONSE = 'application/whoispp-response';
     public const APPLICATION_WIDGET = 'application/widget';
-
-    /** @var string APPLICATION_WINHLP */
     public const APPLICATION_WINHLP = 'application/winhlp';
-
-    /** @var string APPLICATION_WK1 */
+    public const APPLICATION_WITA = 'application/wita';
     public const APPLICATION_WK1 = 'application/wk1';
-
-    /** @var string APPLICATION_WMF */
     public const APPLICATION_WMF = 'application/wmf';
-
-    /** @var string APPLICATION_WORDPERFECT */
     public const APPLICATION_WORDPERFECT = 'application/wordperfect';
-
-    /** @var string APPLICATION_WSDL_XML */
+    public const APPLICATION_WORDPERFECT5_1 = 'application/wordperfect5.1';
     public const APPLICATION_WSDL_XML = 'application/wsdl+xml';
-
-    /** @var string APPLICATION_WSPOLICY_XML */
     public const APPLICATION_WSPOLICY_XML = 'application/wspolicy+xml';
-
-    /** @var string APPLICATION_WWF */
     public const APPLICATION_WWF = 'application/wwf';
-
-    /** @var string APPLICATION_X_123 */
+    public const APPLICATION_X400_BP = 'application/x400-bp';
+    public const APPLICATION_XACML_XML = 'application/xacml+xml';
+    public const APPLICATION_XAML_XML = 'application/xaml+xml';
+    public const APPLICATION_XCAP_ATT_XML = 'application/xcap-att+xml';
+    public const APPLICATION_XCAP_CAPS_XML = 'application/xcap-caps+xml';
+    public const APPLICATION_XCAP_DIFF_XML = 'application/xcap-diff+xml';
+    public const APPLICATION_XCAP_EL_XML = 'application/xcap-el+xml';
+    public const APPLICATION_XCAP_ERROR_XML = 'application/xcap-error+xml';
+    public const APPLICATION_XCAP_NS_XML = 'application/xcap-ns+xml';
+    public const APPLICATION_XCON_CONFERENCE_INFO_DIFF_XML = 'application/xcon-conference-info-diff+xml';
+    public const APPLICATION_XCON_CONFERENCE_INFO_XML = 'application/xcon-conference-info+xml';
+    public const APPLICATION_XENC_XML = 'application/xenc+xml';
+    public const APPLICATION_XHTML_VOICE_XML = 'application/xhtml-voice+xml';
+    public const APPLICATION_XHTML_XML = 'application/xhtml+xml';
+    public const APPLICATION_XLIFF_XML = 'application/xliff+xml';
+    public const APPLICATION_XML = 'application/xml';
+    public const APPLICATION_XML_DTD = 'application/xml-dtd';
+    public const APPLICATION_XML_EXTERNAL_PARSED_ENTITY = 'application/xml-external-parsed-entity';
+    public const APPLICATION_XML_PATCH_XML = 'application/xml-patch+xml';
+    public const APPLICATION_XMPP_XML = 'application/xmpp+xml';
+    public const APPLICATION_XOP_XML = 'application/xop+xml';
+    public const APPLICATION_XPROC_XML = 'application/xproc+xml';
+    public const APPLICATION_XPS = 'application/xps';
+    public const APPLICATION_XSLT_XML = 'application/xslt+xml';
+    public const APPLICATION_XSPF_XML = 'application/xspf+xml';
+    public const APPLICATION_XV_XML = 'application/xv+xml';
     public const APPLICATION_X_123 = 'application/x-123';
-
-    /** @var string APPLICATION_X_7Z_COMPRESSED */
     public const APPLICATION_X_7Z_COMPRESSED = 'application/x-7z-compressed';
-
-    /** @var string APPLICATION_X_ABIWORD */
     public const APPLICATION_X_ABIWORD = 'application/x-abiword';
-
-    /** @var string APPLICATION_X_ACE */
     public const APPLICATION_X_ACE = 'application/x-ace';
-
-    /** @var string APPLICATION_X_ACE_COMPRESSED */
     public const APPLICATION_X_ACE_COMPRESSED = 'application/x-ace-compressed';
-
-    /** @var string APPLICATION_X_ALZ */
     public const APPLICATION_X_ALZ = 'application/x-alz';
-
-    /** @var string APPLICATION_X_AMIGA_DISK_FORMAT */
+    public const APPLICATION_X_AMF = 'application/x-amf';
     public const APPLICATION_X_AMIGA_DISK_FORMAT = 'application/x-amiga-disk-format';
-
-    /** @var string APPLICATION_X_AMIPRO */
     public const APPLICATION_X_AMIPRO = 'application/x-amipro';
-
-    /** @var string APPLICATION_X_ANNODEX */
     public const APPLICATION_X_ANNODEX = 'application/x-annodex';
-
-    /** @var string APPLICATION_X_APORTISDOC */
     public const APPLICATION_X_APORTISDOC = 'application/x-aportisdoc';
-
-    /** @var string APPLICATION_X_APPLE_DISKIMAGE */
     public const APPLICATION_X_APPLE_DISKIMAGE = 'application/x-apple-diskimage';
-
-    /** @var string APPLICATION_X_APPLIX_SPREADSHEET */
     public const APPLICATION_X_APPLIX_SPREADSHEET = 'application/x-applix-spreadsheet';
-
-    /** @var string APPLICATION_X_APPLIX_WORD */
     public const APPLICATION_X_APPLIX_WORD = 'application/x-applix-word';
-
-    /** @var string APPLICATION_X_ARCHIVE */
     public const APPLICATION_X_ARCHIVE = 'application/x-archive';
-
-    /** @var string APPLICATION_X_ARJ */
     public const APPLICATION_X_ARJ = 'application/x-arj';
-
-    /** @var string APPLICATION_X_ASP */
     public const APPLICATION_X_ASP = 'application/x-asp';
-
-    /** @var string APPLICATION_X_ATARI_2600_ROM */
     public const APPLICATION_X_ATARI_2600_ROM = 'application/x-atari-2600-rom';
-
-    /** @var string APPLICATION_X_ATARI_7800_ROM */
     public const APPLICATION_X_ATARI_7800_ROM = 'application/x-atari-7800-rom';
-
-    /** @var string APPLICATION_X_ATARI_LYNX_ROM */
     public const APPLICATION_X_ATARI_LYNX_ROM = 'application/x-atari-lynx-rom';
-
-    /** @var string APPLICATION_X_AUTHORWARE_BIN */
     public const APPLICATION_X_AUTHORWARE_BIN = 'application/x-authorware-bin';
-
-    /** @var string APPLICATION_X_AUTHORWARE_MAP */
     public const APPLICATION_X_AUTHORWARE_MAP = 'application/x-authorware-map';
-
-    /** @var string APPLICATION_X_AUTHORWARE_SEG */
     public const APPLICATION_X_AUTHORWARE_SEG = 'application/x-authorware-seg';
-
-    /** @var string APPLICATION_X_AWK */
     public const APPLICATION_X_AWK = 'application/x-awk';
-
-    /** @var string APPLICATION_X_BCPIO */
     public const APPLICATION_X_BCPIO = 'application/x-bcpio';
-
-    /** @var string APPLICATION_X_BITTORRENT */
+    public const APPLICATION_X_BDOC = 'application/x-bdoc';
     public const APPLICATION_X_BITTORRENT = 'application/x-bittorrent';
-
-    /** @var string APPLICATION_X_BLENDER */
     public const APPLICATION_X_BLENDER = 'application/x-blender';
-
-    /** @var string APPLICATION_X_BLORB */
     public const APPLICATION_X_BLORB = 'application/x-blorb';
-
-    /** @var string APPLICATION_X_BSDIFF */
     public const APPLICATION_X_BSDIFF = 'application/x-bsdiff';
-
-    /** @var string APPLICATION_X_BZDVI */
     public const APPLICATION_X_BZDVI = 'application/x-bzdvi';
-
-    /** @var string APPLICATION_X_BZIP */
     public const APPLICATION_X_BZIP = 'application/x-bzip';
-
-    /** @var string APPLICATION_X_BZIP_COMPRESSED_TAR */
-    public const APPLICATION_X_BZIP_COMPRESSED_TAR = 'application/x-bzip-compressed-tar';
-
-    /** @var string APPLICATION_X_BZIP2 */
     public const APPLICATION_X_BZIP2 = 'application/x-bzip2';
-
-    /** @var string APPLICATION_X_BZPDF */
+    public const APPLICATION_X_BZIP_COMPRESSED_TAR = 'application/x-bzip-compressed-tar';
     public const APPLICATION_X_BZPDF = 'application/x-bzpdf';
-
-    /** @var string APPLICATION_X_BZPOSTSCRIPT */
     public const APPLICATION_X_BZPOSTSCRIPT = 'application/x-bzpostscript';
-
-    /** @var string APPLICATION_X_CB7 */
     public const APPLICATION_X_CB7 = 'application/x-cb7';
-
-    /** @var string APPLICATION_X_CBR */
     public const APPLICATION_X_CBR = 'application/x-cbr';
-
-    /** @var string APPLICATION_X_CBT */
     public const APPLICATION_X_CBT = 'application/x-cbt';
-
-    /** @var string APPLICATION_X_CBZ */
     public const APPLICATION_X_CBZ = 'application/x-cbz';
-
-    /** @var string APPLICATION_X_CCMX */
     public const APPLICATION_X_CCMX = 'application/x-ccmx';
-
-    /** @var string APPLICATION_X_CD_IMAGE */
-    public const APPLICATION_X_CD_IMAGE = 'application/x-cd-image';
-
-    /** @var string APPLICATION_X_CDLINK */
     public const APPLICATION_X_CDLINK = 'application/x-cdlink';
-
-    /** @var string APPLICATION_X_CDR */
     public const APPLICATION_X_CDR = 'application/x-cdr';
-
-    /** @var string APPLICATION_X_CDRDAO_TOC */
     public const APPLICATION_X_CDRDAO_TOC = 'application/x-cdrdao-toc';
-
-    /** @var string APPLICATION_X_CFS_COMPRESSED */
+    public const APPLICATION_X_CD_IMAGE = 'application/x-cd-image';
     public const APPLICATION_X_CFS_COMPRESSED = 'application/x-cfs-compressed';
-
-    /** @var string APPLICATION_X_CHAT */
     public const APPLICATION_X_CHAT = 'application/x-chat';
-
-    /** @var string APPLICATION_X_CHESS_PGN */
     public const APPLICATION_X_CHESS_PGN = 'application/x-chess-pgn';
-
-    /** @var string APPLICATION_X_CHM */
     public const APPLICATION_X_CHM = 'application/x-chm';
-
-    /** @var string APPLICATION_X_CISCO_VPN_SETTINGS */
+    public const APPLICATION_X_CHROME_EXTENSION = 'application/x-chrome-extension';
     public const APPLICATION_X_CISCO_VPN_SETTINGS = 'application/x-cisco-vpn-settings';
-
-    /** @var string APPLICATION_X_COMPRESS */
+    public const APPLICATION_X_COCOA = 'application/x-cocoa';
     public const APPLICATION_X_COMPRESS = 'application/x-compress';
-
-    /** @var string APPLICATION_X_COMPRESSED_TAR */
     public const APPLICATION_X_COMPRESSED_TAR = 'application/x-compressed-tar';
-
-    /** @var string APPLICATION_X_CONFERENCE */
     public const APPLICATION_X_CONFERENCE = 'application/x-conference';
-
-    /** @var string APPLICATION_X_CORELDRAW */
     public const APPLICATION_X_CORELDRAW = 'application/x-coreldraw';
-
-    /** @var string APPLICATION_X_CPIO */
     public const APPLICATION_X_CPIO = 'application/x-cpio';
-
-    /** @var string APPLICATION_X_CPIO_COMPRESSED */
     public const APPLICATION_X_CPIO_COMPRESSED = 'application/x-cpio-compressed';
-
-    /** @var string APPLICATION_X_CSH */
     public const APPLICATION_X_CSH = 'application/x-csh';
-
-    /** @var string APPLICATION_X_CUE */
     public const APPLICATION_X_CUE = 'application/x-cue';
-
-    /** @var string APPLICATION_X_DAR */
     public const APPLICATION_X_DAR = 'application/x-dar';
-
-    /** @var string APPLICATION_X_DBASE */
     public const APPLICATION_X_DBASE = 'application/x-dbase';
-
-    /** @var string APPLICATION_X_DBF */
     public const APPLICATION_X_DBF = 'application/x-dbf';
-
-    /** @var string APPLICATION_X_DC_ROM */
     public const APPLICATION_X_DC_ROM = 'application/x-dc-rom';
-
-    /** @var string APPLICATION_X_DEB */
     public const APPLICATION_X_DEB = 'application/x-deb';
-
-    /** @var string APPLICATION_X_DEBIAN_PACKAGE */
     public const APPLICATION_X_DEBIAN_PACKAGE = 'application/x-debian-package';
-
-    /** @var string APPLICATION_X_DESIGNER */
     public const APPLICATION_X_DESIGNER = 'application/x-designer';
-
-    /** @var string APPLICATION_X_DESKTOP */
     public const APPLICATION_X_DESKTOP = 'application/x-desktop';
-
-    /** @var string APPLICATION_X_DGC_COMPRESSED */
     public const APPLICATION_X_DGC_COMPRESSED = 'application/x-dgc-compressed';
-
-    /** @var string APPLICATION_X_DIA_DIAGRAM */
     public const APPLICATION_X_DIA_DIAGRAM = 'application/x-dia-diagram';
-
-    /** @var string APPLICATION_X_DIA_SHAPE */
     public const APPLICATION_X_DIA_SHAPE = 'application/x-dia-shape';
-
-    /** @var string APPLICATION_X_DIRECTOR */
     public const APPLICATION_X_DIRECTOR = 'application/x-director';
-
-    /** @var string APPLICATION_X_DOCBOOK_XML */
     public const APPLICATION_X_DOCBOOK_XML = 'application/x-docbook+xml';
-
-    /** @var string APPLICATION_X_DOOM */
     public const APPLICATION_X_DOOM = 'application/x-doom';
-
-    /** @var string APPLICATION_X_DOOM_WAD */
     public const APPLICATION_X_DOOM_WAD = 'application/x-doom-wad';
-
-    /** @var string APPLICATION_X_DTBNCX_XML */
     public const APPLICATION_X_DTBNCX_XML = 'application/x-dtbncx+xml';
-
-    /** @var string APPLICATION_X_DTBOOK_XML */
     public const APPLICATION_X_DTBOOK_XML = 'application/x-dtbook+xml';
-
-    /** @var string APPLICATION_X_DTBRESOURCE_XML */
     public const APPLICATION_X_DTBRESOURCE_XML = 'application/x-dtbresource+xml';
-
-    /** @var string APPLICATION_X_DVI */
     public const APPLICATION_X_DVI = 'application/x-dvi';
-
-    /** @var string APPLICATION_X_E_THEME */
-    public const APPLICATION_X_E_THEME = 'application/x-e-theme';
-
-    /** @var string APPLICATION_X_EGON */
     public const APPLICATION_X_EGON = 'application/x-egon';
-
-    /** @var string APPLICATION_X_EMF */
     public const APPLICATION_X_EMF = 'application/x-emf';
-
-    /** @var string APPLICATION_X_ENVOY */
     public const APPLICATION_X_ENVOY = 'application/x-envoy';
-
-    /** @var string APPLICATION_X_EVA */
     public const APPLICATION_X_EVA = 'application/x-eva';
-
-    /** @var string APPLICATION_X_FD_FILE */
-    public const APPLICATION_X_FD_FILE = 'application/x-fd-file';
-
-    /** @var string APPLICATION_X_FDS_DISK */
+    public const APPLICATION_X_E_THEME = 'application/x-e-theme';
     public const APPLICATION_X_FDS_DISK = 'application/x-fds-disk';
-
-    /** @var string APPLICATION_X_FICTIONBOOK */
+    public const APPLICATION_X_FD_FILE = 'application/x-fd-file';
     public const APPLICATION_X_FICTIONBOOK = 'application/x-fictionbook';
-
-    /** @var string APPLICATION_X_FICTIONBOOK_XML */
     public const APPLICATION_X_FICTIONBOOK_XML = 'application/x-fictionbook+xml';
-
-    /** @var string APPLICATION_X_FLASH_VIDEO */
     public const APPLICATION_X_FLASH_VIDEO = 'application/x-flash-video';
-
-    /** @var string APPLICATION_X_FLUID */
     public const APPLICATION_X_FLUID = 'application/x-fluid';
-
-    /** @var string APPLICATION_X_FONT_AFM */
     public const APPLICATION_X_FONT_AFM = 'application/x-font-afm';
-
-    /** @var string APPLICATION_X_FONT_BDF */
     public const APPLICATION_X_FONT_BDF = 'application/x-font-bdf';
-
-    /** @var string APPLICATION_X_FONT_GHOSTSCRIPT */
+    public const APPLICATION_X_FONT_DOS = 'application/x-font-dos';
+    public const APPLICATION_X_FONT_FRAMEMAKER = 'application/x-font-framemaker';
     public const APPLICATION_X_FONT_GHOSTSCRIPT = 'application/x-font-ghostscript';
-
-    /** @var string APPLICATION_X_FONT_LINUX_PSF */
+    public const APPLICATION_X_FONT_LIBGRX = 'application/x-font-libgrx';
     public const APPLICATION_X_FONT_LINUX_PSF = 'application/x-font-linux-psf';
-
-    /** @var string APPLICATION_X_FONT_OTF */
     public const APPLICATION_X_FONT_OTF = 'application/x-font-otf';
-
-    /** @var string APPLICATION_X_FONT_PCF */
     public const APPLICATION_X_FONT_PCF = 'application/x-font-pcf';
-
-    /** @var string APPLICATION_X_FONT_SNF */
     public const APPLICATION_X_FONT_SNF = 'application/x-font-snf';
-
-    /** @var string APPLICATION_X_FONT_SPEEDO */
     public const APPLICATION_X_FONT_SPEEDO = 'application/x-font-speedo';
-
-    /** @var string APPLICATION_X_FONT_TTF */
+    public const APPLICATION_X_FONT_SUNOS_NEWS = 'application/x-font-sunos-news';
     public const APPLICATION_X_FONT_TTF = 'application/x-font-ttf';
-
-    /** @var string APPLICATION_X_FONT_TTX */
     public const APPLICATION_X_FONT_TTX = 'application/x-font-ttx';
-
-    /** @var string APPLICATION_X_FONT_TYPE1 */
     public const APPLICATION_X_FONT_TYPE1 = 'application/x-font-type1';
-
-    /** @var string APPLICATION_X_FONT_WOFF */
+    public const APPLICATION_X_FONT_VFONT = 'application/x-font-vfont';
     public const APPLICATION_X_FONT_WOFF = 'application/x-font-woff';
-
-    /** @var string APPLICATION_X_FRAME */
     public const APPLICATION_X_FRAME = 'application/x-frame';
-
-    /** @var string APPLICATION_X_FREEARC */
     public const APPLICATION_X_FREEARC = 'application/x-freearc';
-
-    /** @var string APPLICATION_X_FUTURESPLASH */
     public const APPLICATION_X_FUTURESPLASH = 'application/x-futuresplash';
-
-    /** @var string APPLICATION_X_GAMEBOY_COLOR_ROM */
     public const APPLICATION_X_GAMEBOY_COLOR_ROM = 'application/x-gameboy-color-rom';
-
-    /** @var string APPLICATION_X_GAMEBOY_ROM */
     public const APPLICATION_X_GAMEBOY_ROM = 'application/x-gameboy-rom';
-
-    /** @var string APPLICATION_X_GAMECUBE_ISO_IMAGE */
     public const APPLICATION_X_GAMECUBE_ISO_IMAGE = 'application/x-gamecube-iso-image';
-
-    /** @var string APPLICATION_X_GAMECUBE_ROM */
     public const APPLICATION_X_GAMECUBE_ROM = 'application/x-gamecube-rom';
-
-    /** @var string APPLICATION_X_GAMEGEAR_ROM */
     public const APPLICATION_X_GAMEGEAR_ROM = 'application/x-gamegear-rom';
-
-    /** @var string APPLICATION_X_GBA_ROM */
     public const APPLICATION_X_GBA_ROM = 'application/x-gba-rom';
-
-    /** @var string APPLICATION_X_GCA_COMPRESSED */
     public const APPLICATION_X_GCA_COMPRESSED = 'application/x-gca-compressed';
-
-    /** @var string APPLICATION_X_GEDCOM */
     public const APPLICATION_X_GEDCOM = 'application/x-gedcom';
-
-    /** @var string APPLICATION_X_GENESIS_32X_ROM */
     public const APPLICATION_X_GENESIS_32X_ROM = 'application/x-genesis-32x-rom';
-
-    /** @var string APPLICATION_X_GENESIS_ROM */
     public const APPLICATION_X_GENESIS_ROM = 'application/x-genesis-rom';
-
-    /** @var string APPLICATION_X_GETTEXT */
     public const APPLICATION_X_GETTEXT = 'application/x-gettext';
-
-    /** @var string APPLICATION_X_GETTEXT_TRANSLATION */
     public const APPLICATION_X_GETTEXT_TRANSLATION = 'application/x-gettext-translation';
-
-    /** @var string APPLICATION_X_GLADE */
     public const APPLICATION_X_GLADE = 'application/x-glade';
-
-    /** @var string APPLICATION_X_GLULX */
     public const APPLICATION_X_GLULX = 'application/x-glulx';
-
-        /** @var string APPLICATION_X_GNOME_APP_INFO */
     public const APPLICATION_X_GNOME_APP_INFO = 'application/x-gnome-app-info';
-
-    /** @var string APPLICATION_X_GNUCASH */
     public const APPLICATION_X_GNUCASH = 'application/x-gnucash';
-
-    /** @var string APPLICATION_X_GNUMERIC */
     public const APPLICATION_X_GNUMERIC = 'application/x-gnumeric';
-
-    /** @var string APPLICATION_X_GNUPLOT */
     public const APPLICATION_X_GNUPLOT = 'application/x-gnuplot';
-
-    /** @var string APPLICATION_X_GO_SGF */
     public const APPLICATION_X_GO_SGF = 'application/x-go-sgf';
-
-    /** @var string APPLICATION_X_GPX */
     public const APPLICATION_X_GPX = 'application/x-gpx';
-
-    /** @var string APPLICATION_X_GPX_XML */
     public const APPLICATION_X_GPX_XML = 'application/x-gpx+xml';
-
-    /** @var string APPLICATION_X_GRAMPS_XML */
     public const APPLICATION_X_GRAMPS_XML = 'application/x-gramps-xml';
-
-    /** @var string APPLICATION_X_GRAPHITE */
     public const APPLICATION_X_GRAPHITE = 'application/x-graphite';
-
-    /** @var string APPLICATION_X_GTAR */
     public const APPLICATION_X_GTAR = 'application/x-gtar';
-
-    /** @var string APPLICATION_X_GTK_BUILDER */
     public const APPLICATION_X_GTK_BUILDER = 'application/x-gtk-builder';
-
-    /** @var string APPLICATION_X_GZ_FONT_LINUX_PSF */
-    public const APPLICATION_X_GZ_FONT_LINUX_PSF = 'application/x-gz-font-linux-psf';
-
-    /** @var string APPLICATION_X_GZDVI */
     public const APPLICATION_X_GZDVI = 'application/x-gzdvi';
-
-    /** @var string APPLICATION_X_GZIP */
     public const APPLICATION_X_GZIP = 'application/x-gzip';
-
-    /** @var string APPLICATION_X_GZPDF */
     public const APPLICATION_X_GZPDF = 'application/x-gzpdf';
-
-    /** @var string APPLICATION_X_GZPOSTSCRIPT */
     public const APPLICATION_X_GZPOSTSCRIPT = 'application/x-gzpostscript';
-
-    /** @var string APPLICATION_X_HDF */
+    public const APPLICATION_X_GZ_FONT_LINUX_PSF = 'application/x-gz-font-linux-psf';
     public const APPLICATION_X_HDF = 'application/x-hdf';
-
-    /** @var string APPLICATION_X_HFE_FILE */
     public const APPLICATION_X_HFE_FILE = 'application/x-hfe-file';
-
-    /** @var string APPLICATION_X_HFE_FLOPPY_IMAGE */
     public const APPLICATION_X_HFE_FLOPPY_IMAGE = 'application/x-hfe-floppy-image';
-
-    /** @var string APPLICATION_X_HWP */
+    public const APPLICATION_X_HTTPD_PHP = 'application/x-httpd-php';
     public const APPLICATION_X_HWP = 'application/x-hwp';
-
-    /** @var string APPLICATION_X_HWT */
     public const APPLICATION_X_HWT = 'application/x-hwt';
-
-    /** @var string APPLICATION_X_ICA */
     public const APPLICATION_X_ICA = 'application/x-ica';
-
-    /** @var string APPLICATION_X_INSTALL_INSTRUCTIONS */
     public const APPLICATION_X_INSTALL_INSTRUCTIONS = 'application/x-install-instructions';
-
-    /** @var string APPLICATION_X_IPYNB_JSON */
     public const APPLICATION_X_IPYNB_JSON = 'application/x-ipynb+json';
-
-    /** @var string APPLICATION_X_ISO9660_APPIMAGE */
     public const APPLICATION_X_ISO9660_APPIMAGE = 'application/x-iso9660-appimage';
-
-    /** @var string APPLICATION_X_ISO9660_IMAGE */
     public const APPLICATION_X_ISO9660_IMAGE = 'application/x-iso9660-image';
-
-    /** @var string APPLICATION_X_IT87 */
     public const APPLICATION_X_IT87 = 'application/x-it87';
-
-    /** @var string APPLICATION_X_IWORK_KEYNOTE_SFFKEY */
     public const APPLICATION_X_IWORK_KEYNOTE_SFFKEY = 'application/x-iwork-keynote-sffkey';
-
-    /** @var string APPLICATION_X_JAR */
     public const APPLICATION_X_JAR = 'application/x-jar';
-
-    /** @var string APPLICATION_X_JAVA */
     public const APPLICATION_X_JAVA = 'application/x-java';
-
-    /** @var string APPLICATION_X_JAVA_ARCHIVE */
-    public const APPLICATION_X_JAVA_ARCHIVE = 'application/x-java-archive';
-
-    /** @var string APPLICATION_X_JAVA_CLASS */
-    public const APPLICATION_X_JAVA_CLASS = 'application/x-java-class';
-
-    /** @var string APPLICATION_X_JAVA_JCE_KEYSTORE */
-    public const APPLICATION_X_JAVA_JCE_KEYSTORE = 'application/x-java-jce-keystore';
-
-    /** @var string APPLICATION_X_JAVA_JNLP_FILE */
-    public const APPLICATION_X_JAVA_JNLP_FILE = 'application/x-java-jnlp-file';
-
-    /** @var string APPLICATION_X_JAVA_KEYSTORE */
-    public const APPLICATION_X_JAVA_KEYSTORE = 'application/x-java-keystore';
-
-    /** @var string APPLICATION_X_JAVA_PACK200 */
-    public const APPLICATION_X_JAVA_PACK200 = 'application/x-java-pack200';
-
-    /** @var string APPLICATION_X_JAVA_VM */
-    public const APPLICATION_X_JAVA_VM = 'application/x-java-vm';
-
-    /** @var string APPLICATION_X_JAVASCRIPT */
     public const APPLICATION_X_JAVASCRIPT = 'application/x-javascript';
-
-    /** @var string APPLICATION_X_JBUILDER_PROJECT */
+    public const APPLICATION_X_JAVA_ARCHIVE = 'application/x-java-archive';
+    public const APPLICATION_X_JAVA_ARCHIVE_DIFF = 'application/x-java-archive-diff';
+    public const APPLICATION_X_JAVA_CLASS = 'application/x-java-class';
+    public const APPLICATION_X_JAVA_JCE_KEYSTORE = 'application/x-java-jce-keystore';
+    public const APPLICATION_X_JAVA_JNLP_FILE = 'application/x-java-jnlp-file';
+    public const APPLICATION_X_JAVA_KEYSTORE = 'application/x-java-keystore';
+    public const APPLICATION_X_JAVA_PACK200 = 'application/x-java-pack200';
+    public const APPLICATION_X_JAVA_VM = 'application/x-java-vm';
     public const APPLICATION_X_JBUILDER_PROJECT = 'application/x-jbuilder-project';
-
-    /** @var string APPLICATION_X_KARBON */
     public const APPLICATION_X_KARBON = 'application/x-karbon';
-
-    /** @var string APPLICATION_X_KCHART */
     public const APPLICATION_X_KCHART = 'application/x-kchart';
-
-    /** @var string APPLICATION_X_KEXI_CONNECTIONDATA */
-    public const APPLICATION_X_KEXI_CONNECTIONDATA = 'application/x-kexi-connectiondata';
-
-    /** @var string APPLICATION_X_KEXIPROJECT_SHORTCUT */
+    public const APPLICATION_X_KEEPASS2 = 'application/x-keepass2';
     public const APPLICATION_X_KEXIPROJECT_SHORTCUT = 'application/x-kexiproject-shortcut';
-
-    /** @var string APPLICATION_X_KEXIPROJECT_SQLITE */
     public const APPLICATION_X_KEXIPROJECT_SQLITE = 'application/x-kexiproject-sqlite';
-
-    /** @var string APPLICATION_X_KEXIPROJECT_SQLITE2 */
     public const APPLICATION_X_KEXIPROJECT_SQLITE2 = 'application/x-kexiproject-sqlite2';
-
-    /** @var string APPLICATION_X_KEXIPROJECT_SQLITE3 */
     public const APPLICATION_X_KEXIPROJECT_SQLITE3 = 'application/x-kexiproject-sqlite3';
-
-    /** @var string APPLICATION_X_KFORMULA */
+    public const APPLICATION_X_KEXI_CONNECTIONDATA = 'application/x-kexi-connectiondata';
     public const APPLICATION_X_KFORMULA = 'application/x-kformula';
-
-    /** @var string APPLICATION_X_KILLUSTRATOR */
     public const APPLICATION_X_KILLUSTRATOR = 'application/x-killustrator';
-
-    /** @var string APPLICATION_X_KIVIO */
     public const APPLICATION_X_KIVIO = 'application/x-kivio';
-
-    /** @var string APPLICATION_X_KONTOUR */
     public const APPLICATION_X_KONTOUR = 'application/x-kontour';
-
-    /** @var string APPLICATION_X_KPOVMODELER */
     public const APPLICATION_X_KPOVMODELER = 'application/x-kpovmodeler';
-
-    /** @var string APPLICATION_X_KPRESENTER */
     public const APPLICATION_X_KPRESENTER = 'application/x-kpresenter';
-
-    /** @var string APPLICATION_X_KRITA */
     public const APPLICATION_X_KRITA = 'application/x-krita';
-
-    /** @var string APPLICATION_X_KSPREAD */
     public const APPLICATION_X_KSPREAD = 'application/x-kspread';
-
-    /** @var string APPLICATION_X_KUGAR */
     public const APPLICATION_X_KUGAR = 'application/x-kugar';
-
-    /** @var string APPLICATION_X_KWORD */
     public const APPLICATION_X_KWORD = 'application/x-kword';
-
-    /** @var string APPLICATION_X_LATEX */
     public const APPLICATION_X_LATEX = 'application/x-latex';
-
-    /** @var string APPLICATION_X_LHA */
     public const APPLICATION_X_LHA = 'application/x-lha';
-
-    /** @var string APPLICATION_X_LHZ */
     public const APPLICATION_X_LHZ = 'application/x-lhz';
-
-    /** @var string APPLICATION_X_LINGUIST */
     public const APPLICATION_X_LINGUIST = 'application/x-linguist';
-
-    /** @var string APPLICATION_X_LOTUS123 */
     public const APPLICATION_X_LOTUS123 = 'application/x-lotus123';
-
-    /** @var string APPLICATION_X_LRZIP */
     public const APPLICATION_X_LRZIP = 'application/x-lrzip';
-
-    /** @var string APPLICATION_X_LRZIP_COMPRESSED_TAR */
     public const APPLICATION_X_LRZIP_COMPRESSED_TAR = 'application/x-lrzip-compressed-tar';
-
-    /** @var string APPLICATION_X_LYX */
+    public const APPLICATION_X_LUA_BYTECODE = 'application/x-lua-bytecode';
     public const APPLICATION_X_LYX = 'application/x-lyx';
-
-    /** @var string APPLICATION_X_LZ4 */
     public const APPLICATION_X_LZ4 = 'application/x-lz4';
-
-    /** @var string APPLICATION_X_LZ4_COMPRESSED_TAR */
     public const APPLICATION_X_LZ4_COMPRESSED_TAR = 'application/x-lz4-compressed-tar';
-
-    /** @var string APPLICATION_X_LZH_COMPRESSED */
     public const APPLICATION_X_LZH_COMPRESSED = 'application/x-lzh-compressed';
-
-    /** @var string APPLICATION_X_LZIP */
     public const APPLICATION_X_LZIP = 'application/x-lzip';
-
-    /** @var string   */
     public const APPLICATION_X_LZIP_COMPRESSED_TAR = 'application/x-lzip-compressed-tar';
-
-    /** @var string APPLICATION_X_LZMA */
     public const APPLICATION_X_LZMA = 'application/x-lzma';
-
-    /** @var string APPLICATION_X_LZOP */
     public const APPLICATION_X_LZOP = 'application/x-lzop';
-
-    /** @var string APPLICATION_X_LZPDF */
     public const APPLICATION_X_LZPDF = 'application/x-lzpdf';
-
-    /** @var string APPLICATION_X_M4*/
     public const APPLICATION_X_M4 = 'application/x-m4';
-
-    /** @var string APPLICATION_X_MAGICPOINT */
     public const APPLICATION_X_MAGICPOINT = 'application/x-magicpoint';
-
-    /** @var string APPLICATION_X_MARKABY */
+    public const APPLICATION_X_MAKESELF = 'application/x-makeself';
     public const APPLICATION_X_MARKABY = 'application/x-markaby';
-
-    /** @var string APPLICATION_X_MATHEMATICA */
     public const APPLICATION_X_MATHEMATICA = 'application/x-mathematica';
-
-    /** @var string APPLICATION_X_MDB */
     public const APPLICATION_X_MDB = 'application/x-mdb';
-
-    /** @var string APPLICATION_X_MIE */
     public const APPLICATION_X_MIE = 'application/x-mie';
-
     public const APPLICATION_X_MIF = 'application/x-mif';
     public const APPLICATION_X_MIMEARCHIVE = 'application/x-mimearchive';
-
-    /** @var string APPLICATION_X_MOBIPOCKET_EBOOK */
     public const APPLICATION_X_MOBIPOCKET_EBOOK = 'application/x-mobipocket-ebook';
-
-    /** @var string APPLICATION_X_MS_APPLICATION */
-    public const APPLICATION_X_MS_APPLICATION = 'application/x-ms-application';
-
-    /** @var string APPLICATION_X_MS_ASX */
-    public const APPLICATION_X_MS_ASX = 'application/x-ms-asx';
-
-    /** @var string APPLICATION_X_MS_DOS_EXECUTABLE*/
-    public const APPLICATION_X_MS_DOS_EXECUTABLE = 'application/x-ms-dos-executable';
-
-    /** @var string APPLICATION_X_MS_SHORTCUT */
-    public const APPLICATION_X_MS_SHORTCUT = 'application/x-ms-shortcut';
-
-    /** @var string APPLICATION_X_MS_WIM */
-    public const APPLICATION_X_MS_WIM = 'application/x-ms-wim';
-
-    /** @var string APPLICATION_X_MS_WMD */
-    public const APPLICATION_X_MS_WMD = 'application/x-ms-wmd';
-
-    /** @var string APPLICATION_X_MS_WMZ */
-    public const APPLICATION_X_MS_WMZ = 'application/x-ms-wmz';
-
-    /** @var string APPLICATION_X_MS_XBAP */
-    public const APPLICATION_X_MS_XBAP = 'application/x-ms-xbap';
-
-    /** @var string APPLICATION_X_MSACCESS */
+    public const APPLICATION_X_MPEGURL = 'application/x-mpegurl';
     public const APPLICATION_X_MSACCESS = 'application/x-msaccess';
-
-    /** @var string APPLICATION_X_MSBINDER */
     public const APPLICATION_X_MSBINDER = 'application/x-msbinder';
-
-    /** @var string APPLICATION_X_MSCARDFILE */
     public const APPLICATION_X_MSCARDFILE = 'application/x-mscardfile';
-
-    /** @var string APPLICATION_X_MSCLIP */
     public const APPLICATION_X_MSCLIP = 'application/x-msclip';
-
-    /** @var string APPLICATION_X_MSDOWNLOAD */
+    public const APPLICATION_X_MSDOS_PROGRAM = 'application/x-msdos-program';
     public const APPLICATION_X_MSDOWNLOAD = 'application/x-msdownload';
-
-    /** @var string APPLICATION_X_MSEXCEL */
     public const APPLICATION_X_MSEXCEL = 'application/x-msexcel';
-
-    /** @var string APPLICATION_X_MSI */
     public const APPLICATION_X_MSI = 'application/x-msi';
-
-    /** @var string APPLICATION_X_MSMEDIAVIEW */
     public const APPLICATION_X_MSMEDIAVIEW = 'application/x-msmediaview';
-
-    /** @var string APPLICATION_X_MSMETAFILE */
     public const APPLICATION_X_MSMETAFILE = 'application/x-msmetafile';
-
-    /** @var string APPLICATION_X_MSMONEY */
     public const APPLICATION_X_MSMONEY = 'application/x-msmoney';
-
-    /** @var string APPLICATION_X_MSMONEYAPPLICATION_X_MSPOWERPOINT*/
     public const APPLICATION_X_MSPOWERPOINT = 'application/x-mspowerpoint';
-
-    /** @var string APPLICATION_X_MSPUBLISHER */
     public const APPLICATION_X_MSPUBLISHER = 'application/x-mspublisher';
-
-    /** @var string APPLICATION_X_MSSCHEDULE */
     public const APPLICATION_X_MSSCHEDULE = 'application/x-msschedule';
-
-    /** @var string APPLICATION_X_MSTERMINAL */
     public const APPLICATION_X_MSTERMINAL = 'application/x-msterminal';
-
-    /** @var string APPLICATION_X_MSWINURL */
     public const APPLICATION_X_MSWINURL = 'application/x-mswinurl';
-
-    /** @var string APPLICATION_X_MSWORD */
     public const APPLICATION_X_MSWORD = 'application/x-msword';
-
-    /** @var string APPLICATION_X_MSWRITE */
     public const APPLICATION_X_MSWRITE = 'application/x-mswrite';
-
-    /** @var string APPLICATION_X_MSX_ROM */
     public const APPLICATION_X_MSX_ROM = 'application/x-msx-rom';
-
-    /** @var string APPLICATION_X_N64_ROM */
+    public const APPLICATION_X_MS_APPLICATION = 'application/x-ms-application';
+    public const APPLICATION_X_MS_ASX = 'application/x-ms-asx';
+    public const APPLICATION_X_MS_DOS_EXECUTABLE = 'application/x-ms-dos-executable';
+    public const APPLICATION_X_MS_SHORTCUT = 'application/x-ms-shortcut';
+    public const APPLICATION_X_MS_WIM = 'application/x-ms-wim';
+    public const APPLICATION_X_MS_WMD = 'application/x-ms-wmd';
+    public const APPLICATION_X_MS_WMZ = 'application/x-ms-wmz';
+    public const APPLICATION_X_MS_XBAP = 'application/x-ms-xbap';
     public const APPLICATION_X_N64_ROM = 'application/x-n64-rom';
-
-    /** @var string APPLICATION_X_NAVI_ANIMATION */
     public const APPLICATION_X_NAVI_ANIMATION = 'application/x-navi-animation';
-
-    /** @var string APPLICATION_X_NEO_GEO_POCKET_COLOR_ROM */
     public const APPLICATION_X_NEO_GEO_POCKET_COLOR_ROM = 'application/x-neo-geo-pocket-color-rom';
-
-    /** @var string APPLICATION_X_NEO_GEO_POCKET_ROM */
     public const APPLICATION_X_NEO_GEO_POCKET_ROM = 'application/x-neo-geo-pocket-rom';
-
-    /** @var string APPLICATION_X_NES_ROM */
     public const APPLICATION_X_NES_ROM = 'application/x-nes-rom';
-
-    /** @var string APPLICATION_X_NETCDF */
     public const APPLICATION_X_NETCDF = 'application/x-netcdf';
-
-    /** @var string APPLICATION_X_NETSHOW_CHANNEL */
     public const APPLICATION_X_NETSHOW_CHANNEL = 'application/x-netshow-channel';
-
-    /** @var string APPLICATION_X_NINTENDO_DS_ROM */
     public const APPLICATION_X_NINTENDO_DS_ROM = 'application/x-nintendo-ds-rom';
-
-    /** @var string APPLICATION_X_NZB */
+    public const APPLICATION_X_NS_PROXY_AUTOCONFIG = 'application/x-ns-proxy-autoconfig';
     public const APPLICATION_X_NZB = 'application/x-nzb';
-
-    /** @var string APPLICATION_X_OBJECT */
     public const APPLICATION_X_OBJECT = 'application/x-object';
-
-    /** @var string APPLICATION_X_OGG */
     public const APPLICATION_X_OGG = 'application/x-ogg';
-
-    /** @var string APPLICATION_X_OLEO */
     public const APPLICATION_X_OLEO = 'application/x-oleo';
-
-    /** @var string APPLICATION_X_PAGEMAKER */
     public const APPLICATION_X_PAGEMAKER = 'application/x-pagemaker';
-
-    /** @var string APPLICATION_X_NZBAPPLICATION_X_PAK*/
     public const APPLICATION_X_PAK = 'application/x-pak';
-
-    /** @var string APPLICATION_X_PALM_DATABASE */
     public const APPLICATION_X_PALM_DATABASE = 'application/x-palm-database';
-
-    /** @var string APPLICATION_X_PAR2 */
     public const APPLICATION_X_PAR2 = 'application/x-par2';
-
-    /** @var string APPLICATION_X_PARTIAL_DOWNLOAD */
     public const APPLICATION_X_PARTIAL_DOWNLOAD = 'application/x-partial-download';
-
-    /** @var string APPLICATION_X_PC_ENGINE_ROM */
-    public const APPLICATION_X_PC_ENGINE_ROM = 'application/x-pc-engine-rom';
-
-    /** @var string APPLICATION_X_PCAP */
     public const APPLICATION_X_PCAP = 'application/x-pcap';
-
-    /** @var string APPLICATION_X_PDF */
+    public const APPLICATION_X_PC_ENGINE_ROM = 'application/x-pc-engine-rom';
     public const APPLICATION_X_PDF = 'application/x-pdf';
-
-    /** @var string APPLICATION_X_PERL */
     public const APPLICATION_X_PERL = 'application/x-perl';
-
-    /** @var string APPLICATION_X_PHOTOSHOP */
     public const APPLICATION_X_PHOTOSHOP = 'application/x-photoshop';
-
-    /** @var string APPLICATION_X_PHP */
     public const APPLICATION_X_PHP = 'application/x-php';
-
-    /** @var string APPLICATION_X_PKCS12 */
+    public const APPLICATION_X_PILOT = 'application/x-pilot';
     public const APPLICATION_X_PKCS12 = 'application/x-pkcs12';
-
-    /** @var string APPLICATION_X_PKCS7_CERTIFICATES */
     public const APPLICATION_X_PKCS7_CERTIFICATES = 'application/x-pkcs7-certificates';
-
-    /** @var string APPLICATION_X_PKCS7_CERTREQRESP */
     public const APPLICATION_X_PKCS7_CERTREQRESP = 'application/x-pkcs7-certreqresp';
-
-    /** @var string APPLICATION_X_PLANPERFECT */
+    public const APPLICATION_X_PKI_MESSAGE = 'application/x-pki-message';
     public const APPLICATION_X_PLANPERFECT = 'application/x-planperfect';
-
-    /** @var string APPLICATION_X_POCKET_WORD */
     public const APPLICATION_X_POCKET_WORD = 'application/x-pocket-word';
-
-    /** @var string APPLICATION_X_PW */
     public const APPLICATION_X_PW = 'application/x-pw';
-
-    /** @var string APPLICATION_X_PYTHON_BYTECODE */
     public const APPLICATION_X_PYTHON_BYTECODE = 'application/x-python-bytecode';
-
-    /** @var string APPLICATION_X_QPRESS */
     public const APPLICATION_X_QPRESS = 'application/x-qpress';
-
-    /** @var string APPLICATION_X_QTIPLOT */
     public const APPLICATION_X_QTIPLOT = 'application/x-qtiplot';
-
-    /** @var string APPLICATION_X_QUATTROPRO */
     public const APPLICATION_X_QUATTROPRO = 'application/x-quattropro';
-
-    /** @var string APPLICATION_X_QUICKTIME_MEDIA_LINK */
-    public const APPLICATION_X_QUICKTIME_MEDIA_LINK = 'application/x-quicktime-media-link';
-
-    /** @var string APPLICATION_X_QUICKTIMEPLAYER */
     public const APPLICATION_X_QUICKTIMEPLAYER = 'application/x-quicktimeplayer';
-
-    /** @var string APPLICATION_X_QW */
+    public const APPLICATION_X_QUICKTIME_MEDIA_LINK = 'application/x-quicktime-media-link';
     public const APPLICATION_X_QW = 'application/x-qw';
-
-    /** @var string APPLICATION_X_RAR */
     public const APPLICATION_X_RAR = 'application/x-rar';
-
-    /** @var string APPLICATION_X_RAR_COMPRESSED */
     public const APPLICATION_X_RAR_COMPRESSED = 'application/x-rar-compressed';
-
-    /** @var string APPLICATION_X_RAW_DISK_IMAGE */
     public const APPLICATION_X_RAW_DISK_IMAGE = 'application/x-raw-disk-image';
-
-    /** @var string APPLICATION_X_RAW_DISK_IMAGE_XZ_COMPRESSED */
     public const APPLICATION_X_RAW_DISK_IMAGE_XZ_COMPRESSED = 'application/x-raw-disk-image-xz-compressed';
-
-    /** @var string APPLICATION_X_RAW_FLOPPY_DISK_IMAGE */
     public const APPLICATION_X_RAW_FLOPPY_DISK_IMAGE = 'application/x-raw-floppy-disk-image';
-
-    /** @var string APPLICATION_X_REDHAT_PACKAGE_MANAGER */
     public const APPLICATION_X_REDHAT_PACKAGE_MANAGER = 'application/x-redhat-package-manager';
-
-    /** @var string APPLICATION_X_REJECT */
     public const APPLICATION_X_REJECT = 'application/x-reject';
-
-    /** @var string APPLICATION_X_RESEARCH_INFO_SYSTEMS */
     public const APPLICATION_X_RESEARCH_INFO_SYSTEMS = 'application/x-research-info-systems';
-
-    /** @var string APPLICATION_X_RNC */
     public const APPLICATION_X_RNC = 'application/x-rnc';
-
-    /** @var string APPLICATION_X_RPM */
     public const APPLICATION_X_RPM = 'application/x-rpm';
-
-    /** @var string APPLICATION_X_RUBY */
     public const APPLICATION_X_RUBY = 'application/x-ruby';
-
-    /** @var string APPLICATION_X_SAMI */
     public const APPLICATION_X_SAMI = 'application/x-sami';
-
-    /** @var string APPLICATION_X_SAP_FILE */
     public const APPLICATION_X_SAP_FILE = 'application/x-sap-file';
-
-    /** @var string APPLICATION_X_SATURN_ROM */
     public const APPLICATION_X_SATURN_ROM = 'application/x-saturn-rom';
-
-    /** @var string APPLICATION_X_SDP */
     public const APPLICATION_X_SDP = 'application/x-sdp';
-
-    /** @var string APPLICATION_X_SEGA_CD_ROM */
+    public const APPLICATION_X_SEA = 'application/x-sea';
     public const APPLICATION_X_SEGA_CD_ROM = 'application/x-sega-cd-rom';
-
-    /** @var string APPLICATION_X_SG1000_ROM */
     public const APPLICATION_X_SG1000_ROM = 'application/x-sg1000-rom';
-
-    /** @var string APPLICATION_X_SH */
     public const APPLICATION_X_SH = 'application/x-sh';
-
-    /** @var string APPLICATION_X_SHAR */
     public const APPLICATION_X_SHAR = 'application/x-shar';
-
-    /** @var string APPLICATION_X_SHARED_LIBRARY_LA */
-    public const APPLICATION_X_SHARED_LIBRARY_LA = 'application/x-shared-library-la';
-
-    /** @var string APPLICATION_X_SHAREDLIB */
     public const APPLICATION_X_SHAREDLIB = 'application/x-sharedlib';
-
-    /** @var string APPLICATION_X_SHELLSCRIPT */
+    public const APPLICATION_X_SHARED_LIBRARY_LA = 'application/x-shared-library-la';
     public const APPLICATION_X_SHELLSCRIPT = 'application/x-shellscript';
-
-    /** @var string APPLICATION_X_SHOCKWAVE_FLASH */
     public const APPLICATION_X_SHOCKWAVE_FLASH = 'application/x-shockwave-flash';
-
-    /** @var string APPLICATION_X_SHORTEN */
     public const APPLICATION_X_SHORTEN = 'application/x-shorten';
-
-    /** @var string APPLICATION_X_SIAG */
     public const APPLICATION_X_SIAG = 'application/x-siag';
-
-    /** @var string APPLICATION_X_SILVERLIGHT_APP */
     public const APPLICATION_X_SILVERLIGHT_APP = 'application/x-silverlight-app';
-
-    /** @var string APPLICATION_X_SIT */
     public const APPLICATION_X_SIT = 'application/x-sit';
-
-    /** @var string APPLICATION_X_SMAF */
     public const APPLICATION_X_SMAF = 'application/x-smaf';
-
-    /** @var string APPLICATION_X_SMS_ROM */
     public const APPLICATION_X_SMS_ROM = 'application/x-sms-rom';
-
-    /** @var string APPLICATION_X_SNES_ROM */
     public const APPLICATION_X_SNES_ROM = 'application/x-snes-rom';
-
-    /** @var string APPLICATION_X_SOURCE_RPM */
     public const APPLICATION_X_SOURCE_RPM = 'application/x-source-rpm';
-
-    /** @var string APPLICATION_X_SPSS_POR */
     public const APPLICATION_X_SPSS_POR = 'application/x-spss-por';
-
-    /** @var string APPLICATION_X_SPSS_SAV*/
     public const APPLICATION_X_SPSS_SAV = 'application/x-spss-sav';
-
-    /** @var string APPLICATION_X_SPSS_SAVEFILE */
     public const APPLICATION_X_SPSS_SAVEFILE = 'application/x-spss-savefile';
-
-    /** @var string APPLICATION_X_SQL */
     public const APPLICATION_X_SQL = 'application/x-sql';
-
-    /** @var string APPLICATION_X_SQLITE2 */
     public const APPLICATION_X_SQLITE2 = 'application/x-sqlite2';
-
-    /** @var string APPLICATION_X_SQLITE3 */
     public const APPLICATION_X_SQLITE3 = 'application/x-sqlite3';
-
-    /** @var string APPLICATION_X_SRT */
     public const APPLICATION_X_SRT = 'application/x-srt';
-
-    /** @var string APPLICATION_X_STUFFIT */
     public const APPLICATION_X_STUFFIT = 'application/x-stuffit';
-
-    /** @var string APPLICATION_X_STUFFITX */
     public const APPLICATION_X_STUFFITX = 'application/x-stuffitx';
-
-    /** @var string APPLICATION_X_SUBRIP */
     public const APPLICATION_X_SUBRIP = 'application/x-subrip';
-
-    /** @var string APPLICATION_X_SV4CPIO */
     public const APPLICATION_X_SV4CPIO = 'application/x-sv4cpio';
-
-    /** @var string APPLICATION_X_SV4CRC */
     public const APPLICATION_X_SV4CRC = 'application/x-sv4crc';
-
-    /** @var string APPLICATION_X_T3VM_IMAGE */
     public const APPLICATION_X_T3VM_IMAGE = 'application/x-t3vm-image';
-
-    /** @var string APPLICATION_X_T602 */
     public const APPLICATION_X_T602 = 'application/x-t602';
-
-    /** @var string APPLICATION_X_TADS */
     public const APPLICATION_X_TADS = 'application/x-tads';
-
-    /** @var string APPLICATION_X_TAR */
     public const APPLICATION_X_TAR = 'application/x-tar';
-
-    /** @var string APPLICATION_X_TARZ */
     public const APPLICATION_X_TARZ = 'application/x-tarz';
-
-    /** @var string APPLICATION_X_TCL */
     public const APPLICATION_X_TCL = 'application/x-tcl';
-
-    /** @var string APPLICATION_X_TEX */
     public const APPLICATION_X_TEX = 'application/x-tex';
-
-    /** @var string APPLICATION_X_TEX_GF */
-    public const APPLICATION_X_TEX_GF = 'application/x-tex-gf';
-
-    /** @var string APPLICATION_X_TEX_PK */
-    public const APPLICATION_X_TEX_PK = 'application/x-tex-pk';
-
-    /** @var string APPLICATION_X_TEX_TFM */
-    public const APPLICATION_X_TEX_TFM = 'application/x-tex-tfm';
-
-    /** @var string APPLICATION_X_TEXINFO */
     public const APPLICATION_X_TEXINFO = 'application/x-texinfo';
-
-    /** @var string APPLICATION_X_TGIF */
+    public const APPLICATION_X_TEX_GF = 'application/x-tex-gf';
+    public const APPLICATION_X_TEX_PK = 'application/x-tex-pk';
+    public const APPLICATION_X_TEX_TFM = 'application/x-tex-tfm';
     public const APPLICATION_X_TGIF = 'application/x-tgif';
-
-    /** @var string APPLICATION_X_THEME */
     public const APPLICATION_X_THEME = 'application/x-theme';
-
-    /** @var string APPLICATION_X_THOMSON_CARTRIDGE_MEMO7 */
     public const APPLICATION_X_THOMSON_CARTRIDGE_MEMO7 = 'application/x-thomson-cartridge-memo7';
-
-    /** @var string APPLICATION_X_THOMSON_CASSETTE */
     public const APPLICATION_X_THOMSON_CASSETTE = 'application/x-thomson-cassette';
-
-    /** @var string APPLICATION_X_THOMSON_SAP_IMAGE */
     public const APPLICATION_X_THOMSON_SAP_IMAGE = 'application/x-thomson-sap-image';
-
-    /** @var string APPLICATION_X_TRASH */
     public const APPLICATION_X_TRASH = 'application/x-trash';
-
-    /** @var string APPLICATION_X_TRIG */
     public const APPLICATION_X_TRIG = 'application/x-trig';
-
-    /** @var string APPLICATION_X_TROFF */
     public const APPLICATION_X_TROFF = 'application/x-troff';
-
-    /** @var string APPLICATION_X_TROFF_MAN */
     public const APPLICATION_X_TROFF_MAN = 'application/x-troff-man';
-
-    /** @var string APPLICATION_X_TZO */
     public const APPLICATION_X_TZO = 'application/x-tzo';
-
-    /** @var string APPLICATION_X_UFRAW */
     public const APPLICATION_X_UFRAW = 'application/x-ufraw';
-
-    /** @var string APPLICATION_X_USTAR */
     public const APPLICATION_X_USTAR = 'application/x-ustar';
-
-    /** @var string APPLICATION_X_VIRTUAL_BOY_ROM */
+    public const APPLICATION_X_VIRTUALBOX_HDD = 'application/x-virtualbox-hdd';
+    public const APPLICATION_X_VIRTUALBOX_OVA = 'application/x-virtualbox-ova';
+    public const APPLICATION_X_VIRTUALBOX_OVF = 'application/x-virtualbox-ovf';
+    public const APPLICATION_X_VIRTUALBOX_VBOX = 'application/x-virtualbox-vbox';
+    public const APPLICATION_X_VIRTUALBOX_VBOX_EXTPACK = 'application/x-virtualbox-vbox-extpack';
+    public const APPLICATION_X_VIRTUALBOX_VDI = 'application/x-virtualbox-vdi';
+    public const APPLICATION_X_VIRTUALBOX_VHD = 'application/x-virtualbox-vhd';
+    public const APPLICATION_X_VIRTUALBOX_VMDK = 'application/x-virtualbox-vmdk';
     public const APPLICATION_X_VIRTUAL_BOY_ROM = 'application/x-virtual-boy-rom';
-
-    /** @var string APPLICATION_X_VND_KDE_KEXI */
     public const APPLICATION_X_VND_KDE_KEXI = 'application/x-vnd.kde.kexi';
-
-    /** @var string APPLICATION_X_WAIS_SOURCE */
     public const APPLICATION_X_WAIS_SOURCE = 'application/x-wais-source';
-
-    /** @var string APPLICATION_X_WBFS */
     public const APPLICATION_X_WBFS = 'application/x-wbfs';
-
-    /** @var string APPLICATION_X_WIA */
+    public const APPLICATION_X_WEB_APP_MANIFEST_JSON = 'application/x-web-app-manifest+json';
     public const APPLICATION_X_WIA = 'application/x-wia';
-
-    /** @var string APPLICATION_X_WII_ISO_IMAGE */
     public const APPLICATION_X_WII_ISO_IMAGE = 'application/x-wii-iso-image';
-
-    /** @var string APPLICATION_X_WII_ROM */
     public const APPLICATION_X_WII_ROM = 'application/x-wii-rom';
-
-    /** @var string APPLICATION_X_WII_WAD */
     public const APPLICATION_X_WII_WAD = 'application/x-wii-wad';
-
-    /** @var string APPLICATION_X_WINDOWS_THEMEPACK */
     public const APPLICATION_X_WINDOWS_THEMEPACK = 'application/x-windows-themepack';
-
-    /** @var string APPLICATION_X_WMF */
     public const APPLICATION_X_WMF = 'application/x-wmf';
-
-    /** @var string APPLICATION_X_WONDERSWAN_COLOR_ROM */
     public const APPLICATION_X_WONDERSWAN_COLOR_ROM = 'application/x-wonderswan-color-rom';
-
-    /** @var string APPLICATION_X_WONDERSWAN_ROM */
     public const APPLICATION_X_WONDERSWAN_ROM = 'application/x-wonderswan-rom';
-
-    /** @var string APPLICATION_X_WORDPERFECT */
     public const APPLICATION_X_WORDPERFECT = 'application/x-wordperfect';
-
-    /** @var string APPLICATION_X_WPG */
     public const APPLICATION_X_WPG = 'application/x-wpg';
-
-    /** @var string APPLICATION_X_WWF */
     public const APPLICATION_X_WWF = 'application/x-wwf';
-
-    /** @var string APPLICATION_X_X509_CA_CERT */
+    public const APPLICATION_X_WWW_FORM_URLENCODED = 'application/x-www-form-urlencoded';
     public const APPLICATION_X_X509_CA_CERT = 'application/x-x509-ca-cert';
-
-    /** @var string APPLICATION_X_XAR */
+    public const APPLICATION_X_X509_CA_RA_CERT = 'application/x-x509-ca-ra-cert';
+    public const APPLICATION_X_X509_NEXT_CA_CERT = 'application/x-x509-next-ca-cert';
     public const APPLICATION_X_XAR = 'application/x-xar';
-
-    /** @var string APPLICATION_X_XBEL */
     public const APPLICATION_X_XBEL = 'application/x-xbel';
-
-    /** @var string APPLICATION_X_XFIG */
     public const APPLICATION_X_XFIG = 'application/x-xfig';
-
-    /** @var string APPLICATION_X_XLIFF */
     public const APPLICATION_X_XLIFF = 'application/x-xliff';
-
-    /** @var string APPLICATION_X_XLIFF_XML */
     public const APPLICATION_X_XLIFF_XML = 'application/x-xliff+xml';
-
-    /** @var string APPLICATION_X_XPINSTALL */
     public const APPLICATION_X_XPINSTALL = 'application/x-xpinstall';
-
-    /** @var string APPLICATION_X_XSPF_XML */
     public const APPLICATION_X_XSPF_XML = 'application/x-xspf+xml';
-
-    /** @var string APPLICATION_X_XZ */
     public const APPLICATION_X_XZ = 'application/x-xz';
-
-    /** @var string APPLICATION_X_XZAPPLICATION_X_XZ_COMPRESSED_TAR*/
-    public const APPLICATION_X_XZ_COMPRESSED_TAR = 'application/x-xz-compressed-tar';
-
-    /** @var string APPLICATION_X_XZPDF */
     public const APPLICATION_X_XZPDF = 'application/x-xzpdf';
-
-    /** @var string APPLICATION_X_YAML */
+    public const APPLICATION_X_XZ_COMPRESSED_TAR = 'application/x-xz-compressed-tar';
     public const APPLICATION_X_YAML = 'application/x-yaml';
-
-    /** @var string APPLICATION_X_ZIP */
     public const APPLICATION_X_ZIP = 'application/x-zip';
-
-    /** @var string APPLICATION_X_ZIP_COMPRESSED */
     public const APPLICATION_X_ZIP_COMPRESSED = 'application/x-zip-compressed';
-
-    /** @var string APPLICATION_X_ZIP_COMPRESSED_FB2 */
     public const APPLICATION_X_ZIP_COMPRESSED_FB2 = 'application/x-zip-compressed-fb2';
-
-    /** @var string APPLICATION_X_ZMACHINE */
     public const APPLICATION_X_ZMACHINE = 'application/x-zmachine';
-
-    /** @var string APPLICATION_X_ZOO */
     public const APPLICATION_X_ZOO = 'application/x-zoo';
-
-    /** @var string APPLICATION_XAML_XML */
-    public const APPLICATION_XAML_XML = 'application/xaml+xml';
-
-    /** @var string APPLICATION_XCAP_DIFF_XML */
-    public const APPLICATION_XCAP_DIFF_XML = 'application/xcap-diff+xml';
-
-    /** @var string APPLICATION_XENC_XML */
-    public const APPLICATION_XENC_XML = 'application/xenc+xml';
-
-    /** @var string APPLICATION_XHTML_XML */
-    public const APPLICATION_XHTML_XML = 'application/xhtml+xml';
-
-    /** @var string APPLICATION_XHTML_XMLAPPLICATION_XLIFF_XML*/
-    public const APPLICATION_XLIFF_XML = 'application/xliff+xml';
-
-    /** @var string APPLICATION_XML */
-    public const APPLICATION_XML = 'application/xml';
-
-    /** @var string APPLICATION_XML_DTD */
-    public const APPLICATION_XML_DTD = 'application/xml-dtd';
-
-    /** @var string APPLICATION_XML_EXTERNAL_PARSED_ENTITY */
-    public const APPLICATION_XML_EXTERNAL_PARSED_ENTITY = 'application/xml-external-parsed-entity';
-
-    /** @var string APPLICATION_XOP_XML */
-    public const APPLICATION_XOP_XML = 'application/xop+xml';
-
-    /** @var string APPLICATION_XPROC_XML */
-    public const APPLICATION_XPROC_XML = 'application/xproc+xml';
-
-    /** @var string APPLICATION_XPS */
-    public const APPLICATION_XPS = 'application/xps';
-
-    /** @var string APPLICATION_XSLT_XML */
-    public const APPLICATION_XSLT_XML = 'application/xslt+xml';
-
-    /** @var string APPLICATION_XSPF_XML */
-    public const APPLICATION_XSPF_XML = 'application/xspf+xml';
-
-    /** @var string APPLICATION_XV_XML */
-    public const APPLICATION_XV_XML = 'application/xv+xml';
-
-    /** @var string APPLICATION_YANG */
     public const APPLICATION_YANG = 'application/yang';
-
-    /** @var string APPLICATION_YIN_XML */
+    public const APPLICATION_YANG_DATA_JSON = 'application/yang-data+json';
+    public const APPLICATION_YANG_DATA_XML = 'application/yang-data+xml';
+    public const APPLICATION_YANG_PATCH_JSON = 'application/yang-patch+json';
+    public const APPLICATION_YANG_PATCH_XML = 'application/yang-patch+xml';
     public const APPLICATION_YIN_XML = 'application/yin+xml';
-
-    /** @var string APPLICATION_ZIP */
     public const APPLICATION_ZIP = 'application/zip';
-
-    /** @var string APPLICATION_ZLIB */
     public const APPLICATION_ZLIB = 'application/zlib';
-
-    /** @var string AUDIO_3GPP */
+    public const APPLICATION_ZSTD = 'application/zstd';
+    public const AUDIO_1D_INTERLEAVED_PARITYFEC = 'audio/1d-interleaved-parityfec';
+    public const AUDIO_32KADPCM = 'audio/32kadpcm';
     public const AUDIO_3GPP = 'audio/3gpp';
-    
-    /** @var string AUDIO_3GPP_ENCRYPTED */
-    public const AUDIO_3GPP_ENCRYPTED = 'audio/3gpp-encrypted';
-
-    /** @var string AUDIO_3GPP2 */
     public const AUDIO_3GPP2 = 'audio/3gpp2';
-
-    /** @var string AUDIO_AAC */
+    public const AUDIO_3GPP_ENCRYPTED = 'audio/3gpp-encrypted';
     public const AUDIO_AAC = 'audio/aac';
-
-    /** @var string AUDIO_AC3 */
     public const AUDIO_AC3 = 'audio/ac3';
-
-    /** @var string AUDIO_ADPCM */
     public const AUDIO_ADPCM = 'audio/adpcm';
-
-    /** @var string AUDIO_AMR */
     public const AUDIO_AMR = 'audio/amr';
-
-    /** @var string AUDIO_AMR_ENCRYPTED*/
     public const AUDIO_AMR_ENCRYPTED = 'audio/amr-encrypted';
-
-    /** @var string AUDIO_AMR_WB */
     public const AUDIO_AMR_WB = 'audio/amr-wb';
-
-    /** @var string AUDIO_AMR_WB_ENCRYPTED */
+    public const AUDIO_AMR_WB_ = 'audio/amr-wb+';
     public const AUDIO_AMR_WB_ENCRYPTED = 'audio/amr-wb-encrypted';
-
-    /** @var string AUDIO_ANNODEX */
     public const AUDIO_ANNODEX = 'audio/annodex';
-
-    /** @var string AUDIO_BASIC */
+    public const AUDIO_APTX = 'audio/aptx';
+    public const AUDIO_ASC = 'audio/asc';
+    public const AUDIO_ATRAC3 = 'audio/atrac3';
+    public const AUDIO_ATRAC_ADVANCED_LOSSLESS = 'audio/atrac-advanced-lossless';
+    public const AUDIO_ATRAC_X = 'audio/atrac-x';
     public const AUDIO_BASIC = 'audio/basic';
-
-    /** @var string AUDIO_FLAC */
+    public const AUDIO_BV16 = 'audio/bv16';
+    public const AUDIO_BV32 = 'audio/bv32';
+    public const AUDIO_CLEARMODE = 'audio/clearmode';
+    public const AUDIO_CN = 'audio/cn';
+    public const AUDIO_DAT12 = 'audio/dat12';
+    public const AUDIO_DLS = 'audio/dls';
+    public const AUDIO_DSR_ES201108 = 'audio/dsr-es201108';
+    public const AUDIO_DSR_ES202050 = 'audio/dsr-es202050';
+    public const AUDIO_DSR_ES202211 = 'audio/dsr-es202211';
+    public const AUDIO_DSR_ES202212 = 'audio/dsr-es202212';
+    public const AUDIO_DV = 'audio/dv';
+    public const AUDIO_DVI4 = 'audio/dvi4';
+    public const AUDIO_EAC3 = 'audio/eac3';
+    public const AUDIO_ENCAPRTP = 'audio/encaprtp';
+    public const AUDIO_EVRC = 'audio/evrc';
+    public const AUDIO_EVRC0 = 'audio/evrc0';
+    public const AUDIO_EVRC1 = 'audio/evrc1';
+    public const AUDIO_EVRCB = 'audio/evrcb';
+    public const AUDIO_EVRCB0 = 'audio/evrcb0';
+    public const AUDIO_EVRCB1 = 'audio/evrcb1';
+    public const AUDIO_EVRCNW = 'audio/evrcnw';
+    public const AUDIO_EVRCNW0 = 'audio/evrcnw0';
+    public const AUDIO_EVRCNW1 = 'audio/evrcnw1';
+    public const AUDIO_EVRCWB = 'audio/evrcwb';
+    public const AUDIO_EVRCWB0 = 'audio/evrcwb0';
+    public const AUDIO_EVRCWB1 = 'audio/evrcwb1';
+    public const AUDIO_EVRC_QCP = 'audio/evrc-qcp';
+    public const AUDIO_EVS = 'audio/evs';
     public const AUDIO_FLAC = 'audio/flac';
-
-    /** @var string AUDIO_IMELODY */
+    public const AUDIO_FLEXFEC = 'audio/flexfec';
+    public const AUDIO_FWDRED = 'audio/fwdred';
+    public const AUDIO_G711_0 = 'audio/g711-0';
+    public const AUDIO_G719 = 'audio/g719';
+    public const AUDIO_G722 = 'audio/g722';
+    public const AUDIO_G7221 = 'audio/g7221';
+    public const AUDIO_G723 = 'audio/g723';
+    public const AUDIO_G726_16 = 'audio/g726-16';
+    public const AUDIO_G726_24 = 'audio/g726-24';
+    public const AUDIO_G726_32 = 'audio/g726-32';
+    public const AUDIO_G726_40 = 'audio/g726-40';
+    public const AUDIO_G728 = 'audio/g728';
+    public const AUDIO_G729 = 'audio/g729';
+    public const AUDIO_G7291 = 'audio/g7291';
+    public const AUDIO_G729D = 'audio/g729d';
+    public const AUDIO_G729E = 'audio/g729e';
+    public const AUDIO_GSM = 'audio/gsm';
+    public const AUDIO_GSM_EFR = 'audio/gsm-efr';
+    public const AUDIO_GSM_HR_08 = 'audio/gsm-hr-08';
+    public const AUDIO_ILBC = 'audio/ilbc';
     public const AUDIO_IMELODY = 'audio/imelody';
-
-    /** @var string AUDIO_M3U */
+    public const AUDIO_IP_MR_V2_5 = 'audio/ip-mr_v2.5';
+    public const AUDIO_ISAC = 'audio/isac';
+    public const AUDIO_L16 = 'audio/l16';
+    public const AUDIO_L20 = 'audio/l20';
+    public const AUDIO_L24 = 'audio/l24';
+    public const AUDIO_L8 = 'audio/l8';
+    public const AUDIO_LPC = 'audio/lpc';
     public const AUDIO_M3U = 'audio/m3u';
-    
-    /** @var string AUDIO_M4A */
     public const AUDIO_M4A = 'audio/m4a';
-
-    /** @var string AUDIO_MIDI */
+    public const AUDIO_MELP = 'audio/melp';
+    public const AUDIO_MELP1200 = 'audio/melp1200';
+    public const AUDIO_MELP2400 = 'audio/melp2400';
+    public const AUDIO_MELP600 = 'audio/melp600';
+    public const AUDIO_MHAS = 'audio/mhas';
     public const AUDIO_MIDI = 'audio/midi';
-
-    /** @var string AUDIO_MOBILE_XMF */
     public const AUDIO_MOBILE_XMF = 'audio/mobile-xmf';
-
-    /** @var string AUDIO_MP2 */
     public const AUDIO_MP2 = 'audio/mp2';
-
-    /** @var string AUDIO_MP3 */
     public const AUDIO_MP3 = 'audio/mp3';
-
-    /** @var string AUDIO_MP4 */
     public const AUDIO_MP4 = 'audio/mp4';
-
-    /** @var string AUDIO_MPEG */
+    public const AUDIO_MP4A_LATM = 'audio/mp4a-latm';
+    public const AUDIO_MPA = 'audio/mpa';
+    public const AUDIO_MPA_ROBUST = 'audio/mpa-robust';
     public const AUDIO_MPEG = 'audio/mpeg';
-
-    /** @var string AUDIO_MPEGURL */
+    public const AUDIO_MPEG4_GENERIC = 'audio/mpeg4-generic';
     public const AUDIO_MPEGURL = 'audio/mpegurl';
-
-    /** @var string AUDIO_OGG */
+    public const AUDIO_MUSEPACK = 'audio/musepack';
     public const AUDIO_OGG = 'audio/ogg';
-
-    /** @var string AUDIO_PRS_SID */
+    public const AUDIO_OPUS = 'audio/opus';
+    public const AUDIO_PARITYFEC = 'audio/parityfec';
+    public const AUDIO_PCMA = 'audio/pcma';
+    public const AUDIO_PCMA_WB = 'audio/pcma-wb';
+    public const AUDIO_PCMU = 'audio/pcmu';
+    public const AUDIO_PCMU_WB = 'audio/pcmu-wb';
     public const AUDIO_PRS_SID = 'audio/prs.sid';
-
-    /** @var string AUDIO_S3M */
+    public const AUDIO_QCELP = 'audio/qcelp';
+    public const AUDIO_RAPTORFEC = 'audio/raptorfec';
+    public const AUDIO_RED = 'audio/red';
+    public const AUDIO_RTPLOOPBACK = 'audio/rtploopback';
+    public const AUDIO_RTP_ENC_AESCM128 = 'audio/rtp-enc-aescm128';
+    public const AUDIO_RTP_MIDI = 'audio/rtp-midi';
+    public const AUDIO_RTX = 'audio/rtx';
     public const AUDIO_S3M = 'audio/s3m';
-
-    /** @var string AUDIO_SILK */
     public const AUDIO_SILK = 'audio/silk';
-
-    /** @var string AUDIO_TTA */
+    public const AUDIO_SMV = 'audio/smv';
+    public const AUDIO_SMV0 = 'audio/smv0';
+    public const AUDIO_SMV_QCP = 'audio/smv-qcp';
+    public const AUDIO_SPEEX = 'audio/speex';
+    public const AUDIO_SP_MIDI = 'audio/sp-midi';
+    public const AUDIO_T140C = 'audio/t140c';
+    public const AUDIO_T38 = 'audio/t38';
+    public const AUDIO_TELEPHONE_EVENT = 'audio/telephone-event';
+    public const AUDIO_TETRA_ACELP = 'audio/tetra_acelp';
+    public const AUDIO_TETRA_ACELP_BB = 'audio/tetra_acelp_bb';
+    public const AUDIO_TONE = 'audio/tone';
     public const AUDIO_TTA = 'audio/tta';
-
-    /** @var string AUDIO_USAC */
+    public const AUDIO_UEMCLIP = 'audio/uemclip';
+    public const AUDIO_ULPFEC = 'audio/ulpfec';
     public const AUDIO_USAC = 'audio/usac';
-
-    /** @var string AUDIO_VND_AUDIBLE */
+    public const AUDIO_VDVI = 'audio/vdvi';
+    public const AUDIO_VMR_WB = 'audio/vmr-wb';
+    public const AUDIO_VND_3GPP_IUFP = 'audio/vnd.3gpp.iufp';
+    public const AUDIO_VND_4SB = 'audio/vnd.4sb';
     public const AUDIO_VND_AUDIBLE = 'audio/vnd.audible';
-    
-    /** @var string AUDIO_VND_AUDIBLE_AAX */
     public const AUDIO_VND_AUDIBLE_AAX = 'audio/vnd.audible.aax';
-
-    /** @var string AUDIO_VND_DECE_AUDIO */
+    public const AUDIO_VND_AUDIOKOZ = 'audio/vnd.audiokoz';
+    public const AUDIO_VND_CELP = 'audio/vnd.celp';
+    public const AUDIO_VND_CISCO_NSE = 'audio/vnd.cisco.nse';
+    public const AUDIO_VND_CMLES_RADIO_EVENTS = 'audio/vnd.cmles.radio-events';
+    public const AUDIO_VND_CNS_ANP1 = 'audio/vnd.cns.anp1';
+    public const AUDIO_VND_CNS_INF1 = 'audio/vnd.cns.inf1';
     public const AUDIO_VND_DECE_AUDIO = 'audio/vnd.dece.audio';
-
-    /** @var string AUDIO_VND_DIGITAL_WINDS */
     public const AUDIO_VND_DIGITAL_WINDS = 'audio/vnd.digital-winds';
-
-    /** @var string AUDIO_VND_DRA */
+    public const AUDIO_VND_DLNA_ADTS = 'audio/vnd.dlna.adts';
+    public const AUDIO_VND_DOLBY_HEAAC_1 = 'audio/vnd.dolby.heaac.1';
+    public const AUDIO_VND_DOLBY_HEAAC_2 = 'audio/vnd.dolby.heaac.2';
+    public const AUDIO_VND_DOLBY_MLP = 'audio/vnd.dolby.mlp';
+    public const AUDIO_VND_DOLBY_MPS = 'audio/vnd.dolby.mps';
+    public const AUDIO_VND_DOLBY_PL2 = 'audio/vnd.dolby.pl2';
+    public const AUDIO_VND_DOLBY_PL2X = 'audio/vnd.dolby.pl2x';
+    public const AUDIO_VND_DOLBY_PL2Z = 'audio/vnd.dolby.pl2z';
+    public const AUDIO_VND_DOLBY_PULSE_1 = 'audio/vnd.dolby.pulse.1';
     public const AUDIO_VND_DRA = 'audio/vnd.dra';
-
-    /** @var string AUDIO_VND_DTS */
     public const AUDIO_VND_DTS = 'audio/vnd.dts';
-
-    /** @var string AUDIO_VND_DTS_HD */
     public const AUDIO_VND_DTS_HD = 'audio/vnd.dts.hd';
-
-    /** @var string AUDIO_VND_LUCENT_VOICE */
+    public const AUDIO_VND_DTS_UHD = 'audio/vnd.dts.uhd';
+    public const AUDIO_VND_DVB_FILE = 'audio/vnd.dvb.file';
+    public const AUDIO_VND_EVERAD_PLJ = 'audio/vnd.everad.plj';
+    public const AUDIO_VND_HNS_AUDIO = 'audio/vnd.hns.audio';
     public const AUDIO_VND_LUCENT_VOICE = 'audio/vnd.lucent.voice';
-
-    /** @var string AUDIO_VND_M_REALAUDIO */
-    public const AUDIO_VND_M_REALAUDIO = 'audio/vnd.m-realaudio';
-
-    /** @var string AUDIO_VND_MS_PLAYREADY_MEDIA_PYA */
     public const AUDIO_VND_MS_PLAYREADY_MEDIA_PYA = 'audio/vnd.ms-playready.media.pya';
-
-    /** @var string AUDIO_VND_NUERA_ECELP4800 */
+    public const AUDIO_VND_M_REALAUDIO = 'audio/vnd.m-realaudio';
+    public const AUDIO_VND_NOKIA_MOBILE_XMF = 'audio/vnd.nokia.mobile-xmf';
+    public const AUDIO_VND_NORTEL_VBK = 'audio/vnd.nortel.vbk';
     public const AUDIO_VND_NUERA_ECELP4800 = 'audio/vnd.nuera.ecelp4800';
-
-    /** @var string AUDIO_VND_NUERA_ECELP7470 */
     public const AUDIO_VND_NUERA_ECELP7470 = 'audio/vnd.nuera.ecelp7470';
-
-    /** @var string AUDIO_VND_NUERA_ECELP9600 */
     public const AUDIO_VND_NUERA_ECELP9600 = 'audio/vnd.nuera.ecelp9600';
-
-    /** @var string AUDIO_VND_RIP */
+    public const AUDIO_VND_OCTEL_SBC = 'audio/vnd.octel.sbc';
+    public const AUDIO_VND_PRESONUS_MULTITRACK = 'audio/vnd.presonus.multitrack';
+    public const AUDIO_VND_QCELP = 'audio/vnd.qcelp';
+    public const AUDIO_VND_RHETOREX_32KADPCM = 'audio/vnd.rhetorex.32kadpcm';
     public const AUDIO_VND_RIP = 'audio/vnd.rip';
-
-    /** @var string AUDIO_VND_RN_REALAUDIO */
     public const AUDIO_VND_RN_REALAUDIO = 'audio/vnd.rn-realaudio';
-    
-    /** @var string AUDIO_VND_WAVE */
+    public const AUDIO_VND_SEALEDMEDIA_SOFTSEAL_MPEG = 'audio/vnd.sealedmedia.softseal.mpeg';
+    public const AUDIO_VND_VMX_CVSD = 'audio/vnd.vmx.cvsd';
     public const AUDIO_VND_WAVE = 'audio/vnd.wave';
-    
-    /** @var string AUDIO_VORBIS */
     public const AUDIO_VORBIS = 'audio/vorbis';
-    
-    /** @var string AUDIO_WAV */
+    public const AUDIO_VORBIS_CONFIG = 'audio/vorbis-config';
     public const AUDIO_WAV = 'audio/wav';
-
-    /** @var string AUDIO_WEBM */
+    public const AUDIO_WAVE = 'audio/wave';
     public const AUDIO_WEBM = 'audio/webm';
-
-    /** @var string AUDIO_WMA */
     public const AUDIO_WMA = 'audio/wma';
-
-    /** @var string AUDIO_X_AAC */
-    public const AUDIO_X_AAC = 'audio/x-aac';
-
-    /** @var string AUDIO_X_AIFC */
-    public const AUDIO_X_AIFC = 'audio/x-aifc';
-
-    /** @var string AUDIO_X_AIFF */
-    public const AUDIO_X_AIFF = 'audio/x-aiff';
-
-    /** @var string AUDIO_X_AIFFC */
-    public const AUDIO_X_AIFFC = 'audio/x-aiffc';
-
-    /** @var string AUDIO_X_AMZXML */
-    public const AUDIO_X_AMZXML = 'audio/x-amzxml';
-
-    /** @var string AUDIO_X_ANNODEX */
-    public const AUDIO_X_ANNODEX = 'audio/x-annodex';
-
-    /** @var string AUDIO_X_APE */
-    public const AUDIO_X_APE = 'audio/x-ape';
-
-    /** @var string AUDIO_X_CAF */
-    public const AUDIO_X_CAF = 'audio/x-caf';
-
-    /** @var string AUDIO_X_DTS */
-    public const AUDIO_X_DTS = 'audio/x-dts';
-
-    /** @var string AUDIO_X_DTSHD */
-    public const AUDIO_X_DTSHD = 'audio/x-dtshd';
-
-    /** @var string AUDIO_X_FLAC */
-    public const AUDIO_X_FLAC = 'audio/x-flac';
-
-    /** @var string AUDIO_X_FLAC_OGG */
-    public const AUDIO_X_FLAC_OGG = 'audio/x-flac+ogg';
-
-    /** @var string AUDIO_X_GSM */
-    public const AUDIO_X_GSM = 'audio/x-gsm';
-
-    /** @var string AUDIO_X_HX_AAC_ADTS */
-    public const AUDIO_X_HX_AAC_ADTS = 'audio/x-hx-aac-adts';
-
-    /** @var string AUDIO_X_IMELODY */
-    public const AUDIO_X_IMELODY = 'audio/x-imelody';
-
-    /** @var string AUDIO_X_IRIVER_PLA */
-    public const AUDIO_X_IRIVER_PLA = 'audio/x-iriver-pla';
-
-    /** @var string AUDIO_X_IT */
-    public const AUDIO_X_IT = 'audio/x-it';
-
-    /** @var string AUDIO_X_M3U */
-    public const AUDIO_X_M3U = 'audio/x-m3u';
-
-    /** @var string AUDIO_X_M4A */
-    public const AUDIO_X_M4A = 'audio/x-m4a';
-
-    /** @var string AUDIO_X_M4B */
-    public const AUDIO_X_M4B = 'audio/x-m4b';
-    
-    /** @var string AUDIO_X_M4R */
-    public const AUDIO_X_M4R = 'audio/x-m4r';
-
-    /** @var string AUDIO_X_MATROSKA */
-    public const AUDIO_X_MATROSKA = 'audio/x-matroska';
-
-    /** @var string AUDIO_X_MIDI */
-    public const AUDIO_X_MIDI = 'audio/x-midi';
-
-    /** @var string AUDIO_X_MINIPSF */
-    public const AUDIO_X_MINIPSF = 'audio/x-minipsf';
-
-    /** @var string AUDIO_X_MO3 */
-    public const AUDIO_X_MO3 = 'audio/x-mo3';
-
-    /** @var string AUDIO_X_MOD */
-    public const AUDIO_X_MOD = 'audio/x-mod';
-
-    /** @var string AUDIO_X_MP2 */
-    public const AUDIO_X_MP2 = 'audio/x-mp2';
-
-    /** @var string AUDIO_X_MP3 */
-    public const AUDIO_X_MP3 = 'audio/x-mp3';
-
-    /** @var string AUDIO_X_MP3_PLAYLIST */
-    public const AUDIO_X_MP3_PLAYLIST = 'audio/x-mp3-playlist';
-
-    /** @var string AUDIO_X_MPEG */
-    public const AUDIO_X_MPEG = 'audio/x-mpeg';
-
-    /** @var string AUDIO_X_MPEGURL */
-    public const AUDIO_X_MPEGURL = 'audio/x-mpegurl';
-
-    /** @var string AUDIO_X_MPG */
-    public const AUDIO_X_MPG = 'audio/x-mpg';
-
-    /** @var string AUDIO_X_MS_ASX */
-    public const AUDIO_X_MS_ASX = 'audio/x-ms-asx';
-
-    /** @var string AUDIO_X_MS_WAX */
-    public const AUDIO_X_MS_WAX = 'audio/x-ms-wax';
-
-    /** @var string AUDIO_X_MS_WMA */
-    public const AUDIO_X_MS_WMA = 'audio/x-ms-wma';
-
-    /** @var string AUDIO_X_MUSEPACK */
-    public const AUDIO_X_MUSEPACK = 'audio/x-musepack';
-
-    /** @var string AUDIO_X_OGG */
-    public const AUDIO_X_OGG = 'audio/x-ogg';
-
-    /** @var string AUDIO_X_OGGFLAC */
-    public const AUDIO_X_OGGFLAC = 'audio/x-oggflac';
-
-    /** @var string AUDIO_X_OPUS_OGG */
-    public const AUDIO_X_OPUS_OGG = 'audio/x-opus+ogg';
-
-    /** @var string AUDIO_X_PN_AUDIBLEAUDIO */
-    public const AUDIO_X_PN_AUDIBLEAUDIO = 'audio/x-pn-audibleaudio';
-
-    /** @var string AUDIO_X_PN_REALAUDIO */
-    public const AUDIO_X_PN_REALAUDIO = 'audio/x-pn-realaudio';
-
-    /** @var string AUDIO_X_PN_REALAUDIO_PLUGIN */
-    public const AUDIO_X_PN_REALAUDIO_PLUGIN = 'audio/x-pn-realaudio-plugin';
-
-    /** @var string AUDIO_X_PSF */
-    public const AUDIO_X_PSF = 'audio/x-psf';
-
-    /** @var string AUDIO_X_PSFLIB */
-    public const AUDIO_X_PSFLIB = 'audio/x-psflib';
-
-    /** @var string AUDIO_X_RN_3GPP_AMR */
-    public const AUDIO_X_RN_3GPP_AMR = 'audio/x-rn-3gpp-amr';
-
-    /** @var string AUDIO_X_RN_3GPP_AMR_ENCRYPTED */
-    public const AUDIO_X_RN_3GPP_AMR_ENCRYPTED = 'audio/x-rn-3gpp-amr-encrypted';
-
-    /** @var string AUDIO_X_RN_3GPP_AMR_WB */
-    public const AUDIO_X_RN_3GPP_AMR_WB = 'audio/x-rn-3gpp-amr-wb';
-
-    /** @var string AUDIO_X_RN_3GPP_AMR_WB_ENCRYPTED */
-    public const AUDIO_X_RN_3GPP_AMR_WB_ENCRYPTED = 'audio/x-rn-3gpp-amr-wb-encrypted';
-
-    /** @var string AUDIO_X_S3M */
-    public const AUDIO_X_S3M = 'audio/x-s3m';
-
-    /** @var string AUDIO_X_SCPLS */
-    public const AUDIO_X_SCPLS = 'audio/x-scpls';
-
-    /** @var string AUDIO_X_SHORTEN */
-    public const AUDIO_X_SHORTEN = 'audio/x-shorten';
-
-    /** @var string AUDIO_X_SPEEX */
-    public const AUDIO_X_SPEEX = 'audio/x-speex';
-
-    /** @var string AUDIO_X_SPEEX_OGG */
-    public const AUDIO_X_SPEEX_OGG = 'audio/x-speex+ogg';
-
-    /** @var string AUDIO_X_STM */
-    public const AUDIO_X_STM = 'audio/x-stm';
-    
-    /** @var string AUDIO_X_TTA */
-    public const AUDIO_X_TTA = 'audio/x-tta';
-
-    /** @var string AUDIO_X_VOC */
-    public const AUDIO_X_VOC = 'audio/x-voc';
-
-    /** @var string AUDIO_X_VORBIS */
-    public const AUDIO_X_VORBIS = 'audio/x-vorbis';
-
-    /** @var string AUDIO_X_VORBIS_OGG */
-    public const AUDIO_X_VORBIS_OGG = 'audio/x-vorbis+ogg';
-
-    /** @var string AUDIO_X_WAV */
-    public const AUDIO_X_WAV = 'audio/x-wav';
-
-    /** @var string AUDIO_X_WAVPACK */
-    public const AUDIO_X_WAVPACK = 'audio/x-wavpack';
-
-    /** @var string AUDIO_X_WAVPACK_CORRECTION */
-    public const AUDIO_X_WAVPACK_CORRECTION = 'audio/x-wavpack-correction';
-
-    /** @var string AUDIO_X_XI */
-    public const AUDIO_X_XI = 'audio/x-xi';
-
-    /** @var string AUDIO_X_XM */
-    public const AUDIO_X_XM = 'audio/x-xm';
-
-    /** @var string AUDIO_X_XMF */
-    public const AUDIO_X_XMF = 'audio/x-xmf';
-
-    /** @var string AUDIO_XM */
     public const AUDIO_XM = 'audio/xm';
-
-    /** @var string AUDIO_XMF */
     public const AUDIO_XMF = 'audio/xmf';
-
-    /** @var string CHE_X_CDX */
-    public const CHE_X_CDX = 'chemical/x-cdx';
-
-    /** @var string CHE_X_CIF */
-    public const CHE_X_CIF = 'chemical/x-cif';
-
-    /** @var string CHE_X_CMDF */
-    public const CHE_X_CMDF = 'chemical/x-cmdf';
-
-    /** @var string CHE_X_CML */
-    public const CHE_X_CML = 'chemical/x-cml';
-
-    /** @var string CHE_X_CSML */
-    public const CHE_X_CSML = 'chemical/x-csml';
-
-    /** @var string CHE_X_XYZ */
-    public const CHE_X_XYZ = 'chemical/x-xyz';
-
-    /** @var string FLV_APPLICATION_OCTET_STREAM */
+    public const AUDIO_X_AAC = 'audio/x-aac';
+    public const AUDIO_X_AIFC = 'audio/x-aifc';
+    public const AUDIO_X_AIFF = 'audio/x-aiff';
+    public const AUDIO_X_AIFFC = 'audio/x-aiffc';
+    public const AUDIO_X_AMZXML = 'audio/x-amzxml';
+    public const AUDIO_X_ANNODEX = 'audio/x-annodex';
+    public const AUDIO_X_APE = 'audio/x-ape';
+    public const AUDIO_X_CAF = 'audio/x-caf';
+    public const AUDIO_X_DTS = 'audio/x-dts';
+    public const AUDIO_X_DTSHD = 'audio/x-dtshd';
+    public const AUDIO_X_FLAC = 'audio/x-flac';
+    public const AUDIO_X_FLAC_OGG = 'audio/x-flac+ogg';
+    public const AUDIO_X_GSM = 'audio/x-gsm';
+    public const AUDIO_X_HX_AAC_ADTS = 'audio/x-hx-aac-adts';
+    public const AUDIO_X_IMELODY = 'audio/x-imelody';
+    public const AUDIO_X_IRIVER_PLA = 'audio/x-iriver-pla';
+    public const AUDIO_X_IT = 'audio/x-it';
+    public const AUDIO_X_M3U = 'audio/x-m3u';
+    public const AUDIO_X_M4A = 'audio/x-m4a';
+    public const AUDIO_X_M4B = 'audio/x-m4b';
+    public const AUDIO_X_M4R = 'audio/x-m4r';
+    public const AUDIO_X_MATROSKA = 'audio/x-matroska';
+    public const AUDIO_X_MIDI = 'audio/x-midi';
+    public const AUDIO_X_MINIPSF = 'audio/x-minipsf';
+    public const AUDIO_X_MO3 = 'audio/x-mo3';
+    public const AUDIO_X_MOD = 'audio/x-mod';
+    public const AUDIO_X_MP2 = 'audio/x-mp2';
+    public const AUDIO_X_MP3 = 'audio/x-mp3';
+    public const AUDIO_X_MP3_PLAYLIST = 'audio/x-mp3-playlist';
+    public const AUDIO_X_MPEG = 'audio/x-mpeg';
+    public const AUDIO_X_MPEGURL = 'audio/x-mpegurl';
+    public const AUDIO_X_MPG = 'audio/x-mpg';
+    public const AUDIO_X_MS_ASX = 'audio/x-ms-asx';
+    public const AUDIO_X_MS_WAX = 'audio/x-ms-wax';
+    public const AUDIO_X_MS_WMA = 'audio/x-ms-wma';
+    public const AUDIO_X_MUSEPACK = 'audio/x-musepack';
+    public const AUDIO_X_OGG = 'audio/x-ogg';
+    public const AUDIO_X_OGGFLAC = 'audio/x-oggflac';
+    public const AUDIO_X_OPUS_OGG = 'audio/x-opus+ogg';
+    public const AUDIO_X_PN_AUDIBLEAUDIO = 'audio/x-pn-audibleaudio';
+    public const AUDIO_X_PN_REALAUDIO = 'audio/x-pn-realaudio';
+    public const AUDIO_X_PN_REALAUDIO_PLUGIN = 'audio/x-pn-realaudio-plugin';
+    public const AUDIO_X_PSF = 'audio/x-psf';
+    public const AUDIO_X_PSFLIB = 'audio/x-psflib';
+    public const AUDIO_X_REALAUDIO = 'audio/x-realaudio';
+    public const AUDIO_X_RN_3GPP_AMR = 'audio/x-rn-3gpp-amr';
+    public const AUDIO_X_RN_3GPP_AMR_ENCRYPTED = 'audio/x-rn-3gpp-amr-encrypted';
+    public const AUDIO_X_RN_3GPP_AMR_WB = 'audio/x-rn-3gpp-amr-wb';
+    public const AUDIO_X_RN_3GPP_AMR_WB_ENCRYPTED = 'audio/x-rn-3gpp-amr-wb-encrypted';
+    public const AUDIO_X_S3M = 'audio/x-s3m';
+    public const AUDIO_X_SCPLS = 'audio/x-scpls';
+    public const AUDIO_X_SHORTEN = 'audio/x-shorten';
+    public const AUDIO_X_SPEEX = 'audio/x-speex';
+    public const AUDIO_X_SPEEX_OGG = 'audio/x-speex+ogg';
+    public const AUDIO_X_STM = 'audio/x-stm';
+    public const AUDIO_X_TTA = 'audio/x-tta';
+    public const AUDIO_X_VOC = 'audio/x-voc';
+    public const AUDIO_X_VORBIS = 'audio/x-vorbis';
+    public const AUDIO_X_VORBIS_OGG = 'audio/x-vorbis+ogg';
+    public const AUDIO_X_WAV = 'audio/x-wav';
+    public const AUDIO_X_WAVPACK = 'audio/x-wavpack';
+    public const AUDIO_X_WAVPACK_CORRECTION = 'audio/x-wavpack-correction';
+    public const AUDIO_X_XI = 'audio/x-xi';
+    public const AUDIO_X_XM = 'audio/x-xm';
+    public const AUDIO_X_XMF = 'audio/x-xmf';
+    public const CHEMICAL_X_CDX = 'chemical/x-cdx';
+    public const CHEMICAL_X_CIF = 'chemical/x-cif';
+    public const CHEMICAL_X_CMDF = 'chemical/x-cmdf';
+    public const CHEMICAL_X_CML = 'chemical/x-cml';
+    public const CHEMICAL_X_CSML = 'chemical/x-csml';
+    public const CHEMICAL_X_PDB = 'chemical/x-pdb';
+    public const CHEMICAL_X_XYZ = 'chemical/x-xyz';
     public const FLV_APPLICATION_OCTET_STREAM = 'flv-application/octet-stream';
-
-    /** @var string FONT_COLLECTION */
     public const FONT_COLLECTION = 'font/collection';
-    
-    /** @var string FONT_OTF */
     public const FONT_OTF = 'font/otf';
-    
-    /** @var string FONT_TTF */
+    public const FONT_SFNT = 'font/sfnt';
     public const FONT_TTF = 'font/ttf';
-    
-    /** @var string FONT_WOFF */
     public const FONT_WOFF = 'font/woff';
-    
-    /** @var string FONT_WOFF2 */
     public const FONT_WOFF2 = 'font/woff2';
-
-    /** @var string IMAGE_BMP */
+    public const IMAGE_ACES = 'image/aces';
+    public const IMAGE_APNG = 'image/apng';
+    public const IMAGE_AVCI = 'image/avci';
+    public const IMAGE_AVCS = 'image/avcs';
     public const IMAGE_BMP = 'image/bmp';
-
-    /** @var string IMAGE_CDR */
     public const IMAGE_CDR = 'image/cdr';
-
-    /** @var string IMAGE_CGM */
     public const IMAGE_CGM = 'image/cgm';
-
-    /** @var string IMAGE_CGM */
+    public const IMAGE_DICOM_RLE = 'image/dicom-rle';
     public const IMAGE_EMF = 'image/emf';
-
-    /** @var string IMAGE_FAX_G3 */
     public const IMAGE_FAX_G3 = 'image/fax-g3';
-    
-    /** @var string IMAGE_FITS */
     public const IMAGE_FITS = 'image/fits';
-
-    /** @var string IMAGE_G3FAX */
     public const IMAGE_G3FAX = 'image/g3fax';
-
-    /** @var string IMAGE_GIF */
     public const IMAGE_GIF = 'image/gif';
-
-    /** @var string IMAGE_HEIC */
     public const IMAGE_HEIC = 'image/heic';
-
-    /** @var string IMAGE_HEIC_SEQUENCE */
     public const IMAGE_HEIC_SEQUENCE = 'image/heic-sequence';
-
-    /** @var string IMAGE_HEIF */
     public const IMAGE_HEIF = 'image/heif';
-
-    /** @var string IMAGE_HEIF_SEQUENCE */
     public const IMAGE_HEIF_SEQUENCE = 'image/heif-sequence';
-
-    /** @var string IMAGE_ICO */
+    public const IMAGE_HEJ2K = 'image/hej2k';
+    public const IMAGE_HSJ2 = 'image/hsj2';
     public const IMAGE_ICO = 'image/ico';
-
-    /** @var string IMAGE_ICON */
     public const IMAGE_ICON = 'image/icon';
-
-    /** @var string IMAGE_IEF */
     public const IMAGE_IEF = 'image/ief';
-
-    /** @var string IMAGE_IEF */
+    public const IMAGE_JLS = 'image/jls';
     public const IMAGE_JP2 = 'image/jp2';
-
-    /** @var string IMAGE_JPEG */
     public const IMAGE_JPEG = 'image/jpeg';
-
-    /** @var string IMAGE_IEF */
     public const IMAGE_JPEG2000 = 'image/jpeg2000';
-    
-    /** @var string IMAGE_IEF */
     public const IMAGE_JPEG2000_IMAGE = 'image/jpeg2000-image';
-    
-    /** @var string IMAGE_IEF */
+    public const IMAGE_JPH = 'image/jph';
+    public const IMAGE_JPHC = 'image/jphc';
     public const IMAGE_JPM = 'image/jpm';
-    
-    /** @var string IMAGE_IEF */
     public const IMAGE_JPX = 'image/jpx';
-
-    /** @var string IMAGE_KTX */
+    public const IMAGE_JXR = 'image/jxr';
+    public const IMAGE_JXRA = 'image/jxra';
+    public const IMAGE_JXRS = 'image/jxrs';
+    public const IMAGE_JXS = 'image/jxs';
+    public const IMAGE_JXSC = 'image/jxsc';
+    public const IMAGE_JXSI = 'image/jxsi';
+    public const IMAGE_JXSS = 'image/jxss';
     public const IMAGE_KTX = 'image/ktx';
-
-    /** @var string IMAGE_OPENRASTER */
+    public const IMAGE_NAPLPS = 'image/naplps';
     public const IMAGE_OPENRASTER = 'image/openraster';
-
-    /** @var string IMAGE_PDF */
     public const IMAGE_PDF = 'image/pdf';
-
-    /** @var string IMAGE_PHOTOSHOP */
     public const IMAGE_PHOTOSHOP = 'image/photoshop';
-
-    /** @var string IMAGE_PJPEG */
     public const IMAGE_PJPEG = 'image/pjpeg';
-
-    /** @var string IMAGE_PNG */
     public const IMAGE_PNG = 'image/png';
-
-    /** @var string IMAGE_PRS_BTIF */
     public const IMAGE_PRS_BTIF = 'image/prs.btif';
-
-    /** @var string IMAGE_PSD */
+    public const IMAGE_PRS_PTI = 'image/prs.pti';
     public const IMAGE_PSD = 'image/psd';
-
-    /** @var string IMAGE_RLE */
+    public const IMAGE_PWG_RASTER = 'image/pwg-raster';
     public const IMAGE_RLE = 'image/rle';
-
-    /** @var string IMAGE_SGI */
     public const IMAGE_SGI = 'image/sgi';
-
-    /** @var string IMAGE_SVG_XML */
     public const IMAGE_SVG_XML = 'image/svg+xml';
-
-    /** @var string IMAGE_SVG_XML_COMPRESSED */
     public const IMAGE_SVG_XML_COMPRESSED = 'image/svg+xml-compressed';
-
-    /** @var string IMAGE_TIFF */
+    public const IMAGE_T38 = 'image/t38';
     public const IMAGE_TIFF = 'image/tiff';
-
-    /** @var string IMAGE_VND_ADOBE_PHOTOSHOP */
+    public const IMAGE_TIFF_FX = 'image/tiff-fx';
     public const IMAGE_VND_ADOBE_PHOTOSHOP = 'image/vnd.adobe.photoshop';
-
-    /** @var string IMAGE_VND_DECE_GRAPHIC */
+    public const IMAGE_VND_AIRZIP_ACCELERATOR_AZV = 'image/vnd.airzip.accelerator.azv';
+    public const IMAGE_VND_CNS_INF2 = 'image/vnd.cns.inf2';
     public const IMAGE_VND_DECE_GRAPHIC = 'image/vnd.dece.graphic';
-
-    /** @var string IMAGE_VND_DJVU */
     public const IMAGE_VND_DJVU = 'image/vnd.djvu';
-
-    /** @var string IMAGE_VND_DJVU_MULTIPAGE */
     public const IMAGE_VND_DJVU_MULTIPAGE = 'image/vnd.djvu+multipage';
-
-    /** @var string IMAGE_VND_DVB_SUBTITLE */
     public const IMAGE_VND_DVB_SUBTITLE = 'image/vnd.dvb.subtitle';
-
-    /** @var string IMAGE_VND_DWG */
     public const IMAGE_VND_DWG = 'image/vnd.dwg';
-
-    /** @var string IMAGE_VND_DXF */
     public const IMAGE_VND_DXF = 'image/vnd.dxf';
-
-    /** @var string IMAGE_VND_FASTBIDSHEET */
     public const IMAGE_VND_FASTBIDSHEET = 'image/vnd.fastbidsheet';
-
-    /** @var string IMAGE_VND_FPX */
     public const IMAGE_VND_FPX = 'image/vnd.fpx';
-
-    /** @var string IMAGE_VND_FST */
     public const IMAGE_VND_FST = 'image/vnd.fst';
-
-    /** @var string IMAGE_VND_FUJIXEROX_EDMICS_MMR */
     public const IMAGE_VND_FUJIXEROX_EDMICS_MMR = 'image/vnd.fujixerox.edmics-mmr';
-
-    /** @var string IMAGE_VND_FUJIXEROX_EDMICS_RLC */
     public const IMAGE_VND_FUJIXEROX_EDMICS_RLC = 'image/vnd.fujixerox.edmics-rlc';
-
-    /** @var string IMAGE_VND_MICROSOFT_ICON */
+    public const IMAGE_VND_GLOBALGRAPHICS_PGB = 'image/vnd.globalgraphics.pgb';
     public const IMAGE_VND_MICROSOFT_ICON = 'image/vnd.microsoft.icon';
-
-    /** @var string IMAGE_VND_MS_MODI */
+    public const IMAGE_VND_MIX = 'image/vnd.mix';
+    public const IMAGE_VND_MOZILLA_APNG = 'image/vnd.mozilla.apng';
+    public const IMAGE_VND_MS_DDS = 'image/vnd.ms-dds';
     public const IMAGE_VND_MS_MODI = 'image/vnd.ms-modi';
-
-    /** @var string IMAGE_VND_MS_PHOTO */
     public const IMAGE_VND_MS_PHOTO = 'image/vnd.ms-photo';
-
-    /** @var string IMAGE_VND_NET_FPX */
     public const IMAGE_VND_NET_FPX = 'image/vnd.net-fpx';
-
-    /** @var string IMAGE_VND_RN_REALPIX */
+    public const IMAGE_VND_RADIANCE = 'image/vnd.radiance';
     public const IMAGE_VND_RN_REALPIX = 'image/vnd.rn-realpix';
-
-    /** @var string IMAGE_VND_WAP_WBMP */
+    public const IMAGE_VND_SEALEDMEDIA_SOFTSEAL_GIF = 'image/vnd.sealedmedia.softseal.gif';
+    public const IMAGE_VND_SEALEDMEDIA_SOFTSEAL_JPG = 'image/vnd.sealedmedia.softseal.jpg';
+    public const IMAGE_VND_SEALED_PNG = 'image/vnd.sealed.png';
+    public const IMAGE_VND_SVF = 'image/vnd.svf';
+    public const IMAGE_VND_TENCENT_TAP = 'image/vnd.tencent.tap';
+    public const IMAGE_VND_VALVE_SOURCE_TEXTURE = 'image/vnd.valve.source.texture';
     public const IMAGE_VND_WAP_WBMP = 'image/vnd.wap.wbmp';
-
-    /** @var string IMAGE_VND_XIFF */
     public const IMAGE_VND_XIFF = 'image/vnd.xiff';
-
-    /** @var string IMAGE_VND_ZBRUSH_PCX */
     public const IMAGE_VND_ZBRUSH_PCX = 'image/vnd.zbrush.pcx';
-
-    /** @var string IMAGE_WEBP */
     public const IMAGE_WEBP = 'image/webp';
-
-    /** @var string IMAGE_WMF */
     public const IMAGE_WMF = 'image/wmf';
-
-    /** @var string IMAGE_X_3DS */
     public const IMAGE_X_3DS = 'image/x-3ds';
-
-    /** @var string IMAGE_X_ADOBE_DNG */
     public const IMAGE_X_ADOBE_DNG = 'image/x-adobe-dng';
-
-    /** @var string IMAGE_X_APPLIX_GRAPHICS */
     public const IMAGE_X_APPLIX_GRAPHICS = 'image/x-applix-graphics';
-
-    /** @var string IMAGE_X_BMP */
     public const IMAGE_X_BMP = 'image/x-bmp';
-
-    /** @var string IMAGE_X_BZEPS */
     public const IMAGE_X_BZEPS = 'image/x-bzeps';
-
-    /** @var string IMAGE_X_CANON_CR2 */
     public const IMAGE_X_CANON_CR2 = 'image/x-canon-cr2';
-
-    /** @var string IMAGE_X_CANON_CRW */
     public const IMAGE_X_CANON_CRW = 'image/x-canon-crw';
-
-    /** @var string IMAGE_X_CDR */
     public const IMAGE_X_CDR = 'image/x-cdr';
-
-    /** @var string IMAGE_X_CMU_RASTER */
     public const IMAGE_X_CMU_RASTER = 'image/x-cmu-raster';
-
-    /** @var string IMAGE_X_CMX */
     public const IMAGE_X_CMX = 'image/x-cmx';
-
-    /** @var string IMAGE_X_COMPRESSED_XCF */
     public const IMAGE_X_COMPRESSED_XCF = 'image/x-compressed-xcf';
-
-    /** @var string IMAGE_X_DDS */
     public const IMAGE_X_DDS = 'image/x-dds';
-
-    /** @var string IMAGE_X_DJVU */
     public const IMAGE_X_DJVU = 'image/x-djvu';
-
-    /** @var string IMAGE_X_EMF */
     public const IMAGE_X_EMF = 'image/x-emf';
-
-    /** @var string IMAGE_X_EPS */
     public const IMAGE_X_EPS = 'image/x-eps';
-
-    /** @var string IMAGE_X_EXR */
     public const IMAGE_X_EXR = 'image/x-exr';
-
-    /** @var string IMAGE_X_FITS */
     public const IMAGE_X_FITS = 'image/x-fits';
-
-    /** @var string IMAGE_X_FREEHAND */
     public const IMAGE_X_FREEHAND = 'image/x-freehand';
-
-    /** @var string IMAGE_X_FUJI_RAF */
     public const IMAGE_X_FUJI_RAF = 'image/x-fuji-raf';
-
-    /** @var string IMAGE_X_GIMP_GBR */
     public const IMAGE_X_GIMP_GBR = 'image/x-gimp-gbr';
-
-    /** @var string IMAGE_X_GIMP_GIH */
     public const IMAGE_X_GIMP_GIH = 'image/x-gimp-gih';
-
-    /** @var string IMAGE_X_GIMP_PAT */
     public const IMAGE_X_GIMP_PAT = 'image/x-gimp-pat';
-
-    /** @var string IMAGE_X_GZEPS */
     public const IMAGE_X_GZEPS = 'image/x-gzeps';
-
-    /** @var string IMAGE_X_ICB */
     public const IMAGE_X_ICB = 'image/x-icb';
-
-    /** @var string IMAGE_X_ICNS */
     public const IMAGE_X_ICNS = 'image/x-icns';
-
-    /** @var string IMAGE_X_ICO */
     public const IMAGE_X_ICO = 'image/x-ico';
-
-    /** @var string IMAGE_X_ICON */
     public const IMAGE_X_ICON = 'image/x-icon';
-
-    /** @var string IMAGE_X_IFF */
     public const IMAGE_X_IFF = 'image/x-iff';
-
-    /** @var string IMAGE_X_ILBM */
     public const IMAGE_X_ILBM = 'image/x-ilbm';
-
-    /** @var string IMAGE_X_JNG */
     public const IMAGE_X_JNG = 'image/x-jng';
-
-    /** @var string IMAGE_X_JP2_CODESTREAM */
     public const IMAGE_X_JP2_CODESTREAM = 'image/x-jp2-codestream';
-
-    /** @var string IMAGE_X_JPEG2000_IMAGE */
     public const IMAGE_X_JPEG2000_IMAGE = 'image/x-jpeg2000-image';
-
-    /** @var string IMAGE_X_KODAK_DCR */
     public const IMAGE_X_KODAK_DCR = 'image/x-kodak-dcr';
-
-    /** @var string IMAGE_X_KODAK_K25 */
     public const IMAGE_X_KODAK_K25 = 'image/x-kodak-k25';
-
-    /** @var string IMAGE_X_KODAK_KDC */
     public const IMAGE_X_KODAK_KDC = 'image/x-kodak-kdc';
-
-    /** @var string IMAGE_X_LWO */
     public const IMAGE_X_LWO = 'image/x-lwo';
-
-    /** @var string IMAGE_X_LWS */
     public const IMAGE_X_LWS = 'image/x-lws';
-
-    /** @var string IMAGE_X_MACPAINT */
     public const IMAGE_X_MACPAINT = 'image/x-macpaint';
-
-    /** @var string IMAGE_X_MINOLTA_MRW */
     public const IMAGE_X_MINOLTA_MRW = 'image/x-minolta-mrw';
-
-    /** @var string IMAGE_X_MRSID_IMAGE */
     public const IMAGE_X_MRSID_IMAGE = 'image/x-mrsid-image';
-
-    /** @var string IMAGE_X_MS_BMP */
-    public const IMAGE_X_MS_BMP = 'image/x-ms-bmp';
-
-    /** @var string IMAGE_X_MSOD */
     public const IMAGE_X_MSOD = 'image/x-msod';
-
-    /** @var string IMAGE_X_NIKON_NEF */
+    public const IMAGE_X_MS_BMP = 'image/x-ms-bmp';
     public const IMAGE_X_NIKON_NEF = 'image/x-nikon-nef';
-
-    /** @var string IMAGE_X_OLYMPUS_ORF */
     public const IMAGE_X_OLYMPUS_ORF = 'image/x-olympus-orf';
-
-    /** @var string IMAGE_X_PANASONIC_RAW */
     public const IMAGE_X_PANASONIC_RAW = 'image/x-panasonic-raw';
-
-    /** @var string IMAGE_X_PANASONIC_RAW2 */
     public const IMAGE_X_PANASONIC_RAW2 = 'image/x-panasonic-raw2';
-
-    /** @var string IMAGE_X_PANASONIC_RW */
     public const IMAGE_X_PANASONIC_RW = 'image/x-panasonic-rw';
-
-    /** @var string IMAGE_X_PANASONIC_RW2 */
     public const IMAGE_X_PANASONIC_RW2 = 'image/x-panasonic-rw2';
-
-    /** @var string IMAGE_X_PCX */
     public const IMAGE_X_PCX = 'image/x-pcx';
-
-    /** @var string IMAGE_X_PENTAX_PEF */
     public const IMAGE_X_PENTAX_PEF = 'image/x-pentax-pef';
-
-    /** @var string IMAGE_X_PHOTO_CD */
-    public const IMAGE_X_PHOTO_CD = 'image/x-photo-cd';
-
-    /** @var string IMAGE_X_PHOTOSHOP */
     public const IMAGE_X_PHOTOSHOP = 'image/x-photoshop';
-
-    /** @var string IMAGE_X_PICT */
+    public const IMAGE_X_PHOTO_CD = 'image/x-photo-cd';
     public const IMAGE_X_PICT = 'image/x-pict';
-
-    /** @var string IMAGE_X_PORTABLE_ANYMAP */
     public const IMAGE_X_PORTABLE_ANYMAP = 'image/x-portable-anymap';
-
-    /** @var string IMAGE_X_PORTABLE_BITMAP */
     public const IMAGE_X_PORTABLE_BITMAP = 'image/x-portable-bitmap';
-
-    /** @var string IMAGE_X_PORTABLE_GRAYMAP */
     public const IMAGE_X_PORTABLE_GRAYMAP = 'image/x-portable-graymap';
-
-    /** @var string IMAGE_X_PORTABLE_PIXMAP */
     public const IMAGE_X_PORTABLE_PIXMAP = 'image/x-portable-pixmap';
-
-    /** @var string IMAGE_X_PSD */
     public const IMAGE_X_PSD = 'image/x-psd';
-
-    /** @var string IMAGE_X_QUICKTIME */
     public const IMAGE_X_QUICKTIME = 'image/x-quicktime';
-
-    /** @var string IMAGE_X_RGB */
     public const IMAGE_X_RGB = 'image/x-rgb';
-
-    /** @var string IMAGE_X_SGI */
     public const IMAGE_X_SGI = 'image/x-sgi';
-
-    /** @var string IMAGE_X_SIGMA_X3F */
     public const IMAGE_X_SIGMA_X3F = 'image/x-sigma-x3f';
-
-    /** @var string IMAGE_X_SKENCIL */
     public const IMAGE_X_SKENCIL = 'image/x-skencil';
-
-    /** @var string IMAGE_X_SONY_ARW */
     public const IMAGE_X_SONY_ARW = 'image/x-sony-arw';
-
-    /** @var string IMAGE_X_SONY_SR2 */
     public const IMAGE_X_SONY_SR2 = 'image/x-sony-sr2';
-
-    /** @var string IMAGE_X_SONY_SRF */
     public const IMAGE_X_SONY_SRF = 'image/x-sony-srf';
-
-    /** @var string IMAGE_X_SUN_RASTER */
     public const IMAGE_X_SUN_RASTER = 'image/x-sun-raster';
-
-    /** @var string IMAGE_X_TGA */
     public const IMAGE_X_TGA = 'image/x-tga';
-
-    /** @var string IMAGE_X_WIN_BITMAP */
     public const IMAGE_X_WIN_BITMAP = 'image/x-win-bitmap';
-    
-    /** @var string IMAGE_X_WIN_METAFILE */
     public const IMAGE_X_WIN_METAFILE = 'image/x-win-metafile';
-    
-    /** @var string IMAGE_X_WMF */
     public const IMAGE_X_WMF = 'image/x-wmf';
-
-    /** @var string IMAGE_X_XBITMAP */
     public const IMAGE_X_XBITMAP = 'image/x-xbitmap';
-
-    /** @var string IMAGE_X_XCF */
     public const IMAGE_X_XCF = 'image/x-xcf';
-    
-    /** @var string IMAGE_X_XFIG */
     public const IMAGE_X_XFIG = 'image/x-xfig';
-
-    /** @var string IMAGE_X_XPIXMAP */
     public const IMAGE_X_XPIXMAP = 'image/x-xpixmap';
-
-    /** @var string IMAGE_X_XPM */
     public const IMAGE_X_XPM = 'image/x-xpm';
-
-    /** @var string IMAGE_X_XWINDOWDUMP */
     public const IMAGE_X_XWINDOWDUMP = 'image/x-xwindowdump';
-
-    /** @var string MESSAGE_RFC822 */
+    public const MESSAGE_CPIM = 'message/cpim';
+    public const MESSAGE_DELIVERY_STATUS = 'message/delivery-status';
+    public const MESSAGE_DISPOSITION_NOTIFICATION = 'message/disposition-notification';
+    public const MESSAGE_EXTERNAL_BODY = 'message/external-body';
+    public const MESSAGE_FEEDBACK_REPORT = 'message/feedback-report';
+    public const MESSAGE_GLOBAL = 'message/global';
+    public const MESSAGE_GLOBAL_DELIVERY_STATUS = 'message/global-delivery-status';
+    public const MESSAGE_GLOBAL_DISPOSITION_NOTIFICATION = 'message/global-disposition-notification';
+    public const MESSAGE_GLOBAL_HEADERS = 'message/global-headers';
+    public const MESSAGE_HTTP = 'message/http';
+    public const MESSAGE_IMDN_XML = 'message/imdn+xml';
+    public const MESSAGE_NEWS = 'message/news';
+    public const MESSAGE_PARTIAL = 'message/partial';
     public const MESSAGE_RFC822 = 'message/rfc822';
-
-    /** @var string MODEL_IGES */
+    public const MESSAGE_SIP = 'message/sip';
+    public const MESSAGE_SIPFRAG = 'message/sipfrag';
+    public const MESSAGE_S_HTTP = 'message/s-http';
+    public const MESSAGE_TRACKING_STATUS = 'message/tracking-status';
+    public const MESSAGE_VND_SI_SIMP = 'message/vnd.si.simp';
+    public const MESSAGE_VND_WFA_WSC = 'message/vnd.wfa.wsc';
+    public const MODEL_3MF = 'model/3mf';
+    public const MODEL_GLTF_BINARY = 'model/gltf-binary';
+    public const MODEL_GLTF_JSON = 'model/gltf+json';
     public const MODEL_IGES = 'model/iges';
-
-    /** @var string MODEL_MESH */
     public const MODEL_MESH = 'model/mesh';
-
-    /** @var string MODEL_STL */
+    public const MODEL_MTL = 'model/mtl';
+    public const MODEL_OBJ = 'model/obj';
     public const MODEL_STL = 'model/stl';
-
-    /** @var string MODEL_VND_COLLADA_XML */
     public const MODEL_VND_COLLADA_XML = 'model/vnd.collada+xml';
-
-    /** @var string MODEL_VND_DWF */
     public const MODEL_VND_DWF = 'model/vnd.dwf';
-
-    /** @var string MODEL_VND_GDL */
+    public const MODEL_VND_FLATLAND_3DML = 'model/vnd.flatland.3dml';
     public const MODEL_VND_GDL = 'model/vnd.gdl';
-
-    /** @var string MODEL_VND_GTW */
+    public const MODEL_VND_GS_GDL = 'model/vnd.gs-gdl';
+    public const MODEL_VND_GS_GDL_1 = 'model/vnd.gs.gdl';
     public const MODEL_VND_GTW = 'model/vnd.gtw';
-
-    /** @var string MODEL_VND_MTS */
+    public const MODEL_VND_MOML_XML = 'model/vnd.moml+xml';
     public const MODEL_VND_MTS = 'model/vnd.mts';
-
-    /** @var string MODEL_VND_VTU */
+    public const MODEL_VND_OPENGEX = 'model/vnd.opengex';
+    public const MODEL_VND_PARASOLID_TRANSMIT_BINARY = 'model/vnd.parasolid.transmit.binary';
+    public const MODEL_VND_PARASOLID_TRANSMIT_TEXT = 'model/vnd.parasolid.transmit.text';
+    public const MODEL_VND_ROSETTE_ANNOTATED_DATA_MODEL = 'model/vnd.rosette.annotated-data-model';
+    public const MODEL_VND_USDZ_ZIP = 'model/vnd.usdz+zip';
+    public const MODEL_VND_VALVE_SOURCE_COMPILED_MAP = 'model/vnd.valve.source.compiled-map';
     public const MODEL_VND_VTU = 'model/vnd.vtu';
-
-    /** @var string MODEL_VRML */
     public const MODEL_VRML = 'model/vrml';
-
-    /** @var string MODEL_X_STL_ASCII */
-    public const MODEL_X_STL_ASCII = 'model/x.stl-ascii';
-
-    /** @var string MODEL_X_STL_BINARY */
-    public const MODEL_X_STL_BINARY = 'model/x.stl-binary';
-
-    /** @var string MODEL_X3D_BINARY */
     public const MODEL_X3D_BINARY = 'model/x3d+binary';
-
-    /** @var string MODEL_X3D_VRML */
+    public const MODEL_X3D_FASTINFOSET = 'model/x3d+fastinfoset';
     public const MODEL_X3D_VRML = 'model/x3d+vrml';
-
-    /** @var string MODEL_X3D_XML */
+    public const MODEL_X3D_VRML_1 = 'model/x3d-vrml';
     public const MODEL_X3D_XML = 'model/x3d+xml';
-
-    /** @var string TEXT_CACHE_MANIFEST */
+    public const MODEL_X_STL_ASCII = 'model/x.stl-ascii';
+    public const MODEL_X_STL_BINARY = 'model/x.stl-binary';
+    public const MULTIPART_ALTERNATIVE = 'multipart/alternative';
+    public const MULTIPART_APPLEDOUBLE = 'multipart/appledouble';
+    public const MULTIPART_BYTERANGES = 'multipart/byteranges';
+    public const MULTIPART_DIGEST = 'multipart/digest';
+    public const MULTIPART_ENCRYPTED = 'multipart/encrypted';
+    public const MULTIPART_FORM_DATA = 'multipart/form-data';
+    public const MULTIPART_HEADER_SET = 'multipart/header-set';
+    public const MULTIPART_MIXED = 'multipart/mixed';
+    public const MULTIPART_MULTILINGUAL = 'multipart/multilingual';
+    public const MULTIPART_PARALLEL = 'multipart/parallel';
+    public const MULTIPART_RELATED = 'multipart/related';
+    public const MULTIPART_REPORT = 'multipart/report';
+    public const MULTIPART_SIGNED = 'multipart/signed';
+    public const MULTIPART_VND_BINT_MED_PLUS = 'multipart/vnd.bint.med-plus';
+    public const MULTIPART_VOICE_MESSAGE = 'multipart/voice-message';
+    public const MULTIPART_X_MIXED_REPLACE = 'multipart/x-mixed-replace';
+    public const TEXT_1D_INTERLEAVED_PARITYFEC = 'text/1d-interleaved-parityfec';
     public const TEXT_CACHE_MANIFEST = 'text/cache-manifest';
-
-    /** @var string TEXT_CALENDAR */
     public const TEXT_CALENDAR = 'text/calendar';
-
-    /** @var string TEXT_CSS */
+    public const TEXT_CALENDER = 'text/calender';
+    public const TEXT_CMD = 'text/cmd';
+    public const TEXT_COFFEESCRIPT = 'text/coffeescript';
     public const TEXT_CSS = 'text/css';
-
-    /** @var string TEXT_CSV */
     public const TEXT_CSV = 'text/csv';
-
-    /** @var string TEXT_CSV_SCHEMA */
     public const TEXT_CSV_SCHEMA = 'text/csv-schema';
-
-    /** @var string TEXT_DIRECTORY */
     public const TEXT_DIRECTORY = 'text/directory';
-
-    /** @var string TEXT_ECMASCRIPT */
+    public const TEXT_DNS = 'text/dns';
     public const TEXT_ECMASCRIPT = 'text/ecmascript';
-
-    /** @var string TEXT_GEDCOM */
+    public const TEXT_ENCAPRTP = 'text/encaprtp';
+    public const TEXT_ENRICHED = 'text/enriched';
+    public const TEXT_FLEXFEC = 'text/flexfec';
+    public const TEXT_FWDRED = 'text/fwdred';
     public const TEXT_GEDCOM = 'text/gedcom';
-
-    /** @var string TEXT_GOOGLE_VIDEO_POINTER */
     public const TEXT_GOOGLE_VIDEO_POINTER = 'text/google-video-pointer';
-
-    /** @var string TEXT_HTML */
+    public const TEXT_GRAMMAR_REF_LIST = 'text/grammar-ref-list';
     public const TEXT_HTML = 'text/html';
-
-    /** @var string TEXT_ICO */
     public const TEXT_ICO = 'text/ico';
-
-    /** @var string TEXT_JAVASCRIPT */
+    public const TEXT_JADE = 'text/jade';
     public const TEXT_JAVASCRIPT = 'text/javascript';
-
-    /** @var string TEXT_MARKDOWN */
+    public const TEXT_JCR_CND = 'text/jcr-cnd';
+    public const TEXT_JSX = 'text/jsx';
+    public const TEXT_LESS = 'text/less';
     public const TEXT_MARKDOWN = 'text/markdown';
-
-    /** @var string TEXT_MATHML */
     public const TEXT_MATHML = 'text/mathml';
-
-    /** @var string TEXT_N3 */
+    public const TEXT_MDX = 'text/mdx';
+    public const TEXT_MIZAR = 'text/mizar';
     public const TEXT_N3 = 'text/n3';
-
-    /** @var string TEXT_PLAIN */
+    public const TEXT_PARAMETERS = 'text/parameters';
+    public const TEXT_PARITYFEC = 'text/parityfec';
     public const TEXT_PLAIN = 'text/plain';
-
-    /** @var string TEXT_PRS_LINES_TAG */
+    public const TEXT_PROVENANCE_NOTATION = 'text/provenance-notation';
+    public const TEXT_PRS_FALLENSTEIN_RST = 'text/prs.fallenstein.rst';
     public const TEXT_PRS_LINES_TAG = 'text/prs.lines.tag';
-
-    /** @var string TEXT_RDF */
+    public const TEXT_PRS_PROP_LOGIC = 'text/prs.prop.logic';
+    public const TEXT_RAPTORFEC = 'text/raptorfec';
     public const TEXT_RDF = 'text/rdf';
-
-    /** @var string TEXT_RICHTEXT */
+    public const TEXT_RED = 'text/red';
+    public const TEXT_RFC822_HEADERS = 'text/rfc822-headers';
     public const TEXT_RICHTEXT = 'text/richtext';
-
-    /** @var string TEXT_RSS */
     public const TEXT_RSS = 'text/rss';
-
-    /** @var string TEXT_RTF */
     public const TEXT_RTF = 'text/rtf';
-
-    /** @var string TEXT_RUST */
+    public const TEXT_RTPLOOPBACK = 'text/rtploopback';
+    public const TEXT_RTP_ENC_AESCM128 = 'text/rtp-enc-aescm128';
+    public const TEXT_RTX = 'text/rtx';
     public const TEXT_RUST = 'text/rust';
-
-    /** @var string TEXT_SGML */
     public const TEXT_SGML = 'text/sgml';
-
-    /** @var string TEXT_SPREADSHEET */
+    public const TEXT_SHEX = 'text/shex';
+    public const TEXT_SLIM = 'text/slim';
     public const TEXT_SPREADSHEET = 'text/spreadsheet';
-
-    /** @var string TEXT_TAB_SEPARATED_VALUES */
+    public const TEXT_STRINGS = 'text/strings';
+    public const TEXT_STYLUS = 'text/stylus';
+    public const TEXT_T140 = 'text/t140';
     public const TEXT_TAB_SEPARATED_VALUES = 'text/tab-separated-values';
-
-    /** @var string TEXT_TROFF */
     public const TEXT_TROFF = 'text/troff';
-
-    /** @var string TEXT_TURTLE */
     public const TEXT_TURTLE = 'text/turtle';
-
-    /** @var string TEXT_URI_LIST */
+    public const TEXT_ULPFEC = 'text/ulpfec';
     public const TEXT_URI_LIST = 'text/uri-list';
-
-    /** @var string TEXT_VCARD */
     public const TEXT_VCARD = 'text/vcard';
-
-    /** @var string TEXT_VND_CURL */
+    public const TEXT_VND_A = 'text/vnd.a';
+    public const TEXT_VND_ABC = 'text/vnd.abc';
+    public const TEXT_VND_ASCII_ART = 'text/vnd.ascii-art';
     public const TEXT_VND_CURL = 'text/vnd.curl';
-
-    /** @var string TEXT_VND_CURL_DCURL */
     public const TEXT_VND_CURL_DCURL = 'text/vnd.curl.dcurl';
-
-    /** @var string TEXT_VND_CURL_MCURL */
     public const TEXT_VND_CURL_MCURL = 'text/vnd.curl.mcurl';
-
-    /** @var string TEXT_VND_CURL_SCURL */
     public const TEXT_VND_CURL_SCURL = 'text/vnd.curl.scurl';
-
-    /** @var string TEXT_VND_DVB_SUBTITLE */
+    public const TEXT_VND_DEBIAN_COPYRIGHT = 'text/vnd.debian.copyright';
+    public const TEXT_VND_DMCLIENTSCRIPT = 'text/vnd.dmclientscript';
     public const TEXT_VND_DVB_SUBTITLE = 'text/vnd.dvb.subtitle';
-
-    /** @var string TEXT_VND_FLY */
+    public const TEXT_VND_ESMERTEC_THEME_DESCRIPTOR = 'text/vnd.esmertec.theme-descriptor';
+    public const TEXT_VND_FICLAB_FLT = 'text/vnd.ficlab.flt';
     public const TEXT_VND_FLY = 'text/vnd.fly';
-
-    /** @var string TEXT_VND_FMI_FLEXSTOR */
     public const TEXT_VND_FMI_FLEXSTOR = 'text/vnd.fmi.flexstor';
-
-    /** @var string TEXT_VND_GRAPHVIZ */
+    public const TEXT_VND_GML = 'text/vnd.gml';
     public const TEXT_VND_GRAPHVIZ = 'text/vnd.graphviz';
-
-    /** @var string TEXT_VND_IN3D_3DML */
+    public const TEXT_VND_HGL = 'text/vnd.hgl';
     public const TEXT_VND_IN3D_3DML = 'text/vnd.in3d.3dml';
-
-    /** @var string TEXT_VND_IN3D_SPOT */
     public const TEXT_VND_IN3D_SPOT = 'text/vnd.in3d.spot';
-
-    /** @var string TEXT_VND_QT_LINGUIST */
+    public const TEXT_VND_IPTC_NEWSML = 'text/vnd.iptc.newsml';
+    public const TEXT_VND_IPTC_NITF = 'text/vnd.iptc.nitf';
+    public const TEXT_VND_LATEX_Z = 'text/vnd.latex-z';
+    public const TEXT_VND_MOTOROLA_REFLEX = 'text/vnd.motorola.reflex';
+    public const TEXT_VND_MS_MEDIAPACKAGE = 'text/vnd.ms-mediapackage';
+    public const TEXT_VND_NET2PHONE_COMMCENTER_COMMAND = 'text/vnd.net2phone.commcenter.command';
     public const TEXT_VND_QT_LINGUIST = 'text/vnd.qt.linguist';
-
-    /** @var string TEXT_VND_RN_REALTEXT */
+    public const TEXT_VND_RADISYS_MSML_BASIC_LAYOUT = 'text/vnd.radisys.msml-basic-layout';
     public const TEXT_VND_RN_REALTEXT = 'text/vnd.rn-realtext';
-
-    /** @var string TEXT_VND_SUN_J2ME_APPLICATION_DESCRIPTOR */
-    public const TEXT_VND_SUN_J2ME_APPLICATION_DESCRIPTOR = 'text/vnd.sun.j2me.app-descriptor';
-
-    /** @var string TEXT_VND_TROLLTECH_LINGUIST */
+    public const TEXT_VND_SENX_WARPSCRIPT = 'text/vnd.senx.warpscript';
+    public const TEXT_VND_SI_URICATALOGUE = 'text/vnd.si.uricatalogue';
+    public const TEXT_VND_SOSI = 'text/vnd.sosi';
+    public const TEXT_VND_SUN_J2ME_APP_DESCRIPTOR = 'text/vnd.sun.j2me.app-descriptor';
     public const TEXT_VND_TROLLTECH_LINGUIST = 'text/vnd.trolltech.linguist';
-
-    /** @var string TEXT_VND_WAP_WML */
+    public const TEXT_VND_WAP_SI = 'text/vnd.wap.si';
+    public const TEXT_VND_WAP_SL = 'text/vnd.wap.sl';
     public const TEXT_VND_WAP_WML = 'text/vnd.wap.wml';
-
-    /** @var string TEXT_VND_WAP_WMLSCRIPT */
     public const TEXT_VND_WAP_WMLSCRIPT = 'text/vnd.wap.wmlscript';
-
-    /** @var string TEXT_VTT */
     public const TEXT_VTT = 'text/vtt';
-
-    /** @var string TEXT_X_ADASRC */
-    public const TEXT_X_ADASRC = 'text/x-adasrc';
-
-    /** @var string TEXT_X_ASM */
-    public const TEXT_X_ASM = 'text/x-asm';
-
-    /** @var string TEXT_X_BIBTEX */
-    public const TEXT_X_BIBTEX = 'text/x-bibtex';
-
-    /** @var string TEXT_X_C */
-    public const TEXT_X_C = 'text/x-c';
-
-    /** @var string TEXT_X_C_HDR */
-    public const TEXT_X_C_HDR = 'text/x-c++hdr';
-
-    /** @var string TEXT_X_C_SRC */
-    public const TEXT_X_C_SRC = 'text/x-c++src';
-
-    /** @var string TEXT_X_CHDR */
-    public const TEXT_X_CHDR = 'text/x-chdr';
-
-    /** @var string TEXT_X_CMAKE */
-    public const TEXT_X_CMAKE = 'text/x-cmake';
-
-    /** @var string TEXT_X_COBOL */
-    public const TEXT_X_COBOL = 'text/x-cobol';
-
-    /** @var string TEXT_X_COMMA_SEPARATED_VALUES */
-    public const TEXT_X_COMMA_SEPARATED_VALUES = 'text/x-comma-separated-values';
-
-    /** @var string TEXT_X_CSHARP */
-    public const TEXT_X_CSHARP = 'text/x-csharp';
-
-    /** @var string TEXT_X_CSRC */
-    public const TEXT_X_CSRC = 'text/x-csrc';
-
-    /** @var string TEXT_X_CSV */
-    public const TEXT_X_CSV = 'text/x-csv';
-
-    /** @var string TEXT_X_DBUS_SERVICE */
-    public const TEXT_X_DBUS_SERVICE = 'text/x-dbus-service';
-
-    /** @var string TEXT_X_DCL */
-    public const TEXT_X_DCL = 'text/x-dcl';
-
-    /** @var string TEXT_X_DIFF */
-    public const TEXT_X_DIFF = 'text/x-diff';
-
-    /** @var string TEXT_X_DSL */
-    public const TEXT_X_DSL = 'text/x-dsl';
-
-    /** @var string TEXT_X_DSRC */
-    public const TEXT_X_DSRC = 'text/x-dsrc';
-
-    /** @var string TEXT_X_DTD */
-    public const TEXT_X_DTD = 'text/x-dtd';
-
-    /** @var string TEXT_X_EIFFEL */
-    public const TEXT_X_EIFFEL = 'text/x-eiffel';
-
-    /** @var string TEXT_X_EMACS_LISP */
-    public const TEXT_X_EMACS_LISP = 'text/x-emacs-lisp';
-
-    /** @var string TEXT_X_ERLANG */
-    public const TEXT_X_ERLANG = 'text/x-erlang';
-
-    /** @var string TEXT_X_FORTRAN */
-    public const TEXT_X_FORTRAN = 'text/x-fortran';
-
-    /** @var string TEXT_X_GENIE */
-    public const TEXT_X_GENIE = 'text/x-genie';
-
-    /** @var string TEXT_X_GETTEXT_TRANSLATION */
-    public const TEXT_X_GETTEXT_TRANSLATION = 'text/x-gettext-translation';
-
-    /** @var string TEXT_X_GETTEXT_TRANSLATION_TEMPLATE */
-    public const TEXT_X_GETTEXT_TRANSLATION_TEMPLATE = 'text/x-gettext-translation-template';
-
-    /** @var string TEXT_X_GHERKIN */
-    public const TEXT_X_GHERKIN = 'text/x-gherkin';
-
-    /** @var string TEXT_X_GO */
-    public const TEXT_X_GO = 'text/x-go';
-
-    /** @var string TEXT_X_GOOGLE_VIDEO_POINTER */
-    public const TEXT_X_GOOGLE_VIDEO_POINTER = 'text/x-google-video-pointer';
-
-    /** @var string TEXT_X_HASKELL */
-    public const TEXT_X_HASKELL = 'text/x-haskell';
-
-    /** @var string TEXT_X_IDL */
-    public const TEXT_X_IDL = 'text/x-idl';
-
-    /** @var string TEXT_X_IMELODY */
-    public const TEXT_X_IMELODY = 'text/x-imelody';
-
-    /** @var string TEXT_X_IPTABLES */
-    public const TEXT_X_IPTABLES = 'text/x-iptables';
-    
-    /** @var string TEXT_X_JAVA */
-    public const TEXT_X_JAVA = 'text/x-java';
-
-    /** @var string TEXT_X_JAVA_SOURCE */
-    public const TEXT_X_JAVA_SOURCE = 'text/x-java-source';
-
-    /** @var string TEXT_X_LDIF */
-    public const TEXT_X_LDIF = 'text/x-ldif';
-
-    /** @var string TEXT_X_LILYPOND */
-    public const TEXT_X_LILYPOND = 'text/x-lilypond';
-
-    /** @var string TEXT_X_LITERATE_HASKELL */
-    public const TEXT_X_LITERATE_HASKELL = 'text/x-literate-haskell';
-
-    /** @var string TEXT_X_LOG */
-    public const TEXT_X_LOG = 'text/x-log';
-
-    /** @var string TEXT_X_LUA */
-    public const TEXT_X_LUA = 'text/x-lua';
-
-    /** @var string TEXT_X_LYX */
-    public const TEXT_X_LYX = 'text/x-lyx';
-
-    /** @var string TEXT_X_MAKEFILE */
-    public const TEXT_X_MAKEFILE = 'text/x-makefile';
-
-    /** @var string TEXT_X_MARKDOWN */
-    public const TEXT_X_MARKDOWN = 'text/x-markdown';
-
-    /** @var string TEXT_X_MATLAB */
-    public const TEXT_X_MATLAB = 'text/x-matlab';
-
-    /** @var string TEXT_X_MICRODVD */
-    public const TEXT_X_MICRODVD = 'text/x-microdvd';
-
-    /** @var string TEXT_X_MOC */
-    public const TEXT_X_MOC = 'text/x-moc';
-
-    /** @var string TEXT_X_MODELICA */
-    public const TEXT_X_MODELICA = 'text/x-modelica';
-
-    /** @var string TEXT_X_MOF */
-    public const TEXT_X_MOF = 'text/x-mof';
-
-    /** @var string TEXT_X_MPSUB */
-    public const TEXT_X_MPSUB = 'text/x-mpsub';
-
-    /** @var string TEXT_X_MRML */
-    public const TEXT_X_MRML = 'text/x-mrml';
-
-    /** @var string TEXT_X_MS_REGEDIT */
-    public const TEXT_X_MS_REGEDIT = 'text/x-ms-regedit';
-
-    /** @var string TEXT_X_MUP */
-    public const TEXT_X_MUP = 'text/x-mup';
-
-    /** @var string TEXT_X_NFO */
-    public const TEXT_X_NFO = 'text/x-nfo';
-
-    /** @var string TEXT_X_OBJCSRC */
-    public const TEXT_X_OBJCSRC = 'text/x-objcsrc';
-
-    /** @var string TEXT_X_OCAML */
-    public const TEXT_X_OCAML = 'text/x-ocaml';
-
-    /** @var string TEXT_X_OCL */
-    public const TEXT_X_OCL = 'text/x-ocl';
-
-    /** @var string TEXT_X_OCTAVE */
-    public const TEXT_X_OCTAVE = 'text/x-octave';
-
-    /** @var string TEXT_X_OOC */
-    public const TEXT_X_OOC = 'text/x-ooc';
-
-    /** @var string TEXT_X_OPENCL_SRC */
-    public const TEXT_X_OPENCL_SRC = 'text/x-opencl-src';
-
-    /** @var string TEXT_X_OPML */
-    public const TEXT_X_OPML = 'text/x-opml';
-
-    /** @var string TEXT_X_OPML_XML */
-    public const TEXT_X_OPML_XML = 'text/x-opml+xml';
-
-    /** @var string TEXT_X_PASCAL */
-    public const TEXT_X_PASCAL = 'text/x-pascal';
-
-    /** @var string TEXT_X_PATCH */
-    public const TEXT_X_PATCH = 'text/x-patch';
-
-    /** @var string TEXT_X_PERL */
-    public const TEXT_X_PERL = 'text/x-perl';
-
-    /** @var string TEXT_X_PO */
-    public const TEXT_X_PO = 'text/x-po';
-
-    /** @var string TEXT_X_POT */
-    public const TEXT_X_POT = 'text/x-pot';
-
-    /** @var string TEXT_X_PYTHON */
-    public const TEXT_X_PYTHON = 'text/x-python';
-
-    /** @var string TEXT_X_PYTHON3 */
-    public const TEXT_X_PYTHON3 = 'text/x-python3';
-
-    /** @var string TEXT_X_QML */
-    public const TEXT_X_QML = 'text/x-qml';
-
-    /** @var string TEXT_X_REJECT */
-    public const TEXT_X_REJECT = 'text/x-reject';
-
-    /** @var string TEXT_X_RPM_SPEC */
-    public const TEXT_X_RPM_SPEC = 'text/x-rpm-spec';
-
-    /** @var string TEXT_X_SASS */
-    public const TEXT_X_SASS = 'text/x-sass';
-
-    /** @var string TEXT_X_SCALA */
-    public const TEXT_X_SCALA = 'text/x-scala';
-    
-    /** @var string TEXT_X_SCHEME */
-    public const TEXT_X_SCHEME = 'text/x-scheme';
-
-    /** @var string TEXT_X_SCSS */
-    public const TEXT_X_SCSS = 'text/x-scss';
-
-    /** @var string TEXT_X_SETEXT */
-    public const TEXT_X_SETEXT = 'text/x-setext';
-
-    /** @var string TEXT_X_SFV */
-    public const TEXT_X_SFV = 'text/x-sfv';
-
-    /** @var string TEXT_X_SH */
-    public const TEXT_X_SH = 'text/x-sh';
-
-    /** @var string TEXT_X_SQL */
-    public const TEXT_X_SQL = 'text/x-sql';
-
-    /** @var string TEXT_X_SSA */
-    public const TEXT_X_SSA = 'text/x-ssa';
-
-    /** @var string TEXT_X_SUBVIEWER */
-    public const TEXT_X_SUBVIEWER = 'text/x-subviewer';
-
-    /** @var string TEXT_X_SVHDR */
-    public const TEXT_X_SVHDR = 'text/x-svhdr';
-
-    /** @var string TEXT_X_SVSRC */
-    public const TEXT_X_SVSRC = 'text/x-svsrc';
-
-    /** @var string TEXT_X_SYSTEMD_UNIT */
-    public const TEXT_X_SYSTEMD_UNIT = 'text/x-systemd-unit';
-
-    /** @var string TEXT_X_TCL */
-    public const TEXT_X_TCL = 'text/x-tcl';
-
-    /** @var string TEXT_X_TEX */
-    public const TEXT_X_TEX = 'text/x-tex';
-
-    /** @var string TEXT_X_TEXINFO */
-    public const TEXT_X_TEXINFO = 'text/x-texinfo';
-
-    /** @var string TEXT_X_TROFF */
-    public const TEXT_X_TROFF = 'text/x-troff';
-
-    /** @var string TEXT_X_TROFF_ME */
-    public const TEXT_X_TROFF_ME = 'text/x-troff-me';
-
-    /** @var string TEXT_X_TROFF_MM */
-    public const TEXT_X_TROFF_MM = 'text/x-troff-mm';
-
-    /** @var string TEXT_X_TROFF_MS */
-    public const TEXT_X_TROFF_MS = 'text/x-troff-ms';
-
-    /** @var string TEXT_X_TWIG */
-    public const TEXT_X_TWIG = 'text/x-twig';
-
-    /** @var string TEXT_X_TXT2TAGS */
-    public const TEXT_X_TXT2TAGS = 'text/x-txt2tags';
-
-    /** @var string TEXT_X_UIL */
-    public const TEXT_X_UIL = 'text/x-uil';
-
-    /** @var string TEXT_X_UUENCODE */
-    public const TEXT_X_UUENCODE = 'text/x-uuencode';
-
-    /** @var string TEXT_X_VALA */
-    public const TEXT_X_VALA = 'text/x-vala';
-
-    /** @var string TEXT_X_VCALENDAR */
-    public const TEXT_X_VCALENDAR = 'text/x-vcalendar';
-
-    /** @var string TEXT_X_VCARD */
-    public const TEXT_X_VCARD = 'text/x-vcard';
-
-    /** @var string TEXT_X_VERILOG */
-    public const TEXT_X_VERILOG = 'text/x-verilog';
-
-    /** @var string TEXT_X_VHDL */
-    public const TEXT_X_VHDL = 'text/x-vhdl';
-
-    /** @var string TEXT_X_XMI */
-    public const TEXT_X_XMI = 'text/x-xmi';
-
-    /** @var string TEXT_X_XSLFO */
-    public const TEXT_X_XSLFO = 'text/x-xslfo';
-
-    /** @var string TEXT_X_YAML */
-    public const TEXT_X_YAML = 'text/x-yaml';
-
-    /** @var string TEXT_X_GCODE */
-    public const TEXT_X_GCODE = 'text/x.gcode';
-
-    /** @var string TEXT_XML */
     public const TEXT_XML = 'text/xml';
-
-    /** @var string TEXT_XML_EXTERNAL_PARSED_ENTITY */
     public const TEXT_XML_EXTERNAL_PARSED_ENTITY = 'text/xml-external-parsed-entity';
-
-    /** @var string TEXT_YAML */
+    public const TEXT_X_ADASRC = 'text/x-adasrc';
+    public const TEXT_X_ASM = 'text/x-asm';
+    public const TEXT_X_BIBTEX = 'text/x-bibtex';
+    public const TEXT_X_C = 'text/x-c';
+    public const TEXT_X_CHDR = 'text/x-chdr';
+    public const TEXT_X_CMAKE = 'text/x-cmake';
+    public const TEXT_X_COBOL = 'text/x-cobol';
+    public const TEXT_X_COMMA_SEPARATED_VALUES = 'text/x-comma-separated-values';
+    public const TEXT_X_COMPONENT = 'text/x-component';
+    public const TEXT_X_CSHARP = 'text/x-csharp';
+    public const TEXT_X_CSRC = 'text/x-csrc';
+    public const TEXT_X_CSV = 'text/x-csv';
+    public const TEXT_X_C_HDR = 'text/x-c++hdr';
+    public const TEXT_X_C_SRC = 'text/x-c++src';
+    public const TEXT_X_DBUS_SERVICE = 'text/x-dbus-service';
+    public const TEXT_X_DCL = 'text/x-dcl';
+    public const TEXT_X_DIFF = 'text/x-diff';
+    public const TEXT_X_DSL = 'text/x-dsl';
+    public const TEXT_X_DSRC = 'text/x-dsrc';
+    public const TEXT_X_DTD = 'text/x-dtd';
+    public const TEXT_X_EIFFEL = 'text/x-eiffel';
+    public const TEXT_X_EMACS_LISP = 'text/x-emacs-lisp';
+    public const TEXT_X_ERLANG = 'text/x-erlang';
+    public const TEXT_X_FORTRAN = 'text/x-fortran';
+    public const TEXT_X_GCODE = 'text/x.gcode';
+    public const TEXT_X_GENIE = 'text/x-genie';
+    public const TEXT_X_GETTEXT_TRANSLATION = 'text/x-gettext-translation';
+    public const TEXT_X_GETTEXT_TRANSLATION_TEMPLATE = 'text/x-gettext-translation-template';
+    public const TEXT_X_GHERKIN = 'text/x-gherkin';
+    public const TEXT_X_GO = 'text/x-go';
+    public const TEXT_X_GOOGLE_VIDEO_POINTER = 'text/x-google-video-pointer';
+    public const TEXT_X_GWT_RPC = 'text/x-gwt-rpc';
+    public const TEXT_X_HANDLEBARS_TEMPLATE = 'text/x-handlebars-template';
+    public const TEXT_X_HASKELL = 'text/x-haskell';
+    public const TEXT_X_IDL = 'text/x-idl';
+    public const TEXT_X_IMELODY = 'text/x-imelody';
+    public const TEXT_X_IPTABLES = 'text/x-iptables';
+    public const TEXT_X_JAVA = 'text/x-java';
+    public const TEXT_X_JAVA_SOURCE = 'text/x-java-source';
+    public const TEXT_X_JQUERY_TMPL = 'text/x-jquery-tmpl';
+    public const TEXT_X_LDIF = 'text/x-ldif';
+    public const TEXT_X_LILYPOND = 'text/x-lilypond';
+    public const TEXT_X_LITERATE_HASKELL = 'text/x-literate-haskell';
+    public const TEXT_X_LOG = 'text/x-log';
+    public const TEXT_X_LUA = 'text/x-lua';
+    public const TEXT_X_LYX = 'text/x-lyx';
+    public const TEXT_X_MAKEFILE = 'text/x-makefile';
+    public const TEXT_X_MARKDOWN = 'text/x-markdown';
+    public const TEXT_X_MATLAB = 'text/x-matlab';
+    public const TEXT_X_MICRODVD = 'text/x-microdvd';
+    public const TEXT_X_MOC = 'text/x-moc';
+    public const TEXT_X_MODELICA = 'text/x-modelica';
+    public const TEXT_X_MOF = 'text/x-mof';
+    public const TEXT_X_MPSUB = 'text/x-mpsub';
+    public const TEXT_X_MRML = 'text/x-mrml';
+    public const TEXT_X_MS_REGEDIT = 'text/x-ms-regedit';
+    public const TEXT_X_MUP = 'text/x-mup';
+    public const TEXT_X_NFO = 'text/x-nfo';
+    public const TEXT_X_OBJCSRC = 'text/x-objcsrc';
+    public const TEXT_X_OCAML = 'text/x-ocaml';
+    public const TEXT_X_OCL = 'text/x-ocl';
+    public const TEXT_X_OCTAVE = 'text/x-octave';
+    public const TEXT_X_OOC = 'text/x-ooc';
+    public const TEXT_X_OPENCL_SRC = 'text/x-opencl-src';
+    public const TEXT_X_OPML = 'text/x-opml';
+    public const TEXT_X_OPML_XML = 'text/x-opml+xml';
+    public const TEXT_X_ORG = 'text/x-org';
+    public const TEXT_X_PASCAL = 'text/x-pascal';
+    public const TEXT_X_PATCH = 'text/x-patch';
+    public const TEXT_X_PERL = 'text/x-perl';
+    public const TEXT_X_PO = 'text/x-po';
+    public const TEXT_X_POT = 'text/x-pot';
+    public const TEXT_X_PROCESSING = 'text/x-processing';
+    public const TEXT_X_PYTHON = 'text/x-python';
+    public const TEXT_X_PYTHON3 = 'text/x-python3';
+    public const TEXT_X_QML = 'text/x-qml';
+    public const TEXT_X_REJECT = 'text/x-reject';
+    public const TEXT_X_RPM_SPEC = 'text/x-rpm-spec';
+    public const TEXT_X_SASS = 'text/x-sass';
+    public const TEXT_X_SCALA = 'text/x-scala';
+    public const TEXT_X_SCHEME = 'text/x-scheme';
+    public const TEXT_X_SCSS = 'text/x-scss';
+    public const TEXT_X_SETEXT = 'text/x-setext';
+    public const TEXT_X_SFV = 'text/x-sfv';
+    public const TEXT_X_SH = 'text/x-sh';
+    public const TEXT_X_SQL = 'text/x-sql';
+    public const TEXT_X_SSA = 'text/x-ssa';
+    public const TEXT_X_SUBVIEWER = 'text/x-subviewer';
+    public const TEXT_X_SUSE_YMP = 'text/x-suse-ymp';
+    public const TEXT_X_SVHDR = 'text/x-svhdr';
+    public const TEXT_X_SVSRC = 'text/x-svsrc';
+    public const TEXT_X_SYSTEMD_UNIT = 'text/x-systemd-unit';
+    public const TEXT_X_TCL = 'text/x-tcl';
+    public const TEXT_X_TEX = 'text/x-tex';
+    public const TEXT_X_TEXINFO = 'text/x-texinfo';
+    public const TEXT_X_TROFF = 'text/x-troff';
+    public const TEXT_X_TROFF_ME = 'text/x-troff-me';
+    public const TEXT_X_TROFF_MM = 'text/x-troff-mm';
+    public const TEXT_X_TROFF_MS = 'text/x-troff-ms';
+    public const TEXT_X_TWIG = 'text/x-twig';
+    public const TEXT_X_TXT2TAGS = 'text/x-txt2tags';
+    public const TEXT_X_UIL = 'text/x-uil';
+    public const TEXT_X_UUENCODE = 'text/x-uuencode';
+    public const TEXT_X_VALA = 'text/x-vala';
+    public const TEXT_X_VCALENDAR = 'text/x-vcalendar';
+    public const TEXT_X_VCARD = 'text/x-vcard';
+    public const TEXT_X_VERILOG = 'text/x-verilog';
+    public const TEXT_X_VHDL = 'text/x-vhdl';
+    public const TEXT_X_XMI = 'text/x-xmi';
+    public const TEXT_X_XSLFO = 'text/x-xslfo';
+    public const TEXT_X_YAML = 'text/x-yaml';
     public const TEXT_YAML = 'text/yaml';
-
-    /** @var string VIDEO_3GP */
+    public const VIDEO_1D_INTERLEAVED_PARITYFEC = 'video/1d-interleaved-parityfec';
     public const VIDEO_3GP = 'video/3gp';
-
-    /** @var string VIDEO_3GPP */
     public const VIDEO_3GPP = 'video/3gpp';
-
-    /** @var string VIDEO_3GPP_ENCRYPTED */
-    public const VIDEO_3GPP_ENCRYPTED = 'video/3gpp-encrypted';
-
-    /** @var string VIDEO_3GPP2 */
     public const VIDEO_3GPP2 = 'video/3gpp2';
-
-    /** @var string VIDEO_ANNODEX */
+    public const VIDEO_3GPP_ENCRYPTED = 'video/3gpp-encrypted';
+    public const VIDEO_3GPP_TT = 'video/3gpp-tt';
     public const VIDEO_ANNODEX = 'video/annodex';
-
-    /** @var string VIDEO_AVI */
     public const VIDEO_AVI = 'video/avi';
-
-    /** @var string VIDEO_DIVX */
+    public const VIDEO_BMPEG = 'video/bmpeg';
+    public const VIDEO_BT656 = 'video/bt656';
+    public const VIDEO_CELB = 'video/celb';
     public const VIDEO_DIVX = 'video/divx';
-
-    /** @var string VIDEO_DV */
     public const VIDEO_DV = 'video/dv';
-
-    /** @var string VIDEO_FLI */
+    public const VIDEO_ENCAPRTP = 'video/encaprtp';
+    public const VIDEO_FLEXFEC = 'video/flexfec';
     public const VIDEO_FLI = 'video/fli';
-
-    /** @var string VIDEO_FLV */
     public const VIDEO_FLV = 'video/flv';
-
-    /** @var string VIDEO_H261 */
     public const VIDEO_H261 = 'video/h261';
-
-    /** @var string VIDEO_H263 */
     public const VIDEO_H263 = 'video/h263';
-
-    /** @var string VIDEO_H264 */
+    public const VIDEO_H263_1998 = 'video/h263-1998';
+    public const VIDEO_H263_2000 = 'video/h263-2000';
     public const VIDEO_H264 = 'video/h264';
-
-    /** @var string VIDEO_JPEG */
+    public const VIDEO_H264_RCDO = 'video/h264-rcdo';
+    public const VIDEO_H264_SVC = 'video/h264-svc';
+    public const VIDEO_H265 = 'video/h265';
+    public const VIDEO_ISO_SEGMENT = 'video/iso.segment';
     public const VIDEO_JPEG = 'video/jpeg';
-
-    /** @var string VIDEO_JPM */
+    public const VIDEO_JPEG2000 = 'video/jpeg2000';
     public const VIDEO_JPM = 'video/jpm';
-
-    /** @var string VIDEO_MJ2 */
     public const VIDEO_MJ2 = 'video/mj2';
-
-    /** @var string VIDEO_MP2T */
+    public const VIDEO_MP1S = 'video/mp1s';
+    public const VIDEO_MP2P = 'video/mp2p';
     public const VIDEO_MP2T = 'video/mp2t';
-
-    /** @var string VIDEO_MP4 */
     public const VIDEO_MP4 = 'video/mp4';
-
-    /** @var string VIDEO_MP4V_ES */
     public const VIDEO_MP4V_ES = 'video/mp4v-es';
-
-    /** @var string VIDEO_MPEG */
     public const VIDEO_MPEG = 'video/mpeg';
-
-    /** @var string VIDEO_MPEG_SYSTEM */
+    public const VIDEO_MPEG4_GENERIC = 'video/mpeg4-generic';
     public const VIDEO_MPEG_SYSTEM = 'video/mpeg-system';
-
-    /** @var string VIDEO_MSVIDEO */
+    public const VIDEO_MPV = 'video/mpv';
     public const VIDEO_MSVIDEO = 'video/msvideo';
-
-    /** @var string VIDEO_OGG */
+    public const VIDEO_NV = 'video/nv';
     public const VIDEO_OGG = 'video/ogg';
-
-    /** @var string VIDEO_QUICKTIME */
+    public const VIDEO_PARITYFEC = 'video/parityfec';
+    public const VIDEO_POINTER = 'video/pointer';
     public const VIDEO_QUICKTIME = 'video/quicktime';
-
-    /** @var string VIDEO_VIVO */
+    public const VIDEO_RAPTORFEC = 'video/raptorfec';
+    public const VIDEO_RAW = 'video/raw';
+    public const VIDEO_RTPLOOPBACK = 'video/rtploopback';
+    public const VIDEO_RTP_ENC_AESCM128 = 'video/rtp-enc-aescm128';
+    public const VIDEO_RTX = 'video/rtx';
+    public const VIDEO_SMPTE291 = 'video/smpte291';
+    public const VIDEO_SMPTE292M = 'video/smpte292m';
+    public const VIDEO_ULPFEC = 'video/ulpfec';
+    public const VIDEO_VC1 = 'video/vc1';
+    public const VIDEO_VC2 = 'video/vc2';
     public const VIDEO_VIVO = 'video/vivo';
-
-    /** @var string VIDEO_VND_DECE_HD */
+    public const VIDEO_VND_CCTV = 'video/vnd.cctv';
     public const VIDEO_VND_DECE_HD = 'video/vnd.dece.hd';
-
-    /** @var string VIDEO_VND_DECE_MOBILE */
     public const VIDEO_VND_DECE_MOBILE = 'video/vnd.dece.mobile';
-
-    /** @var string VIDEO_VND_DECE_PD */
+    public const VIDEO_VND_DECE_MP4 = 'video/vnd.dece.mp4';
     public const VIDEO_VND_DECE_PD = 'video/vnd.dece.pd';
-
-    /** @var string VIDEO_VND_DECE_SD */
     public const VIDEO_VND_DECE_SD = 'video/vnd.dece.sd';
-
-    /** @var string VIDEO_VND_DECE_VIDEO */
     public const VIDEO_VND_DECE_VIDEO = 'video/vnd.dece.video';
-
-    /** @var string VIDEO_VND_DIVX */
+    public const VIDEO_VND_DIRECTV_MPEG = 'video/vnd.directv.mpeg';
+    public const VIDEO_VND_DIRECTV_MPEG_TTS = 'video/vnd.directv.mpeg-tts';
     public const VIDEO_VND_DIVX = 'video/vnd.divx';
-
-    /** @var string VIDEO_VND_DVB_FILE */
+    public const VIDEO_VND_DLNA_MPEG_TTS = 'video/vnd.dlna.mpeg-tts';
     public const VIDEO_VND_DVB_FILE = 'video/vnd.dvb.file';
-
-    /** @var string VIDEO_VND_FVT */
     public const VIDEO_VND_FVT = 'video/vnd.fvt';
-
-    /** @var string VIDEO_VND_MPEGURL */
+    public const VIDEO_VND_HNS_VIDEO = 'video/vnd.hns.video';
+    public const VIDEO_VND_IPTVFORUM_1DPARITYFEC_1010 = 'video/vnd.iptvforum.1dparityfec-1010';
+    public const VIDEO_VND_IPTVFORUM_1DPARITYFEC_2005 = 'video/vnd.iptvforum.1dparityfec-2005';
+    public const VIDEO_VND_IPTVFORUM_2DPARITYFEC_1010 = 'video/vnd.iptvforum.2dparityfec-1010';
+    public const VIDEO_VND_IPTVFORUM_2DPARITYFEC_2005 = 'video/vnd.iptvforum.2dparityfec-2005';
+    public const VIDEO_VND_IPTVFORUM_TTSAVC = 'video/vnd.iptvforum.ttsavc';
+    public const VIDEO_VND_IPTVFORUM_TTSMPEG2 = 'video/vnd.iptvforum.ttsmpeg2';
+    public const VIDEO_VND_MOTOROLA_VIDEO = 'video/vnd.motorola.video';
+    public const VIDEO_VND_MOTOROLA_VIDEOP = 'video/vnd.motorola.videop';
     public const VIDEO_VND_MPEGURL = 'video/vnd.mpegurl';
-
-    /** @var string VIDEO_VND_MS_PLAYREADY_MEDIA_PYV */
     public const VIDEO_VND_MS_PLAYREADY_MEDIA_PYV = 'video/vnd.ms-playready.media.pyv';
-
-    /** @var string VIDEO_VND_RN_REALVIDEO */
+    public const VIDEO_VND_NOKIA_INTERLEAVED_MULTIMEDIA = 'video/vnd.nokia.interleaved-multimedia';
+    public const VIDEO_VND_NOKIA_MP4VR = 'video/vnd.nokia.mp4vr';
+    public const VIDEO_VND_NOKIA_VIDEOVOIP = 'video/vnd.nokia.videovoip';
+    public const VIDEO_VND_OBJECTVIDEO = 'video/vnd.objectvideo';
+    public const VIDEO_VND_RADGAMETTOOLS_BINK = 'video/vnd.radgamettools.bink';
+    public const VIDEO_VND_RADGAMETTOOLS_SMACKER = 'video/vnd.radgamettools.smacker';
     public const VIDEO_VND_RN_REALVIDEO = 'video/vnd.rn-realvideo';
-
-    /** @var string VIDEO_VND_UVVU_MP4 */
+    public const VIDEO_VND_SEALEDMEDIA_SOFTSEAL_MOV = 'video/vnd.sealedmedia.softseal.mov';
+    public const VIDEO_VND_SEALED_MPEG1 = 'video/vnd.sealed.mpeg1';
+    public const VIDEO_VND_SEALED_MPEG4 = 'video/vnd.sealed.mpeg4';
+    public const VIDEO_VND_SEALED_SWF = 'video/vnd.sealed.swf';
     public const VIDEO_VND_UVVU_MP4 = 'video/vnd.uvvu.mp4';
-
-    /** @var string VIDEO_VND_VIVO */
     public const VIDEO_VND_VIVO = 'video/vnd.vivo';
-
-    /** @var string VIDEO_WEBM */
-    public const VIDEO_WEBM = 'video/webm ';
-
-    /** @var string VIDEO_X_ANIM */
+    public const VIDEO_VND_YOUTUBE_YT = 'video/vnd.youtube.yt';
+    public const VIDEO_VP8 = 'video/vp8';
+    public const VIDEO_WEBM = 'video/webm';
     public const VIDEO_X_ANIM = 'video/x-anim';
-    
-    /** @var string VIDEO_X_ANNODEX */
     public const VIDEO_X_ANNODEX = 'video/x-annodex';
-    
-    /** @var string VIDEO_X_AVI */
     public const VIDEO_X_AVI = 'video/x-avi';
-
-    /** @var string VIDEO_X_F4V */
     public const VIDEO_X_F4V = 'video/x-f4v';
-
-    /** @var string VIDEO_X_FLI */
     public const VIDEO_X_FLI = 'video/x-fli';
-
-    /** @var string VIDEO_X_FLIC */
     public const VIDEO_X_FLIC = 'video/x-flic';
-
-    /** @var string VIDEO_X_FLV */
     public const VIDEO_X_FLV = 'video/x-flv';
-
-    /** @var string VIDEO_X_JAVAFX */
     public const VIDEO_X_JAVAFX = 'video/x-javafx';
-
-    /** @var string VIDEO_X_M4V */
     public const VIDEO_X_M4V = 'video/x-m4v';
-
-    /** @var string VIDEO_X_MATROSKA */
     public const VIDEO_X_MATROSKA = 'video/x-matroska';
-
-    /** @var string VIDEO_X_MATROSKA_3D */
     public const VIDEO_X_MATROSKA_3D = 'video/x-matroska-3d';
-
-    /** @var string VIDEO_X_MJPEG */
     public const VIDEO_X_MJPEG = 'video/x-mjpeg';
-
-    /** @var string VIDEO_X_MNG */
     public const VIDEO_X_MNG = 'video/x-mng';
-
-    /** @var string VIDEO_X_MPEG */
     public const VIDEO_X_MPEG = 'video/x-mpeg';
-
-    /** @var string VIDEO_X_MPEG_SYSTEM */
-    public const VIDEO_X_MPEG_SYSTEM = 'video/x-mpeg-system';
-
-    /** @var string VIDEO_X_MPEG2 */
     public const VIDEO_X_MPEG2 = 'video/x-mpeg2';
-
-    /** @var string VIDEO_X_MPEGURL */
     public const VIDEO_X_MPEGURL = 'video/x-mpegurl';
-
-    /** @var string VIDEO_X_MS_ASF */
-    public const VIDEO_X_MS_ASF = 'video/x-ms-asf';
-
-    /** @var string VIDEO_X_MS_ASF_PLUGIN */
-    public const VIDEO_X_MS_ASF_PLUGIN = 'video/x-ms-asf-plugin';
-
-    /** @var string VIDEO_X_MS_VOB */
-    public const VIDEO_X_MS_VOB = 'video/x-ms-vob';
-
-    /** @var string VIDEO_X_MS_WAX */
-    public const VIDEO_X_MS_WAX = 'video/x-ms-wax';
-
-    /** @var string VIDEO_X_MS_WM */
-    public const VIDEO_X_MS_WM = 'video/x-ms-wm';
-
-    /** @var string VIDEO_X_MS_WMV */
-    public const VIDEO_X_MS_WMV = 'video/x-ms-wmv';
-
-    /** @var string VIDEO_X_MS_WMX */
-    public const VIDEO_X_MS_WMX = 'video/x-ms-wmx';
-
-    /** @var string VIDEO_X_MS_WVX */
-    public const VIDEO_X_MS_WVX = 'video/x-ms-wvx';
-
-    /** @var string VIDEO_X_MSVIDEO */
+    public const VIDEO_X_MPEG_SYSTEM = 'video/x-mpeg-system';
     public const VIDEO_X_MSVIDEO = 'video/x-msvideo';
-
-    /** @var string VIDEO_X_NSV */
+    public const VIDEO_X_MS_ASF = 'video/x-ms-asf';
+    public const VIDEO_X_MS_ASF_PLUGIN = 'video/x-ms-asf-plugin';
+    public const VIDEO_X_MS_VOB = 'video/x-ms-vob';
+    public const VIDEO_X_MS_WAX = 'video/x-ms-wax';
+    public const VIDEO_X_MS_WM = 'video/x-ms-wm';
+    public const VIDEO_X_MS_WMV = 'video/x-ms-wmv';
+    public const VIDEO_X_MS_WMX = 'video/x-ms-wmx';
+    public const VIDEO_X_MS_WVX = 'video/x-ms-wvx';
     public const VIDEO_X_NSV = 'video/x-nsv';
-
-    /** @var string VIDEO_X_OGG */
     public const VIDEO_X_OGG = 'video/x-ogg';
-
-    /** @var string VIDEO_X_OGM */
     public const VIDEO_X_OGM = 'video/x-ogm';
-
-    /** @var string VIDEO_X_OGM_OGG */
     public const VIDEO_X_OGM_OGG = 'video/x-ogm+ogg';
-
-    /** @var string VIDEO_X_REAL_VIDEO */
     public const VIDEO_X_REAL_VIDEO = 'video/x-real-video';
-
-    /** @var string VIDEO_X_SGI_MOVIE */
     public const VIDEO_X_SGI_MOVIE = 'video/x-sgi-movie';
-
-    /** @var string VIDEO_X_SMV */
     public const VIDEO_X_SMV = 'video/x-smv';
-
-    /** @var string VIDEO_X_THEORA */
     public const VIDEO_X_THEORA = 'video/x-theora';
-
-    /** @var string VIDEO_X_THEORA_OGG */
     public const VIDEO_X_THEORA_OGG = 'video/x-theora+ogg';
-
-    /** @var string X_CONFERENCE_X_COOLTALK */
     public const X_CONFERENCE_X_COOLTALK = 'x-conference/x-cooltalk';
-
-    /** @var string X_EPOC_X_SISX_APP */
     public const X_EPOC_X_SISX_APP = 'x-epoc/x-sisx-app';
-
-    /** @var string ZZ_APPLICATION_ZZ_WINASSOC_123 */
+    public const X_SHADER_X_FRAGMENT = 'x-shader/x-fragment';
+    public const X_SHADER_X_VERTEX = 'x-shader/x-vertex';
     public const ZZ_APPLICATION_ZZ_WINASSOC_123 = 'zz-application/zz-winassoc-123';
-
-    /** @var string ZZ_APPLICATION_ZZ_WINASSOC_CAB */
     public const ZZ_APPLICATION_ZZ_WINASSOC_CAB = 'zz-application/zz-winassoc-cab';
-
-    /** @var string ZZ_APPLICATION_ZZ_WINASSOC_CDR */
     public const ZZ_APPLICATION_ZZ_WINASSOC_CDR = 'zz-application/zz-winassoc-cdr';
-
-    /** @var string ZZ_APPLICATION_ZZ_WINASSOC_DOC */
     public const ZZ_APPLICATION_ZZ_WINASSOC_DOC = 'zz-application/zz-winassoc-doc';
-
-    /** @var string ZZ_APPLICATION_ZZ_WINASSOC_HLP */
     public const ZZ_APPLICATION_ZZ_WINASSOC_HLP = 'zz-application/zz-winassoc-hlp';
-
-    /** @var string ZZ_APPLICATION_ZZ_WINASSOC_MDB */
     public const ZZ_APPLICATION_ZZ_WINASSOC_MDB = 'zz-application/zz-winassoc-mdb';
-
-    /** @var string ZZ_APPLICATION_ZZ_WINASSOC_UU */
     public const ZZ_APPLICATION_ZZ_WINASSOC_UU = 'zz-application/zz-winassoc-uu';
-
-    /** @var string ZZ_APPLICATION_ZZ_WINASSOC_XLS */
     public const ZZ_APPLICATION_ZZ_WINASSOC_XLS = 'zz-application/zz-winassoc-xls';
 }
