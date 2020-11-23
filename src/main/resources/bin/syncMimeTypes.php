@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 const CONSTANT_REGEX_PATTERN = "|^    public const ([^ ]+) = '([^']+)';$|";
 const CONSTANT_SPRINTF_PATTERN = "    public const %s = '%s';\n";
-const IOFILE = __DIR__ . '/../../php/Enumeration/MimeType.php';
+const IOFILE = __DIR__ . '/../../php/Model/Business/Enum/MimeType.php';
 
 $data = json_decode(file_get_contents('https://cdn.jsdelivr.net/gh/jshttp/mime-db@v1.44.0/db.json'), true);
 $newMimeTypes = array_keys($data);
@@ -37,7 +37,7 @@ foreach (explode("\n", $data) as $line) {
 $finalMap = $current;
 foreach ($newMimeTypes as $newMimeType) {
     if (!in_array($newMimeType, $current)) {
-        $key = strtoupper(preg_replace('/(\/|\+|\-|\.)+/', '_', $newMimeType));
+        $key = strtoupper(preg_replace('/([\/+-.]+)/', '_', $newMimeType));
         $keys = array_keys($finalMap);
 
         // check for potential duplicates keys (happens if mime-type change is on a character in $separators)
@@ -53,11 +53,15 @@ foreach ($newMimeTypes as $newMimeType) {
 }
 ksort($finalMap);
 
+echo "Compiling Map.\n";
+
 $data = $pre;
 foreach ($finalMap as $key => $mimeType) {
     $data .= sprintf(CONSTANT_SPRINTF_PATTERN, $key, $mimeType);
 }
 $data .= $post;
+
+echo 'Writing to ' . realpath(IOFILE) . ".\n";
 
 file_put_contents(IOFILE, rtrim($data, "\n")."\n");
 

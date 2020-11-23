@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * Copyright (c) 2016 - 2020 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
@@ -10,10 +10,10 @@ declare(strict_types=1);
 
 namespace Itspire\Common\Tests\Validator;
 
-use Itspire\Common\Tests\Fixtures\TestEnumeration;
-use Itspire\Common\Tests\Fixtures\TestEnumeration2;
-use Itspire\Common\Validator\Constraints\Enumeration;
-use Itspire\Common\Validator\EnumerationValidator;
+use Itspire\Common\Tests\Fixtures\Enum\TestBusinessEnum;
+use Itspire\Common\Tests\Fixtures\Enum\TestBusinessEnum2;
+use Itspire\Common\Enum\Validator\Constraint\Enum;
+use Itspire\Common\Enum\Validator\EnumValidator;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Validator\Constraints\Choice;
 use Symfony\Component\Validator\Context\ExecutionContext;
@@ -22,9 +22,9 @@ use Symfony\Component\Validator\Validator\ContextualValidatorInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Contracts\Translation\TranslatorInterface;
 
-class EnumerationValidatorTest extends TestCase
+class EnumValidatorTest extends TestCase
 {
-    private EnumerationValidator $enumerationValidator;
+    private EnumValidator $enumValidator;
     private ExecutionContext $context;
 
     protected function setUp(): void
@@ -36,18 +36,18 @@ class EnumerationValidatorTest extends TestCase
         $contextualValidator = $this->getMockBuilder(ContextualValidatorInterface::class)->getMock();
 
         $this->context = new ExecutionContext($validator, 'root', $translator);
-        $this->context->setConstraint(new Enumeration(['enumerationClass' => TestEnumeration::class]));
+        $this->context->setConstraint(new Enum(['enumClass' => TestBusinessEnum::class]));
 
         $translator->method('trans')->willReturnArgument(0);
         $validator->method('inContext')->with($this->context)->willReturn($contextualValidator);
 
-        $this->enumerationValidator = new EnumerationValidator();
-        $this->enumerationValidator->initialize($this->context);
+        $this->enumValidator = new EnumValidator();
+        $this->enumValidator->initialize($this->context);
     }
 
     protected function tearDown(): void
     {
-        unset($this->enumerationValidator, $this->context);
+        unset($this->enumValidator, $this->context);
 
         parent::tearDown();
     }
@@ -57,7 +57,7 @@ class EnumerationValidatorTest extends TestCase
     {
         $this->expectException(UnexpectedTypeException::class);
 
-        $this->enumerationValidator->validate('test', new Choice());
+        $this->enumValidator->validate('test', new Choice());
     }
 
     /** @test */
@@ -65,46 +65,46 @@ class EnumerationValidatorTest extends TestCase
     {
         $this->expectException(UnexpectedTypeException::class);
 
-        $this->enumerationValidator->validate(
+        $this->enumValidator->validate(
             'test',
-            new Enumeration(['enumerationClass' => TestEnumeration::class])
+            new Enum(['enumClass' => TestBusinessEnum::class])
         );
     }
 
     /** @test */
     public function validateNullValueTest(): void
     {
-        $this->enumerationValidator->validate(
+        $this->enumValidator->validate(
             null,
-            new Enumeration(['enumerationClass' => TestEnumeration::class])
+            new Enum(['enumClass' => TestBusinessEnum::class])
         );
 
         $violations = $this->context->getViolations();
 
         static::assertNotEquals(0, $violations->count());
-        static::assertEquals('enumeration.null.value', $violations->get(0)->getMessageTemplate());
+        static::assertEquals('enum.null.value', $violations->get(0)->getMessageTemplate());
     }
 
     /** @test */
-    public function validateInvalidEnumerationValueTest(): void
+    public function validateInvalidEnumValueTest(): void
     {
-        $this->enumerationValidator->validate(
-            new TestEnumeration2(TestEnumeration2::TEST_VALUE_D),
-            new Enumeration(['enumerationClass' => TestEnumeration::class])
+        $this->enumValidator->validate(
+            new TestBusinessEnum2(TestBusinessEnum2::TEST_VALUE_D),
+            new Enum(['enumClass' => TestBusinessEnum::class])
         );
 
         $violations = $this->context->getViolations();
 
         static::assertNotEquals(0, $violations->count());
-        static::assertEquals('enumeration.invalid.value', $violations->get(0)->getMessageTemplate());
+        static::assertEquals('enum.invalid.value', $violations->get(0)->getMessageTemplate());
     }
 
     /** @test */
     public function validateTest(): void
     {
-        $this->enumerationValidator->validate(
-            new TestEnumeration(TestEnumeration::TEST_VALUE_D),
-            new Enumeration(['enumerationClass' => TestEnumeration::class])
+        $this->enumValidator->validate(
+            new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_D),
+            new Enum(['enumClass' => TestBusinessEnum::class])
         );
 
         $violations = $this->context->getViolations();

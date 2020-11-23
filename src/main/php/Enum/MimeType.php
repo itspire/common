@@ -1,18 +1,19 @@
 <?php
 
-/**
+/*
  * Copyright (c) 2016 - 2020 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  *
  * @phpcs:disable Generic.Files.LineLength.TooLong
  */
+/** @noinspection LongLine */
 
 declare(strict_types=1);
 
-namespace Itspire\Common\Enumeration;
+namespace Itspire\Common\Enum;
 
-class MimeType extends AbstractEnumeration
+class MimeType extends AbstractEnum
 {
     public const APPLICATION_1D_INTERLEAVED_PARITYFEC = 'application/1d-interleaved-parityfec';
     public const APPLICATION_3GPDASH_QOE_REPORT_XML = 'application/3gpdash-qoe-report+xml';

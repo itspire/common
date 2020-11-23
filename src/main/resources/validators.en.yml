@@ -1,4 +1,4 @@
 itspire.common:
-  enumeration:
-    invalid.value: "The provided value for the Enumeration field {{ field }} is not valid."
-    null.value: "A value must be provided for the Enumeration field {{ field }}."
+  enum:
+    invalid.value: "The provided value for the Enum field {{ field }} is not valid."
+    null.value: "A value must be provided for the Enum field {{ field }}."
