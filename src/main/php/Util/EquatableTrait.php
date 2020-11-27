@@ -16,6 +16,7 @@ trait EquatableTrait
 
     public function equals(EquatableInterface $object): bool
     {
-        return $this->getUniqueIdentifier() === $object->getUniqueIdentifier();
+        return $this === $object
+            || ($this == $object && $this->getUniqueIdentifier() === $object->getUniqueIdentifier());
     }
 }
