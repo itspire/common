@@ -10,8 +10,8 @@ declare(strict_types=1);
 
 namespace Itspire\Common\Tests\Validator;
 
-use Itspire\Common\Tests\Fixtures\Enum\TestBusinessEnum;
-use Itspire\Common\Tests\Fixtures\Enum\TestBusinessEnum2;
+use Itspire\Common\Tests\Fixtures\Enum\TestEnum;
+use Itspire\Common\Tests\Fixtures\Enum\TestEnum2;
 use Itspire\Common\Enum\Validator\Constraint\Enum;
 use Itspire\Common\Enum\Validator\EnumValidator;
 use PHPUnit\Framework\TestCase;
@@ -36,7 +36,7 @@ class EnumValidatorTest extends TestCase
         $contextualValidator = $this->getMockBuilder(ContextualValidatorInterface::class)->getMock();
 
         $this->context = new ExecutionContext($validator, 'root', $translator);
-        $this->context->setConstraint(new Enum(['enumClass' => TestBusinessEnum::class]));
+        $this->context->setConstraint(new Enum(['enumClass' => TestEnum::class]));
 
         $translator->method('trans')->willReturnArgument(0);
         $validator->method('inContext')->with($this->context)->willReturn($contextualValidator);
@@ -67,7 +67,7 @@ class EnumValidatorTest extends TestCase
 
         $this->enumValidator->validate(
             'test',
-            new Enum(['enumClass' => TestBusinessEnum::class])
+            new Enum(['enumClass' => TestEnum::class])
         );
     }
 
@@ -76,7 +76,7 @@ class EnumValidatorTest extends TestCase
     {
         $this->enumValidator->validate(
             null,
-            new Enum(['enumClass' => TestBusinessEnum::class])
+            new Enum(['enumClass' => TestEnum::class])
         );
 
         $violations = $this->context->getViolations();
@@ -89,8 +89,8 @@ class EnumValidatorTest extends TestCase
     public function validateInvalidEnumValueTest(): void
     {
         $this->enumValidator->validate(
-            new TestBusinessEnum2(TestBusinessEnum2::TEST_VALUE_D),
-            new Enum(['enumClass' => TestBusinessEnum::class])
+            new TestEnum2(TestEnum2::TEST_VALUE_D),
+            new Enum(['enumClass' => TestEnum::class])
         );
 
         $violations = $this->context->getViolations();
@@ -103,8 +103,8 @@ class EnumValidatorTest extends TestCase
     public function validateTest(): void
     {
         $this->enumValidator->validate(
-            new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_D),
-            new Enum(['enumClass' => TestBusinessEnum::class])
+            new TestEnum(TestEnum::TEST_VALUE_D),
+            new Enum(['enumClass' => TestEnum::class])
         );
 
         $violations = $this->context->getViolations();

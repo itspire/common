@@ -13,7 +13,7 @@ namespace Itspire\Common\Collection;
 use Doctrine\Common\Collections as DoctrineCollections;
 use Itspire\Common\Util\EquatableInterface;
 
-interface CollectionWrapperInterface extends CollectionHolderInterface
+interface CollectionWrapperInterface
 {
     public function addElement(EquatableInterface $element): self;
 

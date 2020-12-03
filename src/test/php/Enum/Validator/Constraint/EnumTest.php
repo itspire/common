@@ -16,7 +16,7 @@ use Itspire\Common\Enum\Validator\Constraint\Enum;
 use Itspire\Common\Enum\Validator\EnumValidator;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Validator\Exception\ValidatorException;
-use Itspire\Common\Tests\Fixtures\Enum\TestBusinessEnum;
+use Itspire\Common\Tests\Fixtures\Enum\TestEnum;
 
 class EnumTest extends TestCase
 {
@@ -43,7 +43,7 @@ class EnumTest extends TestCase
     /** @test */
     public function createEnumConstraintTest(): void
     {
-        $enumConstraint = new Enum(TestBusinessEnum::class);
+        $enumConstraint = new Enum(TestEnum::class);
 
         static::assertEquals(EnumValidator::class, $enumConstraint->validatedBy());
         static::assertEquals(['enumClass'], $enumConstraint->getRequiredOptions());

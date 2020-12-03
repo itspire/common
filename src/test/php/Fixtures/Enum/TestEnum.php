@@ -12,7 +12,7 @@ namespace Itspire\Common\Tests\Fixtures\Enum;
 
 use Itspire\Common\Enum\AbstractEnum;
 
-class TestBusinessEnum2 extends AbstractEnum
+class TestEnum extends AbstractEnum
 {
     /** @var bool TEST_VALUE_A */
     public const TEST_VALUE_A = true;

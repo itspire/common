@@ -1,6 +1,6 @@
 {
     "name": "itspire/common",
-    "description": "Itspire Common Classes",
+    "description": "Itspire Common",
     "type": "library",
     "keywords": ["itspire"],
     "homepage": "http://www.itspire.fr",
@@ -33,7 +33,5 @@
         "psr-4": {
             "Itspire\\Common\\Tests\\": "src/test/php"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }

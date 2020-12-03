@@ -10,7 +10,7 @@ declare(strict_types=1);
 
 namespace Itspire\Common\Tests\Enum;
 
-use Itspire\Common\Tests\Fixtures\Enum\TestBusinessEnum;
+use Itspire\Common\Tests\Fixtures\Enum\TestEnum;
 use PHPUnit\Framework\TestCase;
 
 class EnumTest extends TestCase
@@ -20,16 +20,16 @@ class EnumTest extends TestCase
     {
         $this->expectException(\InvalidArgumentException::class);
         $this->expectExceptionMessage(
-            'Provided value is not valid : must be a valid constant value in ' . TestBusinessEnum::class . '.'
+            'Provided value is not valid : must be a valid constant value in ' . TestEnum::class . '.'
         );
 
-        new TestBusinessEnum(10);
+        new TestEnum(10);
     }
 
     /** @test */
     public function createEnumObjectTest(): void
     {
-        static::assertTrue((new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_A))->getValue());
+        static::assertTrue((new TestEnum(TestEnum::TEST_VALUE_A))->getValue());
     }
 
     /** @test */
@@ -37,13 +37,13 @@ class EnumTest extends TestCase
     {
         static::assertEquals(
             [
-                'TEST_VALUE_A' => TestBusinessEnum::TEST_VALUE_A,
-                'TEST_VALUE_B' => TestBusinessEnum::TEST_VALUE_B,
-                'TEST_VALUE_C' => TestBusinessEnum::TEST_VALUE_C,
-                'TEST_VALUE_D' => TestBusinessEnum::TEST_VALUE_D,
-                'TEST_VALUE_E' => TestBusinessEnum::TEST_VALUE_E,
+                'TEST_VALUE_A' => TestEnum::TEST_VALUE_A,
+                'TEST_VALUE_B' => TestEnum::TEST_VALUE_B,
+                'TEST_VALUE_C' => TestEnum::TEST_VALUE_C,
+                'TEST_VALUE_D' => TestEnum::TEST_VALUE_D,
+                'TEST_VALUE_E' => TestEnum::TEST_VALUE_E,
             ],
-            TestBusinessEnum::getRawValues()
+            TestEnum::getRawValues()
         );
     }
 
@@ -52,13 +52,13 @@ class EnumTest extends TestCase
     {
         static::assertEquals(
             [
-                new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_A),
-                new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_B),
-                new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_C),
-                new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_D),
-                new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_E),
+                new TestEnum(TestEnum::TEST_VALUE_A),
+                new TestEnum(TestEnum::TEST_VALUE_B),
+                new TestEnum(TestEnum::TEST_VALUE_C),
+                new TestEnum(TestEnum::TEST_VALUE_D),
+                new TestEnum(TestEnum::TEST_VALUE_E),
             ],
-            TestBusinessEnum::getValues()
+            TestEnum::getValues()
         );
     }
 
@@ -66,17 +66,17 @@ class EnumTest extends TestCase
     public function resolveCodeInvalidArgumentTest(): void
     {
         $this->expectException(\InvalidArgumentException::class);
-        $this->expectExceptionMessage('TEST_VALUE is not a valid code for ' . TestBusinessEnum::class . '.');
+        $this->expectExceptionMessage('TEST_VALUE is not a valid code for ' . TestEnum::class . '.');
 
-        TestBusinessEnum::resolveCode('TEST_VALUE');
+        TestEnum::resolveCode('TEST_VALUE');
     }
 
     /** @test */
     public function resolveCodeTest(): void
     {
         static::assertEquals(
-            TestBusinessEnum::TEST_VALUE_D[0],
-            (TestBusinessEnum::resolveCode('TEST_VALUE_D'))->getValue()
+            TestEnum::TEST_VALUE_D[0],
+            (TestEnum::resolveCode('TEST_VALUE_D'))->getValue()
         );
     }
 
@@ -85,15 +85,15 @@ class EnumTest extends TestCase
     {
 
         $this->expectException(\InvalidArgumentException::class);
-        $this->expectExceptionMessage('10 is not a valid value for ' . TestBusinessEnum::class . '.');
+        $this->expectExceptionMessage('10 is not a valid value for ' . TestEnum::class . '.');
 
-        TestBusinessEnum::resolveValue(10);
+        TestEnum::resolveValue(10);
     }
 
     /** @test */
     public function resolveValueScalarValueTest(): void
     {
-        $enum = TestBusinessEnum::resolveValue(2);
+        $enum = TestEnum::resolveValue(2);
 
         static::assertEquals('TEST_VALUE_C', $enum->getCode());
         static::assertEquals('TEST_VALUE_C', $enum->getDescription());
@@ -103,15 +103,15 @@ class EnumTest extends TestCase
     public function resolveValueArrayValueTest(): void
     {
         static::assertEquals(
-            TestBusinessEnum::TEST_VALUE_D[1],
-            (TestBusinessEnum::resolveValue('value'))->getDescription()
+            TestEnum::TEST_VALUE_D[1],
+            (TestEnum::resolveValue('value'))->getDescription()
         );
     }
 
     /** @test */
     public function getScalarEnumTest(): void
     {
-        $enum = new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_A);
+        $enum = new TestEnum(TestEnum::TEST_VALUE_A);
 
         static::assertEquals('TEST_VALUE_A', $enum->getCode());
         static::assertEquals($enum->getUniqueIdentifier(), $enum->getCode());
@@ -122,7 +122,7 @@ class EnumTest extends TestCase
     /** @test */
     public function getArrayEnumTest(): void
     {
-        $enum = new TestBusinessEnum(TestBusinessEnum::TEST_VALUE_D);
+        $enum = new TestEnum(TestEnum::TEST_VALUE_D);
 
         static::assertEquals('TEST_VALUE_D', $enum->getCode());
         static::assertEquals('value', $enum->getValue());

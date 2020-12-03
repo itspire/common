@@ -13,7 +13,7 @@ namespace Itspire\Common\Collection;
 use Doctrine\Common\Collections as DoctrineCollections;
 use Itspire\Common\Util\EquatableInterface;
 
-class CollectionWrapper implements CollectionWrapperInterface
+class CollectionWrapper implements CollectionWrapperInterface, CollectionHolderInterface
 {
     use CollectionHolderTrait;
 
@@ -21,7 +21,7 @@ class CollectionWrapper implements CollectionWrapperInterface
     private string $supportedClass;
     protected ?DoctrineCollections\Collection $elements = null;
 
-    public function __construct(string $supportedClass, ?array $elements = [])
+    final public function __construct(string $supportedClass, ?array $elements = [])
     {
         if (false === strpos($supportedClass, '\\')) {
             throw new \InvalidArgumentException('Invalid fully qualified class name : ' . $supportedClass);
