@@ -10,9 +10,7 @@ declare(strict_types=1);
 
 namespace Itspire\Common\Enum;
 
-use Itspire\Common\Util\EquatableInterface;
-
-interface EnumInterface extends EquatableInterface
+interface EnumInterface
 {
     public static function getRawValues(): array;
 

@@ -12,8 +12,8 @@ namespace Itspire\Common\Tests\Collection;
 
 use Itspire\Common\Collection\CollectionWrapper;
 use Itspire\Common\Collection\CollectionWrapperInterface;
-use Itspire\Common\Tests\Fixtures\Enum\TestEnum;
-use Itspire\Common\Tests\Fixtures\Utils\TestEquatable;
+use Itspire\Common\Tests\Fixtures\Util\OtherTestEquatable;
+use Itspire\Common\Tests\Fixtures\Util\TestEquatable;
 use PHPUnit\Framework\TestCase;
 
 class CollectionWrapperTest extends TestCase
@@ -53,7 +53,9 @@ class CollectionWrapperTest extends TestCase
             'At least one element you tried to add to the collection is not an instance of ' . TestEquatable::class
         );
 
-        new CollectionWrapper(TestEquatable::class, [new TestEnum(TestEnum::TEST_VALUE_A)]);
+        $element = (new OtherTestEquatable())->setField(100);
+
+        new CollectionWrapper(TestEquatable::class, [$element]);
     }
 
     /** @test */
@@ -64,7 +66,9 @@ class CollectionWrapperTest extends TestCase
             'At least one element you tried to add to the collection is not an instance of ' . TestEquatable::class
         );
 
-        $this->collectionHolder->addElement(new TestEnum(TestEnum::TEST_VALUE_A));
+        $element = (new OtherTestEquatable())->setField(100);
+
+        $this->collectionHolder->addElement($element);
     }
 
 

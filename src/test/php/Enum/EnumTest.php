@@ -41,7 +41,6 @@ class EnumTest extends TestCase
                 'TEST_VALUE_B' => TestEnum::TEST_VALUE_B,
                 'TEST_VALUE_C' => TestEnum::TEST_VALUE_C,
                 'TEST_VALUE_D' => TestEnum::TEST_VALUE_D,
-                'TEST_VALUE_E' => TestEnum::TEST_VALUE_E,
             ],
             TestEnum::getRawValues()
         );
@@ -56,7 +55,6 @@ class EnumTest extends TestCase
                 new TestEnum(TestEnum::TEST_VALUE_B),
                 new TestEnum(TestEnum::TEST_VALUE_C),
                 new TestEnum(TestEnum::TEST_VALUE_D),
-                new TestEnum(TestEnum::TEST_VALUE_E),
             ],
             TestEnum::getValues()
         );
@@ -75,7 +73,7 @@ class EnumTest extends TestCase
     public function resolveCodeTest(): void
     {
         static::assertEquals(
-            TestEnum::TEST_VALUE_D[0],
+            TestEnum::TEST_VALUE_D,
             (TestEnum::resolveCode('TEST_VALUE_D'))->getValue()
         );
     }
@@ -83,7 +81,6 @@ class EnumTest extends TestCase
     /** @test */
     public function resolveValueInvalidArgumentTest(): void
     {
-
         $this->expectException(\InvalidArgumentException::class);
         $this->expectExceptionMessage('10 is not a valid value for ' . TestEnum::class . '.');
 
@@ -102,10 +99,12 @@ class EnumTest extends TestCase
     /** @test */
     public function resolveValueArrayValueTest(): void
     {
-        static::assertEquals(
-            TestEnum::TEST_VALUE_D[1],
-            (TestEnum::resolveValue('value'))->getDescription()
+        $this->expectException(\InvalidArgumentException::class);
+        $this->expectExceptionMessage(
+            'Provided value is not valid : cannot use an array as constant value in ' . TestEnum::class . '.'
         );
+
+        TestEnum::resolveValue(['value', 'description']);
     }
 
     /** @test */
@@ -114,18 +113,7 @@ class EnumTest extends TestCase
         $enum = new TestEnum(TestEnum::TEST_VALUE_A);
 
         static::assertEquals('TEST_VALUE_A', $enum->getCode());
-        static::assertEquals($enum->getUniqueIdentifier(), $enum->getCode());
         static::assertEquals('TEST_VALUE_A', $enum->getDescription());
         static::assertTrue($enum->getValue());
-    }
-
-    /** @test */
-    public function getArrayEnumTest(): void
-    {
-        $enum = new TestEnum(TestEnum::TEST_VALUE_D);
-
-        static::assertEquals('TEST_VALUE_D', $enum->getCode());
-        static::assertEquals('value', $enum->getValue());
-        static::assertEquals('description', $enum->getDescription());
     }
 }

@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Itspire\Common\Tests\Fixtures\Utils;
+namespace Itspire\Common\Tests\Fixtures\Util;
 
 use Itspire\Common\Util\EquatableInterface;
 use PHPUnit\Framework\TestCase;

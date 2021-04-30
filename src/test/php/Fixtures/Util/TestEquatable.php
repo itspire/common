@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Itspire\Common\Tests\Fixtures\Utils;
+namespace Itspire\Common\Tests\Fixtures\Util;
 
 use Itspire\Common\Util\EquatableInterface;
 use Itspire\Common\Util\EquatableTrait;
@@ -24,7 +24,7 @@ class TestEquatable implements EquatableInterface
         return $this->field;
     }
 
-    public function setField(int $field): TestEquatable
+    public function setField(int $field): self
     {
         $this->field = $field;
 

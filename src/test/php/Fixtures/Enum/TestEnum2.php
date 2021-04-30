@@ -14,18 +14,12 @@ use Itspire\Common\Enum\AbstractEnum;
 
 class TestEnum2 extends AbstractEnum
 {
-    /** @var bool TEST_VALUE_A */
     public const TEST_VALUE_A = true;
-
-    /** @var null TEST_VALUE_A */
     public const TEST_VALUE_B = null;
-
-    /** @var int TEST_VALUE_A */
     public const TEST_VALUE_C = 2;
+    public const TEST_VALUE_D = 'value';
 
-    /** @var array TEST_VALUE_A */
-    public const TEST_VALUE_D = ['value', 'description'];
-
-    /** @var array TEST_VALUE_E */
-    public const TEST_VALUE_E = [[], 'description'];
+    protected static array $descriptions = [
+        self::TEST_VALUE_D => 'My custom description for TEST_VALUE_D'
+    ];
 }

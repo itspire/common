@@ -10,15 +10,13 @@ declare(strict_types=1);
 
 namespace Itspire\Common\Enum;
 
-use Itspire\Common\Util\EquatableTrait;
-
 abstract class AbstractEnum implements EnumInterface
 {
-    use EquatableTrait;
+    protected static array $descriptions = [];
 
-    private string $code;
-    private $value;
-    private string $description;
+    protected string $code;
+    protected $value;
+    protected string $description;
 
     public function __construct($constValue)
     {
@@ -30,9 +28,19 @@ abstract class AbstractEnum implements EnumInterface
             );
         }
 
-        $this->code = array_search($constValue, $rawValues, true);
-        $this->value = (is_array($constValue)) ? $constValue[0] : $constValue;
-        $this->description = (is_array($constValue) && isset($constValue[1])) ? $constValue[1] : $this->code;
+        if (is_array($constValue)) {
+            throw new \InvalidArgumentException(
+                'Provided value is not valid : cannot use an array as constant value in ' . static::class . '.'
+            );
+        }
+
+        foreach ($rawValues as $code => $rawConstValue) {
+            if ($rawConstValue === $constValue) {
+                $this->code = $code;
+                $this->value = $constValue;
+                $this->description = static::$descriptions[$this->value] ?? $this->code;
+            }
+        }
     }
 
     public static function getRawValues(): array
@@ -62,8 +70,14 @@ abstract class AbstractEnum implements EnumInterface
 
     public static function resolveValue($value): self
     {
+        if (is_array($value)) {
+            throw new \InvalidArgumentException(
+                'Provided value is not valid : cannot use an array as constant value in ' . static::class . '.'
+            );
+        }
+
         foreach (static::getRawValues() as $constValue) {
-            if (((is_array($constValue)) ? $constValue[0] : $constValue) === $value) {
+            if ($constValue === $value) {
                 return new static($constValue);
             }
         }
@@ -83,10 +97,5 @@ abstract class AbstractEnum implements EnumInterface
     public function getDescription(): string
     {
         return $this->description;
-    }
-
-    public function getUniqueIdentifier(): ?string
-    {
-        return $this->code;
     }
 }
