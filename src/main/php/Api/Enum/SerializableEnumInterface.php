@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Itspire\Common\Api\Model\Enum;
+namespace Itspire\Common\Api\Enum;
 
 interface SerializableEnumInterface
 {

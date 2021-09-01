@@ -8,17 +8,17 @@
 
 declare(strict_types=1);
 
-namespace Itspire\Common\Tests\Api\Model\Enum;
+namespace Itspire\Common\Tests\Api\Enum;
 
-use Itspire\Common\Tests\Fixtures\Api\Model\Enum\TestApiEnum;
+use Itspire\Common\Tests\Fixtures\Api\Enum\TestBaseApiEnum;
 use JMS\Serializer\SerializerBuilder;
 use JMS\Serializer\SerializerInterface;
 use PHPUnit\Framework\TestCase;
 
-class ApiEnumTest extends TestCase
+class BaseApiEnumTest extends TestCase
 {
     private static ?SerializerInterface $serializer = null;
-    private ?TestApiEnum $testEnum = null;
+    private ?TestBaseApiEnum $testBaseEnum = null;
 
     public static function setUpBeforeClass(): void
     {
@@ -40,13 +40,13 @@ class ApiEnumTest extends TestCase
     {
         parent::setUp();
 
-        $this->testEnum = new TestApiEnum();
-        $this->testEnum->setCode('TEST')->setDescription('test');
+        $this->testBaseEnum = new TestBaseApiEnum();
+        $this->testBaseEnum->setCode('TEST')->setDescription('test');
     }
 
     protected function tearDown(): void
     {
-        unset($this->testEnum);
+        unset($this->testBaseEnum);
 
         parent::tearDown();
     }
@@ -55,21 +55,25 @@ class ApiEnumTest extends TestCase
     public function serializeTestEnumTest(): void
     {
         static::assertXmlStringEqualsXmlFile(
-            realpath('src/test/resources/test_api_enum.xml'),
-            static::$serializer->serialize($this->testEnum, 'xml')
+            realpath('src/test/resources/test_base_api_enum.xml'),
+            static::$serializer->serialize($this->testBaseEnum, 'xml')
         );
     }
 
     /** @test */
     public function deserializeTestEnumTest(): void
     {
-        /** @var \SimpleXMLElement $testEnumXml */
-        $testEnumXml = simplexml_load_string(
-            file_get_contents(realpath('src/test/resources/test_api_enum.xml'))
+        /** @var \SimpleXMLElement $testBaseEnumXml */
+        $testBaseEnumXml = simplexml_load_string(
+            file_get_contents(realpath('src/test/resources/test_base_api_enum.xml'))
         );
 
-        /** @var TestApiEnum $deserializedResult */
-        $deserializedResult = static::$serializer->deserialize($testEnumXml->asXML(), TestApiEnum::class, 'xml');
+        /** @var TestBaseApiEnum $deserializedResult */
+        $deserializedResult = static::$serializer->deserialize(
+            $testBaseEnumXml->asXML(),
+            TestBaseApiEnum::class,
+            'xml'
+        );
 
         static::assertEquals('TEST', $deserializedResult->getCode());
         static::assertEquals('test', $deserializedResult->getDescription());

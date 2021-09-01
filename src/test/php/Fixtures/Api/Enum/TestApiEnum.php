@@ -8,9 +8,9 @@
 
 declare(strict_types=1);
 
-namespace Itspire\Common\Tests\Fixtures\Api\Model\Enum;
+namespace Itspire\Common\Tests\Fixtures\Api\Enum;
 
-use Itspire\Common\Api\Model\Enum\AbstractSerializableEnum;
+use Itspire\Common\Api\Enum\AbstractSerializableEnum;
 use JMS\Serializer\Annotation as Serializer;
 
 /** @Serializer\XmlRoot("test_enum") */
