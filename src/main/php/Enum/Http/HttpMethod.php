@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (c) 2016 - 2020 Itspire.
+ * Copyright (c) 2016 - 2022 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  */
@@ -10,16 +10,19 @@ declare(strict_types=1);
 
 namespace Itspire\Common\Enum\Http;
 
-use Itspire\Common\Enum\AbstractEnum;
+use Itspire\Common\Enum\ExtendedBackedEnumInterface;
+use Itspire\Common\Enum\ExtendedBackedEnumTrait;
 
-class HttpMethod extends AbstractEnum
+enum HttpMethod: string implements ExtendedBackedEnumInterface
 {
-    public const GET = 'GET';
-    public const POST = 'POST';
-    public const PUT = 'PUT';
-    public const PATCH = 'PATCH';
-    public const DELETE = 'DELETE';
-    public const HEAD = 'HEAD';
-    public const OPTIONS = 'OPTIONS';
-    public const CONNECT = 'CONNECT';
+    use ExtendedBackedEnumTrait;
+
+    case GET = 'GET';
+    case POST = 'POST';
+    case PUT = 'PUT';
+    case PATCH = 'PATCH';
+    case DELETE = 'DELETE';
+    case HEAD = 'HEAD';
+    case OPTIONS = 'OPTIONS';
+    case CONNECT = 'CONNECT';
 }

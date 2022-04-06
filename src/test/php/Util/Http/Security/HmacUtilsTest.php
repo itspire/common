@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (c) 2016 - 2020 Itspire.
+ * Copyright (c) 2016 - 2022 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  */
@@ -35,11 +35,11 @@ class HmacUtilsTest extends TestCase
         $uri = 'http://www.test.fr/users/1';
         $method = HttpMethod::GET;
         $body = 'php://temp';
-        $headers = ['Content-Type' => MimeType::APPLICATION_XML];
+        $headers = ['Content-Type' => MimeType::APPLICATION_XML->value];
 
         $this->hmacUtils = new HmacUtils('sha512');
-        $this->request = new Request($method, $uri, $headers, $body);
-        $this->serverRequest = new ServerRequest($method, $uri, $headers, $body);
+        $this->request = new Request($method->value, $uri, $headers, $body);
+        $this->serverRequest = new ServerRequest($method->value, $uri, $headers, $body);
     }
 
     protected function tearDown(): void

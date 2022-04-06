@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (c) 2016 - 2020 Itspire.
+ * Copyright (c) 2016 - 2022 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  */
@@ -16,6 +16,7 @@ use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;
 
+/** @deprecated Will be removed in 3.0, use native php enums instead */
 class EnumValidator extends ConstraintValidator
 {
     public function validate($value, Constraint $constraint): void

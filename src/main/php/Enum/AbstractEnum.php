@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (c) 2016 - 2020 Itspire.
+ * Copyright (c) 2016 - 2022 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  */
@@ -10,6 +10,7 @@ declare(strict_types=1);
 
 namespace Itspire\Common\Enum;
 
+/** @deprecated Will be removed in 3.0, use native php enums with ExtendedBackedEnumTrait::class instead */
 abstract class AbstractEnum implements EnumInterface
 {
     protected static array $descriptions = [];
@@ -43,11 +44,13 @@ abstract class AbstractEnum implements EnumInterface
         }
     }
 
+    /** @deprecated Use ExtendedEnumInterface::getAllValues instead */
     public static function getRawValues(): array
     {
         return (new \ReflectionClass(static::class))->getConstants();
     }
 
+    /** @deprecated Use ExtendedEnumInterface::cases instead */
     public static function getValues(): array
     {
         $values = [];
@@ -58,6 +61,7 @@ abstract class AbstractEnum implements EnumInterface
         return $values;
     }
 
+    /** @deprecated Use ClassFQDN::$code instead */
     public static function resolveCode(string $code): self
     {
         foreach (static::getRawValues() as $constCode => $constValue) {
@@ -65,9 +69,10 @@ abstract class AbstractEnum implements EnumInterface
                 return new static($constValue);
             }
         }
-        throw new \InvalidArgumentException($code . ' is not a valid code for ' . static::class . '.');
+        throw new \InvalidArgumentException(sprintf('%s is not a valid code for %s.', $code, static::class));
     }
 
+    /** @deprecated Use ExtendedEnumInterface::from instead */
     public static function resolveValue($value): self
     {
         if (is_array($value)) {

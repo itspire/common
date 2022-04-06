@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (c) 2016 - 2020 Itspire.
+ * Copyright (c) 2016 - 2022 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  */
@@ -14,11 +14,8 @@ use Psr\Http\Message\RequestInterface;
 
 class HmacUtils implements HmacUtilsInterface
 {
-    private string $algorithm;
-
-    public function __construct(string $algorithm)
+    public function __construct(private string $algorithm)
     {
-        $this->algorithm = $algorithm;
     }
 
     public function signRequest(RequestInterface $request, string $secret): string

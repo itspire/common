@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (c) 2016 - 2020 Itspire.
+ * Copyright (c) 2016 - 2022 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  */
@@ -12,11 +12,10 @@ namespace Itspire\Common\Api\Enum;
 
 use JMS\Serializer\Annotation as Serializer;
 
+/** @deprecated Will be removed in 3.0, use ApiEnumWrapper::class instead */
 abstract class AbstractSerializableEnum implements SerializableEnumInterface
 {
     /**
-     * Code is set to string because it can contains user-defined string based codes (i.e : ws exception codes)
-     *
      * @Serializer\XmlAttribute
      * @Serializer\SerializedName("code")
      * @Serializer\Type("string")

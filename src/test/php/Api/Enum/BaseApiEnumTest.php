@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright (c) 2016 - 2020 Itspire.
+ * Copyright (c) 2016 - 2022 Itspire.
  * This software is licensed under the BSD-3-Clause license. (see LICENSE.md for full license)
  * All Right Reserved.
  */
@@ -24,7 +24,6 @@ class BaseApiEnumTest extends TestCase
     {
         parent::setUpBeforeClass();
         if (null === self::$serializer) {
-            // obtaining the serializer
             $serializerBuilder = SerializerBuilder::create();
             self::$serializer = $serializerBuilder->build();
         }
