@@ -10,7 +10,8 @@ declare(strict_types=1);
 
 namespace Itspire\Common\Tests\Enum;
 
-use Itspire\Common\Tests\Fixtures\Enum\TestExtendedBackedEnum;
+use Itspire\Common\Enum\Http\HttpMethod;
+use Itspire\Common\Enum\Http\HttpResponseStatus;
 use PHPUnit\Framework\TestCase;
 
 class ExtendedBackedEnumTest extends TestCase
@@ -18,8 +19,8 @@ class ExtendedBackedEnumTest extends TestCase
     /** @test */
     public function getValueTest(): void
     {
-        static::assertEquals(1, TestExtendedBackedEnum::TEST_VALUE_A->value);
-        static::assertEquals(1, TestExtendedBackedEnum::TEST_VALUE_A->getValue());
+        static::assertEquals('GET', HttpMethod::GET->value);
+        static::assertEquals('GET', HttpMethod::GET->getValue());
     }
 
     /** @test */
@@ -27,38 +28,42 @@ class ExtendedBackedEnumTest extends TestCase
     {
         static::assertEquals(
             [
-                TestExtendedBackedEnum::TEST_VALUE_A,
-                TestExtendedBackedEnum::TEST_VALUE_B,
-                TestExtendedBackedEnum::TEST_VALUE_C,
-                TestExtendedBackedEnum::TEST_VALUE_D,
+                HttpMethod::GET,
+                HttpMethod::POST,
+                HttpMethod::PUT,
+                HttpMethod::PATCH,
+                HttpMethod::DELETE,
+                HttpMethod::HEAD,
+                HttpMethod::OPTIONS,
+                HttpMethod::CONNECT,
             ],
-            TestExtendedBackedEnum::cases()
+            HttpMethod::cases()
         );
     }
 
     /** @test */
     public function getAllValuesTest(): void
     {
-        static::assertEquals(
-            ['TEST_VALUE_A' => 1, 'TEST_VALUE_B' => 2, 'TEST_VALUE_C' => 3, 'TEST_VALUE_D' => 4],
-            TestExtendedBackedEnum::getAllValues()
-        );
+        $values = HttpResponseStatus::getAllValues();
+        static::assertCount(62, $values);
+
+        static::assertEquals(HttpResponseStatus::HTTP_CONTINUE->value, array_shift($values));
     }
 
     /** @test */
     public function resolveNameInvalidArgumentTest(): void
     {
-        static::assertNull(TestExtendedBackedEnum::fromName('TEST_UNKNOWN'));
+        static::assertNull(HttpMethod::fromName('UNKNOWN'));
     }
 
     /** @test */
     public function resolveNameTest(): void
     {
-        $enum = TestExtendedBackedEnum::fromName('TEST_VALUE_D');
+        $enum = HttpResponseStatus::fromName('HTTP_CONTINUE');
 
-        static::assertEquals('TEST_VALUE_D', $enum->getName());
-        static::assertEquals('TEST_VALUE_D', $enum->name);
-        static::assertEquals('My custom description for TEST_VALUE_D', $enum->getDescription());
-        static::assertEquals(4, $enum->value);
+        static::assertEquals('HTTP_CONTINUE', $enum->getName());
+        static::assertEquals('HTTP_CONTINUE', $enum->name);
+        static::assertEquals('Continue', $enum->getDescription());
+        static::assertEquals(100, $enum->value);
     }
 }
