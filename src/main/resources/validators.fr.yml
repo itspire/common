@@ -1,4 +1,0 @@
-itspire.common:
-  enum:
-    invalid.value: "la valeur fournie pour le champ Enum {{ field }} n'est pas valide."
-    null.value: "Une valeur pour le champ Enum {{ field }} doit être renseignée."

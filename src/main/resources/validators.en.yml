@@ -1,4 +1,0 @@
-itspire.common:
-  enum:
-    invalid.value: "The provided value for the Enum field {{ field }} is not valid."
-    null.value: "A value must be provided for the Enum field {{ field }}."

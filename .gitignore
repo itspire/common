@@ -9,4 +9,5 @@
 # Build data
 /build/
 
+# PHP Unit
 .phpunit.result.cache
